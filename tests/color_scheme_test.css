@@ -1,0 +1,68 @@
+/* COLOR SCHEME TEST "molokai/Monokai.tmTheme" "CSS" */
+        /*
+        This test is testing
+        the whitespace before
+        the comment.
+        */
+/* ^ fg=#75715e bg=#272822 fs= */
+
+@font-face {
+    /* ^ fg=#f92672 fs= */
+    font-family: Chunkfive; src: url('Chunkfive.otf');
+    /* ^ fg=#66d9ef fs=italic */
+    /*                      ^ fg=#66d9ef fs=italic */
+    /*                            ^ fg=#66d9ef fs= */
+    /*                               ^^^^^^^^^^^^^^^ fg=#e6db74 fs= */
+}
+
+body, .usertext {
+/* ^ fg=#f92672 fs= */
+/*      ^ fg=#a6e22e fs= */
+    color: #F0F0F0;
+    /* ^ fg=#66d9ef fs=italic */
+    background: #600;
+    /* ^ fg=#66d9ef fs=italic */
+    font-family: Chunkfive, sans;
+    /* ^ fg=#66d9ef fs=italic */
+}
+
+@media print {
+/* ^ fg=#f92672 fs= */
+/*      ^ fg=#66d9ef fs= */
+    a[href^=http]::after {
+/*  ^ fg=#f92672 fs= */
+    /* ^ fg=#a6e22e fs= */
+    /*    ^^ fg=#f92672 fs= */
+    /*      ^^^^ fg=#e6db74 fs= */
+    /*           ^^^^^^^ fg=#a6e22e fs=italic */
+        content: attr(href)
+        /* ^ fg=#66d9ef fs=italic */
+        /*       ^ fg=#66d9ef fs= */
+        /*            ^ fg=#a6e22e fs= */
+    }
+}
+
+#container > .container:first-child {
+/* ^ fg=#a6e22e fs= */
+/*              ^ fg=#a6e22e fs= */
+/*                      ^ fg=#a6e22e fs=italic */
+    margin-top: 20px;
+    /* ^ fg=#66d9ef fs=italic */
+    /*          ^^ fg=#ae81ff fs= */
+    /*            ^^ fg=#f92672 fs= */
+}
+
+pre code {
+    display: none;
+    /*          ^ fg=#ae81ff fs= */
+    display: block; padding: 0.5em;
+    /*          ^ fg=#ae81ff fs= */
+}
+
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .javadoc {
+    font-style: italic;
+    /*          ^ fg=#ae81ff fs= */
+}
