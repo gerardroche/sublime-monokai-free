@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "molokai/Monokai.tmTheme" "C"
+// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "C"
         // This test is testing
         // the whitespace before
         // the comment.

@@ -1,4 +1,4 @@
-# COLOR SCHEME TEST "molokai/Monokai.tmTheme" "Python"  # flake8: noqa
+# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Python"  # flake8: noqa
     # This test is testing
     # the whitespace before
     # the comment.

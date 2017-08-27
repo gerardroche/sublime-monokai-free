@@ -1,4 +1,4 @@
-<?php // COLOR SCHEME TEST "molokai/Monokai.tmTheme" "PHP"
+<?php // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "PHP"
         // This test is testing
         // the whitespace before
         // the comment.
