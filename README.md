@@ -58,9 +58,7 @@ Your issue reports and pull requests are always welcome.
 
 ### Tests
 
-[ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit) is used for testing.
-
-To run the tests: install it, open the Command Palette, type "ColorSchemeUnit: Test Suite", and press Enter.
+To run the tests: install [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit), which a testing framework for ST color schemes, open the Command Palette, type "ColorSchemeUnit: Test Suite", and press Enter.
 
 ### Resources
 
