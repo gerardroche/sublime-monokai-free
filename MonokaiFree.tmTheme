@@ -68,7 +68,7 @@
 <dict><key>scope</key><string>support.other.variable</string>                   <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#f92672</string><key>fontStyle</key><string></string><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#ae81ff</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>meta.structure.dictionary.json string.quoted.double.json</string>     <key>settings</key><dict><key>foreground</key><string>#cfcfc2</string></dict></dict>
+<dict><key>scope</key><string>meta.structure.dictionary.json string.quoted.double.json</string>     <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>string.unquoted.yaml</string>                     <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 
 <!-- -->

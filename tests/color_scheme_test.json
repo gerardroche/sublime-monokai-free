@@ -4,11 +4,11 @@
 //  ^ fg=#f8f8f2 fs=
 
         "title": "apples",
-        //     ^ fg=#f8f8f2 fs=
-        //               ^ fg=#f8f8f2 fs=
+        // ^^^^^ fg=#f8f8f2 fs=
+        //       ^^^^^^^^^ fg=#f8f8f2 fs=
 
         "count": [12, 1.2, null, true, false],
-        //     ^ fg=#f8f8f2 fs=
+        // ^^^^^ fg=#f8f8f2 fs=
         //       ^ fg=#f8f8f2 fs=
         //        ^ fg=#ae81ff fs=
         //          ^ fg=#f8f8f2 fs=
@@ -22,10 +22,10 @@
         //                                   ^ fg=#f8f8f2 fs=
 
         "description": {"text": "...", "sensitive": false}
-        //           ^ fg=#f8f8f2 fs=
-        //             ^ fg=#f8f8f2 fs=
-        //                           ^ fg=#f8f8f2 fs=
-        //                                        ^ fg=#f8f8f2 fs=
+        // ^^^^^^^^^^^ fg=#f8f8f2 fs=
+        //             ^^^^^^^^ fg=#f8f8f2 fs=
+        //                      ^^^^^^ fg=#f8f8f2 fs=
+        //                             ^^^^^^^^^^^^ fg=#f8f8f2 fs=
         //                                          ^ fg=#ae81ff fs=
         //                                               ^ fg=#f8f8f2 fs=
 
