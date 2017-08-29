@@ -44,8 +44,6 @@
             </dict>
         </dict>
 
-<!-- Magent: #fd5ff0 (as yet unused) -->
-
 <dict><key>scope</key><string>comment</string>                                  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>string</string>                                   <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>constant.numeric</string>                         <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
@@ -118,8 +116,8 @@
 
     <!-- Sublime Linter requires these definitions to
             be formatted like this, otherwise Sublime
-            Linter will created a cached version (SL)
-            of the color scheme and add default
+            Linter will create a cached version (SL)
+            of the color scheme and set default
             colors for the linter -->
     <dict>
         <key>scope</key>
