@@ -8,6 +8,8 @@ A beautiful, professional, high quality, polished, free, Monokai color scheme fo
 * Tested extensively using [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit)
 * Supported plugins: [GitGutter](https://github.com/jisaacks/GitGutter), [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3), [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous)
 
+Many Monokai color schemes available for Sublime Text are not kept up to date, don't support plugins, use too many variants of the same colors, or only exist to be compatible with a specific theme. They tend to go out of date and break in unexpected and unknown ways. [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit), which is testing framework for Sublime Text color schemes, that helps improve the quality of color schemes and prevent regressions.
+
 ![MonokaiFree Screenshot](screenshot.png)
 
 ## INSTALLATION
@@ -28,6 +30,27 @@ The preferred method of installation is [Package Control](https://packagecontrol
 ## PALETTE
 
 ![Monokai palette](palette.png)
+
+## THEMES
+
+### [Gruvbox](https://github.com/Briles/gruvbox)
+
+To make the tabs the same color as the Monokai color scheme background:
+
+`Menu > Preferences > Browse Packages...`
+
+Create a file based on the name of the gruvbox theme you are using e.g. if you are using `gruvbox (Dark) (Hard)` then create file named `gruvbox (Dark) (Hard).sublime-theme` in the `User` directory and add the following:
+
+```
+[
+    // Make active tab bg the same as Monokai bg
+    {
+        "class": "tab_control",
+        "attributes": [ "selected" ],
+        "layer0.tint": [39, 40, 34]
+    }
+]
+```
 
 ## CONTRIBUTING
 
