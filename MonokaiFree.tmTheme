@@ -104,7 +104,7 @@
 
 <!-- Find -->
 
-<dict><key>scope</key><string>constant.numeric.line-number.find-in-files - match</string><key>settings</key><dict><key>foreground</key><string>#ae81ffa0</string></dict></dict>
+<dict><key>scope</key><string>constant.numeric.line-number.find-in-files - match</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>entity.name.filename</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 
 <!-- Lint -->
