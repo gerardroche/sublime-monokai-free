@@ -1,0 +1,27 @@
+language: python
+
+env:
+    global:
+        - PACKAGE="MonokaiFree"
+    matrix:
+        - SUBLIME_TEXT_VERSION="3"
+
+matrix:
+    include:
+        - os: linux
+          python: 3.3
+
+before_install:
+    - curl -OL https://raw.githubusercontent.com/gerardroche/UnitTesting/develop/sbin/travis.sh
+
+install:
+    - sh travis.sh bootstrap
+
+script:
+    - sh travis.sh run_color_scheme_tests
+
+after_success:
+    - coveralls
+
+notifications:
+    email: false
