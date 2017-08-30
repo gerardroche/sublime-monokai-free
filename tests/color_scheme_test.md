@@ -11,8 +11,8 @@ Headers
 ## This is an <h2> tag
 // ^ fg=#fd971f fs=bold
 ###### This is an <h6> tag
-// ^ fg=#75715e fs=bold
 //      ^ fg=#fd971f fs=bold
+// st>3026 ^ fg=#75715e fs=bold
 
 Emphasis
 

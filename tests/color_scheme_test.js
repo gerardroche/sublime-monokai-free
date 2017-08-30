@@ -68,8 +68,8 @@ function $initHighlight(block, cls) {
         //                                ^ fg=#f92672 fs=
             `class="${cls}"`;
         //  ^^^^^^^^ fg=#e6db74 fs=
-        //          ^^^^^^ fg=#f8f8f2 fs=
         //                ^^ fg=#e6db74 fs=
+        // st>3026  ^^^^^^ fg=#f8f8f2 fs=
 
     } catch (e) {
     // ^ fg=#f92672 fs=
