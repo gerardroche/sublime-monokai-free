@@ -15,10 +15,10 @@ before_install:
     - curl -OL https://raw.githubusercontent.com/gerardroche/UnitTesting/develop/sbin/travis.sh
 
 install:
-    - sh travis.sh bootstrap
+    - sh travis.sh bootstrap --with-color-scheme-unit
 
 script:
-    - sh travis.sh run_color_scheme_tests
+    - sh travis.sh run_color_scheme_tests --coverage
 
 notifications:
     email: false
