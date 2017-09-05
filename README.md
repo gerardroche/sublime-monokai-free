@@ -33,7 +33,15 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 ## THEMES
 
+### [Boxy](https://github.com/ihodev/sublime-boxy)
+
+The Boxy Monokai theme is a beautiful, soft, and clean theme that works well with MonokaiFree.
+
+No customisations are required, however for enhanced file specific icons install [A File Icon](https://github.com/ihodev/a-file-icon).
+
 ### [Gruvbox](https://github.com/Briles/gruvbox)
+
+The Gruvbox is a beautiful, sharp, and clean theme that works well with MonokaiFree.
 
 To make the tabs the same color as the Monokai color scheme background:
 
