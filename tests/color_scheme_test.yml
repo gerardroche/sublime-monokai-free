@@ -1,0 +1,79 @@
+# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "YAML"
+---
+# ^ fg=#a6e22e fs=italic
+# coment
+# ^ fg=#75715e fs=
+receipt: Oz-Ware Invoice
+# ^^^^^ fg=#f92672 fs=
+#      ^ fg=#f8f8f2 fs=
+#        ^^^^^^^^^^^^^^^ fg=#e6db74 fs=
+date: 2012-08-06
+# ^^ fg=#f92672 fs=
+#   ^ fg=#f8f8f2 fs=
+#     ^^^^^^^^^^ fg=#ae81ff fs=
+customer:
+# ^^^^^^ fg=#f92672 fs=
+#       ^ fg=#f8f8f2 fs=
+    name: Dorothy
+#   ^^^^ fg=#f92672 fs=
+#       ^ fg=#f8f8f2 fs=
+#         ^^^^^^^ fg=#e6db74 fs=
+items:
+    - a: a1
+#   ^ fg=#f8f8f2 fs=
+#     ^ fg=#f92672 fs=
+#      ^ fg=#f8f8f2 fs=
+#        ^^ fg=#e6db74 fs=
+      b: b1
+#     ^ fg=#f92672 fs=
+#      ^ fg=#f8f8f2 fs=
+#        ^^ fg=#e6db74 fs=
+    - a: a2
+#   ^ fg=#f8f8f2 fs=
+#     ^ fg=#f92672 fs=
+#      ^ fg=#f8f8f2 fs=
+#        ^^ fg=#e6db74 fs=
+      b: b2
+#     ^ fg=#f92672 fs=
+#      ^ fg=#f8f8f2 fs=
+#        ^^ fg=#e6db74 fs=
+bill-to:  &id001
+#         ^ fg=#f92672 fs=
+#          ^^^^^ fg=#a6e22e fs=
+    street: |
+#           ^ fg=#f92672 fs= build>=3127
+            123 Tornado Alley
+#           ^^^^^^^^^^^^^^^^^ fg=#e6db74 fs=
+            Suite 16
+#           ^^^^^^^^ fg=#e6db74 fs=
+specialDelivery:  >
+#                 ^ fg=#f92672 fs= build>=3127
+    Follow the Yellow Brick
+#   ^^^^^^^^^^ fg=#e6db74 fs=
+    Road to the Emerald City.
+#   ^^^^^^^^^^ fg=#e6db74 fs=
+    Pay no attention to the
+#   ^^^^^^^^^^ fg=#e6db74 fs=
+    man behind the curtain.
+#   ^^^^^^^^^^ fg=#e6db74 fs=
+a: 123                     # an integer
+#  ^^^ fg=#ae81ff fs=
+b: "123"                   # a string, disambiguated by quotes
+#  ^^^^^ fg=#e6db74 fs=
+c: 123.0                   # a float
+#  ^^^^^ fg=#ae81ff fs=
+d: !!float 123             # also a float via explicit data type prefixed by (!!)
+#  ^^^^^^^ fg=#66d9ef fs=italic
+#          ^^^ fg=#ae81ff fs=
+e: !!str 123               # a string, disambiguated by explicit type
+#  ^^^^^ fg=#66d9ef fs=italic
+#        ^^^ fg=#ae81ff fs=
+f: !!str Yes               # a string via explicit type
+#  ^^^^^ fg=#66d9ef fs=italic
+#        ^^^ fg=#ae81ff fs=
+g: Yes                     # a boolean True (yaml1.1), string "Yes" (yaml1.2)
+#  ^^^ fg=#ae81ff fs=
+h: No
+#  ^^ fg=#ae81ff fs=
+i: Yes we have No bananas  # a string, "Yes" and "No" disambiguated by context.
+#  ^^^^^^^^^^^^^^^^^^^^^^ fg=#e6db74 fs=

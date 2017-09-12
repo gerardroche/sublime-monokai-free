@@ -1,45 +1,65 @@
-COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Markdown"
-        // This test is testing
-        // the whitespace before
-        // the comment.
-// ^ fg=#f8f8f2 bg=#272822 fs=
-
-Headers
+<!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Markdown" -->
+        <!-- This indented comment is to the preceding whitespace. -->
+<!-- ^ fg=#f8f8f2 bg=#272822 fs= -->
 
 # This is an <h1> tag
-// ^ fg=#fd971f fs=bold
+<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+
 ## This is an <h2> tag
-// ^ fg=#fd971f fs=bold
+<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+
+### This is an <h3> tag
+<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+
+#### This is an <h4> tag
+<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+
+##### This is an <h5> tag
+<!--  ^ fg=#a6e22e fs=bold build>=3127 -->
+
 ###### This is an <h6> tag
-//      ^ fg=#fd971f fs=bold
-// st>3026 ^ fg=#75715e fs=bold
+<!-- ^ fg=#75715e fs=bold build>=3127 -->
+<!--   ^ fg=#a6e22e fs=bold build>=3127 -->
 
-Emphasis
+# Bold and italic
 
-*This text will be italic*
-// ^ fs=italic
+This is *italic* and so is _this_.
+<!-- ^^^ fg=#f8f8f2 fs= -->
+<!--    ^ fg=#75715e fs=italic -->
+<!--     ^^^^^^ fg=#f8f8f2 fs=italic -->
+<!--           ^ fg=#75715e fs=italic -->
+<!--            ^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+<!--                       ^ fg=#75715e fs=italic -->
+<!--                        ^^^^ fg=#f8f8f2 fs=italic -->
+<!--                            ^ fg=#75715e fs=italic -->
+<!--                             ^ fg=#f8f8f2 fs= -->
 
-_This will also be italic_
-// ^ fs=italic
-
-**This text will be bold**
-// ^ fs=bold
-
-__This will also be bold__
-// ^ fs=bold
+This is **bold** and so is __this__.
+<!-- ^^^ fg=#f8f8f2 fs= -->
+<!--    ^^ fg=#75715e fs=bold -->
+<!--      ^^^^ fg=#f8f8f2 fs=bold -->
+<!--          ^^ fg=#75715e fs=bold -->
+<!--            ^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+<!--                       ^^ fg=#75715e fs=bold -->
+<!--                         ^^^^ fg=#f8f8f2 fs=bold -->
+<!--                             ^^ fg=#75715e fs=bold -->
+<!--                               ^ fg=#f8f8f2 fs= -->
 
 _You **can** combine them_
+<!-- ^^ fg=#75715e fs=bold -->
+<!--   ^^^ fg=#f8f8f2 fs=bold -->
+<!--      ^^ fg=#75715e fs=bold -->
+<!--        ^^^^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
+<!--                     ^ fg=#75715e fs=italic -->
 
-Lists
-
-Unordered
+# Unordered list
 
 * Item 1
 * Item 2
   * Item 2a
   * Item 2b
 
-Ordered
+# Ordered list
 
 1. Item 1
 2. Item 2
@@ -47,27 +67,28 @@ Ordered
    * Item 3a
    * Item 3b
 
-Images
+# Images
 
 ![GitHub Logo](/images/logo.png)
-//              ^ fg=#e6db74 fs=underline
-Format: ![Alt Text](url)
-//                  ^ fg=#e6db74 fs=underline
+<!--             ^ fg=#e6db74 fs=underline -->
 
-Links
+Format: ![Alt Text](url)
+<!--                 ^ fg=#e6db74 fs=underline -->
+
+# Links
 
 http://github.com - automatic!
 [GitHub](http://github.com)
-//        ^ fg=#e6db74 fs=underline
+<!--       ^ fg=#e6db74 fs=underline -->
 
-Blockquotes
+# Blockquotes
 
 As Kanye West said:
 
    > We're living the future so
    > the present is our past.
-// ^ fg=#75715e fs=italic
-//   ^ fg=#75715e fs=italic
+<!--^ fg=#75715e fs=italic -->
+<!--  ^ fg=#75715e fs=italic -->
 
 Inline code
 

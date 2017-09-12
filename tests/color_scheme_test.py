@@ -1,12 +1,10 @@
-# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Python"  # flake8: noqa
-    # This test is testing
-    # the whitespace before
-    # the comment.
+# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Python" # flake8: noqa 
+    # This indented comment is to the preceding whitespace.
 # ^ fg=#f8f8f2 bg=#272822 fs=
 
 import os
-# ^ fg=#f92672 fs=
-#      ^ fg=#f8f8f2 fs=
+# ^^^^ fg=#f92672 fs=
+#      ^^ fg=#f8f8f2 fs=
 
 
 _AB = 'ab'
@@ -47,7 +45,7 @@ def f_name(arg1='', arg2=0):
     r'''A docstring'''
     if arg1 > arg2: # interesting
 #   ^ fg=#f92672 fs=
-    #       ^ fg=#f92672 fs=
+#           ^ fg=#f92672 fs=
         print 'Gre\'ater'
         # ^ fg=#f92672 fs=
         #     ^^^^ fg=#e6db74 fs=
@@ -72,18 +70,18 @@ class PassMe():
 #     ^ fg=#a6e22e fs=
 #           ^^^ fg=#f8f8f2 fs=
     pass
-#   ^ fg=#f92672 fs=
+    # ^ fg=#f92672 fs=
 
 
 class AClassName():
 
     def __init__(self, arg1):
     # ^ fg=#66d9ef fs=italic
-        # ^ fg=#66d9ef fs=
+    #   ^^^^^^^^ fg=#66d9ef fs=
     #           ^ fg=#f8f8f2 fs=
-    #             ^ fg=#fd971f fs=italic
+    #            ^^^^ fg=#fd971f fs=italic
     #                ^ fg=#f8f8f2 fs=
-    #                  ^ fg=#fd971f fs=italic
+    #                  ^^^^ fg=#fd971f fs=italic
     #                      ^^ fg=#f8f8f2 fs=
         self.arg1 = arg1
         # ^ fg=#fd971f fs=italic

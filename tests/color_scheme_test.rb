@@ -1,7 +1,5 @@
 # COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Ruby"
-    # This test is testing
-    # the whitespace before
-    # the comment.
+    # This indented comment is to the preceding whitespace.
 # ^ fg=#f8f8f2 bg=#272822 fs=
 
 class Greeter

@@ -1,10 +1,9 @@
 /* COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "CSS" */
-        /*
-        This test is testing
-        the whitespace before
-        the comment.
-        */
-/* ^ fg=#75715e bg=#272822 fs= */
+        /* This indented comment is to the preceding whitespace. */
+/* ^ fg=#f8f8f2 bg=#272822 fs= */
+
+    /* comment */
+/*  ^^^^^^^^^^^^^ fg=#75715e bg=#272822 fs= */
 
 @font-face {
     /* ^ fg=#f92672 fs= */

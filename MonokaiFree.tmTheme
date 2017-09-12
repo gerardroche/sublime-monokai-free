@@ -45,80 +45,98 @@
         </dict>
 
 <dict><key>scope</key><string>comment</string>                                  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>string</string>                                   <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>constant.numeric</string>                         <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+<dict><key>scope</key><string>constant.character.escape</string>                <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+<dict><key>scope</key><string>constant.character</string>                       <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>constant.language</string>                        <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
-<dict><key>scope</key><string>constant.character, constant.other</string>       <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
-<dict><key>scope</key><string>variable</string>                                 <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>keyword - (source.c keyword.operator | source.c++ keyword.operator | source.objc keyword.operator | source.objc++ keyword.operator), keyword.operator.word</string><key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>variable.other.dollar.only.js</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>storage</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>storage.type</string>                             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>entity.name - (entity.name.filename | entity.name.section | entity.name.tag | entity.name.label)</string><key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>entity.other</string>                             <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>variable.parameter - (source.c | source.c++ | source.objc | source.objc++)</string><key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>variable.language</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>constant.numeric</string>                         <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+<dict><key>scope</key><string>constant.other</string>                           <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+<dict><key>scope</key><string>constant</string>                                 <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+<dict><key>scope</key><string>entity.name.section.markdown</string>             <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>entity.name.section</string>                      <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>entity.name.tag</string>                          <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>entity.name</string>                              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>entity.other.attribute-name</string>              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>variable.function</string>                        <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>support.function</string>                         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>support.constant</string>                         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>support.constant.property-value</string>          <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>support.type, support.class</string>              <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>support.other.variable</string>                   <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#f92672</string><key>fontStyle</key><string></string><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>entity.other.inherited-class</string>             <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>entity.other</string>                             <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#ae81ff</string><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>meta.structure.dictionary.json string.quoted.double.json</string>     <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>string.unquoted.yaml</string>                     <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#f92672</string><key>fontStyle</key><string></string><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>keyword.control</string>                          <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>keyword.operator.word</string>                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>keyword.operator</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>keyword</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>storage.modifier</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>storage.type</string>                             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>storage</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>string</string>                                   <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+<dict><key>scope</key><string>support.class</string>                            <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>support.constant.property-value</string>          <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>support.constant</string>                         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>support.function</string>                         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>support.other.variable</string>                   <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>support.type</string>                             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>variable.function</string>                        <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>variable.language</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>variable.other.dollar.only.js</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>variable.parameter</string>                       <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>variable</string>                                 <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
 
-<!-- -->
+<!-- Markup -->
 
-<dict><key>scope</key><string>meta.diff, meta.diff.header</string>                      <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.bold</string>                                      <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.heading</string>                                   <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.italic</string>                                    <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>markup.bold</string>                                      <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>markup.underline</string>                                 <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
-<dict><key>scope</key><string>markup.raw</string>                                       <key>settings</key><dict><key>background</key><string>#3e3d32</string></dict></dict>
-<dict><key>scope</key><string>markup.raw punctuation.definition.raw</string>            <key>settings</key><dict><key>background</key><string>#272822</string></dict></dict>
-<dict><key>scope</key><string>markup.quote</string>                                     <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>markup.quote punctuation.definition.blockquote</string>   <key>settings</key><dict><key>background</key><string>#75715e</string><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.quote</string>                                     <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>markup.raw punctuation.definition.raw</string>            <key>settings</key><dict><key>background</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>markup.raw</string>                                       <key>settings</key><dict><key>background</key><string>#3e3d32</string></dict></dict>
 <dict><key>scope</key><string>markup.underline.link</string>                            <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>underline</string></dict></dict>
+<dict><key>scope</key><string>markup.underline</string>                                 <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
+
+<!-- Meta -->
+
+<dict><key>scope</key><string>meta.diff.header</string>                                 <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>meta.diff</string>                                        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 
 <!-- SCM -->
 
 <dict><key>scope</key><string>gutter.scm.added</string>             <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted</string>              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted.git_gutter</string>   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>gutter.scm.changed</string>           <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
-<dict><key>scope</key><string>markup.changed</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
-<dict><key>scope</key><string>markup.changed.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>gutter.scm.deleted</string>           <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted</string>               <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>gutter.scm.ignored</string>           <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored</string>               <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>gutter.scm.untracked</string>         <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>markup.untracked</string>             <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.changed.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+<dict><key>scope</key><string>markup.changed</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted</string>               <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored.git_gutter</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored</string>               <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted.git_gutter</string>   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted</string>              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.untracked.git_gutter</string>  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.untracked</string>             <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 
 <!-- Find -->
 
-<dict><key>scope</key><string>constant.numeric.line-number.find-in-files - match</string>   <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>entity.name.filename</string>                                 <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+<dict><key>scope</key><string>constant.numeric.line-number.match</string>   <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+
+<!-- Search -->
+
+<dict><key>scope</key><string>string.search.occurrence</string>     <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
+<dict><key>scope</key><string>string.search</string>                <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 
 <!-- Lint -->
 
-<dict><key>scope</key><string>message.error</string>                <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>gutter.linter.mark</string>           <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>background</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>linter.error</string>                 <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>linter.warning</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+<dict><key>scope</key><string>message.error</string>                <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 
-    <!-- Sublime Linter requires these definitions to
-            be formatted like this, otherwise Sublime
-            Linter will create a cached version (SL)
-            of the color scheme and set default
-            colors for the linter -->
+    <!-- SublimeLinter requires these definitions to
+         be formatted like this, otherwise it will
+         create a cached versions of the color
+         scheme and use its default colors
+         for the linter -->
+
     <dict>
         <key>scope</key>
         <string>sublimelinter.gutter-mark</string>
@@ -149,45 +167,37 @@
         </dict>
     </dict>
 
-<!-- -->
+<!-- These are quick and dirty fixes for changes in the new Markdown syntax -->
 
-<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown punctuation</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.inline.markdown string.other.link.title.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.link.inline.markdown markup.underline.link.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.markdown markup.underline.link.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.heading.markdown entity.name.section.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown punctuation.definition.list_item.markdown</string></dict>
 <dict><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown constant.character.entity.html punctuation.definition.entity.html</string></dict>
 <dict><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown constant.character.entity.html</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.inline.markdown string.other.link.title.markdown</string></dict>
 <dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown, text.html.markdown meta.paragraph.markdown meta.image.inline.markdown string.other.link.description.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown punctuation</string></dict>
 <dict><key>settings</key><dict><key>foreground</key><string>#75715e</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.quote.markdown punctuation.definition.blockquote.markdown, text.html.markdown meta.block-level.markdown markup.quote.markdown markup.raw.inline.markdown, text.html.markdown meta.block-level.markdown markup.quote.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.raw.block.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.reference.def.markdown constant.other.reference.link.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.markdown markup.underline.link.markdown</string></dict>
 <dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.reference.def.markdown markup.underline.link.markdown</string></dict>
-
-<!-- Search -->
-
-<dict><key>scope</key><string>string.search</string>                <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
-<dict><key>scope</key><string>string.search.occurrence</string>     <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.link.inline.markdown markup.underline.link.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.raw.block.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown punctuation.definition.list_item.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown</string></dict>
+<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.reference.def.markdown constant.other.reference.link.markdown</string></dict>
 
 <!-- These are quick and dirty fixes for changes in the new PHP syntax -->
 
+<dict><key>scope</key><string>meta.class.php meta.block.php constant.class.php</string>                                     <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
+<dict><key>scope</key><string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string>    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>meta.class.php meta.block.php meta.function-call.static.php variable.function.php</string>    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>meta.class.php variable.language</string>                                                     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+<dict><key>scope</key><string>meta.function-call.php meta.group.php variable.other.php</string>                             <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.php</string>                                                             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.section.group.begin.php</string>                                                  <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>punctuation.section.group.end.php</string>                                                    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string>    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>meta.function-call.php meta.group.php variable.other.php</string>                             <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>meta.class.php meta.block.php constant.class.php</string>                                     <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>source.php meta.function-call - meta.function-call.object - meta.function-call.static</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>support.other.namespace.use-as.php</string>                                                   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>meta.class.php variable.language</string>                                                     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>punctuation.accessor.php</string>                                                             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-
-<!-- Experimental -->
 
 <!-- Experimental: Vim emulation block cursor support -->
 

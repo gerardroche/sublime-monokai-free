@@ -1,50 +1,43 @@
 // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "JavaScript"
-        // This test is testing
-        // the whitespace before
-        // the comment.
+        // This indented comment is to the preceding whitespace.
 // ^ fg=#f8f8f2 bg=#272822 fs=
 
-    // comment
-//  ^^ fg=#75715e fs=
-//     ^ fg=#75715e fs=
-
-    /* comment */
-//  ^^ fg=#75715e fs=
-//     ^ fg=#75715e fs=
-//             ^^ fg=#75715e fs=
-
-    /** comment */
-//  ^^^ fg=#75715e fs=
-//      ^ fg=#75715e fs=
-//              ^^ fg=#75715e fs=
-
+    // x
+//  ^^^^ fg=#75715e fs=
+    /* x */
+//  ^^^^^^^ fg=#75715e fs=
+    /** x */
+//  ^^^^^^^^ fg=#75715e fs=
     /*
 //  ^^ fg=#75715e fs=
-
-        comment
+        x
 //      ^ fg=#75715e fs=
-
     */
 //  ^^ fg=#75715e fs=
-
     /**
-     * comment
+     * x
      */
 //   ^^ fg=#75715e fs=
 
-function $initHighlight(block, cls) {
+function $x(block, cls) {
 // ^ fg=#66d9ef fs=italic
 //       ^^ fg=#a6e22e fs=
+//         ^ fg=#f8f8f2 fs=
+//          ^^^^^ fg=#fd971f fs=italic
+//               ^ fg=#f8f8f2 fs=
+//                 ^^^ fg=#fd971f fs=italic
+//                    ^ fg=#f8f8f2 fs=
+//                      ^ fg=#f8f8f2 fs=
 
-    var name = 'str';
+    var x = 'ab';
     //^ fg=#66d9ef fs=italic
     //  ^ fg=#f8f8f2 fs=
-    //       ^ fg=#f92672 fs=
-    //         ^^ fg=#e6db74 fs=
-    //              ^ fg=#f8f8f2 fs=
+    //    ^ fg=#f92672 fs=
+    //      ^^^^ fg=#e6db74 fs=
+    //          ^ fg=#f8f8f2 fs=
 
     try {
-//  ^ fg=#f92672 fs=
+    //^ fg=#f92672 fs=
 
         if (cls.search(/\bno\-highlight\b/) != -1)
     //  ^ fg=#f92672 fs=
@@ -101,3 +94,56 @@ function $initHighlight(block, cls) {
 export $initHighlight;
 // ^ fg=#f92672 fs=
 //     ^^ fg=#f8f8f2 fs=
+
+class Foo extends React.Component {
+// ^ fg=#66d9ef fs=italic
+//    ^ fg=#a6e22e fs=
+//        ^ fg=#f92672 fs=
+//                ^^^^^ fg=#a6e22e fs=italic
+//                     ^ fg=#f8f8f2 fs=
+//                      ^^^^^^^^^ fg=#a6e22e fs=italic
+//                                ^ fg=#f8f8f2 fs=
+
+    constructor()
+    // ^ fg=#a6e22e fs=
+    //         ^^ fg=#f8f8f2 fs=
+        {}
+    //  ^^ fg=#f8f8f2 fs=
+
+    [foo.bar](arg) {
+//  ^ fg=#f8f8f2 fs=
+//   ^^^^^^^ fg=#a6e22e fs=
+//          ^^ fg=#f8f8f2 fs=
+//            ^^^ fg=#fd971f fs=italic
+//               ^^^ fg=#f8f8f2 fs=
+    }
+//  ^ fg=#f8f8f2 fs=
+
+    get x() {
+    //^ fg=#66d9ef fs=italic
+    //  ^ fg=#a6e22e fs=
+    //   ^^ fg=#f8f8f2 fs=
+        return this._foo;
+        // ^ fg=#f92672 fs=
+        //     ^^^^ fg=#fd971f fs=italic
+        //         ^^^^^^ fg=#f8f8f2 fs=
+    }
+
+    static x(y) {}
+    // ^ fg=#66d9ef fs=italic
+    //     ^ fg=#a6e22e fs=
+    //      ^ fg=#f8f8f2 fs=
+    //       ^ fg=#fd971f fs=italic
+    //        ^ fg=#f8f8f2 fs=
+    //          ^^ fg=#f8f8f2 fs=
+
+    set (v) { return x; }
+    //^ fg=#a6e22e fs=
+    //  ^ fg=#f8f8f2 fs=
+    //   ^ fg=#fd971f fs=italic
+    //    ^ fg=#f8f8f2 fs=
+    //      ^ fg=#f8f8f2 fs=
+    //        ^ fg=#f92672 fs=
+    //               ^^ fg=#f8f8f2 fs=
+    //                  ^ fg=#f8f8f2 fs=
+}
