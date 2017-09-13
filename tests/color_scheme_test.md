@@ -163,7 +163,7 @@ You can also simply indent your code by four spaces:
           $.facebox({div:'#foo'})
         }
     }
-<!--^^^ fg=#f8f8f2 bg=#3e3d32 fs= -->
+<!--^^^ fg=#f8f8f2 bg=#3e3d32 fs= build>=3127 -->
 
 Here's an example of Python code without syntax highlighting:
 
