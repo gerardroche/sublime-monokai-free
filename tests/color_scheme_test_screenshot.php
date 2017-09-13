@@ -30,7 +30,7 @@ $app = new \Slim\App;
 $app->get('/hello/{name}', function (Request $request, Response $response) {
 // ^ fg=#f8f8f2 fs=
 //  ^^ fg=#f92672 fs=
-//    ^^^ fg=#66d9ef fs=
+//    ^^^ fg=#f8f8f2 fs=
 //        ^^^^^^^^^^^^^^^ fg=#e6db74 fs=
 //                         ^^^^^^^^ fg=#66d9ef fs=italic
 //                                   ^^^^^^^ fg=#66d9ef fs=italic
@@ -40,15 +40,15 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
     //    ^ fg=#f92672 fs=
     //      ^^^^^^^^ fg=#f8f8f2 fs=
     //              ^^ fg=#f92672 fs=
-    //                ^^^^^^^^^^^^ fg=#66d9ef fs=
+    //                ^^^^^^^^^^^^ fg=#f8f8f2 fs=
     //                             ^^^^^^ fg=#e6db74 fs=
     $response->getBody()->write("Hello, $name");
     // ^^^^^^ fg=#f8f8f2 fs=
     //       ^^ fg=#f92672 fs=
-    //         ^^^^^^^ fg=#66d9ef fs=
+    //         ^^^^^^^ fg=#f8f8f2 fs=
     //                ^^ fg=#f8f8f2 fs=
     //                  ^^ fg=#f92672 fs=
-    //                    ^^^^^ fg=#66d9ef fs=
+    //                    ^^^^^ fg=#f8f8f2 fs=
     //                          ^^^^^^^ fg=#e6db74 fs=
     //                                  ^^^^^ fg=#f8f8f2 fs=
     //                                       ^ fg=#e6db74 fs=
@@ -61,4 +61,4 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
 $app->run();
 // ^ fg=#f8f8f2 fs=
 //  ^^ fg=#f92672 fs=
-//    ^^^ fg=#66d9ef fs=
+//    ^^^ fg=#f8f8f2 fs=

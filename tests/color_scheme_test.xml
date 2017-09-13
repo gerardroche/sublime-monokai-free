@@ -12,8 +12,8 @@
         <!-- This indented comment is to the preceding whitespace. -->
 <!-- ^ fg=#f8f8f2 bg=#272822 fs= -->
 
-        <!-- comment -->
-<!--    ^^^^^^^^^^^^^^^^ fg=#75715e bg=#272822 fs= -->
+    <!-- x -->
+<!--^^^^^^^^^^ fg=#75715e bg=#272822 fs= -->
 
 <breakfast_menu>
 <!-- ^ fg=#f92672 fs= -->

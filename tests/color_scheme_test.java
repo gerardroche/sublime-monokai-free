@@ -3,6 +3,7 @@
 package hi;
 // ^ fg=#f92672 fs=
 //      ^^^ fg=#f8f8f2 fs=
+
 import java.util.HashMap;
 // ^ fg=#f92672 fs=
 //     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=italic

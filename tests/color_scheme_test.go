@@ -1,4 +1,5 @@
 // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Go"
+
 package examples
 // ^ fg=#f92672 fs=
 //      ^ fg=#f8f8f2 fs=

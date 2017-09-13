@@ -1,4 +1,5 @@
 // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "JavaScript"
+
         // This indented comment is to the preceding whitespace.
 // ^ fg=#f8f8f2 bg=#272822 fs=
 
@@ -61,8 +62,11 @@ function $x(block, cls) {
         //                                ^ fg=#f92672 fs=
             `class="${cls}"`;
         //  ^^^^^^^^ fg=#e6db74 fs=
+        //          ^^ fg=#f8f8f2 fs= build>=3127
+        //            ^^^ fg=#f8f8f2 fs=
+        //               ^ fg=#f8f8f2 fs= build>=3127
         //                ^^ fg=#e6db74 fs=
-        // st>3026  ^^^^^^ fg=#f8f8f2 fs=
+        //                  ^ fg=#f8f8f2 fs=
 
     } catch (e) {
     // ^ fg=#f92672 fs=

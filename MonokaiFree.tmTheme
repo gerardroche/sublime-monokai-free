@@ -64,6 +64,9 @@
 <dict><key>scope</key><string>keyword.operator.word</string>                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.php</string>                 <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.group.begin</string>          <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>punctuation.section.group.end</string>            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>storage.modifier</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>storage.type</string>                             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>storage</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
@@ -77,22 +80,33 @@
 <dict><key>scope</key><string>variable.function</string>                        <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>variable.language</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>variable.other.dollar.only.js</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>variable.other.global</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>variable.other.member</string>                    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>variable.other</string>                           <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>variable.parameter</string>                       <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>variable</string>                                 <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
 
 <!-- Markup -->
 
+<dict><key>scope</key><string>markup.bold markup.italic</string>                        <key>settings</key><dict><key>fontStyle</key><string>bold italic</string></dict></dict>
+<dict><key>scope</key><string>markup.bold punctuation.definition.bold</string>          <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.bold</string>                                      <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>markup.heading</string>                                   <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>markup.heading punctuation.definition.heading</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.heading</string>                                   <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>markup.italic markup.bold</string>                        <key>settings</key><dict><key>fontStyle</key><string>italic bold</string></dict></dict>
+<dict><key>scope</key><string>markup.italic punctuation.definition.italic</string>      <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.italic</string>                                    <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>markup.quote punctuation.definition.blockquote</string>   <key>settings</key><dict><key>background</key><string>#75715e</string><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.quote</string>                                     <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>markup.raw punctuation.definition.raw</string>            <key>settings</key><dict><key>background</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>markup.raw.inline punctuation.definition.raw</string>     <key>settings</key><dict><key>foreground</key><string>#75715e</string><key>background</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>markup.raw.inline</string>                                <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>background</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.raw</string>                                       <key>settings</key><dict><key>background</key><string>#3e3d32</string></dict></dict>
 <dict><key>scope</key><string>markup.underline.link</string>                            <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>underline</string></dict></dict>
 <dict><key>scope</key><string>markup.underline</string>                                 <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
+<dict><key>scope</key><string>meta.image.inline.description.markdown</string>           <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+<dict><key>scope</key><string>meta.link.inline.description.markdown</string>            <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 
-<!-- Meta -->
+<!-- Diff -->
 
 <dict><key>scope</key><string>meta.diff.header</string>                                 <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>meta.diff</string>                                        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
@@ -167,37 +181,16 @@
         </dict>
     </dict>
 
-<!-- These are quick and dirty fixes for changes in the new Markdown syntax -->
+<!-- Patches: PHP -->
 
-<dict><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown constant.character.entity.html punctuation.definition.entity.html</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown constant.character.entity.html</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.inline.markdown string.other.link.title.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown, text.html.markdown meta.paragraph.markdown meta.image.inline.markdown string.other.link.description.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict>                                                 <key>scope</key><string>text.html.markdown punctuation</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#75715e</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.quote.markdown punctuation.definition.blockquote.markdown, text.html.markdown meta.block-level.markdown markup.quote.markdown markup.raw.inline.markdown, text.html.markdown meta.block-level.markdown markup.quote.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown meta.paragraph.list.markdown meta.link.inline.markdown markup.underline.link.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.reference.def.markdown markup.underline.link.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.image.inline.markdown markup.underline.link.image.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.paragraph.markdown meta.link.inline.markdown markup.underline.link.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.raw.block.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#272822</string></dict>    <key>scope</key><string>text.html.markdown meta.paragraph.markdown markup.raw.inline.markdown, text.html.markdown markup.list.numbered.markdown meta.paragraph.list.markdown markup.raw.inline.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown markup.list.unnumbered.markdown punctuation.definition.list_item.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.block-level.markdown markup.heading.markdown punctuation.definition.heading.markdown</string></dict>
-<dict><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict>                                                 <key>scope</key><string>text.html.markdown meta.link.reference.def.markdown constant.other.reference.link.markdown</string></dict>
+<dict><key>scope</key><string>meta.function-call.method.php variable.function.php</string>  <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>meta.function-call.static.php variable.function.php</string>  <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 
-<!-- These are quick and dirty fixes for changes in the new PHP syntax -->
+<!-- Patches: php-grammar support -->
 
-<dict><key>scope</key><string>meta.class.php meta.block.php constant.class.php</string>                                     <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
-<dict><key>scope</key><string>meta.class.php meta.block.php meta.function-call.method.php variable.function.php</string>    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>meta.class.php meta.block.php meta.function-call.static.php variable.function.php</string>    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>meta.class.php variable.language</string>                                                     <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>meta.function-call.php meta.group.php variable.other.php</string>                             <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>punctuation.accessor.php</string>                                                             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>punctuation.section.group.begin.php</string>                                                  <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>punctuation.section.group.end.php</string>                                                    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>source.php meta.function-call - meta.function-call.object - meta.function-call.static</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-<dict><key>scope</key><string>support.other.namespace.use-as.php</string>                                                   <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+<dict><key>scope</key><string>support.other.namespace.use-as.php</string>                                           <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+<dict><key>scope</key><string>string.unquoted.heredoc.php meta.function-call.object.php</string>                    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>meta.class.php meta.other.inherited-class.php support.other.namespace.php</string>    <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
 
 <!-- Experimental: Vim emulation block cursor support -->
 

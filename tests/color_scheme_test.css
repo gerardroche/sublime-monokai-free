@@ -1,67 +1,94 @@
 /* COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "CSS" */
+
         /* This indented comment is to the preceding whitespace. */
 /* ^ fg=#f8f8f2 bg=#272822 fs= */
 
-    /* comment */
-/*  ^^^^^^^^^^^^^ fg=#75715e bg=#272822 fs= */
+    /* x */
+/*  ^^^^^^^ fg=#75715e bg=#272822 fs= */
 
 @font-face {
     /* ^ fg=#f92672 fs= */
     font-family: Chunkfive; src: url('Chunkfive.otf');
     /* ^ fg=#66d9ef fs=italic */
-    /*                      ^ fg=#66d9ef fs=italic */
-    /*                            ^ fg=#66d9ef fs= */
+    /*         ^ fg=#f8f8f2 fs= */
+    /*           ^^^^^^^^^ fg=#e6db74 fs= build>=3127 */
+    /*                    ^ fg=#f8f8f2 fs= */
+    /*                      ^^^ fg=#66d9ef fs=italic */
+    /*                         ^ fg=#f8f8f2 fs= */
+    /*                           ^^^ fg=#66d9ef fs= */
+    /*                              ^ fg=#f8f8f2 fs= */
     /*                               ^^^^^^^^^^^^^^^ fg=#e6db74 fs= */
+    /*                                              ^^ fg=#f8f8f2 fs= */
 }
 
-body, .usertext {
+body, .x, #d {
 /* ^ fg=#f92672 fs= */
-/*      ^ fg=#a6e22e fs= */
+/*  ^ fg=#f8f8f2 fs= */
+/*    ^^ fg=#a6e22e fs= */
+/*      ^ fg=#f8f8f2 fs= */
+/*        ^^ fg=#a6e22e fs= */
+/*           ^ fg=#f8f8f2 fs= */
     color: #F0F0F0;
-    /* ^ fg=#66d9ef fs=italic */
+    /* ^^ fg=#66d9ef fs=italic */
+    /*   ^ fg=#f8f8f2 fs= */
+    /*     ^^^^^^^ fg=#ae81ff fs= */
+    /*            ^ fg=#f8f8f2 fs= */
     background: #600;
-    /* ^ fg=#66d9ef fs=italic */
+    /* ^^^^^^^ fg=#66d9ef fs=italic */
+    /*        ^ fg=#f8f8f2 fs= */
+    /*          ^^^^ fg=#ae81ff fs= */
+    /*              ^ fg=#f8f8f2 fs= */
     font-family: Chunkfive, sans;
-    /* ^ fg=#66d9ef fs=italic */
-}
-
-@media print {
-/* ^ fg=#f92672 fs= */
-/*      ^ fg=#66d9ef fs= */
-    a[href^=http]::after {
-/*  ^ fg=#f92672 fs= */
-    /* ^ fg=#a6e22e fs= */
-    /*    ^^ fg=#f92672 fs= */
-    /*      ^^^^ fg=#e6db74 fs= */
-    /*           ^^^^^^^ fg=#a6e22e fs=italic */
-        content: attr(href)
-        /* ^ fg=#66d9ef fs=italic */
-        /*       ^ fg=#66d9ef fs= */
-        /*            ^ fg=#a6e22e fs= */
-    }
-}
-
-#container > .container:first-child {
-/* ^ fg=#a6e22e fs= */
-/*              ^ fg=#a6e22e fs= */
-/*                      ^ fg=#a6e22e fs=italic */
+    /* ^^^^^^^^ fg=#66d9ef fs=italic */
+    /*         ^ fg=#f8f8f2 fs= */
+    /*           ^^^^^^^^^ fg=#e6db74 fs= build>=3127 */
+    /*                    ^ fg=#f8f8f2 fs= */
+    /*                      ^^^^ fg=#e6db74 fs= build>=3127 */
+    /*                          ^ fg=#f8f8f2 fs= */
+    display: none;
+    /*       ^^^^ fg=#ae81ff fs= */
+    display: block;
+    /*       ^^^^^ fg=#ae81ff fs= */
+    font-style: italic;
+    /*          ^ fg=#ae81ff fs= */
+    padding: 0.5em;
+    /*       ^^^ fg=#ae81ff fs= */
+    /*          ^^ fg=#f92672 fs= */
+    /*            ^ fg=#f8f8f2 fs= */
     margin-top: 20px;
     /* ^ fg=#66d9ef fs=italic */
+    /*        ^ fg=#f8f8f2 fs= */
     /*          ^^ fg=#ae81ff fs= */
     /*            ^^ fg=#f92672 fs= */
 }
 
-pre code {
-    display: none;
-    /*          ^ fg=#ae81ff fs= */
-    display: block; padding: 0.5em;
-    /*          ^ fg=#ae81ff fs= */
+@media print {
+/* ^ fg=#f92672 fs= */
+/*     ^ fg=#66d9ef fs= */
+    a[href^=http]::after {
+/*  ^ fg=#f92672 fs= */
+/*   ^ fg=#f8f8f2 fs= */
+/*    ^^^^ fg=#a6e22e fs= */
+/*        ^^ fg=#f92672 fs= */
+/*          ^^^^ fg=#e6db74 fs= */
+/*              ^ fg=#f8f8f2 fs= */
+/*               ^^^^^^^ fg=#a6e22e fs=italic */
+/*                       ^ fg=#f8f8f2 fs= */
+        content: attr(href)
+        /* ^ fg=#66d9ef fs=italic */
+        /*     ^ fg=#f8f8f2 fs= */
+        /*       ^^^^ fg=#66d9ef fs= */
+        /*           ^ fg=#f8f8f2 fs= */
+        /*            ^^^^ fg=#a6e22e fs= */
+        /*                ^ fg=#f8f8f2 fs= */
+    }
 }
 
-pre .comment,
-pre .template_comment,
-pre .diff .header,
-pre .javadoc {
-    font-style: italic;
-    /*          ^ fg=#ae81ff fs= */
-}
+#container > .container:first-child {}
+/* ^ fg=#a6e22e fs= */
+/*         ^ fg=#f8f8f2 fs= */
+/*           ^^ fg=#a6e22e fs= */
+/*                     ^^ fg=#a6e22e fs=italic */
+
+pre code {}
+/*  ^ fg=#f92672 fs= */
