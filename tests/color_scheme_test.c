@@ -1,13 +1,15 @@
 // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "C"
+
         // This indented comment is to the preceding whitespace.
 // ^ fg=#f8f8f2 bg=#272822 fs=
+
+#include <windows.h>
+// ^ fg=#f92672 fs=
+//       ^^^^^^^^^^^ fg=#e6db74 fs=
 
 #define UNICODE
 // ^ fg=#f92672 fs=
 //      ^ fg=#a6e22e fs=
-#include <windows.h>
-// ^ fg=#f92672 fs=
-//       ^^^^^^^^^^^ fg=#e6db74 fs=
 
 #define CONST0 16 // Comment
 // ^ fg=#f92672 fs=

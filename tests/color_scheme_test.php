@@ -1,4 +1,5 @@
 <?php // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "PHP"
+
         // This indented comment is to the preceding whitespace.
 // ^ fg=#f8f8f2 bg=#272822 fs=
 
@@ -20,6 +21,12 @@ namespace X\Y\Z;
 //        ^^^^^ fg=#a6e22e fs=
 //             ^ fg=#f8f8f2 fs=
 
+use A;
+//^ fg=#f92672 fs=
+// ^ fg=#f8f8f2 fs=
+//  ^ fg=#66d9ef fs=italic
+//   ^ fg=#f8f8f2 fs=
+
 use A\B\C;
 //^ fg=#f92672 fs=
 //  ^^^^ fg=#f8f8f2 fs=
@@ -34,22 +41,49 @@ use A\B\C as D;
 //           ^ fg=#a6e22e fs=
 //            ^ fg=#f8f8f2 fs=
 
+use function a;
+//^ fg=#f92672 fs=
+//  ^^^^^^^^ fg=#66d9ef fs=italic
+//           ^ fg=#66d9ef fs=
+//            ^ fg=#f8f8f2 fs=
+
 use function a\b\c;
 //^ fg=#f92672 fs=
-//  ^ fg=#66d9ef fs=italic
+//  ^^^^^^^^ fg=#66d9ef fs=italic
 //           ^^^^ fg=#f8f8f2 fs=
 //               ^ fg=#66d9ef fs=
 //                ^ fg=#f8f8f2 fs=
 
 use function a\b\c as x;
+//^ fg=#f92672 fs=
+//  ^^^^^^^^ fg=#66d9ef fs=italic
+//           ^^^^ fg=#f8f8f2 fs=
+//                ^ fg=#f8f8f2 fs=
+//                 ^^ fg=#f92672 fs=
 //                    ^ fg=#a6e22e fs=
+//                     ^ fg=#f8f8f2 fs=
+
+use const A;
+//^ fg=#f92672 fs=
+//  ^^^^^ fg=#66d9ef fs=italic
+//        ^ fg=#ae81ff fs=
+//         ^ fg=#f8f8f2 fs=
 
 use const A\B\C;
 //^ fg=#f92672 fs=
-//  ^ fg=#66d9ef fs=italic
+//  ^^^^^ fg=#66d9ef fs=italic
 //        ^^^^ fg=#f8f8f2 fs=
 //            ^ fg=#ae81ff fs=
 //             ^ fg=#f8f8f2 fs=
+
+use const A\B\C as X;
+//^ fg=#f92672 fs=
+//  ^^^^^ fg=#66d9ef fs=italic
+//        ^^^^ fg=#f8f8f2 fs=
+//            ^ fg=#ae81ff fs=
+//              ^^ fg=#f92672 fs=
+//                 ^ fg=#ae81ff fs=
+//                  ^ fg=#f8f8f2 fs=
 
 const X = 1;
 // ^ fg=#f92672 fs=
@@ -174,15 +208,81 @@ function x(array $a = [1, 2, 3, 4],  $b = "x") {}
 function x(array $a = null, $b = "x") {}
 //                    ^^^^ fg=#ae81ff fs=
 
-function x(
+function x(&$x) {}
+//       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
+//         ^ fg=#f92672 fs=
+//          ^^ fg=#fd971f fs=italic
+//            ^ fg=#f8f8f2 fs=
+//              ^^ fg=#f8f8f2 fs=
+
+function x(X $c) {}
+//       ^ fg=#a6e22e fs=
+//        ^ fg=#f8f8f2 fs=
+//         ^ fg=#66d9ef fs=italic
+//           ^^ fg=#fd971f fs=italic
+//             ^ fg=#f8f8f2 fs=
+
+function x(Coutable $c) {}
+//       ^ fg=#a6e22e fs=
+//        ^ fg=#f8f8f2 fs=
+//         ^^^^^^^^ fg=#66d9ef fs=italic
+//                  ^^ fg=#fd971f fs=italic
+//                    ^ fg=#f8f8f2 fs=
+//                     ^^ fg=#f8f8f2 fs=
+
+function x(int $a, string $b, bool $c, float $d) {}
+//       ^ fg=#a6e22e fs=
+//        ^ fg=#f8f8f2 fs=
+//         ^^^ fg=#66d9ef fs=italic
+//             ^^ fg=#fd971f fs=italic
+//               ^ fg=#f8f8f2 fs=
+//                 ^^^^^^ fg=#66d9ef fs=italic
+//                        ^^ fg=#fd971f fs=italic
+//                          ^ fg=#f8f8f2 fs=
+//                            ^^^^ fg=#66d9ef fs=italic
+//                                 ^^ fg=#fd971f fs=italic
+//                                   ^ fg=#f8f8f2 fs=
+//                                     ^^^^^ fg=#66d9ef fs=italic
+//                                           ^^ fg=#fd971f fs=italic
+//                                             ^ fg=#f8f8f2 fs=
+//                                               ^^ fg=#f8f8f2 fs=
+
+function x(...$x) {}
+//       ^ fg=#a6e22e fs=
+//        ^^^^ fg=#f8f8f2 fs=
+//            ^^ fg=#fd971f fs=italic
+//              ^ fg=#f8f8f2 fs=
+
+function x(
+    //    ^ fg=#f8f8f2 fs=
         $a,
     //  ^^ fg=#fd971f fs=italic
     //    ^ fg=#f8f8f2 fs=
         $b
     //  ^^ fg=#fd971f fs=italic
-    ){}
-//  ^^^ fg=#f8f8f2 fs=
+        ){}
+    //  ^^^ fg=#f8f8f2 fs=
+
+
+function x(): X {}
+// ^^^^^ fg=#66d9ef fs=italic
+//       ^ fg=#a6e22e fs=
+//        ^^^ fg=#f8f8f2 fs=
+//            ^ fg=#66d9ef fs=italic
+//              ^^ fg=#f8f8f2 fs=
+
+function x(): Countable {}
+//       ^ fg=#a6e22e fs=
+//        ^^^ fg=#f8f8f2 fs=
+//            ^^^^^^^^^ fg=#66d9ef fs=italic
+
+$abc = function() {};
+// ^ fg=#f8f8f2 fs=
+//   ^ fg=#f92672 fs=
+//     ^^^^^^^^ fg=#66d9ef fs=italic
+//             ^^ fg=#f8f8f2 fs=
+//                ^^^ fg=#f8f8f2 fs=
 
 $x = function(N $c) use ($a, $b) {};
 //   ^ fg=#66d9ef fs=italic
@@ -206,10 +306,7 @@ if (isset($x) && is_callable($x)) {
 //                          ^^^^^ fg=#f8f8f2 fs=
 //                                ^ fg=#f8f8f2 fs=
 
-    $x = null
-    //   ^^^^ fg=#ae81ff fs=
-
-    if (29 - 10 + 2) * 2 > 4.2) {
+    if (29 - 10 + 2) * 2 > 4.2) {}
     // ^ fg=#f8f8f2 fs=
     //  ^^ fg=#ae81ff fs=
     //     ^ fg=#f92672 fs=
@@ -222,98 +319,149 @@ if (isset($x) && is_callable($x)) {
     //                   ^ fg=#f92672 fs=
     //                     ^^^ fg=#ae81ff fs=
     //                        ^ fg=#f8f8f2 fs=
+    //                          ^^ fg=#f8f8f2 fs=
+
+    $x = true | false | null;
+    // ^ fg=#f92672 fs=
+    //  ^ fg=#f8f8f2 fs=
+    //   ^^^^ fg=#ae81ff fs=
+    //        ^ fg=#f92672 fs=
+    //          ^^^^^ fg=#ae81ff fs=
+    //                ^ fg=#f92672 fs=
+    //                  ^^^^ fg=#ae81ff fs=
+    //                      ^ fg=#f8f8f2 fs=
+
+    $x = 0123 & 0x1A && 0b11111111 / 1.2 + 1.2e3 + 7E-10;
+    //   ^^^^ fg=#ae81ff fs=
+    //        ^ fg=#f92672 fs=
+    //          ^^^^ fg=#ae81ff fs=
+    //               ^^ fg=#f92672 fs=
+    //                  ^^^^^^^^^^ fg=#ae81ff fs=
+    //                             ^ fg=#f92672 fs=
+    //                               ^^^ fg=#ae81ff fs=
+    //                                   ^ fg=#f92672 fs=
+    //                                     ^^^^^ fg=#ae81ff fs=
+    //                                           ^ fg=#f92672 fs=
+    //                                             ^^^^^ fg=#ae81ff fs=
+    //                                                  ^ fg=#f8f8f2 fs=
+
+    print("a\t\nb" . 'ab');
+    // ^^ fg=#66d9ef fs=
+    //   ^ fg=#f8f8f2 fs=
+    //    ^^ fg=#e6db74 fs=
+    //      ^^^^ fg=#ae81ff fs=
+    //          ^^ fg=#e6db74 fs=
+    //             ^ fg=#f92672 fs=
+    //               ^^^^ fg=#e6db74 fs=
+    //                   ^^ fg=#f8f8f2 fs=
+
+    user_defined();
+    // ^^^^^^^^^ fg=#f8f8f2 fs=
+    //          ^^ fg=#f8f8f2 fs=
+    //            ^ fg=#f8f8f2 fs=
+
+    phpversion();
+    // ^^^^^^^ fg=#66d9ef fs=
+    //        ^^ fg=#f8f8f2 fs=
+    //          ^ fg=#f8f8f2 fs=
+
+    error_reporting(E_ALL);
+    // ^^^^^^^^^^^^ fg=#66d9ef fs=
+    //             ^ fg=#f8f8f2 fs=
+    //              ^^^^^ fg=#66d9ef fs=
+    //                   ^^ fg=#f8f8f2 fs=
+
+    $x();
+//  ^^^^^ fg=#f8f8f2 fs=
+
+    $x = $y($a, $b);
+    //   ^^ fg=#f8f8f2 fs=
+    //     ^^^^ fg=#f8f8f2 fs=
+    //          ^^^^ fg=#f8f8f2 fs=
+
+    $x = array();
+    //   ^^^^^ fg=#66d9ef fs=
+    //        ^^^ fg=#f8f8f2 fs=
+
+    $x = [];
+    //   ^^^ fg=#f8f8f2 fs=
+
+    $x = array(
+    //   ^^^^^ fg=#66d9ef fs=
+    //        ^ fg=#f8f8f2 fs=
+        "x" => "y",
+    //  ^^^ fg=#e6db74 fs=
+    //      ^^ fg=#f92672 fs=
+    //         ^^^ fg=#e6db74 fs=
+    //            ^ fg=#f8f8f2 fs=
+        [
+    //  ^ fg=#f8f8f2 fs=
+            "x" => "y",
+    //      ^^^ fg=#e6db74 fs=
+    //          ^^ fg=#f92672 fs=
+    //             ^^^ fg=#e6db74 fs=
+    //                ^ fg=#f8f8f2 fs=
+        ]
+    //  ^ fg=#f8f8f2 fs=
+    );
+//  ^^ fg=#f8f8f2 fs=
+
+    $x = array_merge([
+    //   ^^^^^^^^^^^ fg=#66d9ef fs=
+    //              ^ fg=#f8f8f2 fs=
+    //               ^ fg=#f8f8f2 fs=
+        'a' => 'b',
+    //  ^^^ fg=#e6db74 fs=
+    //      ^^ fg=#f92672 fs=
+    //         ^^^ fg=#e6db74 fs=
+    //            ^ fg=#f8f8f2 fs=
+        'c' => 42
+    //  ^^^ fg=#e6db74 fs=
+    //      ^^ fg=#f92672 fs=
+    //         ^^ fg=#ae81ff fs=
+    ]);
+//  ^^^ fg=#f8f8f2 fs=
+
+        $argv['x']; $argc;
+    //  ^^^^^ fg=#fd971f fs=italic
+    //       ^ fg=#f8f8f2 fs=
+    //        ^^^ fg=#e6db74 fs=
+    //           ^^ fg=#f8f8f2 fs=
+    //              ^^^^^ fg=#fd971f fs=italic
+    //                   ^ fg=#f8f8f2 fs=
+
+        $_FILES; $_ENV; $GLOBALS;
+    //  ^^^^^^^ fg=#fd971f fs=italic
+    //         ^ fg=#f8f8f2 fs=
+    //           ^^^^^ fg=#fd971f fs=italic
+    //                ^ fg=#f8f8f2 fs=
+    //                  ^^^^^^^^ fg=#fd971f fs=italic
     //                          ^ fg=#f8f8f2 fs=
 
-        $x = true | false;
-        // ^ fg=#f92672 fs=
-        //   ^^^^ fg=#ae81ff fs=
-        //        ^ fg=#f92672 fs=
-        //          ^^^^^ fg=#ae81ff fs=
-        //               ^ fg=#f8f8f2 fs=
-
-        $x = 0123 & 0x1A && 0b11111111 / 1.2 + 1.2e3 + 7E-10;
-        //   ^^^^ fg=#ae81ff fs=
-        //        ^ fg=#f92672 fs=
-        //          ^^^^ fg=#ae81ff fs=
-        //               ^^ fg=#f92672 fs=
-        //                  ^^^^^^^^^^ fg=#ae81ff fs=
-        //                             ^ fg=#f92672 fs=
-        //                               ^^^ fg=#ae81ff fs=
-        //                                   ^ fg=#f92672 fs=
-        //                                     ^^^^^ fg=#ae81ff fs=
-        //                                           ^ fg=#f92672 fs=
-        //                                             ^^^^^ fg=#ae81ff fs=
-        //                                                  ^ fg=#f8f8f2 fs=
-
-        print("a\t\nb" . 'ab');
-        // ^^ fg=#66d9ef fs=
-        //   ^ fg=#f8f8f2 fs=
-        //    ^^ fg=#e6db74 fs=
-        //      ^^^^ fg=#ae81ff fs=
-        //          ^^ fg=#e6db74 fs=
-        //             ^ fg=#f92672 fs=
-        //               ^^^^ fg=#e6db74 fs=
-        //                   ^^ fg=#f8f8f2 fs=
-
-        $x = array();
-        //   ^^^^^ fg=#66d9ef fs=
-        //        ^^^ fg=#f8f8f2 fs=
-
-        $x = [];
-        //   ^^^ fg=#f8f8f2 fs=
-
-        $x = array(
-        //   ^^^^^ fg=#66d9ef fs=
-        //        ^ fg=#f8f8f2 fs=
-            "x" => "y",
-        //  ^^^ fg=#e6db74 fs=
-        //      ^^ fg=#f92672 fs=
-        //         ^^^ fg=#e6db74 fs=
-        //            ^ fg=#f8f8f2 fs=
-            [
-        //  ^ fg=#f8f8f2 fs=
-                "x" => "y",
-        //      ^^^ fg=#e6db74 fs=
-        //          ^^ fg=#f92672 fs=
-        //             ^^^ fg=#e6db74 fs=
-        //                ^ fg=#f8f8f2 fs=
-            ]
-        //  ^ fg=#f8f8f2 fs=
-        );
-    //  ^^ fg=#f8f8f2 fs=
-    }
-
-        $_FILES; $_ENV; $GLOBALS
-    //  ^^^^^^^ fg=#66d9ef fs=italic
-    //         ^ fg=#f8f8f2 fs=
-    //           ^^^^^ fg=#66d9ef fs=italic
-    //                ^ fg=#f8f8f2 fs=
-    //                  ^^^^^^^^ fg=#66d9ef fs=italic
-
         $_SERVER['DOCUMENT_ROOT'];
-    //  ^^^^^^^^ fg=#66d9ef fs=italic
+    //  ^^^^^^^^ fg=#fd971f fs=italic
     //          ^ fg=#f8f8f2 fs=
     //           ^^^^^^^^^^^^^^^ fg=#e6db74 fs=
     //                          ^^ fg=#f8f8f2 fs=
 
         $_GET['x']; $_POST['x']; $_COOKIE['x']; $_SESSION['x']; $_REQUEST['x'];
-    //  ^^^^^ fg=#66d9ef fs=italic
+    //  ^^^^^ fg=#fd971f fs=italic
     //       ^ fg=#f8f8f2 fs=
     //        ^^^ fg=#e6db74 fs=
     //           ^^ fg=#f8f8f2 fs=
-    //              ^^^^^^ fg=#66d9ef fs=italic
+    //              ^^^^^^ fg=#fd971f fs=italic
     //                    ^ fg=#f8f8f2 fs=
     //                     ^^^ fg=#e6db74 fs=
     //                        ^^ fg=#f8f8f2 fs=
-    //                           ^^^^^^^^ fg=#66d9ef fs=italic
+    //                           ^^^^^^^^ fg=#fd971f fs=italic
     //                                   ^ fg=#f8f8f2 fs=
     //                                    ^^^ fg=#e6db74 fs=
     //                                       ^^ fg=#f8f8f2 fs=
-    //                                          ^^^^^^^^^ fg=#66d9ef fs=italic
+    //                                          ^^^^^^^^^ fg=#fd971f fs=italic
     //                                                   ^ fg=#f8f8f2 fs=
     //                                                    ^^^ fg=#e6db74 fs=
     //                                                       ^^ fg=#f8f8f2 fs=
-    //                                                          ^^^^^^^^^ fg=#66d9ef fs=italic
+    //                                                          ^^^^^^^^^ fg=#fd971f fs=italic
     //                                                                   ^ fg=#f8f8f2 fs=
     //                                                                    ^^^ fg=#e6db74 fs=
     //                                                                       ^^ fg=#f8f8f2 fs=
@@ -325,6 +473,13 @@ if (isset($x) && is_callable($x)) {
     //                          ^ fg=#f92672 fs=
     //                            ^^^ fg=#ae81ff fs=
     //                               ^ fg=#f8f8f2 fs=
+
+    echo X[1];
+    //   ^ fg=#ae81ff fs=
+    //    ^ fg=#f8f8f2 fs=
+    //     ^ fg=#ae81ff fs=
+    //      ^ fg=#f8f8f2 fs=
+    //       ^ fg=#f8f8f2 fs=
 
     echo $var['x'][1];
     // ^ fg=#66d9ef fs=
@@ -401,9 +556,167 @@ if (isset($x) && is_callable($x)) {
     // ^ fg=#66d9ef fs=italic
     //    ^^^^^ fg=#f8f8f2 fs=
 
+    var_dump($x instanceof X);
+    //      ^^^ fg=#f8f8f2 fs=
+    //          ^^^^^^^^^^ fg=#f92672 fs=
+    //                     ^ fg=#66d9ef fs=italic
+    //                      ^ fg=#f8f8f2 fs=
+
+    var_dump($x instanceof X\Y\Z);
+    //                     ^^^^ fg=#f8f8f2 fs=
+    //                         ^ fg=#66d9ef fs=italic
+    //                          ^ fg=#f8f8f2 fs=
+
+    var_dump($x instanceof Countable);
+    //                     ^^^^^^^^^ fg=#66d9ef fs=italic
+    //                              ^ fg=#f8f8f2 fs=
+
+    var_dump($x instanceof $y);
+    //                     ^^^ fg=#f8f8f2 fs=
+
     $x = &$obj;
     //   ^ fg=#f92672 fs=
     //    ^^^^^ fg=#f8f8f2 fs=
+
+    add(...[1, 2]);
+    // ^ fg=#f8f8f2 fs=
+    //  ^^^ fg=#f92672 fs=
+    //     ^ fg=#f8f8f2 fs=
+    //      ^ fg=#ae81ff fs=
+    //       ^^ fg=#f8f8f2 fs=
+    //         ^ fg=#ae81ff fs=
+    //          ^^^ fg=#f8f8f2 fs=
+
+    echo "x $x";
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^ fg=#f8f8f2 fs=
+    //        ^ fg=#e6db74 fs=
+    //         ^ fg=#f8f8f2 fs=
+
+    echo "x ${$x}";
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^^^^ fg=#f8f8f2 fs=
+    //           ^ fg=#e6db74 fs=
+    //            ^ fg=#f8f8f2 fs=
+
+    echo "x $x[0]";
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^^ fg=#f8f8f2 fs=
+    //         ^ fg=#ae81ff fs=
+    //          ^ fg=#f8f8f2 fs=
+    //           ^ fg=#e6db74 fs=
+    //            ^ fg=#f8f8f2 fs=
+
+    echo "x $x[xyz]";
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^^ fg=#f8f8f2 fs=
+    //         ^^^ fg=#ae81ff fs=
+    //            ^ fg=#f8f8f2 fs=
+    //             ^ fg=#e6db74 fs=
+    //              ^ fg=#f8f8f2 fs=
+
+    echo "x $x->y";
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^ fg=#f8f8f2 fs=
+    //        ^^ fg=#f92672 fs=
+    //          ^ fg=#f8f8f2 fs=
+    //           ^ fg=#e6db74 fs=
+    //            ^ fg=#f8f8f2 fs=
+
+    echo "{$x} {$x->y} {$x['y']}"
+    //   ^ fg=#e6db74 fs=
+    //    ^^^^ fg=#f8f8f2 fs=
+    //        ^ fg=#e6db74 fs=
+    //         ^^^ fg=#f8f8f2 fs=
+    //            ^^ fg=#f92672 fs=
+    //              ^^ fg=#f8f8f2 fs=
+    //                ^ fg=#e6db74 fs=
+    //                 ^^^^ fg=#f8f8f2 fs=
+    //                     ^^^ fg=#e6db74 fs=
+    //                        ^^ fg=#f8f8f2 fs=
+    //                          ^ fg=#e6db74 fs=
+
+    echo "x {${$name}}"
+    //   ^^^ fg=#e6db74 fs=
+    //      ^ fg=#f8f8f2 fs=
+    //       ^^ fg=#e6db74 fs=
+    //         ^^^^^^ fg=#f8f8f2 fs=
+    //               ^^ fg=#e6db74 fs=
+
+    echo "x {$x->$y}"
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^^ fg=#f8f8f2 fs=
+    //         ^^ fg=#f92672 fs=
+    //           ^^^ fg=#f8f8f2 fs=
+    //              ^ fg=#e6db74 fs=
+
+    echo "x {$x->{$y[1]}} z";
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^^ fg=#f8f8f2 fs=
+    //         ^^ fg=#f92672 fs=
+    //           ^^^^ fg=#f8f8f2 fs=
+    //               ^ fg=#ae81ff fs=
+    //                ^^^ fg=#f8f8f2 fs=
+    //                   ^^^ fg=#e6db74 fs=
+    //                      ^ fg=#f8f8f2 fs=
+
+    $x = <<<EOT
+    //   ^^^ fg=#e6db74 fs=
+    //      ^^^ fg=#f92672 fs=
+<div>
+    <p>{$x}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^^^^ fg=#f8f8f2 fs=
+//         ^^^^ fg=#e6db74 fs=
+
+    <p>{$x->y()}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^ fg=#f8f8f2 fs=
+//      ^^ fg=#f8f8f2 fs=
+//        ^^ fg=#f92672 fs=
+//          ^^^ fg=#f8f8f2 fs=
+//             ^ fg=#f8f8f2 fs=
+//              ^^^^ fg=#e6db74 fs=
+    <p>{$x->y}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^ fg=#f8f8f2 fs=
+//      ^^ fg=#f8f8f2 fs=
+//        ^^ fg=#f92672 fs=
+//          ^ fg=#f8f8f2 fs=
+//           ^ fg=#f8f8f2 fs=
+//            ^^^^ fg=#e6db74 fs=
+    <p>{$x::class}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^ fg=#f8f8f2 fs=
+//      ^^ fg=#f8f8f2 fs=
+//        ^^ fg=#f92672 fs=
+//          ^^^^^ fg=#ae81ff fs=
+//               ^ fg=#f8f8f2 fs=
+//                ^^^^ fg=#e6db74 fs=
+    <p>{$x->y()->z()}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^ fg=#f8f8f2 fs=
+//      ^^ fg=#f8f8f2 fs=
+//        ^^ fg=#f92672 fs=
+//          ^^^ fg=#f8f8f2 fs=
+//             ^^ fg=#f92672 fs=
+//               ^^^ fg=#f8f8f2 fs=
+//                  ^ fg=#f8f8f2 fs=
+//                   ^^^^ fg=#e6db74 fs=
+</div>
+EOT;
+
+    $x = <<<'EOT'
+    //   ^^^ fg=#e6db74 fs=
+    //      ^ fg=#e6db74 fs=
+    //       ^^^ fg=#f92672 fs=
+    //          ^ fg=#e6db74 fs=
+<div>
+    <p>{$x}</p>
+//  ^^^^^^^^^^^ fg=#e6db74 fs=
+</div>
+EOT;
+
 }
 
 if (true) {
@@ -414,7 +727,7 @@ if (true) {
 
     if (x('y') && $x instanceof Countable) {
     // ^ fg=#f8f8f2 fs=
-    //  ^ fg=#66d9ef fs=
+    //  ^ fg=#f8f8f2 fs=
     //   ^ fg=#f8f8f2 fs=
     //    ^^^ fg=#e6db74 fs=
     //       ^ fg=#f8f8f2 fs=
@@ -568,15 +881,15 @@ if (true) {
 <!--                   ^^^^ fg=#ae81ff fs= -->
 <!--                       ^^ fg=#f8f8f2 fs= -->
 <!--                          ^^ fg=#f8f8f2 fs= -->
-    Text
-<!--^^^^ fg=#f8f8f2 fs= -->
+        Text
+<!--    ^^^^ fg=#f8f8f2 fs= -->
     <?php else: ?>
 <!--^^^^^ fg=#f8f8f2 fs= -->
 <!--      ^^^^ fg=#f92672 fs= -->
 <!--          ^ fg=#f8f8f2 fs= -->
 <!--            ^^ fg=#f8f8f2 fs= -->
-    Text
-<!--^^^^ fg=#f8f8f2 fs= -->
+        Text
+<!--    ^^^^ fg=#f8f8f2 fs= -->
     <?php endif; ?>
 <!--^^^^^ fg=#f8f8f2 fs= -->
 <!--      ^^^^^ fg=#f92672 fs= -->
@@ -633,12 +946,13 @@ class x
 
     public function x()
     {
-        call();
-        // ^ fg=#66d9ef fs=
-        //  ^^^ fg=#f8f8f2 fs=
+        user_defined();
+        // ^^^^^^^^^ fg=#f8f8f2 fs=
+        //          ^^ fg=#f8f8f2 fs=
+        //            ^ fg=#f8f8f2 fs=
 
         phpversion();
-        // ^ fg=#66d9ef fs=
+        // ^^^^^^^ fg=#66d9ef fs=
         //        ^^ fg=#f8f8f2 fs=
         //          ^ fg=#f8f8f2 fs=
 
@@ -686,6 +1000,11 @@ class x
         //   ^^ fg=#f92672 fs=
         //     ^ fg=#f8f8f2 fs=
         //      ^^^ fg=#f8f8f2 fs=
+
+        $this->$x();
+        // ^ fg=#fd971f fs=italic
+        //   ^^ fg=#f92672 fs=
+        //     ^^^^^ fg=#f8f8f2 fs=
 
         $this->a()->c()->d();
         // ^ fg=#fd971f fs=italic
@@ -749,6 +1068,11 @@ class x
         //  ^^ fg=#f92672 fs=
         //    ^^^ fg=#f8f8f2 fs=
 
+        $abc->$x();
+        // ^ fg=#f8f8f2 fs=
+        //  ^^ fg=#f92672 fs=
+        //    ^^^^^ fg=#f8f8f2 fs=
+
         $this->x = array_merge($this->y, $z);
         // ^ fg=#fd971f fs=italic
         //   ^^ fg=#f92672 fs=
@@ -810,16 +1134,6 @@ class x
             //                                    ^^ fg=#f8f8f2 fs=
         }
 
-        $data = array_merge([
-        //      ^^^^^^^^^^^ fg=#66d9ef fs=
-        //                 ^ fg=#f8f8f2 fs=
-        //                  ^ fg=#f8f8f2 fs=
-            'a' => 'b',
-        //            ^ fg=#f8f8f2 fs=
-            'c' => 42
-        ]);
-    //  ^^^ fg=#f8f8f2 fs=
-
         if (isset(static::$x[$y])) {}
         // ^ fg=#f8f8f2 fs=
         //  ^^^^^ fg=#66d9ef fs=
@@ -832,28 +1146,6 @@ class x
         //                     ^ fg=#f8f8f2 fs=
         //                      ^^ fg=#f8f8f2 fs=
         //                         ^^ fg=#f8f8f2 fs=
-
-        $x = $y($a, $b);
-        //   ^^ fg=#f8f8f2 fs=
-        //     ^^^^ fg=#f8f8f2 fs=
-        //          ^^^^ fg=#f8f8f2 fs=
-
-        $x = <<<EOT
-        //   ^^^ fg=#e6db74 fs=
-        //      ^^^ fg=#f92672 fs=
-<a>
-    <b>{$x}</b>
-//  ^^^ fg=#e6db74 fs=
-//      ^^ fg=#f8f8f2 fs=
-//         ^^^^ fg=#e6db74 fs=
-    <c>{$x->y()}</c>
-//  ^^^ fg=#e6db74 fs=
-//      ^^ fg=#f8f8f2 fs=
-//        ^^ fg=#f92672 fs=
-//          ^^^ fg=#f8f8f2 fs=
-//             ^^^^ fg=#e6db74 fs=
-</a>
-EOT;
 
         return new self();
         // ^ fg=#f92672 fs=

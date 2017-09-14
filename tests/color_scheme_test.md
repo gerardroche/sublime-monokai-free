@@ -1,6 +1,4 @@
 <!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Markdown" -->
-        <!-- This indented comment is to the preceding whitespace. -->
-<!-- ^ fg=#f8f8f2 bg=#272822 fs= -->
 
 # This is an <h1> tag
 <!-- ^ fg=#a6e22e fs=bold build>=3127 -->
