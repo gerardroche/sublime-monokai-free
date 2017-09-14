@@ -6,89 +6,349 @@
     /* x */
 /*  ^^^^^^^ fg=#75715e bg=#272822 fs= */
 
-@font-face {
-    /* ^ fg=#f92672 fs= */
-    font-family: Chunkfive; src: url('Chunkfive.otf');
-    /* ^ fg=#66d9ef fs=italic */
-    /*         ^ fg=#f8f8f2 fs= */
-    /*           ^^^^^^^^^ fg=#e6db74 fs= build>=3127 */
-    /*                    ^ fg=#f8f8f2 fs= */
-    /*                      ^^^ fg=#66d9ef fs=italic */
-    /*                         ^ fg=#f8f8f2 fs= */
-    /*                           ^^^ fg=#66d9ef fs= */
-    /*                              ^ fg=#f8f8f2 fs= */
-    /*                               ^^^^^^^^^^^^^^^ fg=#e6db74 fs= */
-    /*                                              ^^ fg=#f8f8f2 fs= */
-}
+    body {}
+/*  ^^^^ fg=#f92672 fs= */
+/*       ^^ fg=#f8f8f2 fs= */
 
-body, .x, #d {
-/* ^ fg=#f92672 fs= */
-/*  ^ fg=#f8f8f2 fs= */
-/*    ^^ fg=#a6e22e fs= */
-/*      ^ fg=#f8f8f2 fs= */
+    #id {}
+/*  ^^^ fg=#fd971f fs= */
+/*      ^^ fg=#f8f8f2 fs= */
+
+    .class {}
+/*  ^^^^^^ fg=#a6e22e fs= */
+/*         ^^ fg=#f8f8f2 fs= */
+
+    @font-face {}
+/*  ^^^^^^^^^^ fg=#f92672 fs= */
+/*             ^^ fg=#f8f8f2 fs= */
+
+    @media print {}
+/*  ^^^^^^ fg=#f92672 fs= */
+/*         ^^^^^ fg=#66d9ef fs= */
+/*               ^^ fg=#f8f8f2 fs= */
+
+    @counter-style none {}
+/*                 ^^^^ bg=#f92672 */
+
+    .x { var-deprecated- }
+/*       ^^^^^^^^^^^^^^^ bg=#fd5ff0 */
+
+    div p {}
+/*  ^^^ fg=#f92672 fs= */
+/*      ^ fg=#f92672 fs= */
+
+
+    p#x {}
+/*  ^ fg=#f92672 fs= */
+/*   ^^ fg=#fd971f fs= */
+
+    .x#y {}
+/*  ^^ fg=#a6e22e fs= */
+/*    ^^ fg=#fd971f fs= */
+
+    p, #q, .r {}
+/*  ^ fg=#f92672 fs= */
+/*   ^ fg=#f8f8f2 fs= */
+/*     ^^ fg=#fd971f fs= */
+/*       ^ fg=#f8f8f2 fs= */
+/*         ^^ fg=#a6e22e fs= */
+/*            ^^ fg=#f8f8f2 fs= */
+
+    #x > .y:first-child {}
+/*  ^^ fg=#fd971f fs= */
+/*     ^ fg=#f8f8f2 fs= */
+/*       ^^ fg=#a6e22e fs= */
+/*         ^^^^^^^^^^^^ fg=#a6e22e fs=italic */
+
+    div.x li:hover > ul {}
+/*  ^^^ fg=#f92672 fs= */
+/*     ^^ fg=#a6e22e fs= */
+/*        ^^ fg=#f92672 fs= */
+/*          ^^^^^^ fg=#a6e22e fs=italic */
+/*                 ^ fg=#f8f8f2 fs= */
+/*                   ^^ fg=#f92672 fs= */
+
+    p::before {}
+/*   ^^^ fg=#a6e22e fs=italic */
+
+    p::after {}
+/*   ^^^ fg=#a6e22e fs=italic */
+
+    .x::before {}
+/*  ^^ fg=#a6e22e fs= */
+/*    ^^^^^^^^ fg=#a6e22e fs=italic */
+
+    #x::after {}
+/*  ^^ fg=#fd971f fs= */
+/*    ^^^^^^^ fg=#a6e22e fs=italic */
+
+    p:not(.x) {}
+/*  ^ fg=#f92672 fs= */
+/*   ^^^^ fg=#a6e22e fs=italic */
+/*       ^ fg=#f8f8f2 fs= */
 /*        ^^ fg=#a6e22e fs= */
-/*           ^ fg=#f8f8f2 fs= */
-    color: #F0F0F0;
-    /* ^^ fg=#66d9ef fs=italic */
-    /*   ^ fg=#f8f8f2 fs= */
-    /*     ^^^^^^^ fg=#ae81ff fs= */
-    /*            ^ fg=#f8f8f2 fs= */
-    background: #600;
-    /* ^^^^^^^ fg=#66d9ef fs=italic */
-    /*        ^ fg=#f8f8f2 fs= */
-    /*          ^^^^ fg=#ae81ff fs= */
-    /*              ^ fg=#f8f8f2 fs= */
-    font-family: Chunkfive, sans;
-    /* ^^^^^^^^ fg=#66d9ef fs=italic */
-    /*         ^ fg=#f8f8f2 fs= */
-    /*           ^^^^^^^^^ fg=#e6db74 fs= build>=3127 */
-    /*                    ^ fg=#f8f8f2 fs= */
-    /*                      ^^^^ fg=#e6db74 fs= build>=3127 */
-    /*                          ^ fg=#f8f8f2 fs= */
-    display: none;
-    /*       ^^^^ fg=#ae81ff fs= */
-    display: block;
-    /*       ^^^^^ fg=#ae81ff fs= */
-    font-style: italic;
-    /*          ^ fg=#ae81ff fs= */
-    padding: 0.5em;
-    /*       ^^^ fg=#ae81ff fs= */
-    /*          ^^ fg=#f92672 fs= */
-    /*            ^ fg=#f8f8f2 fs= */
-    margin-top: 20px;
-    /* ^ fg=#66d9ef fs=italic */
-    /*        ^ fg=#f8f8f2 fs= */
-    /*          ^^ fg=#ae81ff fs= */
-    /*            ^^ fg=#f92672 fs= */
-}
+/*          ^ fg=#f8f8f2 fs= */
 
-@media print {
-/* ^ fg=#f92672 fs= */
-/*     ^ fg=#66d9ef fs= */
-    a[href^=http]::after {
+    p :nth-child(4n) {}
+/*    ^^^^^^^^^^ fg=#a6e22e fs=italic */
+/*              ^ fg=#f8f8f2 fs= */
+/*               ^ fg=#ae81ff fs= */
+/*                ^ fg=#f92672 fs= */
+/*                 ^ fg=#f8f8f2 fs= */
+
+    p:first-of-type + p {}
+/*   ^^^^^^^^^^^^^^ fg=#a6e22e fs=italic */
+/*                  ^ fg=#f8f8f2 fs= */
+/*                    ^ fg=#f92672 fs= */
+
+    a[lang] {}
 /*  ^ fg=#f92672 fs= */
 /*   ^ fg=#f8f8f2 fs= */
 /*    ^^^^ fg=#a6e22e fs= */
+/*        ^ fg=#f8f8f2 fs= */
+
+    a[lang="pt"] {}
+/*   ^ fg=#f8f8f2 fs= */
+/*    ^^^^ fg=#a6e22e fs= */
+/*        ^ fg=#f92672 fs= */
+/*         ^^^^ fg=#e6db74 fs= */
+/*             ^ fg=#f8f8f2 fs= */
+
+    a[lang~="en-us"] {}
+/*        ^^ fg=#f92672 fs= */
+
+    a[lang|="zh"] {}
+/*        ^^ fg=#f92672 fs= */
+
+    a[href^="#"] {}
+/*        ^^ fg=#f92672 fs= */
+
+    a[class^="main"] {}
+/*         ^^ fg=#f92672 fs= */
+
+    a[href$=".cn"] {}
+    a[href*="example"] {}
+    a[href^=http]::after {}
 /*        ^^ fg=#f92672 fs= */
 /*          ^^^^ fg=#e6db74 fs= */
 /*              ^ fg=#f8f8f2 fs= */
 /*               ^^^^^^^ fg=#a6e22e fs=italic */
-/*                       ^ fg=#f8f8f2 fs= */
-        content: attr(href)
-        /* ^ fg=#66d9ef fs=italic */
-        /*     ^ fg=#f8f8f2 fs= */
-        /*       ^^^^ fg=#66d9ef fs= */
-        /*           ^ fg=#f8f8f2 fs= */
-        /*            ^^^^ fg=#a6e22e fs= */
-        /*                ^ fg=#f8f8f2 fs= */
-    }
+
+    input[type="email" i] {}
+/*  ^^^^^ fg=#f92672 fs= */
+/*       ^ fg=#f8f8f2 fs= */
+/*        ^^^^ fg=#a6e22e fs= */
+/*            ^ fg=#f92672 fs= */
+/*             ^^^^^^^ fg=#e6db74 fs= */
+/*                     ^ fg=#f92672 fs= */
+/*                      ^ fg=#f8f8f2 fs= */
+
+    * [lang^=en] {}
+/*  ^ fg=#f92672 fs= */
+/*    ^ fg=#f8f8f2 fs= */
+/*     ^^^^ fg=#a6e22e fs= */
+/*         ^^ fg=#f92672 fs= */
+/*           ^^ fg=#e6db74 fs= */
+/*             ^ fg=#f8f8f2 fs= */
+
+    *.x {}
+/*  ^ fg=#f92672 fs= */
+/*   ^^ fg=#a6e22e fs= */
+
+    *#x {}
+/*  ^ fg=#f92672 fs= */
+/*   ^^ fg=#fd971f fs= */
+
+    .x + * {}
+/*  ^^ fg=#a6e22e fs= */
+/*     ^ fg=#f8f8f2 fs= */
+/*       ^ fg=#f92672 fs= */
+
+@font-face {
+    font-family: x;
+/*  ^^^^^^^^^^^ fg=#66d9ef fs=italic */
+/*             ^ fg=#f8f8f2 fs= */
+/*               ^ fg=#e6db74 fs= build>=3127 */
+/*                ^ fg=#f8f8f2 fs= */
+    src: url('x.ttf');
+/*  ^^^ fg=#66d9ef fs=italic */
+/*     ^ fg=#f8f8f2 fs= */
+/*       ^^^ fg=#66d9ef fs= */
+/*          ^ fg=#f8f8f2 fs= */
+/*           ^^^^^^^ fg=#e6db74 fs= */
+/*                  ^^ fg=#f8f8f2 fs= */
 }
 
-#container > .container:first-child {}
-/* ^ fg=#a6e22e fs= */
-/*         ^ fg=#f8f8f2 fs= */
-/*           ^^ fg=#a6e22e fs= */
-/*                     ^^ fg=#a6e22e fs=italic */
+.x {
 
-pre code {}
-/*  ^ fg=#f92672 fs= */
+    background-color: #ffffcc;
+/*  ^ fg=#66d9ef fs=italic */
+/*                  ^ fg=#f8f8f2 fs= */
+/*                    ^^^^^^^ fg=#ae81ff fs= */
+/*                           ^ fg=#f8f8f2 fs= */
+
+    background: green;
+/*              ^^^^^ fg=#66d9ef fs= */
+
+    background: no-repeat center/80% url("x");
+/*              ^^^^^^^^^ fg=#ae81ff fs= */
+/*                        ^^^^^^ fg=#ae81ff fs= */
+/*                              ^ fg=#f8f8f2 fs= */
+/*                               ^^ fg=#ae81ff fs= */
+/*                                 ^ fg=#f92672 fs= */
+/*                                   ^^^ fg=#66d9ef fs= */
+/*                                      ^ fg=#f8f8f2 fs= */
+/*                                       ^^^ fg=#e6db74 fs= */
+/*                                          ^^ fg=#f8f8f2 fs= */
+
+    background: url("x") repeat-y;
+/*              ^^^ fg=#66d9ef fs= */
+/*                 ^ fg=#f8f8f2 fs= */
+/*                  ^^^ fg=#e6db74 fs= */
+/*                     ^ fg=#f8f8f2 fs= */
+/*                       ^^^^^^^^ fg=#ae81ff fs= */
+/*                               ^ fg=#f8f8f2 fs= */
+
+    border-radius: 10px 5% / 20px 25em 30px 35em;
+/*                 ^^ fg=#ae81ff fs= */
+/*                   ^^ fg=#f92672 fs= */
+/*                      ^ fg=#ae81ff fs= */
+/*                       ^ fg=#f92672 fs= */
+/*                         ^ fg=#f8f8f2 fs= */
+/*                           ^^ fg=#ae81ff fs= */
+/*                             ^^ fg=#f92672 fs= */
+/*                                ^^ fg=#ae81ff fs= */
+/*                                  ^^ fg=#f92672 fs= */
+/*                                     ^^ fg=#ae81ff fs= */
+/*                                       ^^ fg=#f92672 fs= */
+/*                                          ^^ fg=#ae81ff fs= */
+/*                                            ^^ fg=#f92672 fs= */
+/*                                              ^ fg=#f8f8f2 fs= */
+
+    border: 1px #aaaaaa solid;
+/*  ^ fg=#66d9ef fs=italic */
+/*        ^ fg=#f8f8f2 fs= */
+/*          ^ fg=#ae81ff fs= */
+/*           ^^ fg=#f92672 fs= */
+/*              ^^^^^^^ fg=#ae81ff fs= */
+/*                      ^^^^^ fg=#ae81ff fs= */
+/*                           ^ fg=#f8f8f2 fs= */
+
+    border: medium dashed green;
+/*          ^^^^^^ fg=#ae81ff fs= */
+/*                 ^^^^^^ fg=#ae81ff fs= */
+/*                        ^^^^^ fg=#66d9ef fs= */
+
+    color: currentcolor;
+/*  ^^^^^ fg=#66d9ef fs=italic */
+/*       ^ fg=#f8f8f2 fs= */
+/*         ^^^^^^^^^^^^ fg=#66d9ef fs= */
+/*                     ^ fg=#f8f8f2 fs= */
+
+    color: red;
+    /*     ^^^ fg=#66d9ef fs= */
+    /*        ^ fg=#f8f8f2 fs= */
+
+    color: #0f0;
+    /*     ^^^^ fg=#ae81ff fs= */
+
+    color: #00ff00;
+    /*     ^^^^^^^ fg=#ae81ff fs= */
+
+    color: #00ff0080;
+    /*     ^^^^^^^^^ fg=#ae81ff fs= build>=3127 */
+    /*              ^ fg=#f8f8f2 fs= */
+
+    color: rgb(34, 12, 64, 0.3);
+    /*     ^^^ fg=#66d9ef fs= */
+    /*        ^ fg=#f8f8f2 fs= */
+    /*         ^^ fg=#ae81ff fs= */
+    /*           ^ fg=#f8f8f2 fs= */
+    /*             ^^ fg=#ae81ff fs= */
+    /*               ^ fg=#f8f8f2 fs= */
+    /*                 ^^ fg=#ae81ff fs= */
+    /*                   ^ fg=#f8f8f2 fs= */
+    /*                     ^^^ fg=#ae81ff fs= */
+    /*                        ^^ fg=#f8f8f2 fs= */
+
+    color: hsl(30, 100%, 50%, 0.3);
+    /*     ^^^ fg=#66d9ef fs= */
+    /*        ^ fg=#f8f8f2 fs= */
+    /*         ^^ fg=#ae81ff fs= */
+    /*           ^ fg=#f8f8f2 fs= */
+    /*             ^^^ fg=#ae81ff fs= */
+    /*                ^ fg=#f92672 fs= */
+    /*                 ^ fg=#f8f8f2 fs= */
+    /*                   ^^ fg=#ae81ff fs= */
+    /*                     ^ fg=#f92672 fs= */
+    /*                      ^ fg=#f8f8f2 fs= */
+    /*                        ^^^ fg=#ae81ff fs= */
+    /*                           ^^ fg=#f8f8f2 fs= */
+
+    content: "_\00A0_";
+/*  ^^^^^^^ fg=#66d9ef fs=italic */
+/*         ^ fg=#f8f8f2 fs= */
+/*           ^^ fg=#e6db74 fs= */
+/*             ^^^^^ fg=#ae81ff fs= */
+/*                  ^^ fg=#e6db74 fs= */
+/*                    ^ fg=#f8f8f2 fs= */
+
+    content: close-quote;
+/*           ^ fg=#ae81ff fs= */
+/*                      ^ fg=#f8f8f2 fs= */
+
+    content: normal;
+/*           ^ fg=#ae81ff fs= */
+    display: block;
+/*           ^ fg=#ae81ff fs= */
+    display: inline;
+/*           ^ fg=#ae81ff fs= */
+    display: none;
+/*           ^ fg=#ae81ff fs= */
+    float: left;
+/*         ^ fg=#ae81ff fs= */
+
+    font-family: X, sans-serif;
+/*               ^ fg=#e6db74 fs= build>=3127 */
+/*                ^ fg=#f8f8f2 fs= */
+/*                  ^^^^^^^^^^ fg=#66d9ef fs= */
+/*                            ^ fg=#f8f8f2 fs= */
+
+    font-family: "x", sans-serif;
+/*               ^^^ fg=#e6db74 fs= */
+/*                  ^ fg=#f8f8f2 fs= */
+/*                    ^^^^^^^^^^ fg=#66d9ef fs= */
+/*                              ^ fg=#f8f8f2 fs= */
+
+    font-family: cursive;
+/*               ^ fg=#66d9ef fs= */
+
+    font-family: fantasy;
+/*               ^ fg=#66d9ef fs= */
+    font-family: monospace;
+/*               ^ fg=#66d9ef fs= */
+    font-family: sans-serif;
+/*               ^ fg=#66d9ef fs= */
+    font-family: serif;
+/*               ^ fg=#66d9ef fs= */
+
+    font-size: 14px;
+/*             ^^ fg=#ae81ff fs= */
+/*               ^^ fg=#f92672 fs= */
+
+    margin: 2px 1em 0 auto;
+/*          ^ fg=#ae81ff fs= */
+/*           ^^ fg=#f92672 fs= */
+/*              ^ fg=#ae81ff fs= */
+/*               ^^ fg=#f92672 fs= */
+/*                  ^ fg=#ae81ff fs= */
+/*                    ^^^^ fg=#ae81ff fs= */
+
+    overflow: hidden;
+/*            ^ fg=#ae81ff fs= */
+/*                  ^ fg=#f8f8f2 fs= */
+
+    padding: 10px 3% 20px;
+/*                ^ fg=#ae81ff fs= */
+/*                 ^ fg=#f92672 fs= */
+}

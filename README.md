@@ -20,12 +20,15 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 ### Manual installation
 
-1. Close Sublime Text.
-2. Download or clone this repository to a directory named **`MonokaiFree`** in the Sublime Text Packages directory for your platform:
-    * Linux: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/.config/sublime-text-3/Packages/MonokaiFree`
-    * OS X: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/MonokaiFree`
-    * Windows: `git clone https://github.com/gerardroche/sublime-monokai-free.git %APPDATA%\Sublime/ Text/ 3/Packages/MonokaiFree`
-3. Done!
+Close Sublime Text then download or clone this repository to a directory named `MonokaiFree` in the Sublime Text Packages directory for your platform:
+
+* Linux: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/.config/sublime-text-3/Packages/MonokaiFree`
+* OSX: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/MonokaiFree`
+* Windows: `git clone https://github.com/gerardroche/sublime-monokai-free.git %APPDATA%\Sublime/ Text/ 3/Packages/MonokaiFree`
+
+## ACTIVATE
+
+Go to `Menu > Preferences > Color Scheme...` and select the MonokaiFree color scheme, or go to `Menu > Preferences > Settings` and add `"color_scheme": "Packages/MonokaiFree/MonokaiFree.tmTheme"`.
 
 ## PALETTE
 
@@ -37,26 +40,15 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 The Boxy Monokai theme is a beautiful, soft, and clean theme that works well with MonokaiFree.
 
-No customisations are required, however for enhanced file specific icons install [A File Icon](https://github.com/ihodev/a-file-icon).
-
 ### [Gruvbox](https://github.com/Briles/gruvbox)
 
 The Gruvbox is a beautiful, sharp, and clean theme that works well with MonokaiFree.
 
-To make the tabs the same color as the Monokai color scheme background:
+To make the active tab background the same color as the MonokaiFree background: create a file based on the name of the gruvbox theme variant that you are using e.g. if you are using `gruvbox (Dark) (Hard)` then create file named `gruvbox (Dark) (Hard).sublime-theme` in the `User` directory (`Menu > Preferences > Browse Packages...`) and add the following:
 
-`Menu > Preferences > Browse Packages...`
-
-Create a file based on the name of the gruvbox theme you are using e.g. if you are using `gruvbox (Dark) (Hard)` then create file named `gruvbox (Dark) (Hard).sublime-theme` in the `User` directory and add the following:
-
-```
+```json
 [
-    // Make active tab bg the same as Monokai bg
-    {
-        "class": "tab_control",
-        "attributes": [ "selected" ],
-        "layer0.tint": [39, 40, 34]
-    }
+    { "class": "tab_control", "attributes": ["selected"], "layer0.tint": [39, 40, 34] }
 ]
 ```
 
@@ -67,15 +59,6 @@ Your issue reports and pull requests are always welcome.
 ### Tests
 
 To run the tests: install [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit), which a testing framework for ST color schemes, open the Command Palette, type "ColorSchemeUnit: Test Suite", and press Enter.
-
-### Resources
-
-* Emacs: [oneKelvinSmith/monokai-emacs](https://github.com/oneKelvinSmith/monokai-emacs)
-* Emacs: [sjrmanning/darkokai](https://github.com/sjrmanning/darkokai) (dark variant)
-* Atom: [kevinsawicki/monokai](https://github.com/kevinsawicki/monokai)
-* Studio: [studiostyl.es/brighter-monokai-variant](http://studiostyl.es/schemes/brighter-monokai-variant)
-* Terminal: [Mayccoll/Gogh](https://github.com/Mayccoll/Gogh/blob/master/content/themes.md#monokai-dark)
-* Gruvbox: [morhetz/gruvbox](https://github.com/morhetz/gruvbox)
 
 ## LICENSE
 

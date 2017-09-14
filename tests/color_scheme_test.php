@@ -661,7 +661,7 @@ if (isset($x) && is_callable($x)) {
     //                      ^ fg=#f8f8f2 fs=
 
     $x = <<<EOT
-    //   ^^^ fg=#e6db74 fs=
+    //   ^^^ fg=#f92672 fs=
     //      ^^^ fg=#f92672 fs=
 <div>
     <p>{$x}</p>
@@ -707,17 +707,15 @@ if (isset($x) && is_callable($x)) {
 EOT;
 
     $x = <<<'EOT'
-    //   ^^^ fg=#e6db74 fs=
-    //      ^ fg=#e6db74 fs=
+    //   ^^^ fg=#f92672 fs=
+    //      ^ fg=#f92672 fs=
     //       ^^^ fg=#f92672 fs=
-    //          ^ fg=#e6db74 fs=
+    //          ^ fg=#f92672 fs=
 <div>
     <p>{$x}</p>
 //  ^^^^^^^^^^^ fg=#e6db74 fs=
 </div>
 EOT;
-
-}
 
 if (true) {
 // ^ fg=#f8f8f2 fs=

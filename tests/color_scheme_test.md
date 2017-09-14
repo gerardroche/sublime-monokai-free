@@ -4,81 +4,68 @@
 <!-- ^ fg=#a6e22e fs=bold build>=3127 -->
 
 ## This is an <h2> tag
+#^ fg=#3e3d32 fs=bold build>=3127
 <!-- ^ fg=#a6e22e fs=bold build>=3127 -->
 
 ### This is an <h3> tag
+# ^ fg=#3e3d32 fs=bold build>=3127
 <!-- ^ fg=#a6e22e fs=bold build>=3127 -->
 
 #### This is an <h4> tag
+# ^ fg=#3e3d32 fs=bold build>=3127
 <!-- ^ fg=#a6e22e fs=bold build>=3127 -->
 
 ##### This is an <h5> tag
+# ^ fg=#3e3d32 fs=bold build>=3127
 <!--  ^ fg=#a6e22e fs=bold build>=3127 -->
 
 ###### This is an <h6> tag
-<!-- ^ fg=#75715e fs=bold build>=3127 -->
+# ^ fg=#3e3d32 fs=bold build>=3127 -->
 <!--   ^ fg=#a6e22e fs=bold build>=3127 -->
 
 # EMPHASIS
 
 This is *italic text* and _so is this_.
 <!-- ^^^ fg=#f8f8f2 fs= -->
-<!--    ^ fg=#75715e fs=italic -->
+<!--    ^ fg=#3e3d32 fs=italic -->
 <!--     ^^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
-<!--                ^ fg=#75715e fs=italic -->
+<!--                ^ fg=#3e3d32 fs=italic -->
 <!--                 ^^^^^ fg=#f8f8f2 fs= -->
-<!--                      ^ fg=#75715e fs=italic -->
+<!--                      ^ fg=#3e3d32 fs=italic -->
 <!--                       ^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
-<!--                                 ^ fg=#75715e fs=italic -->
+<!--                                 ^ fg=#3e3d32 fs=italic -->
 <!--                                  ^ fg=#f8f8f2 fs= -->
 
 This is **bold text** and __so is this__.
 <!-- ^^^ fg=#f8f8f2 fs= -->
-<!--    ^^ fg=#75715e fs=bold -->
+<!--    ^^ fg=#3e3d32 fs=bold -->
 <!--      ^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-<!--               ^^ fg=#75715e fs=bold -->
+<!--               ^^ fg=#3e3d32 fs=bold -->
 <!--                 ^^^^^ fg=#f8f8f2 fs= -->
-<!--                      ^^ fg=#75715e fs=bold -->
+<!--                      ^^ fg=#3e3d32 fs=bold -->
 <!--                        ^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-<!--                                  ^^ fg=#75715e fs=bold -->
+<!--                                  ^^ fg=#3e3d32 fs=bold -->
 <!--                                    ^ fg=#f8f8f2 fs= -->
 
 If you like *you **can** combine them*
 <!-- ^^^^^^^ fg=#f8f8f2 fs= -->
-<!--        ^ fg=#75715e fs=italic -->
+<!--        ^ fg=#3e3d32 fs=italic -->
 <!--         ^^^^ fg=#f8f8f2 fs=italic -->
-<!--             ^^ fg=#75715e fs=italic bold -->
+<!--             ^^ fg=#3e3d32 fs=italic bold -->
 <!--               ^^^ fg=#f8f8f2 fs=italic bold -->
-<!--                  ^^ fg=#75715e fs=italic bold -->
+<!--                  ^^ fg=#3e3d32 fs=italic bold -->
 <!--                    ^^^^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
-<!--                                 ^ fg=#75715e fs=italic -->
+<!--                                 ^ fg=#3e3d32 fs=italic -->
 
 If you like **you *can* combine them**
 <!-- ^^^^^^^ fg=#f8f8f2 fs= -->
-<!--        ^^ fg=#75715e fs=bold -->
+<!--        ^^ fg=#3e3d32 fs=bold -->
 <!--          ^^^^ fg=#f8f8f2 fs=bold -->
-<!--              ^ fg=#75715e fs=bold italic -->
+<!--              ^ fg=#3e3d32 fs=bold italic -->
 <!--               ^^^ fg=#f8f8f2 fs=bold italic -->
-<!--                  ^ fg=#75715e fs=bold italic -->
+<!--                  ^ fg=#3e3d32 fs=bold italic -->
 <!--                   ^^^^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-<!--                                ^^ fg=#75715e fs=bold -->
-
-# Lists
-
-Unordered
-
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-
-Ordered
-
-1. Item 1
-2. Item 2
-3. Item 3
-   * Item 3a
-   * Item 3b
+<!--                                ^^ fg=#3e3d32 fs=bold -->
 
 # Images
 
@@ -89,18 +76,23 @@ Ordered
 <!--        ^^^ fg=#66d9ef fs=underline -->
 <!--           ^ fg=#f8f8f2 fs= -->
 
-Format: ![Alt](url)
-<!-- ^^^^^ fg=#f8f8f2 fs= -->
-<!--      ^^^ fg=#e6db74 fs= -->
-<!--         ^^ fg=#f8f8f2 fs= -->
-<!--           ^^^ fg=#66d9ef fs=underline -->
-<!--              ^ fg=#f8f8f2 fs= -->
+.... ![Alt][1]
+<!-- ^^ fg=#f8f8f2 fs= -->
+<!--   ^^^ fg=#e6db74 fs= -->
+<!--      ^^ fg=#f8f8f2 fs= -->
+<!--        ^ fg=#ae81ff fs= -->
+<!--         ^ fg=#f8f8f2 fs= -->
+
+[12345]: http://github.com
+<!-- ^ fg=#ae81ff fs= -->
+<!--  ^^ fg=#f8f8f2 fs= -->
+<!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 
 # Links
 
-.... http://github.com - automatic
-<!-- ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127 -->
-<!--                  ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+http://github.com - automatic
+<!-- ^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127 -->
+<!--             ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
 
 ..... [Alt](url)
 <!--  ^ fg=#f8f8f2 fs= -->
@@ -108,6 +100,18 @@ Format: ![Alt](url)
 <!--      ^^ fg=#f8f8f2 fs= -->
 <!--        ^^^ fg=#66d9ef fs=underline -->
 <!--           ^ fg=#f8f8f2 fs= -->
+
+.... [Alt][1]
+<!-- ^ fg=#f8f8f2 fs= -->
+<!--  ^^^ fg=#e6db74 fs= -->
+<!--     ^^ fg=#f8f8f2 fs= -->
+<!--       ^ fg=#ae81ff fs= -->
+<!--        ^ fg=#f8f8f2 fs= -->
+
+[12345]: http://github.com
+<!-- ^ fg=#ae81ff fs= -->
+<!--  ^^ fg=#f8f8f2 fs= -->
+<!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 
 # Blockquotes
 
@@ -117,6 +121,24 @@ As Kanye West said:
   > the present is our past.
 # ^ fg=#75715e bg=#75715e fs=italic -->
 <!-- ^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
+
+# Lists
+
+Unordered
+
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
+
+Ordered
+
+1. Item 1
+2. Item 2
+3. Item 3
+   * Item 3a
+   * Item 3b
 
 # Escapes
 
@@ -131,41 +153,35 @@ As Kanye West said:
 # Inline code
 
 I think you should use an `<addr>` element here instead.
-<!--                  ^^^^ fg=#f8f8f2 fs= -->
-<!--                      ^ fg=#75715e fs= -->
-<!--                       ^^^^^^ fg=#f8f8f2 fs= -->
-<!--                             ^ fg=#75715e fs= -->
-<!--                              ^^^ fg=#f8f8f2 fs= -->
+<!--                  ^^^^ fg=#f8f8f2 bg=#272822 fs= -->
+<!--                      ^ fg=#e6db74 bg=#3e3d3240 fs= -->
+<!--                       ^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= -->
+<!--                             ^ fg=#e6db74 bg=#3e3d3240 fs= -->
+<!--                              ^^^ fg=#f8f8f2 bg=#272822 fs= -->
 
 # Syntax highlighting
 
 Here's an example of how you can use syntax highlighting with GitHub Flavored Markdown:
 
 ```javascript
-#^^ fg=#f8f8f2 bg=#3e3d32 fs= build>=3127 -->
-#  ^^^^^^^^^^ fg=#ae81ff bg=#3e3d32 fs= build>=3127
-function fancyAlert(arg) {
-<!-- ^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 bg=#3e3d32 fs= build>=3127 -->
-    if(arg) {
-        $.facebox({div:'#foo'})
-    }
-}
+#^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
+#  ^^^^^^^^^^ fg=#ae81ff bg=#3e3d3240 fs= build>=3127
+function x() {}
+<!-- ^^^^^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
 ```
-#^^ fg=#f8f8f2 bg=#3e3d32 fs= build>=3127 -->
+#^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
 
 You can also simply indent your code by four spaces:
 
-    function fancyAlert(arg) {
-    <!-- ^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 bg=#3e3d32 fs= -->
-        if(arg) {
-          $.facebox({div:'#foo'})
-        }
+    function x() {
+    # ^^^^^^^^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= -->
     }
-<!--^ fg=#f8f8f2 bg=#3e3d32 fs= build>=3127 -->
+#^^^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
 
 Here's an example of Python code without syntax highlighting:
 
     def foo():
+    # ^^^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
       if not bar:
         return True
 
@@ -180,11 +196,14 @@ Here's an example of Python code without syntax highlighting:
   <!--    ^^^^^^^ fg=#f8f8f2 fs= -->
   <!--           ^^^ fg=#f92672 fs= build>=3127 -->
   <!--              ^^^^^^^^^ fg=#f8f8f2 fs= -->
-- [x] **formatting** support
-  <!--^^ fg=#75715e fs=bold -->
+- [x] **formatting** *support*
+  <!--^^ fg=#3e3d32 fs=bold -->
   <!--  ^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-  <!--            ^^ fg=#75715e fs=bold -->
-  <!--              ^^^^^^^^ fg=#f8f8f2 fs= -->
+  <!--            ^^ fg=#3e3d32 fs=bold -->
+  <!--              ^ fg=#f8f8f2 fs= -->
+  <!--               ^ fg=#3e3d32 fs=italic -->
+  <!--                ^^^^^^^ fg=#f8f8f2 fs=italic -->
+  <!--                       ^ fg=#3e3d32 fs=italic -->
 - [x] @mentions, #refs, [links]()
   <!-- ^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
   <!--                   ^^^^^^^^ fg=#f8f8f2 fs= build>=3127 -->
@@ -226,7 +245,7 @@ Typing an @ symbol, followed by a username, will notify that person to come and 
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 <!-- ^^^^^^^^^ fg=#f8f8f2 fs= -->
 <!--          ^^^^^^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127-->
-<!--                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+<!--                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= build>=3142 -->
 
 # Strikethrough
 
