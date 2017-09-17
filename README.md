@@ -38,19 +38,7 @@ Go to `Menu > Preferences > Color Scheme...` and select the MonokaiFree color sc
 
 ### [Boxy](https://github.com/ihodev/sublime-boxy)
 
-The Boxy Monokai theme is a beautiful, soft, and clean theme that works well with MonokaiFree.
-
-### [Gruvbox](https://github.com/Briles/gruvbox)
-
-The Gruvbox is a beautiful, sharp, and clean theme that works well with MonokaiFree.
-
-To make the active tab background the same color as the MonokaiFree background: create a file based on the name of the gruvbox theme variant that you are using e.g. if you are using `gruvbox (Dark) (Hard)` then create file named `gruvbox (Dark) (Hard).sublime-theme` in the `User` directory (`Menu > Preferences > Browse Packages...`) and add the following:
-
-```json
-[
-    { "class": "tab_control", "attributes": ["selected"], "layer0.tint": [39, 40, 34] }
-]
-```
+The Boxy Monokai theme is a beautiful theme that works well with MonokaiFree.
 
 ## CONTRIBUTING
 
