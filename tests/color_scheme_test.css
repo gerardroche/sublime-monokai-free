@@ -56,7 +56,7 @@
 
     #x > .y:first-child {}
 /*  ^^ fg=#fd971f fs= */
-/*     ^ fg=#f8f8f2 fs= */
+/*     ^ fg=#f92672 fs= */
 /*       ^^ fg=#a6e22e fs= */
 /*         ^^^^^^^^^^^^ fg=#a6e22e fs=italic */
 
@@ -65,7 +65,7 @@
 /*     ^^ fg=#a6e22e fs= */
 /*        ^^ fg=#f92672 fs= */
 /*          ^^^^^^ fg=#a6e22e fs=italic */
-/*                 ^ fg=#f8f8f2 fs= */
+/*                 ^ fg=#f92672 fs= */
 /*                   ^^ fg=#f92672 fs= */
 
     p::before {}
@@ -98,7 +98,7 @@
 
     p:first-of-type + p {}
 /*   ^^^^^^^^^^^^^^ fg=#a6e22e fs=italic */
-/*                  ^ fg=#f8f8f2 fs= */
+/*                  ^ fg=#f92672 fs= */
 /*                    ^ fg=#f92672 fs= */
 
     a[lang] {}
@@ -161,7 +161,7 @@
 
     .x + * {}
 /*  ^^ fg=#a6e22e fs= */
-/*     ^ fg=#f8f8f2 fs= */
+/*     ^ fg=#f92672 fs= */
 /*       ^ fg=#f92672 fs= */
 
 @font-face {

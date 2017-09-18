@@ -93,6 +93,7 @@
 <dict><key>scope</key><string>punctuation.section.brackets.end</string>         <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>punctuation.section.group.begin</string>          <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>punctuation.section.group.end</string>            <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>punctuation.separator.combinator.css</string>     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.separator.inheritance.ruby</string>   <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.separator.key-value.ruby</string>     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>storage.modifier</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
@@ -135,24 +136,34 @@
 <!-- Markup -->
 
 <dict><key>scope</key><string>markup.bold markup.italic</string>                        <key>settings</key><dict><key>fontStyle</key><string>bold italic</string></dict></dict>
-<dict><key>scope</key><string>markup.bold punctuation.definition.bold</string>          <key>settings</key><dict><key>foreground</key><string>#3e3d32</string></dict></dict>
+<dict><key>scope</key><string>markup.bold punctuation.definition.bold</string>          <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.bold</string>                                      <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.changed.git_gutter</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>markup.changed</string>                                   <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>markup.deleted.git_gutter</string>                        <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>markup.deleted</string>                                   <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>markup.heading punctuation.definition.heading</string>    <key>settings</key><dict><key>foreground</key><string>#3e3d32</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline markup.underline.link</string>                <key>settings</key><dict><key>fontStyle</key><string>bold underline</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline markup.underline.link</string>                <key>settings</key><dict><key>fontStyle</key><string>bold underline</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline punctuation.definition.link</string>          <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline punctuation.definition.metadata</string>      <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section meta.link.reference punctuation.definition.constant</string>   <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section meta.link.reference punctuation.definition.link</string>       <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section meta.link.reference punctuation.definition.metadata</string>   <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.heading entity.name.section</string>               <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+<dict><key>scope</key><string>markup.heading punctuation.definition.heading</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.heading</string>                                   <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.ignored.git_gutter</string>                        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.ignored</string>                                   <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.inserted.git_gutter</string>                       <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.inserted</string>                                  <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.italic markup.bold</string>                        <key>settings</key><dict><key>fontStyle</key><string>italic bold</string></dict></dict>
-<dict><key>scope</key><string>markup.italic punctuation.definition.italic</string>      <key>settings</key><dict><key>foreground</key><string>#3e3d32</string></dict></dict>
+<dict><key>scope</key><string>markup.italic punctuation.definition.italic</string>      <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.italic</string>                                    <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>markup.list.unnumbered.bullet punctuation.definition.list_item</string>       <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.quote punctuation.definition.blockquote</string>   <key>settings</key><dict><key>background</key><string>#75715e</string><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.quote</string>                                     <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>markup.raw</string>                                       <key>settings</key><dict><key>foreground</key><string>#e6db74</string><key>background</key><string>#3e3d3240</string></dict></dict>
+<dict><key>scope</key><string>markup.raw punctuation</string>                           <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.raw</string>                                       <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>markup.underline.link</string>                            <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>markup.underline</string>                                 <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
 <dict><key>scope</key><string>markup.untracked.git_gutter</string>                      <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>

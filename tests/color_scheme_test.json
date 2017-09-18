@@ -3,6 +3,7 @@
     {
 //  ^ fg=#f8f8f2 fs=
 
+        // TODO should the keys be a alternate colour?
         "title": "apples",
     //  ^^^^^^^ fg=#e6db74 fs=
     //         ^ fg=#f8f8f2 fs=

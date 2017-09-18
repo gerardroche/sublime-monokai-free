@@ -6,6 +6,8 @@ SELECT * FROM x;
 --       ^^^^ fg=#f92672 fs=
 --            ^^ fg=#f8f8f2 fs=
 
+
+
 SELECT 'x''y';
 -- ^ fg=#f92672 fs=
 --     ^^ fg=#e6db74 fs=

@@ -1,71 +1,71 @@
 <!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Markdown" -->
 
 # This is an <h1> tag
-<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
 
 ## This is an <h2> tag
-#^ fg=#3e3d32 fs=bold build>=3127
-<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+#^ fg=#75715e fs=bold build>=3127
+<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
 
 ### This is an <h3> tag
-# ^ fg=#3e3d32 fs=bold build>=3127
-<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+# ^ fg=#75715e fs=bold build>=3127
+<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
 
 #### This is an <h4> tag
-# ^ fg=#3e3d32 fs=bold build>=3127
-<!-- ^ fg=#a6e22e fs=bold build>=3127 -->
+# ^ fg=#75715e fs=bold build>=3127
+<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
 
 ##### This is an <h5> tag
-# ^ fg=#3e3d32 fs=bold build>=3127
-<!--  ^ fg=#a6e22e fs=bold build>=3127 -->
+# ^ fg=#75715e fs=bold build>=3127
+<!--  ^ fg=#e6db74 fs=bold build>=3127 -->
 
 ###### This is an <h6> tag
-# ^ fg=#3e3d32 fs=bold build>=3127 -->
-<!--   ^ fg=#a6e22e fs=bold build>=3127 -->
+# ^ fg=#75715e fs=bold build>=3127 -->
+<!--   ^ fg=#e6db74 fs=bold build>=3127 -->
 
 # EMPHASIS
 
 This is *italic text* and _so is this_.
 <!-- ^^^ fg=#f8f8f2 fs= -->
-<!--    ^ fg=#3e3d32 fs=italic -->
+<!--    ^ fg=#75715e fs=italic -->
 <!--     ^^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
-<!--                ^ fg=#3e3d32 fs=italic -->
+<!--                ^ fg=#75715e fs=italic -->
 <!--                 ^^^^^ fg=#f8f8f2 fs= -->
-<!--                      ^ fg=#3e3d32 fs=italic -->
+<!--                      ^ fg=#75715e fs=italic -->
 <!--                       ^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
-<!--                                 ^ fg=#3e3d32 fs=italic -->
+<!--                                 ^ fg=#75715e fs=italic -->
 <!--                                  ^ fg=#f8f8f2 fs= -->
 
 This is **bold text** and __so is this__.
 <!-- ^^^ fg=#f8f8f2 fs= -->
-<!--    ^^ fg=#3e3d32 fs=bold -->
+<!--    ^^ fg=#75715e fs=bold -->
 <!--      ^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-<!--               ^^ fg=#3e3d32 fs=bold -->
+<!--               ^^ fg=#75715e fs=bold -->
 <!--                 ^^^^^ fg=#f8f8f2 fs= -->
-<!--                      ^^ fg=#3e3d32 fs=bold -->
+<!--                      ^^ fg=#75715e fs=bold -->
 <!--                        ^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-<!--                                  ^^ fg=#3e3d32 fs=bold -->
+<!--                                  ^^ fg=#75715e fs=bold -->
 <!--                                    ^ fg=#f8f8f2 fs= -->
 
 If you like *you **can** combine them*
 <!-- ^^^^^^^ fg=#f8f8f2 fs= -->
-<!--        ^ fg=#3e3d32 fs=italic -->
+<!--        ^ fg=#75715e fs=italic -->
 <!--         ^^^^ fg=#f8f8f2 fs=italic -->
-<!--             ^^ fg=#3e3d32 fs=italic bold -->
+<!--             ^^ fg=#75715e fs=italic bold -->
 <!--               ^^^ fg=#f8f8f2 fs=italic bold -->
-<!--                  ^^ fg=#3e3d32 fs=italic bold -->
+<!--                  ^^ fg=#75715e fs=italic bold -->
 <!--                    ^^^^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
-<!--                                 ^ fg=#3e3d32 fs=italic -->
+<!--                                 ^ fg=#75715e fs=italic -->
 
 If you like **you *can* combine them**
 <!-- ^^^^^^^ fg=#f8f8f2 fs= -->
-<!--        ^^ fg=#3e3d32 fs=bold -->
+<!--        ^^ fg=#75715e fs=bold -->
 <!--          ^^^^ fg=#f8f8f2 fs=bold -->
-<!--              ^ fg=#3e3d32 fs=bold italic -->
+<!--              ^ fg=#75715e fs=bold italic -->
 <!--               ^^^ fg=#f8f8f2 fs=bold italic -->
-<!--                  ^ fg=#3e3d32 fs=bold italic -->
+<!--                  ^ fg=#75715e fs=bold italic -->
 <!--                   ^^^^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-<!--                                ^^ fg=#3e3d32 fs=bold -->
+<!--                                ^^ fg=#75715e fs=bold -->
 
 # Images
 
@@ -113,6 +113,36 @@ http://github.com - automatic
 <!--  ^^ fg=#f8f8f2 fs= -->
 <!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 
+# [X](y)
+# ^ fg=#75715e fs=bold
+#  ^ fg=#e6db74 fs=bold
+#   ^^ fg=#75715e fs=bold
+#     ^ fg=#66d9ef fs=bold underline
+#      ^ fg=#75715e fs=bold
+
+# [X][1]
+# ^ fg=#75715e fs=bold
+#  ^ fg=#e6db74 fs=bold
+#   ^^ fg=#75715e fs=bold
+#     ^ fg=#ae81ff fs=bold
+#      ^ fg=#75715e fs=bold
+
+## [X](y)
+#^ fg=#75715e fs=bold
+#  ^ fg=#75715e fs=bold
+#   ^ fg=#e6db74 fs=bold
+#    ^^ fg=#75715e fs=bold
+#      ^ fg=#66d9ef fs=bold underline
+#       ^ fg=#75715e fs=bold
+
+### [X](y)
+#^^ fg=#75715e fs=bold
+#   ^ fg=#75715e fs=bold
+#    ^ fg=#e6db74 fs=bold
+#     ^^ fg=#75715e fs=bold
+#       ^ fg=#66d9ef fs=bold underline
+#        ^ fg=#75715e fs=bold
+
 # Blockquotes
 
 As Kanye West said:
@@ -129,8 +159,11 @@ Unordered
 * Item 1
 * Item 2
   * Item 2a
+# ^ fg=#75715e fs= -->
+#   ^ fg=#f8f8f2 fs= -->
   * Item 2b
-
+# ^ fg=#75715e fs= -->
+#   ^ fg=#f8f8f2 fs= -->
 
 Ordered
 
@@ -138,7 +171,11 @@ Ordered
 2. Item 2
 3. Item 3
    * Item 3a
+#  ^ fg=#75715e fs= -->
+#    ^ fg=#f8f8f2 fs= -->
    * Item 3b
+#  ^ fg=#75715e fs= -->
+#    ^ fg=#f8f8f2 fs= -->
 
 # Escapes
 
@@ -154,9 +191,9 @@ Ordered
 
 I think you should use an `<addr>` element here instead.
 <!--                  ^^^^ fg=#f8f8f2 bg=#272822 fs= -->
-<!--                      ^ fg=#e6db74 bg=#3e3d3240 fs= -->
-<!--                       ^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= -->
-<!--                             ^ fg=#e6db74 bg=#3e3d3240 fs= -->
+<!--                      ^ fg=#75715e bg=#272822 fs= -->
+<!--                       ^^^^^^ fg=#fd971f bg=#272822 fs= -->
+<!--                             ^ fg=#75715e bg=#272822 fs= -->
 <!--                              ^^^ fg=#f8f8f2 bg=#272822 fs= -->
 
 # Syntax highlighting
@@ -164,24 +201,24 @@ I think you should use an `<addr>` element here instead.
 Here's an example of how you can use syntax highlighting with GitHub Flavored Markdown:
 
 ```javascript
-#^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
-#  ^^^^^^^^^^ fg=#ae81ff bg=#3e3d3240 fs= build>=3127
+#^^ fg=#75715e bg=#272822 fs= build>=3127 -->
+#  ^^^^^^^^^^ fg=#ae81ff bg=#272822 fs= build>=3127
 function x() {}
-<!-- ^^^^^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
+<!-- ^^^^^^^^^^ fg=#fd971f bg=#272822 fs= build>=3127 -->
 ```
-#^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
+#^^ fg=#75715e bg=#272822 fs= build>=3127 -->
 
 You can also simply indent your code by four spaces:
 
     function x() {
-    # ^^^^^^^^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= -->
+    # ^^^^^^^^^^^^^ fg=#fd971f bg=#272822 fs= -->
     }
-#^^^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
+#^^^^ fg=#fd971f bg=#272822 fs= build>=3127 -->
 
 Here's an example of Python code without syntax highlighting:
 
     def foo():
-    # ^^^^^^^^ fg=#e6db74 bg=#3e3d3240 fs= build>=3127 -->
+    # ^^^^^^^^ fg=#fd971f bg=#272822 fs= build>=3127 -->
       if not bar:
         return True
 
@@ -197,13 +234,13 @@ Here's an example of Python code without syntax highlighting:
   <!--           ^^^ fg=#f92672 fs= build>=3127 -->
   <!--              ^^^^^^^^^ fg=#f8f8f2 fs= -->
 - [x] **formatting** *support*
-  <!--^^ fg=#3e3d32 fs=bold -->
+  <!--^^ fg=#75715e fs=bold -->
   <!--  ^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
-  <!--            ^^ fg=#3e3d32 fs=bold -->
+  <!--            ^^ fg=#75715e fs=bold -->
   <!--              ^ fg=#f8f8f2 fs= -->
-  <!--               ^ fg=#3e3d32 fs=italic -->
+  <!--               ^ fg=#75715e fs=italic -->
   <!--                ^^^^^^^ fg=#f8f8f2 fs=italic -->
-  <!--                       ^ fg=#3e3d32 fs=italic -->
+  <!--                       ^ fg=#75715e fs=italic -->
 - [x] @mentions, #refs, [links]()
   <!-- ^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
   <!--                   ^^^^^^^^ fg=#f8f8f2 fs= build>=3127 -->

@@ -298,6 +298,38 @@ $x = function(N $c) use ($a, $b) {};
 //                             ^ fg=#f8f8f2 fs=
 //                               ^^^ fg=#f8f8f2 fs=
 
+$abc->y(function (A $a, B $b) {
+// ^ fg=#f8f8f2 fs=
+//  ^^ fg=#f92672 fs=
+//    ^^ fg=#f8f8f2 fs=
+//      ^^^^^^^^ fg=#66d9ef fs=italic
+//               ^ fg=#f8f8f2 fs=
+//                ^ fg=#66d9ef fs=italic
+//                  ^^ fg=#fd971f fs=italic
+//                    ^ fg=#f8f8f2 fs=
+//                      ^ fg=#66d9ef fs=italic
+//                        ^^ fg=#fd971f fs=italic
+//                          ^ fg=#f8f8f2 fs=
+//                            ^ fg=#f8f8f2 fs=
+    $c = $a->b('c');
+//  ^^ fg=#f8f8f2 fs=
+//     ^ fg=#f92672 fs=
+//       ^^ fg=#f8f8f2 fs=
+//         ^^ fg=#f92672 fs=
+//           ^^ fg=#f8f8f2 fs=
+//             ^^^ fg=#e6db74 fs=
+//                ^^ fg=#f8f8f2 fs=
+    $b->c("d $c");
+//  ^^ fg=#f8f8f2 fs=
+//    ^^ fg=#f92672 fs=
+//      ^^ fg=#f8f8f2 fs=
+//        ^^ fg=#e6db74 fs=
+//           ^^ fg=#f8f8f2 fs=
+//             ^ fg=#e6db74 fs=
+//              ^^ fg=#f8f8f2 fs=
+    });
+//  ^^^ fg=#f8f8f2 fs=
+
 if (isset($x) && is_callable($x)) {
 //  ^^^^^ fg=#66d9ef fs=
 //       ^^^^ fg=#f8f8f2 fs=
@@ -659,6 +691,11 @@ if (isset($x) && is_callable($x)) {
     //                ^^^ fg=#f8f8f2 fs=
     //                   ^^^ fg=#e6db74 fs=
     //                      ^ fg=#f8f8f2 fs=
+
+    echo '/x/{y}';
+    //   ^^^^^^^^ fg=#e6db74 fs=
+    //           ^ fg=#f8f8f2 fs=
+
 
     $x = <<<EOT
     //   ^^^ fg=#f92672 fs=
