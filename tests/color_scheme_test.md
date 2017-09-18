@@ -70,22 +70,22 @@ If you like **you *can* combine them**
 # Images
 
 .... ![Alt](url)
-<!-- ^^ fg=#f8f8f2 fs= -->
+<!-- ^^ fg=#75715e fs= -->
 <!--   ^^^ fg=#e6db74 fs= -->
-<!--      ^^ fg=#f8f8f2 fs= -->
+<!--      ^^ fg=#75715e fs= -->
 <!--        ^^^ fg=#66d9ef fs=underline -->
-<!--           ^ fg=#f8f8f2 fs= -->
+<!--           ^ fg=#75715e fs= -->
 
 .... ![Alt][1]
-<!-- ^^ fg=#f8f8f2 fs= -->
+<!-- ^^ fg=#75715e fs= -->
 <!--   ^^^ fg=#e6db74 fs= -->
-<!--      ^^ fg=#f8f8f2 fs= -->
+<!--      ^^ fg=#75715e fs= -->
 <!--        ^ fg=#ae81ff fs= -->
-<!--         ^ fg=#f8f8f2 fs= -->
+<!--         ^ fg=#75715e fs= -->
 
 [12345]: http://github.com
 <!-- ^ fg=#ae81ff fs= -->
-<!--  ^^ fg=#f8f8f2 fs= -->
+<!--  ^^ fg=#75715e fs= -->
 <!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 
 # Links
@@ -95,22 +95,22 @@ http://github.com - automatic
 <!--             ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
 
 ..... [Alt](url)
-<!--  ^ fg=#f8f8f2 fs= -->
+<!--  ^ fg=#75715e fs= -->
 <!--   ^^^ fg=#e6db74 fs= -->
-<!--      ^^ fg=#f8f8f2 fs= -->
+<!--      ^^ fg=#75715e fs= -->
 <!--        ^^^ fg=#66d9ef fs=underline -->
-<!--           ^ fg=#f8f8f2 fs= -->
+<!--           ^ fg=#75715e fs= -->
 
 .... [Alt][1]
-<!-- ^ fg=#f8f8f2 fs= -->
+<!-- ^ fg=#75715e fs= -->
 <!--  ^^^ fg=#e6db74 fs= -->
-<!--     ^^ fg=#f8f8f2 fs= -->
+<!--     ^^ fg=#75715e fs= -->
 <!--       ^ fg=#ae81ff fs= -->
-<!--        ^ fg=#f8f8f2 fs= -->
+<!--        ^ fg=#75715e fs= -->
 
 [12345]: http://github.com
 <!-- ^ fg=#ae81ff fs= -->
-<!--  ^^ fg=#f8f8f2 fs= -->
+<!--  ^^ fg=#75715e fs= -->
 <!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 
 # [X](y)
@@ -228,11 +228,14 @@ Here's an example of Python code without syntax highlighting:
 - [x] this is a complete item
 - [ ] this is an incomplete item
 - [x] <del>tags</del> support
-  <!--^ fg=#f8f8f2 fs= -->
+  <!--^ fg=#75715e fs= -->
   <!-- ^^^ fg=#f92672 fs= build>=3127 -->
-  <!--    ^^^^^^^ fg=#f8f8f2 fs= -->
+  <!--    ^ fg=#75715e fs= -->
+  <!--     ^^^^ fg=#f8f8f2 fs= -->
+  <!--         ^^ fg=#75715e fs= -->
   <!--           ^^^ fg=#f92672 fs= build>=3127 -->
-  <!--              ^^^^^^^^^ fg=#f8f8f2 fs= -->
+  <!--              ^ fg=#75715e fs= -->
+  <!--               ^^^^^^^^ fg=#f8f8f2 fs= -->
 - [x] **formatting** *support*
   <!--^^ fg=#75715e fs=bold -->
   <!--  ^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
