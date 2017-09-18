@@ -67,6 +67,18 @@ If you like **you *can* combine them**
 <!--                   ^^^^^^^^^^^^^ fg=#f8f8f2 fs=bold -->
 <!--                                ^^ fg=#75715e fs=bold -->
 
+*Abc [X](y)*
+<!-- ^^^^^^ fs=italic -->
+
+*Abc [X][1]*
+<!-- ^^^^^^ fs=italic -->
+
+**Ab [X](y).**
+<!-- ^^^^^^^ fs=bold -->
+
+**Ab [X][1].**
+<!-- ^^^^^^^ fs=bold -->
+
 # Images
 
 .... ![Alt](url)
