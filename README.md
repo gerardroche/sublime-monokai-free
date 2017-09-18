@@ -34,12 +34,6 @@ Go to `Menu > Preferences > Color Scheme...` and select the MonokaiFree color sc
 
 ![Monokai palette](palette.png)
 
-## THEMES
-
-### [Boxy](https://github.com/ihodev/sublime-boxy)
-
-The Boxy Monokai theme is a beautiful theme that works well with MonokaiFree.
-
 ## CONTRIBUTING
 
 Your issue reports and pull requests are always welcome.
