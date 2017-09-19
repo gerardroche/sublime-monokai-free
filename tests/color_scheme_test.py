@@ -22,12 +22,70 @@ __bool__
 __debug__
 # ^^^^^^^ fg=#ae81ff fs= build>=3127
 
-def name():
-# ^ fg=#66d9ef fs=italic
-#   ^^^^ fg=#a6e22e fs=
-#       ^^^ fg=#f8f8f2 fs=
+abc = 'x'
+# ^ fg=#f8f8f2 fs=
+#   ^ fg=#f92672 fs=
+#     ^^^ fg=#e6db74 fs=
 
-    var = 'x'
+x = "_\x00_\xaa_\'_%s_"
+#   ^^ fg=#e6db74 fs=
+#     ^^^^ fg=#ae81ff fs=
+#         ^ fg=#e6db74 fs=
+#          ^^^^ fg=#ae81ff fs=
+#              ^ fg=#e6db74 fs=
+#               ^^ fg=#ae81ff fs=
+#                 ^ fg=#e6db74 fs=
+#                  ^^ fg=#ae81ff fs=
+#                    ^^ fg=#e6db74 fs=
+
+x = b'x'
+#   ^ fg=#66d9ef fs=italic
+#    ^^^ fg=#e6db74 fs=
+
+'ab'.upper()
+# ^^ fg=#e6db74 fs=
+#   ^ fg=#f8f8f2 fs=
+#    ^^^^^ fg=#66d9ef fs=
+#         ^^ fg=#f8f8f2 fs=
+
+x = '|'.join(sorted(x))
+#   ^^^ fg=#e6db74 fs=
+#      ^ fg=#f8f8f2 fs=
+#       ^^^^ fg=#66d9ef fs=
+#           ^ fg=#f8f8f2 fs=
+#            ^^^^^^ fg=#66d9ef fs=
+#                  ^^^^ fg=#f8f8f2 fs=
+
+x = f"{x}"
+#   ^ fg=#66d9ef fs=italic
+#    ^ fg=#e6db74 fs=
+#     ^^^ fg=#f8f8f2 fs=
+#        ^ fg=#e6db74 fs=
+
+def x():
+# ^ fg=#66d9ef fs=italic
+#   ^ fg=#a6e22e fs=
+#    ^^^ fg=#f8f8f2 fs=
+    pass
+    # ^ fg=#f92672 fs=
+
+def x():
+    """x"""
+#   ^^^^^^^ fg=#75715e fs=
+    pass
+
+def x():
+    """
+#   ^^^ fg=#75715e fs=
+    x
+#   ^ fg=#75715e fs=
+    """
+#   ^^^ fg=#75715e fs=
+#   pass
+
+def x():
+
+    abc = 'x'
     # ^ fg=#f8f8f2 fs=
     #   ^ fg=#f92672 fs=
     #     ^^^ fg=#e6db74 fs=
@@ -80,20 +138,6 @@ def name():
             #     ^^^^ fg=#e6db74 fs=
             #         ^ fg=#f8f8f2 fs=
 
-    'abc'.upper()
-    # ^^^ fg=#e6db74 fs=
-    #    ^ fg=#f8f8f2 fs=
-    #     ^^^^^ fg=#66d9ef fs=
-    #          ^^ fg=#f8f8f2 fs=
-
-    x = '|'.join(sorted(x))
-    #   ^^^ fg=#e6db74 fs=
-    #      ^ fg=#f8f8f2 fs=
-    #       ^^^^ fg=#66d9ef fs=
-    #           ^ fg=#f8f8f2 fs=
-    #            ^^^^^^ fg=#66d9ef fs=
-    #                  ^^^^ fg=#f8f8f2 fs=
-
     fmt = 'x={}'.format(s['y'])
     # ^ fg=#f8f8f2 fs=
     #   ^ fg=#f92672 fs=
@@ -105,13 +149,6 @@ def name():
     #                  ^^^ fg=#f8f8f2 fs=
     #                     ^^^ fg=#e6db74 fs=
     #                        ^^ fg=#f8f8f2 fs=
-
-    fmt += '_\n_'
-    # ^ fg=#f8f8f2 fs=
-    #   ^^ fg=#f92672 fs=
-    #      ^^ fg=#e6db74 fs=
-    #        ^^ fg=#ae81ff fs=
-    #          ^^ fg=#e6db74 fs=
 
     x = u'x%s' % y
     #   ^ fg=#66d9ef fs=italic

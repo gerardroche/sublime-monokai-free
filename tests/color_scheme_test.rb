@@ -3,12 +3,6 @@
     # This indented comment is to the preceding whitespace.
 # ^ fg=#f8f8f2 bg=#272822 fs=
 
-puts "Hi #{@name}!"
-# ^ fg=#66d9ef fs=
-#    ^^^^^^ fg=#e6db74 fs=
-#          ^^^^^ fg=#f8f8f2 fs=
-#               ^^^ fg=#e6db74 fs=
-
 x = nil
 #   ^^^ fg=#ae81ff fs=
 
@@ -39,6 +33,10 @@ x = "x%dy\nz"
 #       ^ fg=#e6db74 fs=
 #        ^^ fg=#ae81ff fs=
 #          ^^ fg=#e6db74 fs=
+
+puts "x"
+# ^ fg=#66d9ef fs=
+#    ^^^ fg=#e6db74 fs=
 
 x = %(x)
 #   ^^^^ fg=#e6db74 fs=
@@ -316,6 +314,12 @@ class X
   def x
   # ^ fg=#f92672 fs=
   #   ^ fg=#a6e22e fs=
+
+    puts "Hi #{@name}!"
+    # ^ fg=#66d9ef fs=
+    #    ^^^^^^ fg=#e6db74 fs=
+    #          ^^^^^ fg=#f8f8f2 fs=
+    #               ^^^ fg=#e6db74 fs=
 
     abc = @y
     # ^ fg=#f8f8f2 fs=
