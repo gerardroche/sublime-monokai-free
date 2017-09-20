@@ -10,6 +10,8 @@ A beautiful, professional, high quality, polished, free, Monokai color scheme fo
 
 Many Monokai color schemes available for Sublime Text are not kept up to date, don't support plugins, use too many variants of the same colors, or only exist to be compatible with a specific theme. They tend to go out of date and break in unexpected and unknown ways. [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit), which is a testing framework for Sublime Text color schemes, helps improve the quality of color schemes and prevent regressions.
 
+![MonokaiFree screenshot](screenshot.png)
+
 ## INSTALLATION
 
 ### Package Control installation
@@ -41,24 +43,6 @@ To run the tests:
 * Install [ColorSchemeUnit](https://github.com/gerardroche/sublime_color_scheme_unit) (a framework for testing Sublime Text color schemes)
 * Open the Command Palette (press `Ctrl+Shift+P`)
 * Type "ColorSchemeUnit: Test Suite" and press `Enter`
-
-## Screenshots
-
-### HTML
-
-![HTML screenshot](screenshot-html.png)
-
-### XML
-
-![XML screenshot](screenshot-xml.png)
-
-### PHP
-
-![PHP screenshot](screenshot-php.png)
-
-### Markdown
-
-![Markdown screenshot](screenshot-md.png)
 
 ## LICENSE
 
