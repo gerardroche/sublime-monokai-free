@@ -44,6 +44,8 @@ To run the tests:
 
 ## Screenshots
 
+All screenshot code samples can found at [Screenshot Code](https://github.com/gerardroche/screenshot-code).
+
 ### HTML
 
 ![HTML screenshot](screenshot-html.png)
