@@ -3,6 +3,9 @@
         // This indented comment is to the preceding whitespace.
 // ^ fg=#f8f8f2 bg=#272822 fs=
 
+    // x
+//  ^^^^ fg=#75715e fs=
+
 #include <windows.h>
 // ^ fg=#f92672 fs=
 //       ^^^^^^^^^^^ fg=#e6db74 fs=
@@ -11,50 +14,53 @@
 // ^ fg=#f92672 fs=
 //      ^ fg=#a6e22e fs=
 
-#define CONST0 16 // Comment
+#define CONST0 1 // x
 // ^ fg=#f92672 fs=
 //      ^^^^^^ fg=#a6e22e fs=
-//             ^^ fg=#ae81ff fs=
-//                ^^^^ fg=#75715e fs=
+//             ^ fg=#ae81ff fs=
+//               ^^^^ fg=#75715e fs=
 
-bool still_C_code_here = true;
+bool x = true;
 // ^ fg=#66d9ef fs=italic
 //   ^ fg=#f8f8f2 fs=
-//                     ^ fg=#f92672 fs=
-//                       ^^^^ fg=#ae81ff fs=
-//                           ^ fg=#f8f8f2 fs=
+//     ^ fg=#f92672 fs=
+//       ^^^^ fg=#ae81ff fs=
+//           ^ fg=#f8f8f2 fs=
 
 int x() {}
 //^ fg=#66d9ef fs=italic
 //  ^ fg=#a6e22e fs=
-//   ^^^^^ fg=#f8f8f2 fs=
+//   ^^ fg=#f8f8f2 fs=
+//      ^^ fg=#f8f8f2 fs=
 
 typedef int myint;
-// ^^^^ fg=#66d9ef fs=italic
-//      ^^^ fg=#66d9ef fs=italic
-//          ^^^^^ fg=#a6e22e fs=
+// ^ fg=#66d9ef fs=italic
+//      ^ fg=#66d9ef fs=italic
+//          ^ fg=#a6e22e fs=
 //               ^ fg=#f8f8f2 fs=
 
 typedef struct mystruct {
-// ^^^^ fg=#66d9ef fs=italic
-//      ^^^^^^ fg=#66d9ef fs=italic
-//            ^^^^^^^^^^^ fg=#f8f8f2 fs=
-
-} mystruct;
-// ^^^^^^^ fg=#a6e22e fs=
-//        ^ fg=#f8f8f2 fs=
-
+// ^ fg=#66d9ef fs=italic
+//      ^ fg=#66d9ef fs=italic
+//             ^ fg=#f8f8f2 fs=
+//                      ^ fg=#f8f8f2 fs=
+    } mystruct;
+//  ^ fg=#f8f8f2 fs=
+//    ^ fg=#a6e22e fs=
+//            ^ fg=#f8f8f2 fs=
 
 struct point
 // ^ fg=#66d9ef fs=italic
 //     ^ fg=#a6e22e fs=
 {
     int x;
-    //^ fg=#66d9ef fs=italic
-    //  ^^ fg=#f8f8f2 fs=
+//  ^ fg=#66d9ef fs=italic
+//      ^ fg=#f8f8f2 fs=
+//       ^ fg=#f8f8f2 fs=
     int y;
-    //^ fg=#66d9ef fs=italic
-    //  ^^ fg=#f8f8f2 fs=
+//  ^ fg=#66d9ef fs=italic
+//      ^ fg=#f8f8f2 fs=
+//       ^ fg=#f8f8f2 fs=
 }
 
 struct foo **alloc_foo();
@@ -65,7 +71,7 @@ struct foo **alloc_foo();
 //                    ^^^ fg=#f8f8f2 fs=
 
 scanf("%ms %as %*[, ]", &buf);
-// ^^ fg=#66d9ef fs=
+// ^ fg=#66d9ef fs=
 //   ^ fg=#f8f8f2 fs=
 //    ^ fg=#e6db74 fs=
 //     ^^^ fg=#ae81ff fs=
@@ -193,18 +199,19 @@ int main(int argc, char **argv) {
     //     ^ fg=#ae81ff fs=
 }
 
-int foo(int v, float v2[])
-//      ^^^ fg=#66d9ef fs=italic
+int foo(int a, float b[])
+//      ^ fg=#66d9ef fs=italic
 //          ^ fg=#fd971f fs=italic
 //           ^ fg=#f8f8f2 fs=
-//             ^^^^^ fg=#66d9ef fs=italic
-//                   ^^ fg=#fd971f fs=italic
-//                     ^^^ fg=#f8f8f2 fs=
+//             ^ fg=#66d9ef fs=italic
+//                   ^ fg=#fd971f fs=italic
+//                    ^^^ fg=#f8f8f2 fs=
 {
     myClass *result;
     // ^ fg=#f8f8f2 fs=
     //      ^ fg=#f92672 fs=
-    //       ^^^^^^^ fg=#f8f8f2 fs=
+    //       ^ fg=#f8f8f2 fs=
+    //             ^ fg=#f8f8f2 fs=
 
     result->kk = func(val);
     // ^^^^^^^ fg=#f8f8f2 fs=
