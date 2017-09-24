@@ -1,0 +1,105 @@
+/* COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" SKIP IF NOT "Sass" */
+
+@import 'x';
+// ^ fg=#f92672 fs=
+//      ^^^ fg=#e6db74 fs=
+//         ^ fg=#f8f8f2 fs=
+
+$abc: Helvetica, sans-serif;
+// ^ fg=#fd971f fs=
+//  ^ fg=#f8f8f2 fs=
+//    ^ fg=#66d9ef fs=
+//             ^ fg=#f8f8f2 fs=
+//               ^ fg=#66d9ef fs=
+//                         ^ fg=#f8f8f2 fs=
+
+$abc: #333;
+// ^ fg=#fd971f fs=
+//  ^ fg=#f8f8f2 fs=
+//    ^^^^ fg=#ae81ff fs=
+//        ^ fg=#f8f8f2 fs=
+
+body {
+// ^ fg=#f92672 fs=
+//   ^ fg=#f8f8f2 fs=
+    font: 100% $x;
+    // ^ fg=#66d9ef fs=italic
+    //  ^ fg=#f8f8f2 fs=
+    //    ^^^ fg=#ae81ff fs=
+    //       ^ fg=#f92672 fs=
+    //         ^^ fg=#fd971f fs=
+    //           ^ fg=#f8f8f2 fs=
+    color: $x;
+    // ^ fg=#66d9ef fs=italic
+    //   ^ fg=#f8f8f2 fs=
+    //     ^^ fg=#fd971f fs=
+    //       ^ fg=#f8f8f2 fs=
+}
+
+nav {
+//^ fg=#f92672 fs=
+//  ^ fg=#f8f8f2 fs=
+    ul {
+//  ^ fg=#f92672 fs=
+//     ^ fg=#f8f8f2 fs=
+        margin: 0;
+        // ^ fg=#66d9ef fs=italic
+        //    ^ fg=#f8f8f2 fs=
+        //      ^ fg=#ae81ff fs=
+        //       ^ fg=#f8f8f2 fs=
+    }
+    #x {}
+//  ^^ fg=#fd971f fs=
+//     ^^ fg=#f8f8f2 fs=
+    .x {}
+//  ^^ fg=#a6e22e fs=
+//     ^^ fg=#f8f8f2 fs=
+}
+
+@mixin border-radius($x) {
+// ^ fg=#f92672 fs=
+//     ^^^^^^^^^^^^^ fg=#66d9ef fs=
+//                  ^ fg=#f8f8f2 fs=
+//                   ^^ fg=#fd971f fs=
+//                     ^ fg=#f8f8f2 fs=
+//                       ^ fg=#f8f8f2 fs=
+  -webkit-border-radius: $x;
+// ^ fg=#66d9ef fs=italic
+//                     ^ fg=#f8f8f2 fs=
+//                       ^^ fg=#fd971f fs=
+//                         ^ fg=#f8f8f2 fs=
+     -moz-border-radius: $x;
+//   ^ fg=#66d9ef fs=italic
+//                     ^ fg=#f8f8f2 fs=
+//                       ^^ fg=#fd971f fs=
+//                         ^ fg=#f8f8f2 fs=
+      -ms-border-radius: $x;
+          border-radius: $x;
+}
+
+.abc { @include border-radius(10px); }
+// ^ fg=#a6e22e fs=
+//   ^ fg=#f8f8f2 fs=
+//     ^^^^^^^^ fg=#f92672 fs=
+//              ^^^^^^^^^^^^^ fg=#66d9ef fs=
+//                           ^ fg=#f8f8f2 fs=
+//                            ^^ fg=#ae81ff fs=
+//                              ^^ fg=#f92672 fs=
+//                                ^^ fg=#f8f8f2 fs=
+//                                   ^ fg=#f8f8f2 fs=
+
+.x {
+    @extend .y;
+//  ^^^^^^^ fg=#f92672 fs=
+//          ^^ fg=#a6e22e fs=
+//            ^ fg=#f8f8f2 fs=
+}
+
+aside[role="x"] {}
+// ^ fg=#f92672 fs=
+//   ^ fg=#f8f8f2 fs=
+//    ^^^^ fg=#a6e22e fs=
+//        ^ fg=#f92672 fs=
+//         ^^^ fg=#e6db74 fs=
+//            ^ fg=#f8f8f2 fs=
+//              ^^ fg=#f8f8f2 fs=

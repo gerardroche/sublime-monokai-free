@@ -3,20 +3,20 @@
         // This indented comment is to the preceding whitespace.
 // ^ fg=#f8f8f2 bg=#272822 fs=
 
-declare(encoding='UTF-8');
+declare(strict_types=1);
 // ^ fg=#f92672 fs=
 //     ^ fg=#f8f8f2 fs=
-//      ^^^^^^^^ fg=#ae81ff fs=
-//              ^ fg=#f92672 fs=
-//               ^^^^^^^ fg=#e6db74 fs=
-//                      ^^ fg=#f8f8f2 fs=
+//      ^^^^^^^^^^^^ fg=#ae81ff fs=
+//                  ^ fg=#f92672 fs=
+//                   ^ fg=#ae81ff fs=
+//                    ^^ fg=#f8f8f2 fs=
 
-namespace X;
+namespace A;
 // ^ fg=#f92672 fs=
 //        ^ fg=#a6e22e fs=
 //         ^ fg=#f8f8f2 fs=
 
-namespace X\Y\Z;
+namespace A\B\C;
 // ^ fg=#f92672 fs=
 //        ^^^^^ fg=#a6e22e fs=
 //             ^ fg=#f8f8f2 fs=
@@ -33,7 +33,7 @@ use A\B\C;
 //      ^ fg=#66d9ef fs=italic
 //       ^ fg=#f8f8f2 fs=
 
-use A\B\C as D;
+use A\B\C as B;
 //^ fg=#f92672 fs=
 //  ^^^^ fg=#f8f8f2 fs=
 //      ^ fg=#66d9ef fs=italic
@@ -54,7 +54,7 @@ use function a\b\c;
 //               ^ fg=#66d9ef fs=
 //                ^ fg=#f8f8f2 fs=
 
-use function a\b\c as x;
+use function a\b\c as b;
 //^ fg=#f92672 fs=
 //  ^^^^^^^^ fg=#66d9ef fs=italic
 //           ^^^^ fg=#f8f8f2 fs=
@@ -85,7 +85,7 @@ use const A\B\C as X;
 //                 ^ fg=#ae81ff fs=
 //                  ^ fg=#f8f8f2 fs=
 
-const X = 1;
+const B = 1;
 // ^ fg=#f92672 fs=
 //    ^ fg=#ae81ff fs=
 //      ^ fg=#f92672 fs=
@@ -174,7 +174,7 @@ class x extends /* */ \a\b implements \c\d {}
 //                                    ^^^^ fg=#a6e22e fs=italic
 //                                         ^^ fg=#f8f8f2 fs=
 
-function x($a = array(), $b = "x") {}
+function d($a = array(), $b = "x") {}
 // ^ fg=#66d9ef fs=italic
 //       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
@@ -188,13 +188,13 @@ function x($a = array(), $b = "x") {}
 //                               ^ fg=#f8f8f2 fs=
 //                                 ^^ fg=#f8f8f2 fs=
 
-function x($a = []) {}
+function e($a = []) {}
 //              ^^ fg=#f8f8f2 fs=
 
-function x(array $a = [], $b = "x") {}
+function f(array $a = [], $b = "x") {}
 //         ^^^^^ fg=#66d9ef fs=italic
 
-function x(array $a = [1, 2, 3, 4],  $b = "x") {}
+function g(array $a = [1, 2, 3, 4],  $b = "x") {}
 //                    ^ fg=#f8f8f2 fs=
 //                     ^ fg=#ae81ff fs=
 //                      ^ fg=#f8f8f2 fs=
@@ -205,10 +205,10 @@ function x(array $a = [1, 2, 3, 4],  $b = "x") {}
 //                              ^ fg=#ae81ff fs=
 //                               ^ fg=#f8f8f2 fs=
 
-function x(array $a = null, $b = "x") {}
+function h(array $a = null, $b = "x") {}
 //                    ^^^^ fg=#ae81ff fs=
 
-function x(&$x) {}
+function i(&$x) {}
 //       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
 //         ^ fg=#f92672 fs=
@@ -216,14 +216,14 @@ function x(&$x) {}
 //            ^ fg=#f8f8f2 fs=
 //              ^^ fg=#f8f8f2 fs=
 
-function x(X $c) {}
+function j(X $c) {}
 //       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
 //         ^ fg=#66d9ef fs=italic
 //           ^^ fg=#fd971f fs=italic
 //             ^ fg=#f8f8f2 fs=
 
-function x(Coutable $c) {}
+function k(Coutable $c) {}
 //       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
 //         ^^^^^^^^ fg=#66d9ef fs=italic
@@ -231,7 +231,7 @@ function x(Coutable $c) {}
 //                    ^ fg=#f8f8f2 fs=
 //                     ^^ fg=#f8f8f2 fs=
 
-function x(int $a, string $b, bool $c, float $d) {}
+function l(int $a, string $b, bool $c, float $d) {}
 //       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
 //         ^^^ fg=#66d9ef fs=italic
@@ -248,13 +248,13 @@ function x(int $a, string $b, bool $c, float $d) {}
 //                                             ^ fg=#f8f8f2 fs=
 //                                               ^^ fg=#f8f8f2 fs=
 
-function x(...$x) {}
+function m(...$x) {}
 //       ^ fg=#a6e22e fs=
 //        ^^^^ fg=#f8f8f2 fs=
 //            ^^ fg=#fd971f fs=italic
 //              ^ fg=#f8f8f2 fs=
 
-function x(
+function n(
     //    ^ fg=#f8f8f2 fs=
         $a,
     //  ^^ fg=#fd971f fs=italic
@@ -265,14 +265,14 @@ function x(
     //  ^^^ fg=#f8f8f2 fs=
 
 
-function x(): X {}
+function o(): X {}
 // ^^^^^ fg=#66d9ef fs=italic
 //       ^ fg=#a6e22e fs=
 //        ^^^ fg=#f8f8f2 fs=
 //            ^ fg=#66d9ef fs=italic
 //              ^^ fg=#f8f8f2 fs=
 
-function x(): Countable {}
+function p(): Countable {}
 //       ^ fg=#a6e22e fs=
 //        ^^^ fg=#f8f8f2 fs=
 //            ^^^^^^^^^ fg=#66d9ef fs=italic
@@ -338,20 +338,20 @@ if (isset($x) && is_callable($x)) {
 //                          ^^^^^ fg=#f8f8f2 fs=
 //                                ^ fg=#f8f8f2 fs=
 
-    if (29 - 10 + 2) * 2 > 4.2) {}
-    // ^ fg=#f8f8f2 fs=
-    //  ^^ fg=#ae81ff fs=
-    //     ^ fg=#f92672 fs=
-    //       ^^ fg=#ae81ff fs=
-    //          ^ fg=#f92672 fs=
-    //            ^ fg=#ae81ff fs=
-    //             ^ fg=#f8f8f2 fs=
-    //               ^ fg=#f92672 fs=
-    //                 ^ fg=#ae81ff fs=
-    //                   ^ fg=#f92672 fs=
-    //                     ^^^ fg=#ae81ff fs=
-    //                        ^ fg=#f8f8f2 fs=
-    //                          ^^ fg=#f8f8f2 fs=
+    if ((29 - 10 + 2) * 2 > 4.2) {}
+    // ^^ fg=#f8f8f2 fs=
+    //   ^^ fg=#ae81ff fs=
+    //      ^ fg=#f92672 fs=
+    //        ^^ fg=#ae81ff fs=
+    //           ^ fg=#f92672 fs=
+    //             ^ fg=#ae81ff fs=
+    //              ^ fg=#f8f8f2 fs=
+    //                ^ fg=#f92672 fs=
+    //                  ^ fg=#ae81ff fs=
+    //                    ^ fg=#f92672 fs=
+    //                      ^^^ fg=#ae81ff fs=
+    //                         ^ fg=#f8f8f2 fs=
+    //                           ^^ fg=#f8f8f2 fs=
 
     $x = true | false | null;
     // ^ fg=#f92672 fs=
@@ -655,7 +655,7 @@ if (isset($x) && is_callable($x)) {
     //           ^ fg=#e6db74 fs=
     //            ^ fg=#f8f8f2 fs=
 
-    echo "{$x} {$x->y} {$x['y']}"
+    echo "{$x} {$x->y} {$x['y']}";
     //   ^ fg=#e6db74 fs=
     //    ^^^^ fg=#f8f8f2 fs=
     //        ^ fg=#e6db74 fs=
@@ -667,20 +667,23 @@ if (isset($x) && is_callable($x)) {
     //                     ^^^ fg=#e6db74 fs=
     //                        ^^ fg=#f8f8f2 fs=
     //                          ^ fg=#e6db74 fs=
+    //                           ^ fg=#f8f8f2 fs=
 
-    echo "x {${$name}}"
+    echo "x {${$name}}";
     //   ^^^ fg=#e6db74 fs=
     //      ^ fg=#f8f8f2 fs=
     //       ^^ fg=#e6db74 fs=
     //         ^^^^^^ fg=#f8f8f2 fs=
     //               ^^ fg=#e6db74 fs=
+    //                 ^ fg=#f8f8f2 fs=
 
-    echo "x {$x->$y}"
+    echo "x {$x->$y}";
     //   ^^^ fg=#e6db74 fs=
     //      ^^^ fg=#f8f8f2 fs=
     //         ^^ fg=#f92672 fs=
     //           ^^^ fg=#f8f8f2 fs=
     //              ^ fg=#e6db74 fs=
+    //               ^ fg=#f8f8f2 fs=
 
     echo "x {$x->{$y[1]}} z";
     //   ^^^ fg=#e6db74 fs=
@@ -696,24 +699,42 @@ if (isset($x) && is_callable($x)) {
     //   ^^^^^^^^ fg=#e6db74 fs=
     //           ^ fg=#f8f8f2 fs=
 
-
     $x = <<<EOT
-    //   ^^^ fg=#f92672 fs=
-    //      ^^^ fg=#f92672 fs=
 <div>
+    <p>$x</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^^ fg=#f8f8f2 fs=
+//       ^^^^ fg=#e6db74 fs=
+    <p>${x}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^^^^ fg=#f8f8f2 fs=
+//         ^^^^ fg=#e6db74 fs=
     <p>{$x}</p>
 //  ^^^ fg=#e6db74 fs=
 //     ^^^^ fg=#f8f8f2 fs=
 //         ^^^^ fg=#e6db74 fs=
-
-    <p>{$x->y()}</p>
+    <p>{ $x }</p>
+//  ^^^^ fg=#e6db74 fs=
+//       ^^ fg=#f8f8f2 fs=
+//          ^^^^^ fg=#e6db74 fs=
+    <p>{$x[1]}</p>
 //  ^^^ fg=#e6db74 fs=
-//     ^ fg=#f8f8f2 fs=
-//      ^^ fg=#f8f8f2 fs=
-//        ^^ fg=#f92672 fs=
-//          ^^^ fg=#f8f8f2 fs=
-//             ^ fg=#f8f8f2 fs=
+//     ^^^^ fg=#f8f8f2 fs=
+//         ^ fg=#ae81ff fs=
+//          ^^ fg=#f8f8f2 fs=
+//            ^^^^ fg=#e6db74 fs=
+    <p>{$x['y']}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^^^^ fg=#f8f8f2 fs=
+//         ^^^ fg=#e6db74 fs=
+//            ^^ fg=#f8f8f2 fs=
 //              ^^^^ fg=#e6db74 fs=
+    <p>$x->y</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^^ fg=#f8f8f2 fs=
+//       ^^ fg=#f92672 fs=
+//         ^ fg=#f8f8f2 fs=
+//          ^^^^ fg=#e6db74 fs=
     <p>{$x->y}</p>
 //  ^^^ fg=#e6db74 fs=
 //     ^ fg=#f8f8f2 fs=
@@ -722,14 +743,22 @@ if (isset($x) && is_callable($x)) {
 //          ^ fg=#f8f8f2 fs=
 //           ^ fg=#f8f8f2 fs=
 //            ^^^^ fg=#e6db74 fs=
-    <p>{$x::class}</p>
+    <p>{$x->y[1]}</p>
+//  ^^^ fg=#e6db74 fs=
+//     ^^^ fg=#f8f8f2 fs=
+//        ^^ fg=#f92672 fs=
+//          ^^ fg=#f8f8f2 fs=
+//            ^ fg=#ae81ff fs=
+//             ^^ fg=#f8f8f2 fs=
+//               ^^^^ fg=#e6db74 fs=
+    <p>{$x->y()}</p>
 //  ^^^ fg=#e6db74 fs=
 //     ^ fg=#f8f8f2 fs=
 //      ^^ fg=#f8f8f2 fs=
 //        ^^ fg=#f92672 fs=
-//          ^^^^^ fg=#ae81ff fs=
-//               ^ fg=#f8f8f2 fs=
-//                ^^^^ fg=#e6db74 fs=
+//          ^^^ fg=#f8f8f2 fs=
+//             ^ fg=#f8f8f2 fs=
+//              ^^^^ fg=#e6db74 fs=
     <p>{$x->y()->z()}</p>
 //  ^^^ fg=#e6db74 fs=
 //     ^ fg=#f8f8f2 fs=
@@ -742,23 +771,27 @@ if (isset($x) && is_callable($x)) {
 //                   ^^^^ fg=#e6db74 fs=
 </div>
 EOT;
+//^ fg=#f92672 fs=
+// ^ fg=#f8f8f2 fs=
 
     $x = <<<'EOT'
-    //   ^^^ fg=#f92672 fs=
-    //      ^ fg=#f92672 fs=
-    //       ^^^ fg=#f92672 fs=
-    //          ^ fg=#f92672 fs=
+//  ^^ fg=#f8f8f2 fs=
+//     ^ fg=#f92672 fs=
+//       ^^^^^^^^ fg=#f92672 fs=
 <div>
+    <p>$x</p>
+//  ^^^^^^^^^ fg=#e6db74 fs=
     <p>{$x}</p>
 //  ^^^^^^^^^^^ fg=#e6db74 fs=
+    <p>$x->y</p>
+//  ^^^^^^^^^^^^ fg=#e6db74 fs=
+    <p>{$x->y[1]}</p>
+//  ^^^^^^^^^^^^^^^^^ fg=#e6db74 fs=
 </div>
 EOT;
-
-if (true) {
+//^ fg=#f92672 fs=
 // ^ fg=#f8f8f2 fs=
-//  ^^^^ fg=#ae81ff fs=
-//      ^ fg=#f8f8f2 fs=
-//        ^ fg=#f8f8f2 fs=
+
 
     if (x('y') && $x instanceof Countable) {
     // ^ fg=#f8f8f2 fs=
@@ -906,6 +939,28 @@ if (true) {
      */
 //   ^^ fg=#75715e fs=
 
+/**
+ * @param int $x desc
+// ^^^^^^ fg=#f92672 fs=
+//        ^^^ fg=#75715e fs=
+//            ^^ fg=#75715e fs=
+//               ^^^^ fg=#75715e fs=
+ */
+
+/**
+ * @param X $x desc
+// ^^^^^^ fg=#f92672 fs=
+//        ^ fg=#75715e fs=
+//          ^^ fg=#75715e fs=
+//             ^^^^ fg=#75715e fs=
+ */
+
+/**
+ * @return int
+// ^^^^^^^ fg=#f92672 fs=
+//         ^^^ fg=#75715e fs=
+ */
+
 ?>
 
     <?php if ($expr == true): ?>
@@ -943,34 +998,34 @@ class x
     //        ^ fg=#ae81ff fs=
     //         ^ fg=#f8f8f2 fs=
 
-    public $x;
+    public $a;
     // ^ fg=#f92672 fs=
     //     ^^^ fg=#f8f8f2 fs=
 
-    protected $x;
+    protected $b;
     // ^ fg=#f92672 fs=
 
-    private $x;
+    private $c;
     // ^ fg=#f92672 fs=
 
-    public static $x;
+    public static $d;
     // ^ fg=#f92672 fs=
     //     ^ fg=#f92672 fs=
 
-    public function x() {}
+    public function a() {}
     // ^ fg=#f92672 fs=
     //     ^ fg=#66d9ef fs=italic
     //              ^ fg=#a6e22e fs=
     //               ^^ fg=#f8f8f2 fs=
     //                  ^^ fg=#f8f8f2 fs=
 
-    public static function x() {}
+    public static function b() {}
     //     ^ fg=#f92672 fs=
 
-    abstract public function x();
+    abstract public function c();
     // ^ fg=#f92672 fs=
 
-    final public function x() {}
+    final public function d() {}
     // ^ fg=#f92672 fs=
 
     public function __construct() {}
@@ -979,7 +1034,7 @@ class x
     public function __toString() {}
     //              ^^^^^^^^^^ fg=#66d9ef fs=
 
-    public function x()
+    public function e()
     {
         user_defined();
         // ^^^^^^^^^ fg=#f8f8f2 fs=

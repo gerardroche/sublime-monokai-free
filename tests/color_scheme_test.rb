@@ -182,7 +182,8 @@ ABC::X.y
 if name.is_a?(Pathname)
 
 x = <<END
-  # ^^^^^ fg=#f92672 fs=
+# ^ fg=#f92672 fs=
+#   ^^^^^ fg=#f92672 fs=
   string
   # ^ fg=#e6db74 fs=
 END
