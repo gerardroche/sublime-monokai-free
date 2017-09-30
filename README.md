@@ -7,7 +7,8 @@ A beautiful, modern, high quality, Monokai color scheme for Sublime Text 3.
 * Enhanced syntax highlighting for PHP, HTML, CSS, Markdown, Blade, JavaScript, and more.
 * Additional syntax highlighting for LESS, Sass, Laravel Blade, and more.
 * Supported plugins: [GitGutter](https://github.com/jisaacks/GitGutter), [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3), [NeoVintageous](https://github.com/NeoVintageous/NeoVintageous), and more.
-* Tested extensively using [ColorSchemeUnit](https://github.com/gerardroche/sublime-color-scheme-unit).
+
+![screenshot](screenshot.png)
 
 ## INSTALLATION
 
