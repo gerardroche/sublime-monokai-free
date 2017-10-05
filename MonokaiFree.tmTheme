@@ -106,6 +106,8 @@
 <dict><key>scope</key><string>string punctuation.definition.expression</string> <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>string punctuation.definition.variable</string>   <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>string punctuation.section.array</string>         <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>string punctuation.section.expansion</string>     <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>string punctuation.section.parens</string>        <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>string.search.occurrence</string>                 <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>string.search</string>                            <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 <dict><key>scope</key><string>string.unquoted.heredoc punctuation.definition.string</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
@@ -189,11 +191,12 @@
 <dict><key>scope</key><string>markup.untracked</string>                                 <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>meta.diff.header</string>                                 <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>meta.diff</string>                                        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>meta.hard-line-break</string>                             <key>settings</key><dict><key>background</key><string>#75715e</string><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>meta.image.inline.description</string>                    <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.image.reference.description</string>                 <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.link.inline.description</string>                     <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.link.reference.description</string>                  <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>text.html.markdown punctuation</string>                   <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>text.html.markdown punctuation - constant</string>        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 
 <!-- Lint -->
 

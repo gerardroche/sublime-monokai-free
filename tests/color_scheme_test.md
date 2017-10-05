@@ -202,6 +202,18 @@ Ordered
 <!--       ^^ fg=#ae81ff fs= -->
 <!--         ^ fg=#f8f8f2 fs= -->
 
+# Entities
+
+.... &nbsp; . &copy;
+<!-- ^^^^^^ fg=#ae81ff fs= -->
+<!--          ^^^^^^ fg=#ae81ff fs= -->
+
+.... &#35;
+<!-- ^^^^^ fg=#ae81ff fs= -->
+
+.... &MadeUpEntity;
+<!-- ^^^^^^^^^^^^^^ fg=#ae81ff fs= -->
+
 # Inline code
 
 I think you should use an `<addr>` element here instead.
@@ -273,6 +285,17 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
+
+# Line breaks
+
+***
+#^^ fg=#75715e bg=#272822 fs=
+
+---
+#^^ fg=#75715e bg=#272822 fs=
+
+___
+#^^ fg=#75715e bg=#272822 fs=
 
 # SHA references
 
