@@ -1,4 +1,4 @@
-# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Bash"
+# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" SKIP IF NOT "Bash"
 
 set -e
 # ^ fg=#66d9ef fs=
