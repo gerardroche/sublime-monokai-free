@@ -297,6 +297,11 @@ Content in the first column | Content in the second column
 ___
 #^^ fg=#75715e bg=#272822 fs=
 
+# Errors and deprecations
+
+Unescaped backticks `x `y` .
+<!--                     ^ fg=#f8f8f2 bg=#fd5ff0cc fs= -->
+
 # SHA references
 
 Any reference to a commit’s SHA-1 hash will be automatically converted into a link to that commit on GitHub.

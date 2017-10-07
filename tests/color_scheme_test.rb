@@ -12,7 +12,7 @@ x = false
 x = __dir__
 #   ^^^^^^^ fg=#66d9ef fs=
 
-x = __FILE__;
+x = __FILE__
 #   ^^^^^^^^ fg=#fd971f fs=italic
 
 abc.to_s
