@@ -6,7 +6,7 @@
     <key>settings</key>
     <!--
 
-    COLOR TABLE
+    COLOR TABLE:
 
     SUBLCOLR    | HEX
 
@@ -24,43 +24,73 @@
     cyan        | #a1efe4
     green       | #a6e22e
 
+    Sublime Text color scheme documentation:
+
+    https://www.sublimetext.com/docs/3/color_schemes.html
+
+    Notes:
+
+    Keys that omit "Foreground" or "Background" usually infer "Background". This
+    is easiest to illustrate with an example:
+
+            gutter              Means the gutter background.
+            gutterForeground
+
     -->
     <array>
         <dict>
             <key>settings</key>
             <dict>
+
+                <!-- Global settings -->
                 <key>background</key>                   <string>#272822</string>
                 <key>foreground</key>                   <string>#f8f8f2</string>
-
                 <key>caret</key>                        <string>#e6db74</string>
                 <key>lineHighlight</key>                <string>#3e3d32</string>
 
+                <!-- Accents -->
                 <key>misspelling</key>                  <string>#f92672</string>
                 <key>minimapBorder</key>                <string>#e6db74</string>
                 <key>accent</key>                       <string>#fd971f</string>
 
+                <!-- CSS -->
+                <!-- <key>popupCss</key>                     <string></string> -->
+                <!-- <key>phantomCss</key>                   <string></string> -->
+
+                <!-- Gutter -->
                 <key>gutter</key>                       <string>#272822</string>
                 <key>gutterForeground</key>             <string>#75715e</string>
 
+                <!-- Selection -->
                 <key>selection</key>                    <string>#75715e</string>
                 <key>selectionForeground</key>          <string>#272822</string>
                 <key>selectionBorder</key>              <string>#75715e</string>
+                <!-- <key>inactiveSelection</key>            <string></string> -->
+                <!-- <key>inactiveSelectionForeground</key>  <string></string> -->
 
+                <!-- Find -->
                 <key>highlight</key>                    <string>#e6db74</string>
                 <key>findHighlight</key>                <string>#a1efe4</string>
                 <key>findHighlightForeground</key>      <string>#272822</string>
 
+                <!-- Guides -->
                 <key>guide</key>                        <string>#3e3d32</string>
-                <key>stackGuide</key>                   <string>#75715e</string>
                 <key>activeGuide</key>                  <string>#a6e22e</string>
+                <key>stackGuide</key>                   <string>#75715e</string>
 
+                <!-- Brackets -->
                 <key>bracketsOptions</key>              <string>underline</string>
                 <key>bracketsForeground</key>           <string>#f8f8f2a5</string>
                 <key>bracketContentsOptions</key>       <string>underline</string>
                 <key>bracketContentsForeground</key>    <string>#f8f8f2a5</string>
 
+                <!-- Tags -->
                 <key>tagsOptions</key>                  <string>stippled_underline</string>
                 <key>tagsForeground</key>               <string>#f8f8f2a5</string>
+
+                <!-- Shadows -->
+                <!-- <key>shadow</key>                       <string></string> -->
+                <!-- <key>shadowWidth</key>                  <string></string> -->
 
             </dict>
         </dict>
