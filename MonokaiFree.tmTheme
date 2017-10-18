@@ -92,6 +92,10 @@
                 <!-- <key>shadow</key>                       <string></string> -->
                 <!-- <key>shadowWidth</key>                  <string></string> -->
 
+                <!-- Beta -->
+                <key>rulers</key>                       <string>#3e3d32</string>
+                <key>invisibles</key>                   <string>#3e3d32</string>
+
             </dict>
         </dict>
 
