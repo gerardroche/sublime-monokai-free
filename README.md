@@ -96,10 +96,6 @@ XML
 
 ![XML screenshot](screenshot-xml.png)
 
-## COLOR PALETTE
-
-![Monokai palette](palette.png)
-
 ## CONTRIBUTING
 
 ### Tests
