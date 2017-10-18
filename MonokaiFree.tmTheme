@@ -6,36 +6,37 @@
     <key>settings</key>
     <!--
 
-    COLOR TABLE:
+    COLOR TABLE
 
-    SUBLCOLR    | HEX
-
-    bg          | #272822
-    bg_h        | #3e3d32
-    fg          | #f8f8f2
-    fg_h        | #75715e
-
-    yellow      | #e6db74
-    orange      | #fd971f
-    red         | #f92672
-    magenta     | #fd5ff0
-    violet      | #ae81ff
-    blue        | #66d9ef
-    cyan        | #a1efe4
-    green       | #a6e22e
+    MONOKAIFREE HEX     RGB         EXAMPLE USAGE
+    *********** ******* *********** ********************************************
+    bg0         #272822  39  40  34
+    bg1         #3e3d32  62  61  50 Rulers, invisibles, Line highlight.
+    bg?         ??????? ??? ??? ???
+    bg?         ??????? ??? ??? ???
+    fg0         #f8f8f2 248 248 242 Text
+    fg1         #cfcfc2 207 207 194 Text (soft)
+    fg2         #75715e 117 113  94 Comments, selections, gutter line numbers.
+    fg?         ??????? ??? ??? ???
+    yellow      #e6db74 230 219 116
+    orange      #fd971f 253 151  31
+    red         #f92672 249  38 114
+    magenta     #fd5ff0 253  95 240
+    violet      #ae81ff 174 129 255
+    blue        #66d9ef 102 217 239
+    cyan        #a1efe4 161 239 228
+    green       #a6e22e 166 226  46
 
     Sublime Text color scheme documentation:
-
     https://www.sublimetext.com/docs/3/color_schemes.html
 
     Notes:
 
-    Keys that omit "Foreground" or "Background" usually infer "Background". This
-    is easiest to illustrate with an example:
+            Keys that omit "Foreground" or "Background" usually infer
+            "Background". This is easiest to illustrate with an example:
 
-            gutter              Means the gutter background.
-            gutterForeground
-
+                    gutter              Means the gutter background.
+                    gutterForeground
     -->
     <array>
         <dict>
