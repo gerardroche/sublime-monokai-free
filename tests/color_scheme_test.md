@@ -99,7 +99,7 @@ If you like **you *can* combine them**
 <!--         ^ fg=#75715e fs= -->
 
 [12345]: http://github.com
-<!-- ^ fg=#ae81ff fs= -->
+<!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
 <!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 
@@ -124,7 +124,7 @@ http://github.com - automatic
 <!--        ^ fg=#75715e fs= -->
 
 [12345]: http://github.com
-<!-- ^ fg=#ae81ff fs= -->
+<!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
 <!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 
@@ -296,11 +296,6 @@ Content in the first column | Content in the second column
 
 ___
 #^^ fg=#75715e bg=#272822 fs=
-
-# Errors and deprecations
-
-Unescaped backticks `x `y` .
-<!--                     ^ fg=#f8f8f2 bg=#fd5ff0cc fs= -->
 
 # SHA references
 

@@ -9,8 +9,10 @@ import java.util.HashMap;
 //     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=italic
 //                      ^ fg=#f8f8f2 fs=
 import javax.swing.*;
-//     ^^^^^^^^^^^^ fg=#66d9ef fs=italic
-//                 ^^ fg=#f8f8f2 fs=
+//     ^^^^^^^^^^^ fg=#66d9ef fs=italic
+//                ^ fg=#f8f8f2 fs= build>=3150
+//                 ^ fg=#f8f8f2 fs=
+//                  ^ fg=#f8f8f2 fs=
 
 class ExtendsTest implements Foo {}
 // ^ fg=#66d9ef fs=italic build>=3127
@@ -85,7 +87,7 @@ public class FibCalculator extends Fibonacci implements Calculator {
     //                                   ^ fg=#f8f8f2 fs=
     //                                     ^ fg=#f8f8f2 fs=
         System.out.println("Hello World!");
-        // ^^^ fg=#f8f8f2 fs= build>=3127
+        // ^^^ fg=#66d9ef fs=italic build>=3150
         //    ^ fg=#f8f8f2 fs= build>=3127
         //     ^^^ fg=#f8f8f2 fs=
         //        ^ fg=#f8f8f2 fs= build>=3127
@@ -105,7 +107,7 @@ public class FibCalculator extends Fibonacci implements Calculator {
         //              ^ fg=#ae81ff fs=
         //               ^^ fg=#f8f8f2 fs=
         System.out.println(fibonacci(12)); //Get the 12th Fibonacci number and print to console
-        // ^^^ fg=#f8f8f2 fs= build>=3127
+        // ^^^ fg=#66d9ef fs=italic build>=3150
         //    ^ fg=#f8f8f2 fs= build>=3127
         //     ^^^ fg=#f8f8f2 fs=
         //        ^ fg=#f8f8f2 fs= build>=3127
@@ -157,7 +159,7 @@ public class Hello extends JFrame {
         //   ^ fg=#f8f8f2 fs= build>=3127
         //    ^ fg=#66d9ef fs= build>=3127
         //                            ^ fg=#f8f8f2 fs=
-        //                             ^ fg=#f8f8f2 fs= build>=3127
+        //                             ^ fg=#66d9ef fs=italic build>=3150
         //                                            ^ fg=#f8f8f2 fs= build>=3127
         //                                             ^ fg=#ae81ff fs=
         //                                                          ^^ fg=#f8f8f2 fs=
