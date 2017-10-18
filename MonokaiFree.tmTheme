@@ -124,6 +124,8 @@
 <dict><key>scope</key><string>keyword.operator</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>meta.function.return-type.rust punctuation.separator.rust</string>    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>meta.structure.dictionary.key.json string -punctuation</string>       <key>settings</key><dict><key>foreground</key><string>#cfcfc2</string></dict></dict>
+<dict><key>scope</key><string>meta.structure.dictionary.key.json string punctuation</string>        <key>settings</key><dict><key>foreground</key><string>#cfcfc280</string></dict></dict>
 <dict><key>scope</key><string>punctuation.accessor.php</string>                 <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.accessor.rust</string>                <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.section.brackets.begin</string>       <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
