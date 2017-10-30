@@ -8,8 +8,6 @@ A beautiful, modern, high quality, Monokai theme for Sublime Text 3.
 * Additional syntax highlighting for LESS, Sass, Laravel Blade, Visual Studio Code.
 * Supported plugins: [GitGutter][], [SublimeLinter][], [NeoVintageous][].
 
-![Monokai Free color palette](palette.png)
-
 ## INSTALLATION
 
 ### Package Control
@@ -66,27 +64,29 @@ To run the tests install [ColorSchemeUnit][] (a framework for testing Sublime Te
 
 The colors are not set in stone. Please advice of better choices. There are also still two background and one foreground shades yet to be selected.
 
-```
+![Monokai Free color palette](palette.png)
+
+```text
 COLOR TABLE
 
 MONOKAIFREE HEX     RGB         EXAMPLE USAGE
 *********** ******* *********** ********************************************
 bg0         #272822  39  40  34
-bg1         #3e3d32  62  61  50 Rulers, invisibles, Line highlight.
-bg?         ??????? ??? ??? ???
-bg?         ??????? ??? ??? ???
+bg1         #3e3d32  62  61  50 Rulers, invisibles, line highlight.
+bg2         ??????? ??? ??? ???
+bg3         ??????? ??? ??? ???
 fg0         #f8f8f2 248 248 242 Text
 fg1         #cfcfc2 207 207 194 Text (soft)
-fg2         #75715e 117 113  94 Comments, selections, gutter line numbers.
-fg?         ??????? ??? ??? ???
-yellow      #e6db74 230 219 116
-orange      #fd971f 253 151  31
-red         #f92672 249  38 114
+fg2         #75715e 117 113  94 Comments, selections, gutter text.
+fg3         ??????? ??? ??? ???
+yellow      #e6db74 230 219 116 Strings, cursors.
+orange      #fd971f 253 151  31 Language identifiers, function parameters.
+red         #f92672 249  38 114 Control structures, modifiers, operators.
 magenta     #fd5ff0 253  95 240
-violet      #ae81ff 174 129 255
+violet      #ae81ff 174 129 255 Constants, numbers, booleans.
 blue        #66d9ef 102 217 239
 cyan        #a1efe4 161 239 228
-green       #a6e22e 166 226  46
+green       #a6e22e 166 226  46 Class names, function names.
 ```
 
 ## LICENSE
