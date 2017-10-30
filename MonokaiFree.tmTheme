@@ -33,7 +33,7 @@
                 <!-- Accents -->
                 <key>misspelling</key>                  <string>#f92672</string>
                 <key>minimapBorder</key>                <string>#e6db74</string>
-                <key>accent</key>                       <string>#fd971f</string>
+                <key>accent</key>                       <string>#fd971fa6</string>
 
                 <!-- CSS -->
                 <!-- <key>popupCss</key>                     <string></string> -->
