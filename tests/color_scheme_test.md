@@ -76,11 +76,11 @@ If you like **you *can* combine them**
 *Abc [X][1]*
 <!-- ^^^^^^ fs=italic -->
 
-**Ab [X](y).**
-<!-- ^^^^^^^ fs=bold -->
+**Ab [X](y)**
+<!-- ^^^^^^ fs=bold -->
 
-**Ab [X][1].**
-<!-- ^^^^^^^ fs=bold -->
+**Ab [X][1]**
+<!-- ^^^^^^ fs=bold -->
 
 # Images
 
@@ -98,16 +98,16 @@ If you like **you *can* combine them**
 <!--        ^ fg=#ae81ff fs= -->
 <!--         ^ fg=#75715e fs= -->
 
-[12345]: http://github.com
+[12345]: url
 <!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
-<!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
+<!--     ^^^ fg=#66d9ef fs=underline -->
 
 # Links
 
-http://github.com - automatic
-<!-- ^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127 -->
-<!--             ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+https://github.com - automatic
+<!-- ^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127 -->
+<!--              ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
 
 ..... [Alt](url)
 <!--  ^ fg=#75715e fs= -->
@@ -123,10 +123,15 @@ http://github.com - automatic
 <!--       ^ fg=#ae81ff fs= -->
 <!--        ^ fg=#75715e fs= -->
 
-[12345]: http://github.com
+.... [Alt][]
+<!-- ^ fg=#75715e fs= -->
+<!--  ^^^ fg=#e6db74 fs= -->
+<!--     ^^^ fg=#75715e fs= -->
+
+[12345]: url
 <!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
-<!--     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
+<!--     ^^^ fg=#66d9ef fs=underline -->
 
 # [X](y)
 # ^ fg=#75715e fs=bold
@@ -157,6 +162,13 @@ http://github.com - automatic
 #     ^^ fg=#75715e fs=bold
 #       ^ fg=#66d9ef fs=bold underline
 #        ^ fg=#75715e fs=bold
+
+Firstname Lname <name@example.com>
+<!-- ^^^^ fg=#f8f8f2 fs= -->
+<!--      ^^^^^ fg=#f8f8f2 fs= -->
+<!--            ^ fg=#75715e fs= -->
+<!--             ^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
+<!--                             ^ fg=#75715e fs= -->
 
 # Blockquotes
 
