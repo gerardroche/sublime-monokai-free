@@ -64,6 +64,11 @@ struct point
 }
 
 struct foo **alloc_foo();
+// ^^^ fg=#66d9ef fs=italic
+//     ^^^ fg=#f8f8f2 fs=
+//         ^^ fg=#f92672 fs=
+//           ^^^^^^^^^ fg=#a6e22e fs=
+//                    ^^^ fg=#f8f8f2 fs=
 // ^ fg=#66d9ef fs=italic
 //     ^ fg=#f8f8f2 fs=
 //         ^^ fg=#f92672 fs=
@@ -86,6 +91,16 @@ scanf("%ms %as %*[, ]", &buf);
 
 
 int main(int argc, char **argv) {
+//  ^^^^ fg=#a6e22e fs=
+//      ^ fg=#f8f8f2 fs=
+//       ^^^ fg=#66d9ef fs=italic
+//           ^^^^ fg=#fd971f fs=italic
+//               ^ fg=#f8f8f2 fs=
+//                 ^^^^ fg=#66d9ef fs=italic
+//                      ^^ fg=#f92672 fs=
+//                        ^^^^ fg=#fd971f fs=italic
+//                            ^ fg=#f8f8f2 fs=
+//                              ^ fg=#f8f8f2 fs=
 //^ fg=#66d9ef fs=italic
 //  ^^^^ fg=#a6e22e fs=
 //      ^ fg=#f8f8f2 fs=
