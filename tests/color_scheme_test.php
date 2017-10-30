@@ -1055,7 +1055,7 @@ class x
         self::class;
         // ^ fg=#fd971f fs=italic
         //  ^^ fg=#f92672 fs=
-        //    ^^^^^ fg=#ae81ff fs=
+        //    ^^^^^ fg=#ae81ff fs=italic
         //         ^ fg=#f8f8f2 fs=
 
         self::$x;
@@ -1123,7 +1123,7 @@ class x
         // ^ fg=#66d9ef fs=
         //   ^ fg=#66d9ef fs=italic
         //    ^^ fg=#f92672 fs=
-        //      ^^^^^ fg=#ae81ff fs=
+        //      ^^^^^ fg=#ae81ff fs=italic
         //           ^ fg=#f8f8f2 fs=
 
         $x = new X();
