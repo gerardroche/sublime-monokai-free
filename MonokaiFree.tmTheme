@@ -62,13 +62,13 @@
 
                 <!-- Brackets -->
                 <key>bracketsOptions</key>              <string>underline</string>
-                <key>bracketsForeground</key>           <string>#f8f8f2a5</string>
+                <key>bracketsForeground</key>           <string>#e6db74</string>
                 <key>bracketContentsOptions</key>       <string>underline</string>
-                <key>bracketContentsForeground</key>    <string>#f8f8f2a5</string>
+                <key>bracketContentsForeground</key>    <string>#e6db74</string>
 
                 <!-- Tags -->
                 <key>tagsOptions</key>                  <string>stippled_underline</string>
-                <key>tagsForeground</key>               <string>#f8f8f2a5</string>
+                <key>tagsForeground</key>               <string>#e6db74a5</string>
 
                 <!-- Shadows -->
                 <!-- <key>shadow</key>                       <string></string> -->
