@@ -700,6 +700,9 @@ if (isset($x) && is_callable($x)) {
     //           ^ fg=#f8f8f2 fs=
 
     $x = <<<EOT
+//  ^^ fg=#f8f8f2 fs=
+//     ^ fg=#f92672 fs=
+//       ^^^^^^ fg=#f92672 fs= -->
 <div>
     <p>$x</p>
 //  ^^^ fg=#e6db74 fs=
@@ -792,6 +795,55 @@ EOT;
 //^ fg=#f92672 fs=
 // ^ fg=#f8f8f2 fs=
 
+    $x = <<<XML
+<!--^^ fg=#f8f8f2 fs= build>=3154 -->
+<!--   ^ fg=#f92672 fs= build>=3154 -->
+<!--     ^^^^^^ fg=#f92672 fs= build>=3154 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!--^ fg=#f92672 fs= build>=3154 -->
+<!--  ^^^^^^^ fg=#a6e22e fs= build>=3154 -->
+<!--         ^ fg=#f8f8f2 fs= build>=3154 -->
+<!--          ^^^^^ fg=#e6db74 fs= build>=3154 -->
+<!--                ^^^^^^^^ fg=#a6e22e fs= build>=3154 -->
+<!--                        ^ fg=#f8f8f2 fs= build>=3154 -->
+<!--                         ^^^^^^^ fg=#e6db74 fs= build>=3154 -->
+<!--                                ^^ fg=#f8f8f2 fs= build>=3154 -->
+    <food>
+<!--^ fg=#f8f8f2 fs= build>=3154 -->
+    <!--^ fg=#f92672 fs= build>=3154 -->
+    <!-- ^ fg=#f8f8f2 fs= build>=3154 -->
+        <name>Belgian Waffles</name>
+    <!--^ fg=#f8f8f2 fs= build>=3154 -->
+        <!--^ fg=#f92672 fs= build>=3154 -->
+        <!-- ^ fg=#f8f8f2 fs= build>=3154 -->
+        <!--  ^ fg=#f8f8f2 fs= build>=3154 -->
+        <!--                 ^^ fg=#f8f8f2 fs= build>=3154 -->
+        <!--                   ^ fg=#f92672 fs= build>=3154 -->
+        <!--                       ^ fg=#f8f8f2 fs= build>=3154 -->
+    </food>
+</xml>
+XML;
+//^ fg=#f92672 fs= build>=3154
+// ^ fg=#f8f8f2 fs= build>=3154
+
+    $x = <<<CSS
+/*  ^^ fg=#f8f8f2 fs= build>=3154 */
+/*     ^ fg=#f92672 fs= build>=3154 */
+/*       ^^^^^^ fg=#f92672 fs= build>=3154 */
+    body {}
+/*  ^^^^ fg=#f92672 fs= build>=3154 */
+/*       ^^ fg=#f8f8f2 fs= build>=3154 */
+
+    #id {}
+/*  ^^^ fg=#fd971f fs= build>=3154 */
+/*      ^^ fg=#f8f8f2 fs= build>=3154 */
+
+    .class {}
+/*  ^^^^^^ fg=#a6e22e fs= build>=3154 */
+/*         ^^ fg=#f8f8f2 fs= build>=3154 */
+CSS;
+//^ fg=#f92672 fs= build>=3154
+// ^ fg=#f8f8f2 fs= build>=3154
 
     if (x('y') && $x instanceof Countable) {
     // ^ fg=#f8f8f2 fs=

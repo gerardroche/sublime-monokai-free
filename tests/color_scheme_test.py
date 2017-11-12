@@ -169,12 +169,14 @@ def x():
     #                     ^ fg=#f92672 fs=
     #                      ^^ fg=#f8f8f2 fs=
 
-    x = re.match('^.+\.x$')
+    x = re.match('^.+\\.x$')
     #   ^^^ fg=#f8f8f2 fs=
     #      ^^^^^ fg=#66d9ef fs=
     #           ^ fg=#f8f8f2 fs=
-    #            ^^^^^^^^^ fg=#e6db74 fs=
-    #                     ^ fg=#f8f8f2 fs=
+    #            ^^^^ fg=#e6db74 fs=
+    #                ^^ fg=#ae81ff fs= build>=3154
+    #                  ^^^^ fg=#e6db74 fs=
+    #                      ^ fg=#f8f8f2 fs=
 
 @requires_x
 # ^ fg=#f8f8f2 fs=
