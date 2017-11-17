@@ -47,7 +47,7 @@
                 <key>selection</key>                    <string>#75715e</string>
                 <key>selectionForeground</key>          <string>#272822</string>
                 <key>selectionBorder</key>              <string>#75715e</string>
-                <key>inactiveSelection</key>            <string>#75715e80</string>
+                <key>inactiveSelection</key>            <string>#75715e</string>
                 <!-- <key>inactiveSelectionForeground</key>  <string></string> -->
 
                 <!-- Find -->
