@@ -74,7 +74,7 @@ class Program
     //                               ^ fg=#f8f8f2 fs=
 
     static void Main(string[] x)
-    // ^ fg=#f8f8f2 bg=#f92672cc fs= build>=3127
+    // ^ fg=#f92672 bg=#f9267260 fs= build>=3154
     //     ^ fg=#66d9ef fs=italic
     //          ^ fg=#a6e22e fs=
     //              ^ fg=#f8f8f2 fs=

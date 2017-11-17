@@ -7,6 +7,9 @@ import os
 # ^^^^ fg=#f92672 fs=
 #      ^^ fg=#f8f8f2 fs=
 
+import path from os
+#           ^^^^ fg=#f92672 bg=#f9267260 fs= build>=3154
+
 __all__
 # ^^^^^ fg=#66d9ef fs=
 
@@ -37,6 +40,13 @@ x = "_\x00_\xaa_\'_%s_"
 #                 ^ fg=#e6db74 fs=
 #                  ^^ fg=#ae81ff fs=
 #                    ^^ fg=#e6db74 fs=
+
+x = '_\m_\\m_'
+#   ^^ fg=#e6db74 fs=
+#     ^^ fg=#fd5ff0 bg=#fd5ff060 build>=3154
+#       ^ fg=#e6db74 fs=
+#        ^^ fg=#ae81ff fs=
+#          ^^^ fg=#e6db74 fs=
 
 x = b'x'
 #   ^ fg=#66d9ef fs=italic

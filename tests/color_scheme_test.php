@@ -387,6 +387,16 @@ if (isset($x) && is_callable($x)) {
     //               ^^^^ fg=#e6db74 fs=
     //                   ^^ fg=#f8f8f2 fs=
 
+    $x = "_\n_\\n_\m_\\m_";
+    //   ^^ fg=#e6db74 fs=
+    //     ^^ fg=#ae81ff fs=
+    //       ^ fg=#e6db74 fs=
+    //        ^^ fg=#ae81ff fs=
+    //          ^^^^^ fg=#e6db74 fs=
+    //               ^^ fg=#ae81ff fs=
+    //                 ^^^ fg=#e6db74 fs=
+    //                    ^ fg=#f8f8f2 fs=
+
     user_defined();
     // ^^^^^^^^^ fg=#f8f8f2 fs=
     //          ^^ fg=#f8f8f2 fs=
