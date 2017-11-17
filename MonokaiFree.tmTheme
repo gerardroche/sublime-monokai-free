@@ -225,13 +225,15 @@
 <dict><key>scope</key><string>message.info</string>                                     <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>message.warning</string>                                  <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>meta.diff.header</string>                                 <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>meta.diff</string>                                        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>meta.diff.index</string>                                  <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+<dict><key>scope</key><string>meta.diff.range</string>                                  <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>meta.hard-line-break</string>                             <key>settings</key><dict><key>background</key><string>#75715e</string><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>meta.image.inline.description</string>                    <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.image.reference.description</string>                 <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.link.inline.description</string>                     <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.link.reference.description</string>                  <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.link.reference.literal.description</string>          <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+<dict><key>scope</key><string>meta.separator.diff</string>                              <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>text.html.markdown punctuation - constant</string>        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 
 <!-- Lint -->

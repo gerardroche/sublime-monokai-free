@@ -1,0 +1,70 @@
+// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Diff"
+
+--- Expected
+#^^ fg=#75715e fs=
+#   ^^^^^^^^ fg=#75715e fs=
++++ Actual
+#^^ fg=#75715e fs=
+#   ^^^^^^ fg=#75715e fs=
+
+@@ @@
+^^ fg=#66d9ef fs=
+   ^^ fg=#66d9ef fs=
+ Array (
+-    0 => 'expected'
+#    ^ fg=#f92672 fs=
+#      ^^ fg=#f92672 fs=
+#         ^^^^^^^^^^ fg=#f92672 fs=
++    0 => 'actual'
+#    ^ fg=#a6e22e fs=
+#      ^^ fg=#a6e22e fs=
+#         ^^^^^^^^ fg=#a6e22e fs=
+
+@@ -2,8 +2,11 @@
+#^ fg=#66d9ef fs=
+#  ^^^^ fg=#66d9ef fs=
+#       ^^^^^ fg=#66d9ef fs=
+#             ^^ fg=#66d9ef fs=
+
+--- Range ----
+#^^ fg=#66d9ef fs=
+#   ^^^^^ fg=#66d9ef fs=
+#         ^^^^ fg=#66d9ef fs=
+
+*** Range ****
+#^^ fg=#66d9ef fs=
+#   ^^^^^ fg=#66d9ef fs=
+#         ^^^^ fg=#66d9ef fs=
+
+***************
+# ^^^^^^^^^^^^^ fg=#75715e fs=
+
+===================================================================
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#75715e fs=
+
+---
+# ^ fg=#75715e fs=
+
+----
+# ^^ fg=#f92672 fs=
+
+Plain Text
+# ^^^^^^^^ fg=#f8f8f2 fs=
+
++ Addition
+# ^^^^^^^^ fg=#a6e22e fs=
+
+> Addition
+# ^^^^^^^^ fg=#a6e22e fs=
+
+- Deletion
+# ^^^^^^^^ fg=#f92672 fs=
+
+< Deletion
+# ^^^^^^^^ fg=#f92672 fs=
+
+! Modified
+# ^^^^^^^^ fg=#fd971f fs=
+
+Index: value
+# ^^^^^^^^^^ fg=#66d9ef fs=
