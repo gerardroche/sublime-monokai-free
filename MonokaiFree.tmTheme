@@ -190,6 +190,7 @@
 <dict><key>scope</key><string>markup.changed</string>                                   <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>markup.deleted.git_gutter</string>                        <key>settings</key><dict><key>foreground</key><string>#f92672a6</string></dict></dict>
 <dict><key>scope</key><string>markup.deleted</string>                                   <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>markup.error</string>                                     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline markup.underline.link</string>                <key>settings</key><dict><key>fontStyle</key><string>bold underline</string></dict></dict>
 <dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline markup.underline.link</string>                <key>settings</key><dict><key>fontStyle</key><string>bold underline</string></dict></dict>
 <dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline punctuation.definition.link</string>          <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
@@ -200,8 +201,10 @@
 <dict><key>scope</key><string>markup.heading entity.name.section</string>               <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>markup.heading punctuation.definition.heading</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.heading</string>                                   <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
+<dict><key>scope</key><string>markup.hint</string>                                      <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.ignored.git_gutter</string>                        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.ignored</string>                                   <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.info</string>                                      <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.inserted.git_gutter</string>                       <key>settings</key><dict><key>foreground</key><string>#a6e22ea6</string></dict></dict>
 <dict><key>scope</key><string>markup.inserted</string>                                  <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.italic markup.bold</string>                        <key>settings</key><dict><key>fontStyle</key><string>italic bold</string></dict></dict>
@@ -217,6 +220,10 @@
 <dict><key>scope</key><string>markup.underline</string>                                 <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
 <dict><key>scope</key><string>markup.untracked.git_gutter</string>                      <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.untracked</string>                                 <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.warning</string>                                   <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+<dict><key>scope</key><string>message.error</string>                                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>message.info</string>                                     <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
+<dict><key>scope</key><string>message.warning</string>                                  <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>meta.diff.header</string>                                 <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>meta.diff</string>                                        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>meta.hard-line-break</string>                             <key>settings</key><dict><key>background</key><string>#75715e</string><key>foreground</key><string>#272822</string></dict></dict>
