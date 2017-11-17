@@ -6,7 +6,7 @@ A beautiful, modern, high quality, Monokai theme for Sublime Text 3.
 
 * Enhanced syntax highlighting for PHP, HTML, CSS, Markdown, JavaScript, Ruby, Python.
 * Additional syntax highlighting for LESS, Sass, Laravel Blade, Visual Studio Code.
-* Supported plugins: [GitGutter][], [SublimeLinter][], [NeoVintageous][].
+* Supported plugins: [GitGutter][], [SublimeLinter][], [NeoVintageous][], [PHPUnitKit][].
 
 ## INSTALLATION
 
@@ -93,7 +93,8 @@ green       #a6e22e 166 226  46 Class names, function names.
 
 Released under the [BSD 3-Clause License](LICENSE).
 
+[ColorSchemeUnit]: https://github.com/gerardroche/sublime-color-scheme-unit
 [GitGutter]: https://github.com/jisaacks/GitGutter
 [NeoVintageous]: https://github.com/NeoVintageous/NeoVintageous
+[PHPUnitKit]: https://github.com/gerardroche/sublime-phpunit
 [SublimeLinter]: https://github.com/SublimeLinter/SublimeLinter3
-[ColorSchemeUnit]: https://github.com/gerardroche/sublime-color-scheme-unit

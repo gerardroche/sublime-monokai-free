@@ -274,6 +274,24 @@
         </dict>
     </dict>
 
+<!--
+    Test plugin:
+    https://github.com/gerardroche/sublime-test
+    https://github.com/gerardroche/sublime-phpunit
+-->
+
+    <dict><key>scope</key><string>region.greenish phpunitkit</string>
+        <key>settings</key><dict><key>background</key><string>#a6e22e</string>
+                                 <key>foreground</key><string>#272822</string></dict></dict>
+
+    <dict><key>scope</key><string>region.orangish phpunitkit</string>
+        <key>settings</key><dict><key>background</key><string>#fd971f</string>
+                                 <key>foreground</key><string>#272822</string></dict></dict>
+
+    <dict><key>scope</key><string>region.redish phpunitkit</string>
+        <key>settings</key><dict><key>background</key><string>#f92672</string>
+                                 <key>foreground</key><string>#f8f8f2</string></dict></dict>
+
 <!-- Experimental: Vim emulation block cursor support -->
 
 <dict><key>scope</key><string>insert_mode_cursor</string><key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
