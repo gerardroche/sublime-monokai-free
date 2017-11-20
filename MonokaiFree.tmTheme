@@ -96,7 +96,7 @@
 
                 <!-- Tags -->
                 <key>tagsOptions</key>                  <string>stippled_underline</string>
-                <key>tagsForeground</key>               <string>#e6db74a5</string>
+                <key>tagsForeground</key>               <string>#e6db7480</string>
 
                 <!-- Shadows -->
                 <!-- <key>shadow</key>                       <string></string> -->
