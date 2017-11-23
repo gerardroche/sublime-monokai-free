@@ -72,7 +72,7 @@ COLOR TABLE
 MONOKAIFREE HEX     RGB         EXAMPLE USAGE
 *********** ******* *********** ********************************************
 bg0         #272822  39  40  34
-bg1         #3e3d32  62  61  50 Rulers, invisibles, line highlight.
+bg1         #3e3d32  62  61  50 Rulers, invisibles.
 bg2         ??????? ??? ??? ???
 bg3         ??????? ??? ??? ???
 fg0         #f8f8f2 248 248 242 Text

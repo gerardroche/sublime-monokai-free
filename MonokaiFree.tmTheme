@@ -264,61 +264,73 @@
 <dict><key>scope</key><string>meta.separator.diff</string>                              <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>text.html.markdown punctuation - constant</string>        <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 
-<!-- Lint -->
+<!-- Plugin: SublimeLinter -->
 
-    <!-- SublimeLinter requires these definitions to
-         be formatted like this, otherwise it will
-         create a cached versions of the color
-         scheme and use its default colors
-         for the linter -->
+<!-- SublimeLinter requires these definitions to
+be formatted like this, otherwise it will create
+a cached versions of the color scheme and use
+its default colors for the linter -->
 
+<dict>
+    <key>scope</key>
+    <string>sublimelinter.gutter-mark</string>
+    <key>settings</key>
     <dict>
-        <key>scope</key>
-        <string>sublimelinter.gutter-mark</string>
-        <key>settings</key>
-        <dict>
-            <key>foreground</key>
-            <string>#f8f8f2</string>
-            <key>background</key>
-            <string>#f92672a6</string>
-        </dict>
+        <key>foreground</key>
+        <string>#f8f8f2</string>
+        <key>background</key>
+        <string>#f92672a6</string>
     </dict>
+</dict>
+<dict>
+    <key>scope</key>
+    <string>sublimelinter.mark.error</string>
+    <key>settings</key>
     <dict>
-        <key>scope</key>
-        <string>sublimelinter.mark.error</string>
-        <key>settings</key>
-        <dict>
-            <key>foreground</key>
-            <string>#f92672a6</string>
-        </dict>
+        <key>foreground</key>
+        <string>#f92672a6</string>
     </dict>
+</dict>
+<dict>
+    <key>scope</key>
+    <string>sublimelinter.mark.warning</string>
+    <key>settings</key>
     <dict>
-        <key>scope</key>
-        <string>sublimelinter.mark.warning</string>
-        <key>settings</key>
-        <dict>
-            <key>foreground</key>
-            <string>#fd971fa6</string>
-        </dict>
+        <key>foreground</key>
+        <string>#fd971fa6</string>
     </dict>
+</dict>
 
-<!--
-    Test plugin:
+<!-- Plugin: SublimeLinter -->
+
+<!-- These are styles for the newest version of SublimeLinter -->
+
+<dict><key>scope</key><string>region.yellowish sublimelinter</string>
+    <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+
+<dict><key>scope</key><string>region.redish sublimelinter</string>
+    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+
+<dict><key>scope</key><string>region.orangish sublimelinter</string>
+    <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+
+<!-- Plugin: PHPUnitKit
+
     https://github.com/gerardroche/sublime-test
     https://github.com/gerardroche/sublime-phpunit
 -->
 
-    <dict><key>scope</key><string>region.greenish phpunitkit</string>
-        <key>settings</key><dict><key>background</key><string>#a6e22e</string>
-                                 <key>foreground</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>region.greenish phpunitkit</string>
+    <key>settings</key><dict><key>background</key><string>#a6e22e</string>
+                             <key>foreground</key><string>#272822</string></dict></dict>
 
-    <dict><key>scope</key><string>region.orangish phpunitkit</string>
-        <key>settings</key><dict><key>background</key><string>#fd971f</string>
-                                 <key>foreground</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>region.orangish phpunitkit</string>
+    <key>settings</key><dict><key>background</key><string>#fd971f</string>
+                             <key>foreground</key><string>#272822</string></dict></dict>
 
-    <dict><key>scope</key><string>region.redish phpunitkit</string>
-        <key>settings</key><dict><key>background</key><string>#f92672</string>
-                                 <key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>region.redish phpunitkit</string>
+    <key>settings</key><dict><key>background</key><string>#f92672</string>
+                             <key>foreground</key><string>#f8f8f2</string></dict></dict>
 
 <!-- Experimental: Vim emulation block cursor support -->
 
