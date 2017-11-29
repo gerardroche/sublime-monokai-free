@@ -282,7 +282,7 @@
     Older versions of SublimeLinter require style definitions to be formatted
     like this, otherwise it will create a cached versions of the color scheme
     and use its default colors for the linter. -->
-<!--
+
     <dict>
         <key>scope</key>
         <string>sublimelinter.gutter-mark</string>
@@ -311,7 +311,7 @@
             <key>foreground</key>
             <string>#fd971fa6</string>
         </dict>
-    </dict> -->
+    </dict>
 
 <!-- Plugin: PHPUnitKit
 
