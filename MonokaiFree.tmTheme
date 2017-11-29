@@ -266,7 +266,7 @@
 
 <!-- Plugin: SublimeLinter -->
 
-    <dict><key>scope</key><string>region.redish markup.error.sublimelinter</string>
+    <dict><key>scope</key><string>markup.error.sublimelinter</string>
         <key>settings</key><dict>
             <key>background</key><string>#f9267260</string>
             <key>foreground</key><string>#f92672</string>
