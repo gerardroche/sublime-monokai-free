@@ -26,7 +26,7 @@ Close Sublime Text, then download or clone this repository to a directory named 
 
 Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
 
-## Screenshots
+## SCREENSHOTS
 
 ### CSS
 
