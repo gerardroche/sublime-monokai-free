@@ -46,14 +46,6 @@ Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
 
 ![XML screenshot](screenshot-xml.png)
 
-### [GitGutter][]
-
-![Git Gutter screenshot](screenshot-git-gutter.png)
-
-### [SublimeLinter][]
-
-![Sublime Linter screenshot](screenshot-sublime-linter.png)
-
 ## CONTRIBUTING
 
 ### Tests
