@@ -266,32 +266,31 @@
 
 <!-- Plugin: SublimeLinter -->
 
-    <dict><key>scope</key><string>markup.error.sublimelinter</string>
+    <dict><key>scope</key><string>markup.error.sublime_linter, markup.error.sublimelinter</string>
         <key>settings</key><dict>
             <key>background</key><string>#f9267260</string>
             <key>foreground</key><string>#f92672</string>
         </dict></dict>
 
-    <dict><key>scope</key><string>markup.warning.sublimelinter</string>
+    <dict><key>scope</key><string>markup.warning.sublime_linter, markup.warning.sublimelinter</string>
         <key>settings</key><dict>
-            <key>background</key><string>#fd971f69</string>
+            <key>background</key><string>#fd971f60</string>
             <key>foreground</key><string>#fd971f</string>
         </dict></dict>
 
-    <!-- DEPRECATED
-    Older versions of SublimeLinter require style definitions to be formatted
-    like this, otherwise it will create a cached versions of the color scheme
-    and use its default colors for the linter. -->
+    <!-- DEPRECATED Older versions of SublimeLinter require style definitions to
+    be formatted like this, otherwise it will create a cached versions of the
+    color scheme and use its default colors for the linter. -->
 
     <dict>
         <key>scope</key>
         <string>sublimelinter.gutter-mark</string>
         <key>settings</key>
         <dict>
-            <key>foreground</key>
-            <string>#f8f8f2</string>
             <key>background</key>
-            <string>#f92672a6</string>
+            <string>#f9267260</string>
+            <key>foreground</key>
+            <string>#f92672</string>
         </dict>
     </dict>
     <dict>
@@ -299,8 +298,10 @@
         <string>sublimelinter.mark.error</string>
         <key>settings</key>
         <dict>
+            <key>background</key>
+            <string>#f9267260</string>
             <key>foreground</key>
-            <string>#f92672a6</string>
+            <string>#f92672</string>
         </dict>
     </dict>
     <dict>
@@ -308,16 +309,14 @@
         <string>sublimelinter.mark.warning</string>
         <key>settings</key>
         <dict>
+            <key>background</key>
+            <string>#fd971f60</string>
             <key>foreground</key>
-            <string>#fd971fa6</string>
+            <string>#fd971f</string>
         </dict>
     </dict>
 
-<!-- Plugin: PHPUnitKit
-
-        https://github.com/gerardroche/sublime-test
-        https://github.com/gerardroche/sublime-phpunit
-    -->
+<!-- Plugin: PHPUnitKit -->
 
     <dict><key>scope</key><string>region.greenish phpunitkit</string>
         <key>settings</key><dict>
