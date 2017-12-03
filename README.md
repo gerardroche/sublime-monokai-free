@@ -16,7 +16,7 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 ### Manual
 
-Close Sublime Text then download or clone this repository to a directory named `MonokaiFree` in the Sublime Text Packages directory for your platform:
+Close Sublime Text, then download or clone this repository to a directory named `MonokaiFree` in the Sublime Text Packages directory for your platform:
 
 * Linux: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/.config/sublime-text-3/Packages/MonokaiFree`
 * OSX: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/MonokaiFree`
