@@ -252,6 +252,10 @@
 
 <dict><key>scope</key><string>source.sass variable</string>                             <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 
+<!-- Patches: SASS - Syntax Highlighting for Sass -->
+
+<dict><key>scope</key><string>keyword.other.reserved.sass</string>                      <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
+
 <!-- Patches: LESS -->
 
 <dict><key>scope</key><string>meta.property-value.css variable.other.less</string>      <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
