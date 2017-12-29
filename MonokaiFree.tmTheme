@@ -94,12 +94,16 @@
                 <key>stackGuide</key>                   <string>#75715e</string>
 
                 <!-- Brackets -->
+                <!-- It's not possible to set the background for brackets.
+                See https://github.com/SublimeTextIssues/Core/issues/2123. -->
                 <key>bracketsOptions</key>              <string>underline</string>
                 <key>bracketsForeground</key>           <string>#e6db74</string>
                 <key>bracketContentsOptions</key>       <string>underline</string>
                 <key>bracketContentsForeground</key>    <string>#e6db74</string>
 
                 <!-- Tags -->
+                <!-- It's not possible to set the background for tags.
+                See https://github.com/SublimeTextIssues/Core/issues/2123. -->
                 <key>tagsOptions</key>                  <string>stippled_underline</string>
                 <key>tagsForeground</key>               <string>#e6db7480</string>
 
