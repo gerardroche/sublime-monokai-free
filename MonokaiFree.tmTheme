@@ -90,8 +90,8 @@
 
                 <!-- Guides -->
                 <key>guide</key>                        <string>#3e3d32</string>
-                <key>activeGuide</key>                  <string>#a6e22e</string>
                 <key>stackGuide</key>                   <string>#75715e</string>
+                <key>activeGuide</key>                  <string>#e6db74a6</string>
 
                 <!-- Brackets -->
                 <!-- It's not possible to set the background for brackets.
