@@ -270,13 +270,17 @@
 
 <!-- Plugin: SublimeLinter -->
 
-    <dict><key>scope</key><string>markup.error.sublime_linter, markup.error.sublimelinter</string>
+    <!-- Setting the foreground color doesn't work for these scopes.
+    See https://github.com/SublimeTextIssues/Core/issues/2122. -->
+    <dict><key>scope</key><string>markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter</string>
         <key>settings</key><dict>
             <key>background</key><string>#f9267260</string>
             <key>foreground</key><string>#f92672</string>
         </dict></dict>
 
-    <dict><key>scope</key><string>markup.warning.sublime_linter, markup.warning.sublimelinter</string>
+    <!-- Setting the foreground color doesn't work for these scopes.
+    See https://github.com/SublimeTextIssues/Core/issues/2122. -->
+    <dict><key>scope</key><string>markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter</string>
         <key>settings</key><dict>
             <key>background</key><string>#fd971f60</string>
             <key>foreground</key><string>#fd971f</string>
