@@ -56,7 +56,7 @@ To run the tests install [ColorSchemeUnit][] (a framework for testing Sublime Te
 
 The colors are not set in stone. Please advice of better choices. There are also still two background and one foreground shades yet to be selected.
 
-![Monokai Free color palette](palette.png)
+![MonokaiFree color palette](palette.png)
 
 ```text
 COLOR TABLE
