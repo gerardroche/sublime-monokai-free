@@ -74,14 +74,14 @@
                 <!-- Selection -->
                 <key>selection</key>                    <string>#75715e</string>
                 <key>selectionForeground</key>          <string>#272822</string>
-                <key>selectionBorder</key>              <string>#27282200</string>
+                <key>selectionBorder</key>              <string></string>
                 <key>inactiveSelection</key>            <string>#75715e</string>
                 <!-- The inactive selection foreground doesn't work.
                 See https://github.com/SublimeTextIssues/Core/issues/2118. -->
-                <key>inactiveSelectionForeground</key>  <string>272822</string>
+                <key>inactiveSelectionForeground</key>  <string>#272822</string>
                 <!-- The inactive selection border doesn't work.
                 See https://github.com/SublimeTextIssues/Core/issues/2118. -->
-                <key>inactiveSelectionBorder</key>      <string>27282200</string>
+                <key>inactiveSelectionBorder</key>      <string></string>
 
                 <!-- Find -->
                 <key>highlight</key>                    <string>#e6db74</string>
