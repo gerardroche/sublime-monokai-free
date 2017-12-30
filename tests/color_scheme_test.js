@@ -134,7 +134,7 @@ class Foo extends React.Component {
     }
 
     static x(y) {}
-    // ^ fg=#66d9ef fs=italic
+    // ^ fg=#f92672 fs= build>=3156
     //     ^ fg=#a6e22e fs=
     //      ^ fg=#f8f8f2 fs=
     //       ^ fg=#fd971f fs=italic
