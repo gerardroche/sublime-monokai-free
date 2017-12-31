@@ -56,12 +56,12 @@
                 <key>background</key>                   <string>#272822</string>
                 <key>foreground</key>                   <string>#f8f8f2</string>
                 <key>caret</key>                        <string>#e6db74</string>
-                <key>lineHighlight</key>                <string>#f8f8f21a</string> <!-- 1a is 10% -->
+                <key>lineHighlight</key>                <string>#f8f8f21a</string> <!-- Alpha 1a ~= 10%. -->
 
                 <!-- Accents -->
-                <key>misspelling</key>                  <string>#f92672</string>
+                <key>misspelling</key>                  <string>#f926729d</string>
                 <key>minimapBorder</key>                <string>#e6db74</string>
-                <key>accent</key>                       <string>#fd971fa6</string>
+                <key>accent</key>                       <string>#e6db749d</string>
 
                 <!-- CSS -->
                 <!-- <key>popupCss</key>                     <string></string> -->
@@ -89,9 +89,9 @@
                 <key>findHighlightForeground</key>      <string>#272822</string>
 
                 <!-- Guides -->
-                <key>guide</key>                        <string>#3e3d32</string>
-                <key>stackGuide</key>                   <string>#75715e</string>
-                <key>activeGuide</key>                  <string>#e6db74a6</string>
+                <key>guide</key>                        <string>#3e3d329d</string>
+                <key>stackGuide</key>                   <string>#75715e9d</string>
+                <key>activeGuide</key>                  <string>#e6db749d</string>
 
                 <!-- Brackets -->
                 <!-- It's not possible to set the background for brackets.
@@ -112,8 +112,8 @@
                 <!-- <key>shadowWidth</key>                  <string></string> -->
 
                 <!-- Beta -->
-                <key>rulers</key>                       <string>#3e3d32</string>
-                <key>invisibles</key>                   <string>#3e3d32</string>
+                <key>rulers</key>                       <string>#f8f8f21a</string>
+                <key>invisibles</key>                   <string>#f8f8f226</string>
 
             </dict>
         </dict>
@@ -147,9 +147,9 @@
 <dict><key>scope</key><string>markup.bold meta.link.inline markup.underline.link</string>                 <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.bold punctuation.definition.bold</string>  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.bold</string>                              <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#fd971fa6</string></dict></dict>
-<dict><key>scope</key><string>markup.changed</string>                           <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f92672a6</string></dict></dict>
+<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#e6db749d</string></dict></dict>
+<dict><key>scope</key><string>markup.changed</string>                           <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f926729d</string></dict></dict>
 <dict><key>scope</key><string>markup.deleted</string>                           <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>markup.error</string>                             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline markup.underline.link</string>                <key>settings</key><dict><key>fontStyle</key><string>bold underline</string></dict></dict>
@@ -163,10 +163,10 @@
 <dict><key>scope</key><string>markup.heading punctuation.definition.heading</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.heading</string>                           <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.hint</string>                              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
 <dict><key>scope</key><string>markup.ignored</string>                           <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.info</string>                              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#a6e22ea6</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#a6e22e9d</string></dict></dict>
 <dict><key>scope</key><string>markup.inserted</string>                          <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.italic markup.bold</string>                <key>settings</key><dict><key>fontStyle</key><string>italic bold</string></dict></dict>
 <dict><key>scope</key><string>markup.italic meta.link.inline markup.underline.link</string> <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
@@ -272,21 +272,27 @@
 <dict><key>scope</key><string>parameter.less variable.other.less</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>variable.declaration.less</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 
-<!-- Plugin: SublimeLinter -->
+<!--
+
+  Packages
+
+-->
+
+    <!-- Package: SublimeLinter -->
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
     <dict><key>scope</key><string>markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter</string>
         <key>settings</key><dict>
-            <key>background</key><string>#f9267260</string>
-            <key>foreground</key><string>#f92672</string>
+            <key>background</key><string>#f926729d</string>
+            <key>foreground</key><string>#f926729d</string>
         </dict></dict>
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
     <dict><key>scope</key><string>markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter</string>
         <key>settings</key><dict>
-            <key>background</key><string>#fd971f60</string>
+            <key>background</key><string>#fd971f9d</string>
             <key>foreground</key><string>#fd971f</string>
         </dict></dict>
 
@@ -300,9 +306,9 @@
         <key>settings</key>
         <dict>
             <key>background</key>
-            <string>#f9267260</string>
+            <string>#f926729d</string>
             <key>foreground</key>
-            <string>#f92672</string>
+            <string>#f926729d</string>
         </dict>
     </dict>
     <dict>
@@ -311,9 +317,9 @@
         <key>settings</key>
         <dict>
             <key>background</key>
-            <string>#f9267260</string>
+            <string>#f926729d</string>
             <key>foreground</key>
-            <string>#f92672</string>
+            <string>#f926729d</string>
         </dict>
     </dict>
     <dict>
@@ -322,13 +328,13 @@
         <key>settings</key>
         <dict>
             <key>background</key>
-            <string>#fd971f60</string>
+            <string>#fd971f9d</string>
             <key>foreground</key>
-            <string>#fd971f</string>
+            <string>#fd971f9d</string>
         </dict>
     </dict>
 
-<!-- Plugin: PHPUnitKit -->
+    <!-- Package: PHPUnitKit -->
 
     <dict><key>scope</key><string>region.greenish phpunitkit</string>
         <key>settings</key><dict>
