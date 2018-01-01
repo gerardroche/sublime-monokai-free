@@ -8,13 +8,13 @@ A beautiful, modern, high quality, Monokai theme for Sublime Text 3.
 * Additional syntax highlighting for LESS, Sass, Laravel Blade, Visual Studio Code.
 * Supported plugins: [GitGutter][], [SublimeLinter][], [NeoVintageous][], [PHPUnitKit][].
 
-## INSTALLATION
+## Installation
 
-### Package Control
+### Package Control installation
 
-The preferred method of installation is [Package Control](https://packagecontrol.io/browse/authors/gerardroche).
+The preferred method of installation is [Package Control](https://packagecontrol.io/packages/MonokaiFree).
 
-### Manual
+### Manual installation
 
 Close Sublime Text, then download or clone this repository to a directory named `MonokaiFree` in the Sublime Text Packages directory for your platform:
 
@@ -46,6 +46,36 @@ Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
 
 ![XML screenshot](screenshot-xml.png)
 
+## CUSTOMISATION
+
+In newer versions of Sublime Text (`>= 3154`) customising your theme is straight forward enough.
+
+Create a color scheme override in your Sublime Text User directory (find the User directory via `Menu > Preferences > Browse Packages...`).
+
+Name the override file: `MonokaiFree.sublime-color-scheme`.
+
+You can configure overrides for anything you like; here's an example configuring a darker background, gutter, comments, and yellowish selections:
+
+```
+{
+    "globals":
+    {
+        "background": "#1b1d1e",
+        "gutter": "#1b1d1e",
+        "gutter_foreground": "#7e8e919d",
+        "selection": "#e6db74",
+    },
+
+    "rules":
+    [
+        {
+            "scope": "comment, punctuation.definition.comment",
+            "foreground": "#7e8e91"
+        }
+    ]
+}
+```
+
 ## CONTRIBUTING
 
 ### Tests
@@ -56,7 +86,7 @@ To run the tests install [ColorSchemeUnit][] (a framework for testing Sublime Te
 
 The colors are not set in stone. Please advice of better choices. There are also still two background and one foreground shades yet to be selected.
 
-![MonokaiFree color palette](palette.png)
+![Color palette](palette.png)
 
 ```text
 COLOR TABLE
