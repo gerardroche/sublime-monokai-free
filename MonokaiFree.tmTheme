@@ -354,6 +354,14 @@
             <key>foreground</key><string>#f8f8f2</string>
         </dict></dict>
 
+    <!-- Package: RulerColumn -->
+
+    <dict><key>scope</key><string>ruler.column</string>
+        <key>settings</key><dict>
+            <key>foreground</key><string>#272822</string>
+            <key>background</key><string>#e6db74</string>
+        </dict></dict>
+
     </array>
 </dict>
 </plist>
