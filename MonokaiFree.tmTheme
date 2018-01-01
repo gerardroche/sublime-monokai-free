@@ -89,9 +89,9 @@
                 <key>findHighlightForeground</key>      <string>#272822</string>
 
                 <!-- Guides -->
-                <key>guide</key>                        <string>#3e3d329d</string>
-                <key>stackGuide</key>                   <string>#75715e9d</string>
-                <key>activeGuide</key>                  <string>#e6db749d</string>
+                <key>guide</key>                        <string>#75715e9d</string>
+                <key>stackGuide</key>                   <string>#75715e</string>
+                <key>activeGuide</key>                  <string>#f8f8f29d</string>
 
                 <!-- Brackets -->
                 <!-- It's not possible to set the background for brackets.
@@ -112,7 +112,7 @@
                 <!-- <key>shadowWidth</key>                  <string></string> -->
 
                 <!-- Beta -->
-                <key>rulers</key>                       <string>#f8f8f21a</string>
+                <key>rulers</key>                       <string>#75715e9d</string>
                 <key>invisibles</key>                   <string>#f8f8f226</string>
 
             </dict>
