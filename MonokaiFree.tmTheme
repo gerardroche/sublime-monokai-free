@@ -279,6 +279,11 @@
 -->
 
     <!-- Package: SublimeLinter -->
+      <!--
+      TODO Report ST issue. There is no way to customise gutter icon and mark styles
+      independently of on one another e.g. gutter icon + outline style vs
+      gutter icon + fill style.
+      -->
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
