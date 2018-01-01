@@ -356,6 +356,8 @@
 
     <!-- Package: RulerColumn -->
 
+    <!-- Setting the foreground color doesn't work for these scopes.
+    See https://github.com/SublimeTextIssues/Core/issues/2122. -->
     <dict><key>scope</key><string>ruler.column</string>
         <key>settings</key><dict>
             <key>foreground</key><string>#272822</string>
