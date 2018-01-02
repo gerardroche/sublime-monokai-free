@@ -359,8 +359,7 @@
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
     <dict><key>scope</key><string>ruler.column</string>
         <key>settings</key><dict>
-            <key>foreground</key><string>#272822</string>
-            <key>background</key><string>#e6db74</string>
+            <key>background</key><string>#75715e9d</string>
         </dict></dict>
 
     </array>
