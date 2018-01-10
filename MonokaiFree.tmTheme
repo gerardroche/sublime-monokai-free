@@ -216,8 +216,6 @@
 <dict><key>scope</key><string>string punctuation.section.array</string>         <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>string punctuation.section.expansion</string>     <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>string punctuation.section.parens</string>        <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
-<dict><key>scope</key><string>string.search.occurrence</string>                 <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>string.search</string>                            <key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 <dict><key>scope</key><string>string.unquoted.heredoc punctuation.definition.string</string>            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>string.unquoted.heredoc.php punctuation.definition.string.begin</string>  <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>string.unquoted.heredoc.php punctuation.definition.string.end</string>    <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
@@ -273,11 +271,10 @@
 -->
 
     <!-- Package: SublimeLinter -->
-      <!--
-      TODO Report ST issue. There is no way to customise gutter icon and mark styles
-      independently of on one another e.g. gutter icon + outline style vs
-      gutter icon + fill style.
-      -->
+
+    <!-- TODO Report ST issue. There is no way to customise gutter icon and mark
+    styles independently of on one another e.g. gutter icon + outline style vs
+    gutter icon + fill style. -->
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
@@ -361,6 +358,26 @@
         <key>settings</key><dict>
             <key>background</key><string>#75715e9d</string>
         </dict></dict>
+
+    <!-- Package: NeoVintageous -->
+
+    <dict><key>scope</key><string>string.search.occurrence</string>
+      <key>settings</key><dict>
+        <key>foreground</key><string>#272822</string>
+        <key>background</key><string>#e6db74</string>
+      </dict></dict>
+
+    <dict><key>scope</key><string>string.search</string>
+      <key>settings</key><dict>
+        <key>foreground</key><string>#272822</string>
+        <key>background</key><string>#a1efe4</string>
+      </dict></dict>
+
+    <dict><key>scope</key><string>highlighted.yank</string>
+      <key>settings</key><dict>
+          <key>background</key><string>#e6db74</string>
+          <key>foreground</key><string>#272822</string>
+      </dict></dict>
 
     </array>
 </dict>
