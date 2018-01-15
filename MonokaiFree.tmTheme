@@ -58,7 +58,15 @@
                 <key>accent</key>                       <string>#e6db749d</string>
 
                 <!-- CSS -->
-                <!-- <key>popupCss</key>                     <string></string> -->
+                <key>popupCss</key><string>
+                  html {
+                    border: 1px solid #75715e;
+                  }
+                  body {
+                    background-color: color(var(--background) blend(white 98%));
+                    color: #cfcfc2;
+                  }
+                </string>
                 <!-- <key>phantomCss</key>                   <string></string> -->
 
                 <!-- Gutter -->
