@@ -289,7 +289,7 @@
     <dict><key>scope</key><string>markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter</string>
         <key>settings</key><dict>
             <key>background</key><string>#f926729d</string>
-            <key>foreground</key><string>#f926729d</string>
+            <key>foreground</key><string>#f92672</string>
         </dict></dict>
 
     <!-- Setting the foreground color doesn't work for these scopes.
@@ -312,7 +312,7 @@
             <key>background</key>
             <string>#f926729d</string>
             <key>foreground</key>
-            <string>#f926729d</string>
+            <string>#f92672</string>
         </dict>
     </dict>
     <dict>
@@ -323,7 +323,7 @@
             <key>background</key>
             <string>#f926729d</string>
             <key>foreground</key>
-            <string>#f926729d</string>
+            <string>#f92672</string>
         </dict>
     </dict>
     <dict>
@@ -334,7 +334,7 @@
             <key>background</key>
             <string>#fd971f9d</string>
             <key>foreground</key>
-            <string>#fd971f9d</string>
+            <string>#fd971f</string>
         </dict>
     </dict>
 
