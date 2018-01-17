@@ -61,10 +61,17 @@
                 <key>popupCss</key><string>
                   html {
                     border: 1px solid #75715e;
+                    background-color: color(var(--background) blend(white 98%));
                   }
+
                   body {
+                    font-family: system;
                     background-color: color(var(--background) blend(white 98%));
                     color: #cfcfc2;
+                  }
+
+                  a {
+                    color: #66d9ef;
                   }
                 </string>
                 <!-- <key>phantomCss</key>                   <string></string> -->
