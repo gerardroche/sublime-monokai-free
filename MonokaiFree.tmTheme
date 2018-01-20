@@ -285,7 +285,27 @@
 
 -->
 
-    <!-- Package: SublimeLinter -->
+<!-- Package LSP -->
+
+    <!-- This fix is required, because we use use transparent red background
+    color for sublimelinter gutter and region highlighting scopes (not the new
+    diagnostic markup), and in LSP we don't want a red background, but the LSP
+    scopes contain sublimelinter.* scopes. -->
+    <dict><key>scope</key><string>output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#272822</string>
+        </dict></dict>
+
+<!-- Package: SublimeLinter -->
+
+    <!-- This is required because we use a transparent red/yellow/etc background
+    for gutter and highlighted regions, but  the diagnostics panel uses the same
+    or similar scopes and we want the background color of text in the
+    diagnostics panel  to be the same as the theme background color. -->
+    <dict><key>scope</key><string>output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#272822</string>
+        </dict></dict>
 
     <!-- TODO Report ST issue. There is no way to customise gutter icon and mark
     styles independently of on one another e.g. gutter icon + outline style vs
@@ -345,7 +365,7 @@
         </dict>
     </dict>
 
-    <!-- Package: PHPUnitKit -->
+<!-- Package: PHPUnitKit -->
 
     <dict><key>scope</key><string>region.greenish phpunitkit</string>
         <key>settings</key><dict>
@@ -365,30 +385,33 @@
             <key>foreground</key><string>#f8f8f2</string>
         </dict></dict>
 
-    <!-- Package: RulerColumn -->
+<!-- Package: RulerColumn -->
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
-    <dict><key>scope</key><string>ruler.column</string>
+    <dict><key>scope</key><string>region ruler.column rulercolumn</string>
         <key>settings</key><dict>
-            <key>background</key><string>#75715e9d</string>
+            <!-- <key>foreground</key><string>#f926729d</string> -->
+            <!-- <key>background</key><string>#f926729d</string> -->
+            <key>foreground</key><string>#ffff00</string>
+            <key>background</key><string>#ffff00</string>
         </dict></dict>
 
-    <!-- Package: NeoVintageous -->
+<!-- Package: NeoVintageous -->
 
-    <dict><key>scope</key><string>string.search.occurrence</string>
+    <dict><key>scope</key><string>string.search.occurrence neovintageous</string>
       <key>settings</key><dict>
         <key>foreground</key><string>#272822</string>
         <key>background</key><string>#e6db74</string>
       </dict></dict>
 
-    <dict><key>scope</key><string>string.search</string>
+    <dict><key>scope</key><string>string.search neovintageous</string>
       <key>settings</key><dict>
         <key>foreground</key><string>#272822</string>
         <key>background</key><string>#a1efe4</string>
       </dict></dict>
 
-    <dict><key>scope</key><string>highlighted.yank</string>
+    <dict><key>scope</key><string>region highlighted.yank neovintageous</string>
       <key>settings</key><dict>
           <key>background</key><string>#e6db74</string>
           <key>foreground</key><string>#272822</string>
