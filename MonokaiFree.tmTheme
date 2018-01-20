@@ -389,29 +389,27 @@
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
-    <dict><key>scope</key><string>region ruler.column rulercolumn</string>
+    <dict><key>scope</key><string>region ruler.column</string>
         <key>settings</key><dict>
-            <!-- <key>foreground</key><string>#f926729d</string> -->
-            <!-- <key>background</key><string>#f926729d</string> -->
-            <key>foreground</key><string>#ffff00</string>
-            <key>background</key><string>#ffff00</string>
+            <key>foreground</key><string>#f92672</string>
+            <key>background</key><string>#f926729d</string>
         </dict></dict>
 
 <!-- Package: NeoVintageous -->
 
-    <dict><key>scope</key><string>string.search.occurrence neovintageous</string>
+    <dict><key>scope</key><string>string.search.occurrence</string>
       <key>settings</key><dict>
         <key>foreground</key><string>#272822</string>
         <key>background</key><string>#e6db74</string>
       </dict></dict>
 
-    <dict><key>scope</key><string>string.search neovintageous</string>
+    <dict><key>scope</key><string>string.search</string>
       <key>settings</key><dict>
         <key>foreground</key><string>#272822</string>
         <key>background</key><string>#a1efe4</string>
       </dict></dict>
 
-    <dict><key>scope</key><string>region highlighted.yank neovintageous</string>
+    <dict><key>scope</key><string>highlighted.yank</string>
       <key>settings</key><dict>
           <key>background</key><string>#e6db74</string>
           <key>foreground</key><string>#272822</string>
