@@ -2,16 +2,23 @@
 
 package hi;
 // ^ fg=#f92672 fs=
-//      ^^^ fg=#f8f8f2 fs=
+//      ^^ fg=#a6e22e fs= build>=3157
+//        ^ fg=#f8f8f2 fs=
 
 import java.util.HashMap;
 // ^ fg=#f92672 fs=
-//     ^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=italic
+//     ^^^^ fg=#66d9ef fs=italic
+//         ^ fg=#f8f8f2 fs=
+//          ^^^^ fg=#66d9ef fs=italic
+//              ^ fg=#f8f8f2 fs=
+//               ^^^^^^^ fg=#66d9ef fs=italic
 //                      ^ fg=#f8f8f2 fs=
 import javax.swing.*;
-//     ^^^^^^^^^^^ fg=#66d9ef fs=italic
+//     ^^^^^ fg=#66d9ef fs=italic
+//          ^ fg=#f8f8f2 fs= build>=3157
+//           ^^^^^ fg=#66d9ef fs=italic
 //                ^ fg=#f8f8f2 fs= build>=3150
-//                 ^ fg=#f8f8f2 fs=
+//                 ^ fg=#f92672 fs= build>=3157
 //                  ^ fg=#f8f8f2 fs=
 
 class ExtendsTest implements Foo {}
