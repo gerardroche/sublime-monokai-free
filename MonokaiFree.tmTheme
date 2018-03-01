@@ -182,8 +182,8 @@
 <dict><key>scope</key><string>markup.italic punctuation.definition.italic</string>          <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.italic</string>                            <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>markup.list.unnumbered.bullet punctuation.definition.list_item</string>   <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>markup.quote punctuation.definition.blockquote</string>       <key>settings</key><dict><key>background</key><string>#75715e</string><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>markup.quote</string>                             <key>settings</key><dict><key>foreground</key><string>#cfcfc2</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>markup.quote markup.raw</string>                  <key>settings</key><dict><key>foreground</key><string>#fd971fcc</string></dict></dict>
+<dict><key>scope</key><string>markup.quote</string>                             <key>settings</key><dict><key>foreground</key><string>#f8f8f2cc</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>markup.raw punctuation</string>                   <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.raw</string>                               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>markup.underline.link</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>

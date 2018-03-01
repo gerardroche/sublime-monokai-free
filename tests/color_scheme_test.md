@@ -176,8 +176,8 @@ As Kanye West said:
 
   > We're living the future so
   > the present is our past.
-# ^ fg=#75715e bg=#75715e fs=italic -->
-<!-- ^^^^^^^^^^^^^^^^^^^^^^^ fg=#cfcfc2 fs=italic -->
+# ^ fg=#75715e bg=#272822 fs=italic -->
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2cc fs=italic -->
 
 # Lists
 
