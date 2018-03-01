@@ -340,4 +340,8 @@ Any URL (like http://www.github.com/) will be automatically converted into a cli
 # Strikethrough
 
 Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
-<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+<!--                                     ^^^^ fg=#f8f8f2 fs= build>=3157 -->
+<!--                                           ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+<!--                                   ^^ fg=#75715e fs= build>=3157 -->
+<!--                                         ^^ fg=#75715e fs= build>=3157 -->
