@@ -284,8 +284,10 @@ Here's an example of Python code without syntax highlighting:
   <!--                ^^^^^^^ fg=#f8f8f2 fs=italic -->
   <!--                       ^ fg=#75715e fs=italic -->
 - [x] @mentions, #refs, [links]()
-  <!-- ^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
-  <!--                   ^^^^^^^^ fg=#f8f8f2 fs= build>=3127 -->
+  <!-- ^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
+  <!--                  ^ fg=#75715e fs= build>=3158 -->
+  <!--                   ^^^^^ fg=#e6db74 fs= build>=3158 -->
+  <!--                        ^^^ fg=#75715e fs= build>=3158 -->
 
 If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
 
