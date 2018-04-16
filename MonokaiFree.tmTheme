@@ -60,21 +60,37 @@
                 <!-- CSS -->
                 <key>popupCss</key><string>
                   html {
-                    border: 1px solid #75715e;
-                    background-color: color(var(--background) blend(white 98%));
+                      background-color: var(--background);
                   }
 
                   body {
-                    font-family: system;
-                    background-color: color(var(--background) blend(white 98%));
-                    color: #cfcfc2;
+                      color: #cfcfc2;
                   }
 
                   a {
                     color: #66d9ef;
                   }
+
+                  #show-definitions {
+                      border: 1px solid #75715e;
+                      background-color: color(var(--background) blend(white 98%));
+                      padding: 10px;
+                      margin: 0;
+                  }
+
+                  #inline-error {
+                      font-family: "Roboto Mono", "Segoe UI Symbol", monospace;
+                      background-color: var(--background);
+                  }
+
+                  #inline-error .error {
+                      background-color: color(var(--redish) blend(var(--background) 30%));
+                  }
+
+                  .mdpopups {
+                      border: 1px solid #75715e;
+                  }
                 </string>
-                <!-- <key>phantomCss</key>                   <string></string> -->
 
                 <!-- Gutter -->
                 <key>gutter</key>                       <string>#272822</string>
