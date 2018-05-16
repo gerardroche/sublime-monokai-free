@@ -30,6 +30,12 @@ abc = 'x'
 #   ^ fg=#f92672 fs=
 #     ^^^ fg=#e6db74 fs=
 
+BC = 'x'
+# ^ fg=#ae81ff fs=
+
+x = ABC
+#   ^ fg=#ae81ff fs=
+
 x = "_\x00_\xaa_\'_%s_"
 #   ^^ fg=#e6db74 fs=
 #     ^^^^ fg=#ae81ff fs=

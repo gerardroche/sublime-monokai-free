@@ -96,10 +96,22 @@ x = [:a, :b]
 #        ^^ fg=#ae81ff fs=
 #          ^ fg=#f8f8f2 fs=
 
-x = [A, B, C].x.join(".")
+x = [a, b, c].x.join(".")
 #   ^^^ fg=#f8f8f2 fs=
 #       ^^ fg=#f8f8f2 fs=
 #          ^^^^^^^^^^ fg=#f8f8f2 fs=
+#                    ^^^ fg=#e6db74 fs=
+#                       ^ fg=#f8f8f2 fs=
+
+x = [A, B, C].x.join(".")
+#   ^ fg=#f8f8f2 fs=
+#    ^ fg=#ae81ff fs=
+#     ^ fg=#f8f8f2 fs=
+#       ^ fg=#ae81ff fs=
+#        ^ fg=#f8f8f2 fs=
+#          ^ fg=#ae81ff fs=
+#           ^ fg=#f8f8f2 fs=
+#            ^^^^^^^^ fg=#f8f8f2 fs=
 #                    ^^^ fg=#e6db74 fs=
 #                       ^ fg=#f8f8f2 fs=
 
@@ -278,8 +290,18 @@ class X
 #       ^ fg=#ae81ff fs=
     B = 2
     C = 0
-    D = [A, B, C].compact.join(".")
+    D = [a, b, c].compact.join(".")
 #       ^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs=
+#                              ^^^ fg=#e6db74 fs=
+#                                 ^ fg=#f8f8f2 fs=
+    E = [A, B, C].compact.join(".")
+#       ^ fg=#f8f8f2 fs=
+#        ^ fg=#ae81ff fs=
+#         ^ fg=#f8f8f2 fs=
+#           ^ fg=#ae81ff fs=
+#            ^ fg=#f8f8f2 fs=
+#              ^ fg=#ae81ff fs=
+#               ^^^^^^^^^^^^^^^ fg=#f8f8f2 fs=
 #                              ^^^ fg=#e6db74 fs=
 #                                 ^ fg=#f8f8f2 fs=
   end
