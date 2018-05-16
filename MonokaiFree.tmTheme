@@ -168,7 +168,7 @@
 <dict><key>scope</key><string>keyword.operator.word</string>                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
-<dict><key>scope</key><string>markup.bold markup.italic</string>                        <key>settings</key><dict><key>fontStyle</key><string>bold italic</string></dict></dict>
+<dict><key>scope</key><string>markup.bold markup.italic</string>                <key>settings</key><dict><key>fontStyle</key><string>bold italic</string></dict></dict>
 <dict><key>scope</key><string>markup.bold meta.link.inline markup.underline.link</string>                 <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.bold punctuation.definition.bold</string>  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.bold</string>                              <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
@@ -220,7 +220,7 @@
 <dict><key>scope</key><string>meta.link.inline.description</string>             <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.link.reference.description</string>          <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>meta.link.reference.literal.description</string>  <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>meta.parens storage.modifier.array.java</string>                      <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>meta.parens storage.modifier.array.java</string>  <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>meta.separator.diff</string>                      <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>meta.structure.dictionary.key.json string -punctuation</string>       <key>settings</key><dict><key>foreground</key><string>#cfcfc2</string></dict></dict>
 <dict><key>scope</key><string>meta.structure.dictionary.key.json string punctuation</string>        <key>settings</key><dict><key>foreground</key><string>#cfcfc280</string></dict></dict>
