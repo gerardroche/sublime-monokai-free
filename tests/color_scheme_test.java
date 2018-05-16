@@ -51,6 +51,11 @@ public class FibCalculator extends Fibonacci implements Calculator {
 //                                 ^ fg=#a6e22e fs=italic
 //                                           ^ fg=#f92672 fs=
 //                                                      ^ fg=#a6e22e fs=italic
+
+    public static final int A_CONSTANT = 1;
+    //                  ^ fg=#66d9ef fs=italic
+    //                      ^ fg=#a6e22e fs=
+
     private static Map<Integer, Integer> memoized = new HashMap<Integer, Integer>();
     // ^ fg=#f92672 fs=
     //      ^ fg=#f92672 fs=

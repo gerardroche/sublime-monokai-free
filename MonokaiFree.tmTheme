@@ -151,7 +151,6 @@
 <dict><key>scope</key><string>constant.language</string>                        <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>constant.numeric.line-number.match</string>       <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>constant.numeric</string>                         <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
-<dict><key>scope</key><string>constant.other punctuation.accessor.dot.java</string>             <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>constant.other</string>                           <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>constant</string>                                 <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>entity.name.section.markdown</string>             <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
