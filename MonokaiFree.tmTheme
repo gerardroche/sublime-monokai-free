@@ -278,20 +278,14 @@
 
 <dict><key>scope</key><string>keyword.other.reserved.sass</string>                      <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 
-<!-- Patches: LESS -->
+<!-- Patches for LESS (https://packagecontrol.io/packages/LESS): -->
 
 <dict><key>scope</key><string>meta.property-value.css variable.other.less</string>      <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>meta.property-value.css variable.other.less</string>      <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>parameter.less variable.other.less</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>variable.declaration.less</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 
-<!--
-
-  Packages
-
--->
-
-<!-- Package LSP -->
+    <!-- Support for LSP: -->
 
     <!-- This fix is required, because we use use transparent red background
     color for sublimelinter gutter and region highlighting scopes (not the new
@@ -302,7 +296,7 @@
             <key>background</key><string>#272822</string>
         </dict></dict>
 
-<!-- Package: SublimeLinter -->
+    <!-- Support for SublimeLinter: -->
 
     <!-- This is required because we use a transparent red/yellow/etc background
     for gutter and highlighted regions, but  the diagnostics panel uses the same
@@ -371,7 +365,7 @@
         </dict>
     </dict>
 
-<!-- Package: PHPUnitKit -->
+    <!-- Support for PHPUnitKit: -->
 
     <dict><key>scope</key><string>region.greenish phpunitkit</string>
         <key>settings</key><dict>
@@ -391,7 +385,7 @@
             <key>foreground</key><string>#f8f8f2</string>
         </dict></dict>
 
-<!-- Package: RulerColumn -->
+    <!-- Support for RulerColumn: -->
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
@@ -401,7 +395,7 @@
             <key>background</key><string>#f926729d</string>
         </dict></dict>
 
-<!-- Package: NeoVintageous -->
+    <!-- Support for NeoVintageous: -->
 
     <dict><key>scope</key><string>string.search.occurrence</string>
       <key>settings</key><dict>
