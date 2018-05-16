@@ -31,10 +31,10 @@ abc = 'x'
 #     ^^^ fg=#e6db74 fs=
 
 BC = 'x'
-# ^ fg=#ae81ff fs=
+# ^ fg=#ae81ff fs= build>=3180
 
 x = ABC
-#   ^ fg=#ae81ff fs=
+#   ^ fg=#ae81ff fs= build>=3180
 
 x = "_\x00_\xaa_\'_%s_"
 #   ^^ fg=#e6db74 fs=
