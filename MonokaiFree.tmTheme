@@ -372,13 +372,11 @@ color scheme and use its default colors for the linter. -->
         <key>background</key><string>#a6e22e</string>
         <key>foreground</key><string>#272822</string>
     </dict></dict>
-
 <dict><key>scope</key><string>region.orangish phpunitkit</string>
     <key>settings</key><dict>
         <key>background</key><string>#fd971f</string>
         <key>foreground</key><string>#272822</string>
     </dict></dict>
-
 <dict><key>scope</key><string>region.redish phpunitkit</string>
     <key>settings</key><dict>
         <key>background</key><string>#f92672</string>
@@ -397,23 +395,38 @@ See https://github.com/SublimeTextIssues/Core/issues/2122. -->
 
 <!-- Support for NeoVintageous: -->
 
-<dict><key>scope</key><string>string.search.occurrence</string>
-  <key>settings</key><dict>
-    <key>foreground</key><string>#272822</string>
-    <key>background</key><string>#e6db74</string>
-  </dict></dict>
-
-<dict><key>scope</key><string>string.search</string>
-  <key>settings</key><dict>
-    <key>foreground</key><string>#272822</string>
-    <key>background</key><string>#a1efe4</string>
-  </dict></dict>
-
+<dict><key>scope</key><string>nv_search_inc</string>
+<key>settings</key><dict>
+  <key>background</key><string>#a1efe4</string>
+  <key>foreground</key><string>#272822</string>
+</dict></dict>
+<dict><key>scope</key><string>nv_search_current</string>
+<key>settings</key><dict>
+  <key>background</key><string>#a1efe4</string>
+  <key>foreground</key><string>#272822</string>
+</dict></dict>
+<dict><key>scope</key><string>nv_search_occurrence</string>
+<key>settings</key><dict>
+  <key>background</key><string>#e6db74</string>
+  <key>foreground</key><string>#272822</string>
+</dict></dict>
 <dict><key>scope</key><string>highlighted.yank</string>
   <key>settings</key><dict>
       <key>background</key><string>#e6db74</string>
       <key>foreground</key><string>#272822</string>
   </dict></dict>
+<!-- Deprecated NeoVintageous scopes: -->
+<dict><key>scope</key><string>string.search.occurrence</string>
+  <key>settings</key><dict>
+    <key>foreground</key><string>#272822</string>
+    <key>background</key><string>#e6db74</string>
+  </dict></dict>
+<dict><key>scope</key><string>string.search</string>
+  <key>settings</key><dict>
+    <key>foreground</key><string>#272822</string>
+    <key>background</key><string>#a1efe4</string>
+  </dict></dict>
+<!-- // -->
 
     </array>
 </dict>
