@@ -144,6 +144,7 @@
         </dict>
 
 <dict><key>scope</key><string>comment</string>                                  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>conceal</string>                                  <key>settings</key><dict><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>constant.character.escape</string>                <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>constant.character</string>                       <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>constant.class.php</string>                       <key>settings</key><dict><key>foreground</key><string>#ae81ff</string><key>fontStyle</key><string>italic</string></dict></dict>
