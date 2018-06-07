@@ -414,13 +414,15 @@ See https://github.com/SublimeTextIssues/Core/issues/2122. -->
     </dict>
 </dict>
 <dict>
-    <key>scope</key><string>highlighted.yank</string>
+    <key>scope</key><string>highlightedyank</string>
     <key>settings</key><dict>
     <key>background</key><string>#e6db74</string>
     <key>foreground</key><string>#272822</string>
     </dict>
 </dict>
+
 <!-- Deprecated NeoVintageous scopes: -->
+<dict><key>scope</key><string>highlighted.yank</string><key>settings</key><dict><key>background</key><string>#e6db74</string><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>string.search.occurrence</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>string.search</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 <!-- // -->
