@@ -31,7 +31,7 @@ abc = 'x'
 #     ^^^ fg=#e6db74 fs=
 
 BC = 'x'
-# ^ fg=#ae81ff fs= build>=3180
+#^ fg=#ae81ff fs= build>=3180
 
 x = ABC
 #   ^ fg=#ae81ff fs= build>=3180

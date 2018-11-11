@@ -48,22 +48,30 @@ x = %{x}
 #   ^^^^ fg=#e6db74 fs=
 
 x = "a#{x}b"
-#   ^^^^^^^^ fg=#e6db74 fs=
+#   ^^ fg=#e6db74 fs=
+#     ^^^^ fg=#f8f8f2 fs=
+#         ^^ fg=#e6db74 fs=
 
 x = "a#{x.y}b"
-#   ^^^^^^^^^^ fg=#e6db74 fs=
+#   ^^ fg=#e6db74 fs=
+#     ^^^^^^ fg=#f8f8f2 fs=
+#           ^^ fg=#e6db74 fs=
 
 x = "a#{X.inspect}b"
-#   ^^^^ fg=#e6db74 fs=
+#   ^^ fg=#e6db74 fs=
+#     ^^ fg=#f8f8f2 fs=
 #       ^ fg=#66d9ef fs=italic
-#        ^ fg=#e6db74 fs=
+#        ^ fg=#f8f8f2 fs=
 #         ^^^^^^^ fg=#66d9ef fs=
-#                ^^^ fg=#e6db74 fs=
+#                ^ fg=#f8f8f2 fs=
+#                 ^^ fg=#e6db74 fs=
 
 x = "a#{X.y}b"
-#   ^^^^ fg=#e6db74 fs=
+#   ^^ fg=#e6db74 fs=
+#     ^^ fg=#f8f8f2 fs=
 #       ^ fg=#66d9ef fs=italic
-#        ^^^^^ fg=#e6db74 fs=
+#        ^^^ fg=#f8f8f2 fs=
+#           ^^ fg=#e6db74 fs=
 
 x = "y".freeze
 #   ^^^ fg=#e6db74 fs=
@@ -340,9 +348,9 @@ class X
 
     puts "Hi #{@name}!"
     # ^ fg=#66d9ef fs=
-    #    ^^^^^^ fg=#e6db74 fs=
-    #          ^^^^^ fg=#f8f8f2 fs=
-    #               ^^^ fg=#e6db74 fs=
+    #    ^^^ fg=#e6db74 fs=
+    #        ^^^^^^^^ fg=#f8f8f2 fs=
+    #                ^^ fg=#e6db74 fs=
 
     abc = @y
     # ^ fg=#f8f8f2 fs=
@@ -389,12 +397,14 @@ class X
   #      ^^ fg=#f8f8f2 fs=
 
     x = "a#{@x['y']}b"
-    #   ^^^^ fg=#e6db74 fs=
+    #   ^^ fg=#e6db74 fs=
+    #     ^^^^ fg=#f8f8f2 fs=
     #       ^^ fg=#f8f8f2 fs=
     #         ^ fg=#f8f8f2 fs=
     #          ^^^ fg=#e6db74 fs=
     #             ^ fg=#f8f8f2 fs=
-    #              ^^^ fg=#e6db74 fs=
+    #              ^ fg=#f8f8f2 fs=
+    #               ^^ fg=#e6db74 fs=
 
     super.merge(
     # ^^^ fg=#f92672 fs=
@@ -475,12 +485,16 @@ class X
     #                        ^ fg=#f8f8f2 fs=
       raise "A #{x}" \
       # ^ fg=#f92672 fs=
-      #     ^^^^^^^^ fg=#e6db74 fs=
+      #     ^^ fg=#e6db74 fs=
+      #        ^^^^ fg=#f8f8f2 fs=
+      #            ^ fg=#e6db74 fs=
       #              ^ fg=#f8f8f2 fs=
         "B" \
       # ^^^ fg=#e6db74 fs=
       #     ^ fg=#f8f8f2 fs=
         "C: #{e.message}"
-      # ^^^^^^^^^^^^^^^^^ fg=#e6db74 fs=
+      # ^^^ fg=#e6db74 fs=
+      #     ^^^^^^^^^^^^ fg=#f8f8f2 fs=
+      #                 ^ fg=#e6db74 fs=
     end
   end

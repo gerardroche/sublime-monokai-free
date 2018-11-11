@@ -64,28 +64,28 @@ const (
 // ^ fg=#66d9ef fs=italic
 //    ^ fg=#f8f8f2 fs=
     graveAccentString = `hi %s and %[1]s`
-    //  ^ fg=#a6e22e fs=
+    //  ^ fg=#ae81ff fs=
     //                ^ fg=#f92672 fs=
     //                  ^^^^ fg=#e6db74 fs=
     //                      ^^ fg=#ae81ff fs=
     //                        ^^^^^ fg=#e6db74 fs=
-    //                             ^^^^^ fg=#ae81ff fs=
+    //                             ^^^^^ fg=#e6db74 fs=
     //                                  ^ fg=#e6db74 fs=
     normalString = "hi %q and %[1]s"
-    // ^ fg=#a6e22e fs=
+    // ^ fg=#ae81ff fs=
     //           ^ fg=#f92672 fs=
     //             ^^^^ fg=#e6db74 fs=
     //                 ^^ fg=#ae81ff fs=
     //                   ^^^^^ fg=#e6db74 fs=
-    //                        ^^^^^ fg=#ae81ff fs=
+    //                        ^^^^^ fg=#e6db74 fs=
     //                             ^ fg=#e6db74 fs=
     dynamicFieldWidths = "abc %[1]*.[2]*f %*.*f"
-    // ^ fg=#a6e22e fs=
+    // ^ fg=#ae81ff fs=
     //                 ^ fg=#f92672 fs=
     //                   ^^^^ fg=#e6db74 fs=
-    //                        ^^^^^^^^^^^ fg=#ae81ff fs=
+    //                        ^^^^^^^^^^^ fg=#e6db74 fs=
     //                                   ^ fg=#e6db74 fs=
-    //                                    ^^^^^ fg=#ae81ff fs=
+    //                                    ^^^^^ fg=#e6db74 fs=
     //                                         ^ fg=#e6db74 fs=
 )
 
@@ -93,6 +93,6 @@ func () {
 // ^ fg=#66d9ef fs=italic
 //  ^^^^^ fg=#f8f8f2 fs=
     Label:
-//  ^^^^^ fg=#a6e22e fs=
+//  ^^^^^ fg=#f8f8f2 fs=
 //       ^ fg=#f8f8f2 fs=
 }
