@@ -278,6 +278,7 @@
 
 <!-- Quick and dirty blade fixes -->
 <dict><key>scope</key><string>text.blade support.class.php</string><key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html</string><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php support.function constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
@@ -290,16 +291,8 @@
 <dict><key>scope</key><string>text.blade text.html.blade meta.tag.inline.form.html punctuation.definition.tag.end.html</string><key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade scope:text.html.basic punctuation.section.embedded.ignore.begin.blade</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade scope:text.html.basic punctuation.section.embedded.ignore.end.blade</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
-
 <dict><key>scope</key><string>text.blade text.html.blade string.quoted entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php meta.string-contents.quoted.single.php</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade string.quoted entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php punctuation.definition.string</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-
-<!-- <dict><key>scope</key><string>text.blade text.html.blade meta.tag.inline.a.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php punctuation.definition.string.end.php</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict> -->
-<!-- <dict><key>scope</key><string>text.blade text.html.blade meta.tag.inline.a.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php meta.string-contents.quoted.single.php</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict> -->
-<!-- <dict><key>scope</key><string>text.blade text.html.blade meta.tag.inline.a.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php punctuation.definition.string.begin.php</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict> -->
-<!-- <dict><key>scope</key><string>text.blade text.html.blade meta.tag.inline.a.html meta.attribute-with-value.html string.quoted.double.html entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php punctuation.definition.string.end.php</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict> -->
-
-<dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 
 <!-- Patches for Sass (https://packagecontrol.io/packages/Sass): -->
 
