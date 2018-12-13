@@ -243,7 +243,7 @@ Here's an example of how you can use syntax highlighting with GitHub Flavored Ma
 #^^ fg=#75715e bg=#272822 fs= build>=3127 -->
 #  ^^^^^^^^^^ fg=#ae81ff bg=#272822 fs= build>=3127
 function x() {}
-<!-- ^^^ fg=#66d9ef bg=#272822 fs=italic build>=3127 -->
+<!-- ^^^ fg=#66d9ef bg=#272822 fs=italic build>=3184 -->
 ```
 #^^ fg=#75715e bg=#272822 fs= build>=3127 -->
 
