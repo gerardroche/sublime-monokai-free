@@ -277,10 +277,8 @@
 <dict><key>scope</key><string>variable</string>                                 <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
 
 <!-- Quick and dirty blade fixes -->
-<dict><key>scope</key><string>text.blade support.class.php</string><key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
-<dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
-<dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
-<dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html</string><key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
+<dict><key>scope</key><string>text.blade support.class.php</string><key>settings</key><dict><key>fontStyle</key><string></string></dict></dict><dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
+<dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html</string><key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php support.function constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade entity.name.tag.blade punctuation.section.embedded.begin.blade</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade entity.name.tag.blade punctuation.section.embedded.end.blade</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>

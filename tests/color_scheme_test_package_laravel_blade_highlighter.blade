@@ -79,15 +79,15 @@
 <!--            ^^ fg=#66d9ef fs= -->
 
      @include('x')
-<!-- ^ fg=#ae81ff fs= -->
-<!--  ^ fg=#fd971f fs= -->
+<!-- ^ fg=#f8f8f2 fs= -->
+<!--  ^ fg=#f8f8f2 fs= -->
 <!--         ^ fg=#f8f8f2 fs= -->
 <!--          ^^^ fg=#e6db74 fs= -->
 <!--             ^ fg=#f8f8f2 fs= -->
 
      @inject('x', 'A\B')
-<!-- ^ fg=#ae81ff fs= -->
-<!--  ^^^^^^ fg=#fd971f fs= -->
+<!-- ^ fg=#f8f8f2 fs= -->
+<!--  ^^^^^^ fg=#f8f8f2 fs= -->
 <!--        ^ fg=#f8f8f2 fs= -->
 <!--         ^^^ fg=#e6db74 fs= -->
 <!--            ^ fg=#f8f8f2 fs= -->
@@ -101,56 +101,56 @@
 <!-- ^^^^^^^ fg=#f92672 fs= -->
 
      @php(x())
-<!-- ^ fg=#ae81ff fs= -->
-<!--  ^^^ fg=#fd971f fs= -->
+<!-- ^ fg=#f8f8f2 fs= -->
+<!--  ^^^ fg=#f8f8f2 fs= -->
 <!--     ^^^^^ fg=#f8f8f2 fs= -->
 
         @hasSection('title')
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
             @yield('title') - App Name
-<!--        ^ fg=#ae81ff fs= -->
-<!--         ^ fg=#fd971f fs= -->
+<!--        ^ fg=#f8f8f2 fs= -->
+<!--         ^ fg=#f8f8f2 fs= -->
         @else
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
             App Name
         @endif
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
 
         @section('sidebar')
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
             This is the master sidebar.
         @stop
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
 
         @extends('layouts.master')
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
 
 <ul class="list @if (count($records) === 1) extra-class @endif">
-<!--            ^ fg=#ae81ff fs= -->
-<!--             ^^ fg=#fd971f fs= -->
-<!--                                                    ^ fg=#ae81ff fs= -->
-<!--                                                     ^^^^^ fg=#fd971f fs= -->
+<!--            ^ fg=#f8f8f2 fs= -->
+<!--             ^^ fg=#f8f8f2 fs= -->
+<!--                                                    ^ fg=#f8f8f2 fs= -->
+<!--                                                     ^^^^^ fg=#f8f8f2 fs= -->
     <li>This is the first item</li>
 </ul>
 
         @isset($name)
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
             Hello, {{ $name }}.
         @endisset
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
 
         @unless (Auth::check())
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
             You are not signed in.
         @endunless
-<!--    ^ fg=#ae81ff fs= -->
-<!--     ^ fg=#fd971f fs= -->
+<!--    ^ fg=#f8f8f2 fs= -->
+<!--     ^ fg=#f8f8f2 fs= -->
