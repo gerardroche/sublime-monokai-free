@@ -51,7 +51,7 @@ function $x(block, cls) {
         //                             ^^ fg=#f92672 fs=
         //                               ^ fg=#e6db74 fs=
         //                                  ^^ fg=#f92672 fs=
-        //                                     ^ fg=#ae81ff fs=
+        //                                     ^ fg=#ae81ff fs= build>=3177
         //                                      ^ fg=#ae81ff fs=
 
         return process(block, true, 0x0F) +
