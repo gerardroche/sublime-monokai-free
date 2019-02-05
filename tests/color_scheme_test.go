@@ -69,7 +69,7 @@ const (
     //                  ^^^^ fg=#e6db74 fs=
     //                      ^^ fg=#ae81ff fs=
     //                        ^^^^^ fg=#e6db74 fs=
-    //                             ^^^^^ fg=#e6db74 fs= build>=3177
+    //                             ^^^^^ fg=#ae81ff fs= build>=3189
     //                                  ^ fg=#e6db74 fs=
     normalString = "hi %q and %[1]s"
     // ^ fg=#ae81ff fs= build>=3177
@@ -77,7 +77,7 @@ const (
     //             ^^^^ fg=#e6db74 fs=
     //                 ^^ fg=#ae81ff fs=
     //                   ^^^^^ fg=#e6db74 fs=
-    //                        ^^^^^ fg=#e6db74 fs= build>=3177
+    //                        ^^^^^ fg=#ae81ff fs= build>=3189
     //                             ^ fg=#e6db74 fs=
     dynamicFieldWidths = "abc %[1]*.[2]*f %*.*f"
     // ^ fg=#ae81ff fs= build>=3177

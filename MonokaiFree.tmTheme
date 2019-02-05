@@ -144,6 +144,7 @@
         </dict>
 
 <dict><key>scope</key><string>comment</string>                                  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
+<dict><key>scope</key><string>keyword.other.phpdoc</string>                     <key>settings</key><dict><key>foreground</key><string>#75715e</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>conceal</string>                                  <key>settings</key><dict><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>constant.character.escape</string>                <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>constant.character</string>                       <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
