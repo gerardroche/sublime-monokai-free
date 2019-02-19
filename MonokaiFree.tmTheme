@@ -49,8 +49,12 @@
                 <!-- Global settings -->
                 <key>background</key>                   <string>#272822</string>
                 <key>foreground</key>                   <string>#f8f8f2</string>
+
                 <key>caret</key>                        <string>#e6db74</string>
+                <key>block_caret</key>                  <string>#e6db74</string>
+
                 <key>lineHighlight</key>                <string>#f8f8f21a</string> <!-- Alpha 1a ~= 10%. -->
+                <key>invisibles</key>                   <string>#f8f8f226</string>
 
                 <!-- Accents -->
                 <key>misspelling</key>                  <string>#f926729d</string>
@@ -117,6 +121,7 @@
                 <key>guide</key>                        <string>#75715e9d</string>
                 <key>stackGuide</key>                   <string>#f8f8f280</string>
                 <key>activeGuide</key>                  <string>#e6db7480</string>
+                <key>rulers</key>                       <string>#75715e9d</string>
 
                 <!-- Brackets -->
                 <!-- It's not possible to set the background for brackets.
@@ -135,10 +140,6 @@
                 <!-- Shadows -->
                 <!-- <key>shadow</key>                       <string></string> -->
                 <!-- <key>shadowWidth</key>                  <string></string> -->
-
-                <!-- Beta -->
-                <key>rulers</key>                       <string>#75715e9d</string>
-                <key>invisibles</key>                   <string>#f8f8f226</string>
 
             </dict>
         </dict>
