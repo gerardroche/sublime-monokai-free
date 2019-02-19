@@ -43,10 +43,10 @@
     -->
     <array>
         <dict>
+            <!-- Global settings -->
             <key>settings</key>
             <dict>
 
-                <!-- Global settings -->
                 <key>background</key>                   <string>#272822</string>
                 <key>foreground</key>                   <string>#f8f8f2</string>
 
@@ -60,6 +60,46 @@
                 <key>misspelling</key>                  <string>#f926729d</string>
                 <key>minimapBorder</key>                <string>#e6db74</string>
                 <key>accent</key>                       <string>#e6db749d</string>
+
+                <!-- Gutter -->
+                <key>gutter</key>                       <string>#272822</string>
+                <key>gutterForeground</key>             <string>#75715e</string>
+                <key>line_diff_added</key>                <string>#a6e22e9d</string>
+                <key>line_diff_modified</key>             <string>#e6db749d</string>
+                <key>line_diff_deleted</key>              <string>#f926729d</string>
+
+                <!-- Selection -->
+                <key>selection</key>                    <string>#75715e</string>
+                <key>selectionForeground</key>          <string>#272822</string>
+                <key>selectionBorder</key>              <string></string>
+                <key>inactiveSelection</key>            <string>#75715e</string>
+                <key>inactiveSelectionForeground</key>  <string>#272822</string> <!-- The inactive selection foreground doesn't work. See https://github.com/SublimeTextIssues/Core/issues/2118. -->
+                <key>inactiveSelectionBorder</key>      <string></string> <!-- The inactive selection border doesn't work. See https://github.com/SublimeTextIssues/Core/issues/2118. -->
+
+                <!-- Find -->
+                <key>highlight</key>                    <string>#e6db74</string>
+                <key>findHighlight</key>                <string>#a1efe4</string>
+                <key>findHighlightForeground</key>      <string>#272822</string>
+
+                <!-- Guides -->
+                <key>guide</key>                        <string>#75715e9d</string>
+                <key>stackGuide</key>                   <string>#f8f8f280</string>
+                <key>activeGuide</key>                  <string>#e6db7480</string>
+                <key>rulers</key>                       <string>#75715e9d</string>
+
+                <!-- Brackets --> <!-- It's not possible to set the background for brackets. See https://github.com/SublimeTextIssues/Core/issues/2123. -->
+                <key>bracketsOptions</key>              <string>underline</string>
+                <key>bracketsForeground</key>           <string>#e6db74</string>
+                <key>bracketContentsOptions</key>       <string>underline</string>
+                <key>bracketContentsForeground</key>    <string>#e6db74</string>
+
+                <!-- Tags --> <!-- It's not possible to set the background for tags. See https://github.com/SublimeTextIssues/Core/issues/2123. -->
+                <key>tagsOptions</key>                  <string>stippled_underline</string>
+                <key>tagsForeground</key>               <string>#e6db7480</string>
+
+                <!-- Shadows -->
+                <!-- <key>shadow</key>                       <string></string> -->
+                <!-- <key>shadowWidth</key>                  <string></string> -->
 
                 <!-- CSS -->
                 <key>popupCss</key><string>
@@ -96,56 +136,10 @@
                   }
                 </string>
 
-                <!-- Gutter -->
-                <key>gutter</key>                       <string>#272822</string>
-                <key>gutterForeground</key>             <string>#75715e</string>
-
-                <!-- Selection -->
-                <key>selection</key>                    <string>#75715e</string>
-                <key>selectionForeground</key>          <string>#272822</string>
-                <key>selectionBorder</key>              <string></string>
-                <key>inactiveSelection</key>            <string>#75715e</string>
-                <!-- The inactive selection foreground doesn't work.
-                See https://github.com/SublimeTextIssues/Core/issues/2118. -->
-                <key>inactiveSelectionForeground</key>  <string>#272822</string>
-                <!-- The inactive selection border doesn't work.
-                See https://github.com/SublimeTextIssues/Core/issues/2118. -->
-                <key>inactiveSelectionBorder</key>      <string></string>
-
-                <!-- Find -->
-                <key>highlight</key>                    <string>#e6db74</string>
-                <key>findHighlight</key>                <string>#a1efe4</string>
-                <key>findHighlightForeground</key>      <string>#272822</string>
-
-                <!-- Guides -->
-                <key>guide</key>                        <string>#75715e9d</string>
-                <key>stackGuide</key>                   <string>#f8f8f280</string>
-                <key>activeGuide</key>                  <string>#e6db7480</string>
-                <key>rulers</key>                       <string>#75715e9d</string>
-
-                <!-- Brackets -->
-                <!-- It's not possible to set the background for brackets.
-                See https://github.com/SublimeTextIssues/Core/issues/2123. -->
-                <key>bracketsOptions</key>              <string>underline</string>
-                <key>bracketsForeground</key>           <string>#e6db74</string>
-                <key>bracketContentsOptions</key>       <string>underline</string>
-                <key>bracketContentsForeground</key>    <string>#e6db74</string>
-
-                <!-- Tags -->
-                <!-- It's not possible to set the background for tags.
-                See https://github.com/SublimeTextIssues/Core/issues/2123. -->
-                <key>tagsOptions</key>                  <string>stippled_underline</string>
-                <key>tagsForeground</key>               <string>#e6db7480</string>
-
-                <!-- Shadows -->
-                <!-- <key>shadow</key>                       <string></string> -->
-                <!-- <key>shadowWidth</key>                  <string></string> -->
-
             </dict>
         </dict>
 
 <dict><key>scope</key><string>comment</string>                                  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
-<dict><key>scope</key><string>keyword.other.phpdoc</string>                     <key>settings</key><dict><key>foreground</key><string>#75715e</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>conceal</string>                                  <key>settings</key><dict><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>constant.character.escape</string>                <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
 <dict><key>scope</key><string>constant.character</string>                       <key>settings</key><dict><key>foreground</key><string>#ae81ff</string></dict></dict>
@@ -169,14 +163,13 @@
 <dict><key>scope</key><string>keyword.control</string>                          <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator.word</string>                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>keyword.other.phpdoc</string>                     <key>settings</key><dict><key>foreground</key><string>#75715e</string><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>keyword</string>                                  <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>markup.bold markup.italic</string>                <key>settings</key><dict><key>fontStyle</key><string>bold italic</string></dict></dict>
 <dict><key>scope</key><string>markup.bold meta.link.inline markup.underline.link</string>                 <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.bold punctuation.definition.bold</string>  <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.bold</string>                              <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
-<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#e6db749d</string></dict></dict>
 <dict><key>scope</key><string>markup.changed</string>                           <key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f926729d</string></dict></dict>
 <dict><key>scope</key><string>markup.deleted</string>                           <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>markup.error</string>                             <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>markup.heading entity.name.section meta.link.inline markup.underline.link</string>                <key>settings</key><dict><key>fontStyle</key><string>bold underline</string></dict></dict>
@@ -190,10 +183,8 @@
 <dict><key>scope</key><string>markup.heading punctuation.definition.heading</string>    <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.heading</string>                           <key>settings</key><dict><key>fontStyle</key><string>bold</string></dict></dict>
 <dict><key>scope</key><string>markup.hint</string>                              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
 <dict><key>scope</key><string>markup.ignored</string>                           <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.info</string>                              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#a6e22e9d</string></dict></dict>
 <dict><key>scope</key><string>markup.inserted</string>                          <key>settings</key><dict><key>foreground</key><string>#a6e22e</string></dict></dict>
 <dict><key>scope</key><string>markup.italic markup.bold</string>                <key>settings</key><dict><key>fontStyle</key><string>italic bold</string></dict></dict>
 <dict><key>scope</key><string>markup.italic meta.link.inline markup.underline.link</string> <key>settings</key><dict><key>fontStyle</key><string>italic</string></dict></dict>
@@ -206,7 +197,6 @@
 <dict><key>scope</key><string>markup.raw</string>                               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>markup.underline.link</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 <dict><key>scope</key><string>markup.underline</string>                         <key>settings</key><dict><key>fontStyle</key><string>underline</string></dict></dict>
-<dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.untracked</string>                         <key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>markup.warning</string>                           <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>message.error</string>                            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
@@ -295,11 +285,9 @@
 <dict><key>scope</key><string>text.blade text.html.blade string.quoted entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php punctuation.definition.string</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 
 <!-- Patches for Sass (https://packagecontrol.io/packages/Sass): -->
-
 <dict><key>scope</key><string>keyword.other.reserved.sass</string>                      <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 
 <!-- Patches for LESS (https://packagecontrol.io/packages/LESS): -->
-
 <dict><key>scope</key><string>meta.property-value.css variable.other.less</string>      <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>meta.property-value.css variable.other.less</string>      <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>parameter.less variable.other.less</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
@@ -439,7 +427,7 @@ See https://github.com/SublimeTextIssues/Core/issues/2122. -->
     </dict>
 </dict>
 
- <!-- Deprecated NeoVintageous scopes: -->
+<!-- Deprecated NeoVintageous scopes: -->
 <dict><key>scope</key><string>nv_search_inc</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>nv_search_current</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>nv_search_occurrence</string><key>settings</key><dict><key>background</key><string>#e6db74</string><key>foreground</key><string>#272822</string></dict></dict>
@@ -447,6 +435,14 @@ See https://github.com/SublimeTextIssues/Core/issues/2122. -->
 <dict><key>scope</key><string>string.search.occurrence</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>string.search</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 <!-- // deprecated NeoVintageous scopes -->
+
+<!-- Support for Git Gutter: -->
+
+<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#e6db749d</string></dict></dict>
+<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f926729d</string></dict></dict>
+<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
+<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#a6e22e9d</string></dict></dict>
+<dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
 
     </array>
 </dict>
