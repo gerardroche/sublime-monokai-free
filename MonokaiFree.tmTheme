@@ -64,9 +64,9 @@
                 <!-- Gutter -->
                 <key>gutter</key>                       <string>#272822</string>
                 <key>gutterForeground</key>             <string>#75715e</string>
-                <key>line_diff_added</key>                <string>#a6e22e9d</string>
-                <key>line_diff_modified</key>             <string>#e6db749d</string>
-                <key>line_diff_deleted</key>              <string>#f926729d</string>
+                <!-- <key>line_diff_added</key>                <string>#a6e22e9d</string> -->
+                <!-- <key>line_diff_modified</key>             <string>#e6db749d</string> -->
+                <!-- <key>line_diff_deleted</key>              <string>#f926729d</string> -->
 
                 <!-- Selection -->
                 <key>selection</key>                    <string>#75715e</string>
