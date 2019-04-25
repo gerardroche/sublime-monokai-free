@@ -82,9 +82,9 @@
                 <key>findHighlightForeground</key>      <string>#272822</string>
 
                 <!-- Guides -->
-                <key>guide</key>                        <string>#75715e9d</string>
-                <key>stackGuide</key>                   <string>#f8f8f280</string>
-                <key>activeGuide</key>                  <string>#e6db7480</string>
+                <key>guide</key>                        <string>#75715e10</string>
+                <key>stackGuide</key>                   <string>#f8f8f210</string>
+                <key>activeGuide</key>                  <string>#e6db7440</string>
                 <key>rulers</key>                       <string>#75715e9d</string>
 
                 <!-- Brackets --> <!-- It's not possible to set the background for brackets. See https://github.com/SublimeTextIssues/Core/issues/2123. -->
