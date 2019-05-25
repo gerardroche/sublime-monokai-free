@@ -134,6 +134,11 @@
                   .mdpopups {
                       border: 1px solid #75715e;
                   }
+
+                  .easymotion-target {
+                    background-color: #fd971f;
+                    color: var(--background));
+                  }
                 </string>
 
             </dict>
@@ -444,6 +449,18 @@
         <key>foreground</key><string>#272822</string>
         </dict>
     </dict>
+
+    <!-- NeoVintageou: EasyMotion -->
+    <dict><key>scope</key><string>easymotion_cursor</string>
+      <key>settings</key><dict>
+        <key>background</key><string>#66d9ef</string>
+        <key>foreground</key><string>#272822</string>
+    </dict></dict>
+    <dict><key>scope</key><string>easymotion_target</string>
+      <key>settings</key><dict>
+        <key>background</key><string>#fd971f</string>
+        <key>foreground</key><string>#272822</string>
+    </dict></dict>
 
     <!-- Deprecated NeoVintageous scopes: -->
     <dict><key>scope</key><string>nv_search_inc</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
