@@ -295,157 +295,176 @@
 <dict><key>scope</key><string>parameter.less variable.other.less</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>variable.declaration.less</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 
-<!-- Support for LSP: -->
+<!--
 
-<!-- This fix is required, because we use use transparent red background
-color for sublimelinter gutter and region highlighting scopes (not the new
-diagnostic markup), and in LSP we don't want a red background, but the LSP
-scopes contain sublimelinter.* scopes. -->
-<dict><key>scope</key><string>output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning</string>
-    <key>settings</key><dict>
-        <key>background</key><string>#272822</string>
-    </dict></dict>
+  Support for LSP
 
-<!-- Support for SublimeLinter: -->
+-->
 
-<!-- This is required because we use a transparent red/yellow/etc background
-for gutter and highlighted regions, but  the diagnostics panel uses the same
-or similar scopes and we want the background color of text in the
-diagnostics panel  to be the same as the theme background color. -->
-<dict><key>scope</key><string>output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter</string>
-    <key>settings</key><dict>
-        <key>background</key><string>#272822</string>
-    </dict></dict>
+    <!-- This fix is required, because we use use transparent red background
+    color for sublimelinter gutter and region highlighting scopes (not the new
+    diagnostic markup), and in LSP we don't want a red background, but the LSP
+    scopes contain sublimelinter.* scopes. -->
+    <dict><key>scope</key><string>output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#272822</string>
+        </dict></dict>
 
-<!-- TODO Report ST issue. There is no way to customise gutter icon and mark
-styles independently of on one another e.g. gutter icon + outline style vs
-gutter icon + fill style. -->
+<!--
 
-<!-- Setting the foreground color doesn't work for these scopes.
-See https://github.com/SublimeTextIssues/Core/issues/2122. -->
-<dict><key>scope</key><string>markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter</string>
-    <key>settings</key><dict>
-        <key>background</key><string>#f926729d</string>
-        <key>foreground</key><string>#f92672</string>
-    </dict></dict>
+  Support for SublimeLinter
 
-<!-- Setting the foreground color doesn't work for these scopes.
-See https://github.com/SublimeTextIssues/Core/issues/2122. -->
-<dict><key>scope</key><string>markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter</string>
-    <key>settings</key><dict>
-        <key>background</key><string>#fd971f9d</string>
-        <key>foreground</key><string>#fd971f</string>
-    </dict></dict>
+-->
 
-<!-- DEPRECATED Older versions of SublimeLinter require style definitions to
-be formatted like this, otherwise it will create a cached versions of the
-color scheme and use its default colors for the linter. -->
+    <!-- This is required because we use a transparent red/yellow/etc background
+    for gutter and highlighted regions, but  the diagnostics panel uses the same
+    or similar scopes and we want the background color of text in the
+    diagnostics panel  to be the same as the theme background color.
 
-<dict>
-    <key>scope</key>
-    <string>sublimelinter.gutter-mark</string>
-    <key>settings</key>
+    Note that setting the foreground color doesn't work for these scopes.
+    See https://github.com/SublimeTextIssues/Core/issues/2122. -->
+
+    <dict><key>scope</key><string>output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#272822</string>
+        </dict></dict>
+    <dict><key>scope</key><string>markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#f926729d</string>
+            <key>foreground</key><string>#f92672</string>
+        </dict></dict>
+    <dict><key>scope</key><string>markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#fd971f9d</string>
+            <key>foreground</key><string>#fd971f</string>
+        </dict></dict>
+
+    <!-- DEPRECATED Older versions of SublimeLinter require style definitions to
+    be formatted like this, otherwise it will create a cached versions of the
+    color scheme and use its default colors for the linter. -->
     <dict>
-        <key>background</key><string>#f926729d</string>
-        <key>foreground</key><string>#f92672</string>
+        <key>scope</key>
+        <string>sublimelinter.gutter-mark</string>
+        <key>settings</key>
+        <dict>
+            <key>background</key><string>#f926729d</string>
+            <key>foreground</key><string>#f92672</string>
+        </dict>
     </dict>
-</dict>
-<dict>
-    <key>scope</key>
-    <string>sublimelinter.mark.error</string>
-    <key>settings</key>
     <dict>
-        <key>background</key><string>#f926729d</string>
-        <key>foreground</key><string>#f92672</string>
+        <key>scope</key>
+        <string>sublimelinter.mark.error</string>
+        <key>settings</key>
+        <dict>
+            <key>background</key><string>#f926729d</string>
+            <key>foreground</key><string>#f92672</string>
+        </dict>
     </dict>
-</dict>
-<dict>
-    <key>scope</key>
-    <string>sublimelinter.mark.warning</string>
-    <key>settings</key>
     <dict>
-        <key>background</key><string>#fd971f9d</string>
-        <key>foreground</key><string>#fd971f</string>
+        <key>scope</key>
+        <string>sublimelinter.mark.warning</string>
+        <key>settings</key>
+        <dict>
+            <key>background</key><string>#fd971f9d</string>
+            <key>foreground</key><string>#fd971f</string>
+        </dict>
     </dict>
-</dict>
 
-<!-- Support for PHPUnitKit: -->
+<!--
 
-<dict><key>scope</key><string>region.greenish phpunitkit</string>
-    <key>settings</key><dict>
-        <key>background</key><string>#a6e22e</string>
-        <key>foreground</key><string>#272822</string>
-    </dict></dict>
-<dict><key>scope</key><string>region.orangish phpunitkit</string>
-    <key>settings</key><dict>
+  Support for PHPUnitKit
+
+-->
+
+    <dict><key>scope</key><string>region.greenish phpunitkit</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#a6e22e</string>
+            <key>foreground</key><string>#272822</string>
+        </dict></dict>
+    <dict><key>scope</key><string>region.orangish phpunitkit</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#fd971f</string>
+            <key>foreground</key><string>#272822</string>
+        </dict></dict>
+    <dict><key>scope</key><string>region.redish phpunitkit</string>
+        <key>settings</key><dict>
+            <key>background</key><string>#f92672</string>
+            <key>foreground</key><string>#f8f8f2</string>
+        </dict></dict>
+
+<!--
+
+  Support for RulerColumn
+
+-->
+
+    <!-- Setting the foreground color doesn't work for these scopes.
+    See https://github.com/SublimeTextIssues/Core/issues/2122. -->
+    <dict><key>scope</key><string>region ruler.column</string>
+        <key>settings</key><dict>
+        <key>foreground</key><string>#f92672</string>
+        <key>background</key><string>#f926729d</string>
+        </dict>
+    </dict>
+
+<!--
+
+  Support for NeoVintageous
+
+-->
+
+    <!-- NeoVintageou: Search -->
+    <dict>
+      <key>scope</key><string>neovintageous_search_inc</string>
+      <key>settings</key><dict>
         <key>background</key><string>#fd971f</string>
         <key>foreground</key><string>#272822</string>
-    </dict></dict>
-<dict><key>scope</key><string>region.redish phpunitkit</string>
-    <key>settings</key><dict>
-        <key>background</key><string>#f92672</string>
-        <key>foreground</key><string>#f8f8f2</string>
-    </dict></dict>
-
-<!-- Support for RulerColumn: -->
-
-<!-- Setting the foreground color doesn't work for these scopes.
-See https://github.com/SublimeTextIssues/Core/issues/2122. -->
-<dict><key>scope</key><string>region ruler.column</string>
-    <key>settings</key><dict>
-    <key>foreground</key><string>#f92672</string>
-    <key>background</key><string>#f926729d</string>
+      </dict>
     </dict>
-</dict>
-
-<!-- Support for NeoVintageous: -->
-
-<dict>
-  <key>scope</key><string>neovintageous_search_inc</string>
-  <key>settings</key><dict>
-    <key>background</key><string>#fd971f</string>
-    <key>foreground</key><string>#272822</string>
-  </dict>
-</dict>
-<dict>
-  <key>scope</key><string>neovintageous_search_cur</string>
-  <key>settings</key><dict>
-    <key>background</key><string>#fd971f</string>
-    <key>foreground</key><string>#272822</string>
-  </dict>
-</dict>
-<dict>
-  <key>scope</key><string>neovintageous_search_occ</string>
-  <key>settings</key><dict>
-    <key>background</key><string>#e6db74</string>
-    <key>foreground</key><string>#272822</string>
-  </dict>
-</dict>
-<dict>
-    <key>scope</key><string>highlightedyank</string>
-    <key>settings</key><dict>
-    <key>background</key><string>#e6db74</string>
-    <key>foreground</key><string>#272822</string>
+    <dict>
+      <key>scope</key><string>neovintageous_search_cur</string>
+      <key>settings</key><dict>
+        <key>background</key><string>#fd971f</string>
+        <key>foreground</key><string>#272822</string>
+      </dict>
     </dict>
-</dict>
+    <dict>
+      <key>scope</key><string>neovintageous_search_occ</string>
+      <key>settings</key><dict>
+        <key>background</key><string>#e6db74</string>
+        <key>foreground</key><string>#272822</string>
+      </dict>
+    </dict>
 
-<!-- Deprecated NeoVintageous scopes: -->
-<dict><key>scope</key><string>nv_search_inc</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
-<dict><key>scope</key><string>nv_search_current</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
-<dict><key>scope</key><string>nv_search_occurrence</string><key>settings</key><dict><key>background</key><string>#e6db74</string><key>foreground</key><string>#272822</string></dict></dict>
-<dict><key>scope</key><string>highlighted.yank</string><key>settings</key><dict><key>background</key><string>#e6db74</string><key>foreground</key><string>#272822</string></dict></dict>
-<dict><key>scope</key><string>string.search.occurrence</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
-<dict><key>scope</key><string>string.search</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
-<!-- // deprecated NeoVintageous scopes -->
+    <!-- NeoVintageou: HighlighteYank -->
+    <dict>
+        <key>scope</key><string>highlightedyank</string>
+        <key>settings</key><dict>
+        <key>background</key><string>#e6db74</string>
+        <key>foreground</key><string>#272822</string>
+        </dict>
+    </dict>
 
-<!-- Support for Git Gutter: -->
+    <!-- Deprecated NeoVintageous scopes: -->
+    <dict><key>scope</key><string>nv_search_inc</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
+    <dict><key>scope</key><string>nv_search_current</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
+    <dict><key>scope</key><string>nv_search_occurrence</string><key>settings</key><dict><key>background</key><string>#e6db74</string><key>foreground</key><string>#272822</string></dict></dict>
+    <dict><key>scope</key><string>highlighted.yank</string><key>settings</key><dict><key>background</key><string>#e6db74</string><key>foreground</key><string>#272822</string></dict></dict>
+    <dict><key>scope</key><string>string.search.occurrence</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
+    <dict><key>scope</key><string>string.search</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 
-<dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#e6db749d</string></dict></dict>
-<dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f926729d</string></dict></dict>
-<dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
-<dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#a6e22e9d</string></dict></dict>
-<dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
+<!--
 
-    </array>
+  Support for Git Gutter
+
+-->
+
+    <dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#e6db749d</string></dict></dict>
+    <dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f926729d</string></dict></dict>
+    <dict><key>scope</key><string>markup.ignored.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
+    <dict><key>scope</key><string>markup.inserted.git_gutter</string>               <key>settings</key><dict><key>foreground</key><string>#a6e22e9d</string></dict></dict>
+    <dict><key>scope</key><string>markup.untracked.git_gutter</string>              <key>settings</key><dict><key>foreground</key><string>#75715e9d</string></dict></dict>
+
+</array>
 </dict>
 </plist>
