@@ -115,7 +115,7 @@
                     color: #66d9ef;
                   }
 
-                  #show-definitions {
+                  #show-definitions, #show-scope, #sublimelinter-tooltip {
                       border: 1px solid #75715e;
                       background-color: color(var(--background) blend(white 98%));
                       padding: 10px;
