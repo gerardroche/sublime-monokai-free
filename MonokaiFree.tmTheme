@@ -417,7 +417,7 @@
     <dict>
       <key>scope</key><string>neovintageous_search_inc</string>
       <key>settings</key><dict>
-        <key>background</key><string>#fd971f</string>
+        <key>background</key><string>#a6e22e</string>
         <key>foreground</key><string>#272822</string>
       </dict>
     </dict>
