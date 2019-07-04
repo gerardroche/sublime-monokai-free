@@ -6,6 +6,9 @@ env:
     matrix:
         - SUBLIME_TEXT_VERSION="3"
 
+services:
+  - xvfb
+
 matrix:
     include:
         - os: linux
@@ -13,11 +16,6 @@ matrix:
 
 before_install:
     - curl -OL https://raw.githubusercontent.com/SublimeText/UnitTesting/master/sbin/travis.sh
-    # Enable GUI. See https://docs.travis-ci.com/user/gui-and-headless-browsers.
-    - if [ "$TRAVIS_OS_NAME" == "linux"  ]; then
-            export DISPLAY=:99.0;
-            sh -e /etc/init.d/xvfb start;
-      fi
 
 install:
     - sh travis.sh bootstrap
