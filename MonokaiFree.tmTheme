@@ -53,7 +53,7 @@
                 <key>caret</key>                        <string>#e6db74</string>
                 <key>block_caret</key>                  <string>#e6db74</string>
 
-                <key>lineHighlight</key>                <string>#f8f8f21a</string> <!-- Alpha 1a ~= 10%. -->
+                <key>lineHighlight</key>                <string>#f8f8f215</string> <!-- Alpha 1a ~= 10%. -->
                 <key>invisibles</key>                   <string>#f8f8f226</string>
 
                 <!-- Accents -->
