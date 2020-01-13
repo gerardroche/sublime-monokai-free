@@ -250,7 +250,8 @@ function l(int $a, string $b, bool $c, float $d) {}
 
 function m(...$x) {}
 //       ^ fg=#a6e22e fs=
-//        ^^^^ fg=#f8f8f2 fs=
+//        ^ fg=#f8f8f2 fs=
+//         ^^^ fg=#f92672 fs= build>=4061
 //            ^^ fg=#fd971f fs=italic
 //              ^ fg=#f8f8f2 fs=
 

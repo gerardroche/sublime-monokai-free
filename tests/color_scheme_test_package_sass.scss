@@ -36,8 +36,8 @@
 /*                 ^^^^ bg=#f9267260 fg=#f92672 build>=3154 */
 
     .x { var-deprecated- }
-/*       ^^^^^^^^^^^^^^^ bg=#fd5ff060 build>=4000 */
-/*       ^^^^ bg=#fd5ff060 fg=#fd5ff0 build>=4000 */
+/*       ^^^^^^^^^^^^^^^ fg=#f8f8f2 */
+/*       ^^^^ bg=#fd5ff060 fg=#f8f8f2 */
 
     div p {}
 /*  ^^^ fg=#f92672 fs= */
@@ -205,7 +205,7 @@
     background: no-repeat center/80% url("x");
 /*              ^^^^^^^^^ fg=#ae81ff fs= */
 /*                        ^^^^^^ fg=#ae81ff fs= */
-/*                              ^ fg=#f8f8f2 fs= build>=4000 */
+/*                              ^ fg=#f92672 fs= */
 /*                               ^^ fg=#ae81ff fs= */
 /*                                 ^ fg=#f92672 fs= */
 /*                                   ^^^ fg=#66d9ef fs= build>=4000 */
@@ -226,7 +226,7 @@
 /*                   ^^ fg=#f92672 fs= */
 /*                      ^ fg=#ae81ff fs= */
 /*                       ^ fg=#f92672 fs= */
-/*                         ^ fg=#f8f8f2 fs= build>=4000 */
+/*                         ^ fg=#f92672 fs= */
 /*                           ^^ fg=#ae81ff fs= */
 /*                             ^^ fg=#f92672 fs= */
 /*                                ^^ fg=#ae81ff fs= */
@@ -340,7 +340,7 @@
     font-family: monospace;
 /*               ^ fg=#66d9ef fs= build>=4000 */
     font-family: sans-se build>=4000rif;
-/*               ^ fg=#66d9ef fs= build>=4000 */
+/*               ^ fg=#e6db74 fs= */
     font-family: serif;
 /*               ^ f build>=4000g=#66d9ef fs= */
 
