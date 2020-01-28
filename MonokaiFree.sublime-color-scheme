@@ -185,7 +185,7 @@
         },
         {
             "scope": "markup.heading entity.name.section meta.link.inline markup.underline.link",
-            "font_style": "bold underline"
+            "font_style": "bold"
         },
         {
             "scope": "markup.heading entity.name.section meta.link.inline punctuation.definition.link",
@@ -277,8 +277,7 @@
             "foreground": "#66d9ef"
         },
         {
-            "scope": "markup.underline",
-            "font_style": "underline"
+            "scope": "markup.underline"
         },
         {
             "scope": "markup.untracked",
