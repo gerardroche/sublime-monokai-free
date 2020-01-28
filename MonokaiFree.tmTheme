@@ -74,7 +74,8 @@
                 <key>selectionBorder</key>              <string></string>
                 <key>inactiveSelection</key>            <string>#75715e</string>
                 <key>inactiveSelectionForeground</key>  <string>#272822</string> <!-- The inactive selection foreground doesn't work. See https://github.com/SublimeTextIssues/Core/issues/2118. -->
-                <key>inactiveSelectionBorder</key>      <string></string> <!-- The inactive selection border doesn't work. See https://github.com/SublimeTextIssues/Core/issues/2118. -->
+                <!-- The inactive selection border doesn't work. See https://github.com/SublimeTextIssues/Core/issues/2118. -->
+                <key>inactiveSelectionBorder</key>      <string></string>
 
                 <!-- Find -->
                 <key>highlight</key>                    <string>#e6db74</string>
@@ -301,11 +302,11 @@
 <dict><key>scope</key><string>parameter.less variable.other.less</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>variable.declaration.less</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 
-<!--
+    <!--
 
-  Support for LSP
+      LSP
 
--->
+    -->
 
     <!-- This fix is required, because we use use transparent red background
     color for sublimelinter gutter and region highlighting scopes (not the new
@@ -316,20 +317,18 @@
             <key>background</key><string>#272822</string>
         </dict></dict>
 
-<!--
+    <!--
 
-  Support for SublimeLinter
+      SublimeLinter
 
--->
+    -->
 
     <!-- This is required because we use a transparent red/yellow/etc background
     for gutter and highlighted regions, but  the diagnostics panel uses the same
     or similar scopes and we want the background color of text in the
     diagnostics panel  to be the same as the theme background color.
-
     Note that setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
-
     <dict><key>scope</key><string>output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter</string>
         <key>settings</key><dict>
             <key>background</key><string>#272822</string>
@@ -344,7 +343,6 @@
             <key>background</key><string>#fd971f9d</string>
             <key>foreground</key><string>#fd971f</string>
         </dict></dict>
-
     <!-- DEPRECATED Older versions of SublimeLinter require style definitions to
     be formatted like this, otherwise it will create a cached versions of the
     color scheme and use its default colors for the linter. -->
@@ -376,11 +374,11 @@
         </dict>
     </dict>
 
-<!--
+    <!--
 
-  Support for PHPUnitKit
+      PHPUnitKit
 
--->
+    -->
 
     <dict><key>scope</key><string>region.greenish phpunitkit</string>
         <key>settings</key><dict>
@@ -398,11 +396,11 @@
             <key>foreground</key><string>#f8f8f2</string>
         </dict></dict>
 
-<!--
+    <!--
 
-  Support for RulerColumn
+      RulerColumn
 
--->
+    -->
 
     <!-- Setting the foreground color doesn't work for these scopes.
     See https://github.com/SublimeTextIssues/Core/issues/2122. -->
@@ -413,11 +411,11 @@
         </dict>
     </dict>
 
-<!--
+    <!--
 
-  Support for NeoVintageous
+      NeoVintageous
 
--->
+    -->
 
     <!-- NeoVintageou: Search -->
     <dict>
@@ -441,7 +439,6 @@
         <key>foreground</key><string>#272822</string>
       </dict>
     </dict>
-
     <!-- NeoVintageou: HighlighteYank -->
     <dict>
         <key>scope</key><string>highlightedyank</string>
@@ -450,7 +447,6 @@
         <key>foreground</key><string>#272822</string>
         </dict>
     </dict>
-
     <!-- NeoVintageou: EasyMotion -->
     <dict><key>scope</key><string>easymotion_cursor</string>
       <key>settings</key><dict>
@@ -462,7 +458,6 @@
         <key>background</key><string>#fd971f</string>
         <key>foreground</key><string>#272822</string>
     </dict></dict>
-
     <!-- Deprecated NeoVintageous scopes: -->
     <dict><key>scope</key><string>nv_search_inc</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
     <dict><key>scope</key><string>nv_search_current</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
@@ -471,11 +466,11 @@
     <dict><key>scope</key><string>string.search.occurrence</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
     <dict><key>scope</key><string>string.search</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 
-<!--
+    <!--
 
-  Support for Git Gutter
+      GitGutter
 
--->
+    -->
 
     <dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#e6db749d</string></dict></dict>
     <dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f926729d</string></dict></dict>
