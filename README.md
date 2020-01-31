@@ -1,8 +1,8 @@
 # MonokaiFree
 
-A beautiful, modern, high quality, Monokai theme for Sublime Text 3.
+A beautiful, modern, high quality, Monokai theme for Sublime Text.
 
-[![Travis CI Build Status](https://img.shields.io/travis/gerardroche/sublime-monokai-free/master.svg?style=flat-square&label=travisci)](https://travis-ci.org/gerardroche/sublime-monokai-free) [![AppVeyor Build status](https://img.shields.io/appveyor/ci/gerardroche/sublime-monokai-free/master.svg?style=flat-square&label=appveyor)](https://ci.appveyor.com/project/gerardroche/sublime-monokai-free/branch/master) [![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-monokai-free.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-monokai-free/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-monokai-free.svg?style=flat-square)](https://github.com/gerardroche/sublime-monokai-free/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/MonokaiFree.svg?style=flat-square)](https://packagecontrol.io/packages/MonokaiFree)
+[![Travis CI Build Status](https://img.shields.io/travis/gerardroche/sublime-monokai-free/master.svg?style=flat-square&label=travisci)](https://travis-ci.org/gerardroche/sublime-monokai-free) [![AppVeyor Build status](https://img.shields.io/appveyor/ci/gerardroche/sublime-monokai-free/master.svg?style=flat-square&label=appveyor)](https://ci.appveyor.com/project/gerardroche/sublime-monokai-free/branch/master) [![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Version](https://img.shields.io/github/tag/gerardroche/sublime-monokai-free.svg?style=flat-square&label=version)](https://github.com/gerardroche/sublime-monokai-free/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-monokai-free.svg?style=flat-square)](https://github.com/gerardroche/sublime-monokai-free/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/MonokaiFree.svg?style=flat-square)](https://packagecontrol.io/packages/MonokaiFree)
 
 * Enhanced syntax highlighting for PHP, HTML, CSS, Markdown, JavaScript, Ruby, Python.
 * Additional syntax highlighting for LESS, Sass, Laravel Blade, Visual Studio Code.
@@ -10,9 +10,15 @@ A beautiful, modern, high quality, Monokai theme for Sublime Text 3.
 
 ## Installation
 
-### Package Control installation
+### Package Control
 
 The preferred method of installation is [Package Control](https://packagecontrol.io/packages/MonokaiFree).
+
+`Ctrl/Command + Shift + P` to open the Command Palette
+Select `Package Control: Install Package`
+Search for `monokai++`
+Press `Enter`
+Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
 
 ### Manual installation
 
@@ -22,31 +28,27 @@ Close Sublime Text, then download or clone this repository to a directory named 
 * OSX: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/MonokaiFree`
 * Windows: `git clone https://github.com/gerardroche/sublime-monokai-free.git %APPDATA%\Sublime/ Text/ 3/Packages/MonokaiFree`
 
-## ACTIVATE
+## Screenshots
 
-Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
-
-## SCREENSHOTS
-
-### CSS
+> CSS
 
 ![CSS screenshot](screenshot-css.png)
 
-### HTML
+> HTML
 
 ![HTML screenshot](screenshot-html.png)
 
-### PHP
+> PHP
 
 ![PHP screenshot](screenshot-php.png)
 
 ![PHP screenshot](screenshot-php-extras.png)
 
-### XML
+> XML
 
 ![XML screenshot](screenshot-xml.png)
 
-## CUSTOMISATION
+## Customisation
 
 In newer versions of Sublime Text (`>= 3154`) customising your theme is straight forward enough.
 
