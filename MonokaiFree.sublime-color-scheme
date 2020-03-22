@@ -708,12 +708,12 @@
         {
             "scope": "neovintageous_search_inc",
             "foreground": "#272822",
-            "background": "#a6e22e"
+            "background": "#a1efe4"
         },
         {
             "scope": "neovintageous_search_cur",
             "foreground": "#272822",
-            "background": "#fd971f"
+            "background": "#a1efe4"
         },
         {
             "scope": "neovintageous_search_occ",
