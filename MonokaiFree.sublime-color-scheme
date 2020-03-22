@@ -721,11 +721,6 @@
             "background": "#e6db74"
         },
         {
-            "scope": "highlightedyank",
-            "foreground": "#272822",
-            "background": "#e6db74"
-        },
-        {
             "scope": "easymotion_cursor",
             "foreground": "#272822",
             "background": "#66d9ef"
@@ -734,6 +729,11 @@
             "scope": "easymotion_target",
             "foreground": "#272822",
             "background": "#fd971f"
+        },
+        {
+            "scope": "highlightedyank",
+            "foreground": "#272822",
+            "background": "#e6db74"
         },
         {
             "scope": "nv_search_inc",

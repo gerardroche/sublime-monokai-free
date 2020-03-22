@@ -417,7 +417,7 @@
 
     -->
 
-    <!-- NeoVintageou: Search -->
+    <!-- NeoVintageous: Search -->
     <dict>
       <key>scope</key><string>neovintageous_search_inc</string>
       <key>settings</key><dict>
@@ -439,15 +439,7 @@
         <key>foreground</key><string>#272822</string>
       </dict>
     </dict>
-    <!-- NeoVintageou: HighlighteYank -->
-    <dict>
-        <key>scope</key><string>highlightedyank</string>
-        <key>settings</key><dict>
-        <key>background</key><string>#e6db74</string>
-        <key>foreground</key><string>#272822</string>
-        </dict>
-    </dict>
-    <!-- NeoVintageou: EasyMotion -->
+    <!-- NeoVintageous: Plugin;EasyMotion -->
     <dict><key>scope</key><string>easymotion_cursor</string>
       <key>settings</key><dict>
         <key>background</key><string>#66d9ef</string>
@@ -458,6 +450,15 @@
         <key>background</key><string>#fd971f</string>
         <key>foreground</key><string>#272822</string>
     </dict></dict>
+    <!-- NeoVintageous: Plugin;HighlightedYank -->
+    <dict>
+        <key>scope</key><string>highlightedyank</string>
+        <key>settings</key><dict>
+        <key>background</key><string>#e6db74</string>
+        <key>foreground</key><string>#272822</string>
+        </dict>
+    </dict>
+
     <!-- Deprecated NeoVintageous scopes: -->
     <dict><key>scope</key><string>nv_search_inc</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
     <dict><key>scope</key><string>nv_search_current</string><key>settings</key><dict><key>background</key><string>#a1efe4</string><key>foreground</key><string>#272822</string></dict></dict>
