@@ -653,6 +653,26 @@
             "foreground": "#fd971f"
         },
         {
+            "scope": "diff.deleted.char",
+            "foreground": "#272822",
+            "background": "#f92672"
+        },
+        {
+            "scope": "diff.deleted",
+            "foreground": "#272822",
+            "background": "#f92672B3"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "foreground": "#272822",
+            "background": "#a6e22e"
+        },
+        {
+            "scope": "diff.inserted",
+            "foreground": "#272822",
+            "background": "#a6e22eB3"
+        },
+        {
             "scope": "output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning",
             "background": "#272822"
         },

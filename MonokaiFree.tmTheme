@@ -302,6 +302,12 @@
 <dict><key>scope</key><string>parameter.less variable.other.less</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>variable.declaration.less</string>                        <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 
+<!-- inline diffs -->
+<dict><key>scope</key><string>diff.deleted.char</string>  <key>settings</key><dict><key>background</key><string>#f92672</string>  <key>foreground</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>diff.deleted</string>       <key>settings</key><dict><key>background</key><string>#f92672B3</string><key>foreground</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>diff.inserted.char</string> <key>settings</key><dict><key>background</key><string>#a6e22e</string>  <key>foreground</key><string>#272822</string></dict></dict>
+<dict><key>scope</key><string>diff.inserted</string>      <key>settings</key><dict><key>background</key><string>#a6e22eB3</string><key>foreground</key><string>#272822</string></dict></dict>
+
     <!--
 
       LSP
