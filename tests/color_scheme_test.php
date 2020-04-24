@@ -783,6 +783,11 @@ if (isset($x) && is_callable($x)) {
 //               ^^^ fg=#f8f8f2 fs=
 //                  ^ fg=#f8f8f2 fs=
 //                   ^^^^ fg=#e6db74 fs=
+    <p>{$this->y()}</p>
+//      ^^^^^ fg=#fd971f fs=italic
+//     ^ fg=#f8f8f2 fs=
+//           ^^ fg=#f92672 fs=
+//             ^^^^ fg=#f8f8f2 fs=
 </div>
 EOT;
 //^ fg=#f92672 fs=

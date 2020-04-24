@@ -446,7 +446,7 @@
             "foreground": "#f8f8f2"
         },
         {
-            "scope": "string punctuation.definition.variable",
+            "scope": "string punctuation.definition.variable - variable.language",
             "foreground": "#f8f8f2"
         },
         {
