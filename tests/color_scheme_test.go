@@ -1,8 +1,8 @@
 // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Go"
 
 package examples
-// ^ fg=#f92672 fs=
-//      ^ fg=#f8f8f2 fs=
+// ^ fg=#f92672 fs=italic build>=4081
+//      ^ fg=#a6e22e fs= build>=4081
 
 import (
 // ^ fg=#f92672 fs=

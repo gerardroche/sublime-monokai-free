@@ -233,12 +233,12 @@ end
 # ^ fg=#f92672 fs=
 
 module X
-# ^ fg=#f92672 fs=
+# ^ fg=#f92672 fs=italic build>=4081
 end
 # ^ fg=#f92672 fs=
 
 class X
-# ^ fg=#f92672 fs=
+# ^ fg=#66d9ef fs=italic build>=4081
 #     ^ fg=#a6e22e fs=
 end
 # ^ fg=#f92672 fs=
@@ -274,7 +274,7 @@ class X
 #     ^^^ fg=#e6db74 fs=
 
   def self.v
-# ^ fg=#f92672 fs=
+# ^ fg=#66d9ef fs=italic build>=4081
 #     ^^^^ fg=#fd971f fs=italic
 #         ^ fg=#f8f8f2 fs=
 #          ^ fg=#a6e22e fs=
@@ -290,7 +290,7 @@ class X
 # ^ fg=#f92672 fs=
 
   module C
-# ^ fg=#f92672 fs=
+# ^ fg=#f92672 fs=italic build>=4081
 #        ^ fg=#a6e22e fs=
     A = 5
 #   ^ fg=#a6e22e fs=
@@ -320,7 +320,7 @@ class X
 # ^ fg=#f92672 fs=
 
     def x
-#   ^ fg=#f92672 fs=
+#   ^ fg=#66d9ef fs=italic build>=4081
 #       ^ fg=#a6e22e fs=
     end
 #   ^ fg=#f92672 fs=
@@ -343,7 +343,7 @@ class X
   #            ^^^ fg=#e6db74 fs=
 
   def x
-  # ^ fg=#f92672 fs=
+  # ^ fg=#66d9ef fs=italic build>=4081
   #   ^ fg=#a6e22e fs=
 
     puts "Hi #{@name}!"
@@ -407,7 +407,7 @@ class X
     #               ^^ fg=#e6db74 fs=
 
     super.merge(
-    # ^^^ fg=#f92672 fs=
+    # ^^^ fg=#66d9ef fs= build>=4081
     #    ^^^^^^^ fg=#f8f8f2 fs=
       "a" => x.y,
     # ^^^ fg=#e6db74 fs=
@@ -431,12 +431,12 @@ class X
     #     ^ fg=#fd971f fs=italic
     #      ^ fg=#f8f8f2 fs=
       super
-      # ^ fg=#f92672 fs=
+      # ^ fg=#66d9ef fs= build>=4081
     end
 
     def x
       super.x!
-      # ^^^ fg=#f92672 fs=
+      # ^^^ fg=#66d9ef fs= build>=4081
       #    ^^^ fg=#f8f8f2 fs=
     end
 
