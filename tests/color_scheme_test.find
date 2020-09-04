@@ -1,54 +1,54 @@
 # COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Find Results"
 
 Searching 27 files for "aaa"
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs=
+# ^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2a6 fs=
 
 /path/to/file.py:
 # ^^^^^^^^^^^^^^ fg=#a6e22e fs=
-                ^ fg=#f8f8f2 fs=
+                ^ fg=#f8f8f2a6 fs=
    13  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    14  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    15: aaa
 #  ^^ fg=#e6db74 fs=
-#    ^ fg=#f8f8f2 fs=
-#      ^^^ fg=#f8f8f2 fs=
+#    ^ fg=#f8f8f2a6 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    16  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    17  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
 
 /path/to/other/file.py:
 ^^^^^^^^^^^^^^^^^^^^^^ fg=#a6e22e fs=
-                      ^ fg=#f8f8f2 fs=
+                      ^ fg=#f8f8f2a6 fs=
    10  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    11  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    12: aaa
 #  ^^ fg=#e6db74 fs=
-#    ^ fg=#f8f8f2 fs=
-#      ^^^ fg=#f8f8f2 fs=
+#    ^ fg=#f8f8f2a6 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    13  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    14: aaa
 #  ^^ fg=#e6db74 fs=
-#    ^ fg=#f8f8f2 fs=
-#      ^^^ fg=#f8f8f2 fs=
+#    ^ fg=#f8f8f2a6 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    15  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
    16  xxx
 #  ^^ fg=#ae81ff fs=
-#      ^^^ fg=#f8f8f2 fs=
+#      ^^^ fg=#f8f8f2a6 fs=
 
 3 matches across 2 files
-# ^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs=
+# ^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2a6 fs=

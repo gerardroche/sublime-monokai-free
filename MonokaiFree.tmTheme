@@ -181,8 +181,8 @@
 <dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#fd5ff060</string><key>foreground</key><string>#fd5ff0</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#f9267260</string><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword.control</string>                          <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>keyword.declaration.class</string>                <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.declaration.function</string>             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>keyword.declaration.class</string>             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator.word</string>                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator</string>                         <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.other.phpdoc</string>                     <key>settings</key><dict><key>foreground</key><string>#75715e</string><key>fontStyle</key><string>bold</string></dict></dict>
@@ -278,6 +278,7 @@
 <dict><key>scope</key><string>support.type</string>                             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>support.variable.magic</string>                   <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>support.variable</string>                         <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>text.find-in-files</string>                       <key>settings</key><dict><key>foreground</key><string>#f8f8f2a6</string></dict></dict>
 <dict><key>scope</key><string>text.html.markdown punctuation - constant</string><key>settings</key><dict><key>foreground</key><string>#75715e</string></dict></dict>
 <dict><key>scope</key><string>variable.function.php</string>                    <key>settings</key><dict><key>foreground</key><string>#f8f8f2</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>variable.function</string>                        <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string></string></dict></dict>

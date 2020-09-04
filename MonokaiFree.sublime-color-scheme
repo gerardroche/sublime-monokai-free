@@ -129,12 +129,12 @@
             "foreground": "#f92672"
         },
         {
-            "scope": "keyword.declaration.function",
+            "scope": "keyword.declaration.class",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
         {
-            "scope": "keyword.declaration.class",
+            "scope": "keyword.declaration.function",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
@@ -522,6 +522,10 @@
         {
             "scope": "support.variable",
             "foreground": "#66d9ef"
+        },
+        {
+            "scope": "text.find-in-files",
+            "foreground": "#f8f8f2a6"
         },
         {
             "scope": "text.html.markdown punctuation - constant",
