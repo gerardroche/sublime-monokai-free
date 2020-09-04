@@ -1255,7 +1255,7 @@ class x
         //         ^^^^^ fg=#fd971f fs=italic
         //              ^^ fg=#f92672 fs=
         //                ^^ fg=#f8f8f2 fs=
-        //                   ^ fg=#f8f8f2 fs=
+        //                   ^ fg=#f92672 fs= build>=4085
         //                     ^^^^^ fg=#fd971f fs=italic
         //                          ^^ fg=#f92672 fs=
         //                            ^ fg=#f8f8f2 fs=
@@ -1263,7 +1263,7 @@ class x
         //                               ^^ fg=#f8f8f2 fs=
         //                                 ^^^ fg=#e6db74 fs=
         //                                    ^ fg=#f8f8f2 fs=
-        //                                      ^ fg=#f8f8f2 fs=
+        //                                      ^ fg=#f92672 fs= build>=4085
         //                                        ^^^ fg=#f92672 fs=
         //                                            ^ fg=#66d9ef fs=italic
         //                                             ^^^ fg=#f8f8f2 fs=
