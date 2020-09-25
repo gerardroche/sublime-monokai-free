@@ -69,6 +69,10 @@
             "foreground": "#e6db74"
         },
         {
+            "scope": "constant.numeric.suffix.css",
+            "foreground": "#66d9ef"
+        },
+        {
             "scope": "constant.numeric",
             "foreground": "#ae81ff"
         },
@@ -382,6 +386,10 @@
         },
         {
             "scope": "punctuation.accessor.rust",
+            "foreground": "#f92672"
+        },
+        {
+            "scope": "punctuation.definition.heredoc.ruby",
             "foreground": "#f92672"
         },
         {
