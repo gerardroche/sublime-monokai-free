@@ -133,12 +133,27 @@
             "foreground": "#f92672"
         },
         {
+            "scope": "keyword.declaration.c",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
             "scope": "keyword.declaration.class",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.function",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword.declaration.struct",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword.declaration.type",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
@@ -397,6 +412,16 @@
             "foreground": "#75715e"
         },
         {
+            "scope": "punctuation.definition.pseudo-class",
+            "foreground": "#a6e22e",
+            "font_style": "italic"
+        },
+        {
+            "scope": "punctuation.definition.pseudo-element",
+            "foreground": "#a6e22e",
+            "font_style": "italic"
+        },
+        {
             "scope": "punctuation.section.brackets.begin",
             "foreground": "#f8f8f2"
         },
@@ -546,6 +571,10 @@
         {
             "scope": "variable.function",
             "foreground": "#66d9ef"
+        },
+        {
+            "scope": "variable.language.wildcard",
+            "foreground": "#f92672"
         },
         {
             "scope": "variable.language",

@@ -233,7 +233,7 @@ end
 # ^ fg=#f92672 fs=
 
 module X
-# ^ fg=#f92672 fs=italic build>=4081
+# ^ fg=#f92672 fs= build>=4092
 end
 # ^ fg=#f92672 fs=
 
@@ -290,7 +290,7 @@ class X
 # ^ fg=#f92672 fs=
 
   module C
-# ^ fg=#f92672 fs=italic build>=4081
+# ^ fg=#f92672 fs= build>=4092
 #        ^ fg=#a6e22e fs=
     A = 5
 #   ^ fg=#a6e22e fs=

@@ -683,7 +683,8 @@ if (isset($x) && is_callable($x)) {
     echo "x {${$name}}";
     //   ^^^ fg=#e6db74 fs=
     //      ^ fg=#f8f8f2 fs=
-    //       ^^ fg=#e6db74 fs=
+    //       ^ fg=#f8f8f2 fs= build>=4092
+    //        ^ fg=#e6db74 fs=
     //         ^^^^^^ fg=#f8f8f2 fs=
     //               ^^ fg=#e6db74 fs=
     //                 ^ fg=#f8f8f2 fs=
