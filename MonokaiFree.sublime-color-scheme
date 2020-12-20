@@ -119,6 +119,10 @@
             "font_style": "italic"
         },
         {
+            "scope": "entity.tag",
+            "foreground": "#f92672"
+        },
+        {
             "scope": "invalid.deprecated",
             "foreground": "#fd5ff0",
             "background": "#fd5ff060"
