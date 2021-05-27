@@ -27,11 +27,23 @@ use A;
 //  ^ fg=#66d9ef fs=italic
 //   ^ fg=#f8f8f2 fs=
 
+use Countable;
+//  ^ fg=#66d9ef fs=italic
+
+use UserDefined;
+//  ^ fg=#66d9ef fs=italic
+
 use A\B\C;
 //^ fg=#f92672 fs=
 //  ^^^^ fg=#f8f8f2 fs=
 //      ^ fg=#66d9ef fs=italic
 //       ^ fg=#f8f8f2 fs=
+
+use A\B\Exception;
+//      ^ fg=#66d9ef fs=italic
+
+use A\B\UserDefined2;
+//      ^ fg=#66d9ef fs=italic
 
 use A\B\C as B;
 //^ fg=#f92672 fs=
@@ -589,11 +601,27 @@ if (isset($x) && is_callable($x)) {
     //       ^ fg=#66d9ef fs=italic
     //        ^^^ fg=#f8f8f2 fs=
 
+    $x = new Exception();
+    //   ^ fg=#f92672 fs=
+    //       ^ fg=#66d9ef fs=italic
+
     $x = new A\B\C();
     //   ^ fg=#f92672 fs=
     //       ^^^^ fg=#f8f8f2 fs=
     //           ^ fg=#66d9ef fs=italic
     //            ^^^ fg=#f8f8f2 fs=
+
+    $x = new A\B\Exception();
+    //       ^^^^ fg=#f8f8f2 fs=
+    //           ^ fg=#66d9ef fs=italic
+
+    $x = new A\B\Countable();
+    //       ^^^^ fg=#f8f8f2 fs=
+    //           ^ fg=#66d9ef fs=italic
+
+    $x = new A\B\UserDefined();
+    //       ^^^^ fg=#f8f8f2 fs=
+    //           ^ fg=#66d9ef fs=italic
 
     clone $obj;
     // ^ fg=#66d9ef fs=italic
