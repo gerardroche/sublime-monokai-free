@@ -179,13 +179,14 @@
 <dict><key>scope</key><string>entity.other.attribute-name</string>              <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>entity.other.inherited-class</string>             <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>entity.other</string>                             <key>settings</key><dict><key>foreground</key><string>#a6e22e</string><key>fontStyle</key><string>italic</string></dict></dict>
-<dict><key>scope</key><string>entity.tag</string>                          <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
+<dict><key>scope</key><string>entity.tag</string>                               <key>settings</key><dict><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>invalid.deprecated</string>                       <key>settings</key><dict><key>background</key><string>#fd5ff060</string><key>foreground</key><string>#fd5ff0</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>invalid</string>                                  <key>settings</key><dict><key>background</key><string>#f9267260</string><key>foreground</key><string>#f92672</string><key>fontStyle</key><string></string></dict></dict>
 <dict><key>scope</key><string>keyword.control</string>                          <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>keyword.declaration.c</string>                    <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.declaration.class</string>                <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.declaration.function</string>             <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
+<dict><key>scope</key><string>keyword.declaration.js</string>                   <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.declaration.struct</string>               <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.declaration.type</string>                 <key>settings</key><dict><key>foreground</key><string>#66d9ef</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>keyword.operator.word</string>                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>

@@ -152,6 +152,11 @@
             "font_style": "italic"
         },
         {
+            "scope": "keyword.declaration.js",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
             "scope": "keyword.declaration.struct",
             "foreground": "#66d9ef",
             "font_style": "italic"
