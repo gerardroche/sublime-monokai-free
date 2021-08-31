@@ -152,6 +152,21 @@
             "font_style": "italic"
         },
         {
+            "scope": "keyword.declaration.var.go",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword.declaration.interface.go",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword.declaration.const.go",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
             "scope": "keyword.declaration.js",
             "foreground": "#66d9ef",
             "font_style": "italic"
