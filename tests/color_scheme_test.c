@@ -42,7 +42,7 @@ typedef int myint;
 typedef struct mystruct {
 // ^ fg=#66d9ef fs=italic
 //      ^ fg=#66d9ef fs=italic
-//             ^ fg=#f8f8f2 fs=
+//             ^ fg=#a6e22e fs= build>=4118
 //                      ^ fg=#f8f8f2 fs=
     } mystruct;
 //  ^ fg=#f8f8f2 fs=

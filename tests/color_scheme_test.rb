@@ -60,7 +60,7 @@ x = "a#{x.y}b"
 x = "a#{X.inspect}b"
 #   ^^ fg=#e6db74 fs=
 #     ^^ fg=#f8f8f2 fs= build>=3177
-#       ^ fg=#66d9ef fs=italic
+#       ^ fg=#ae81ff fs= build>=4118
 #        ^ fg=#f8f8f2 fs= build>=3177
 #         ^^^^^^^ fg=#66d9ef fs=
 #                ^ fg=#f8f8f2 fs= build>=3177
@@ -69,7 +69,7 @@ x = "a#{X.inspect}b"
 x = "a#{X.y}b"
 #   ^^ fg=#e6db74 fs=
 #     ^^ fg=#f8f8f2 fs= build>=3177
-#       ^ fg=#66d9ef fs=italic
+#       ^ fg=#ae81ff fs= build>=4118
 #        ^^^ fg=#f8f8f2 fs= build>=3177
 #           ^^ fg=#e6db74 fs=
 
@@ -140,8 +140,10 @@ x = Class.new(X::Abc)
 #        ^ fg=#f8f8f2 fs=
 #         ^^^ fg=#f92672 fs=
 #            ^ fg=#f8f8f2 fs=
-#             ^ fg=#66d9ef fs=italic
-#              ^^^^^^ fg=#f8f8f2 fs=
+#             ^ fg=#ae81ff fs= build>=4118
+#              ^^ fg=#f8f8f2 fs=
+#                ^^^ fg=#66d9ef fs=italic build>=4118
+#                   ^ fg=#f8f8f2 fs=
 
 x = merge("a" => x.y, "b" => X.y)
 #   ^^^^^^ fg=#f8f8f2 fs=
@@ -150,8 +152,8 @@ x = merge("a" => x.y, "b" => X.y)
 #                ^^^^ fg=#f8f8f2 fs=
 #                     ^^^ fg=#e6db74 fs=
 #                         ^^ fg=#f92672 fs=
-#                            ^ fg=#66d9ef fs=italic
-#                             ^^^ fg=#f8f8f2 fs=
+#                            ^ fg=#ae81ff fs=
+#                             ^^^ fg=#f8f8f2 fs= build>=4118
 
 x = merge(
   "a" => x.y,
@@ -159,7 +161,7 @@ x = merge(
   #      ^^^^ fg=#f8f8f2 fs=
   "b" => X.y
   #   ^^ fg=#f92672 fs=
-  #      ^ fg=#66d9ef fs=italic
+  #      ^ fg=#ae81ff fs= build>=4118
   #       ^^ fg=#f8f8f2 fs=
 )
 
@@ -173,7 +175,7 @@ call(/regex/, "x")
 abc = X.new("y")
 # ^ fg=#f8f8f2 fs=
 #   ^ fg=#f92672 fs=
-#     ^ fg=#66d9ef fs=italic
+#     ^ fg=#ae81ff fs= build>=4118
 #      ^ fg=#f8f8f2 fs=
 #       ^^^ fg=#f92672 fs=
 #          ^ fg=#f8f8f2 fs=
@@ -184,19 +186,20 @@ abc.x
 # ^^^ fg=#f8f8f2 fs=
 
 ABC::X
-# ^ fg=#66d9ef fs=italic
-#  ^^^ fg=#f8f8f2 fs=
+# ^ fg=#ae81ff fs= build>=4118
+#  ^^ fg=#f8f8f2 fs=
+#    ^ fg=#ae81ff fs= build>=4118
 
 ABC::X.Y
-# ^ fg=#66d9ef fs=italic
+# ^ fg=#ae81ff fs= build>=4118
 #  ^^ fg=#f8f8f2 fs=
-#    ^ fg=#66d9ef fs=italic
+#    ^ fg=#ae81ff fs= build>=4118
 #     ^^ fg=#f8f8f2 fs=
 
 ABC::X.y
-# ^ fg=#66d9ef fs=italic
+# ^ fg=#ae81ff fs= build>=4118
 #  ^^ fg=#f8f8f2 fs=
-#    ^ fg=#66d9ef fs=italic
+#    ^ fg=#ae81ff fs= build>=4118
 #     ^^ fg=#f8f8f2 fs=
 
 if name.is_a?(Pathname)
@@ -279,13 +282,14 @@ class X
 #         ^ fg=#f8f8f2 fs=
 #          ^ fg=#a6e22e fs=
     A::B.new C::D
-#   ^ fg=#66d9ef fs=italic
+#   ^ fg=#ae81ff fs= build>=4118
 #    ^^ fg=#f8f8f2 fs=
-#      ^ fg=#66d9ef fs=italic
+#      ^ fg=#ae81ff fs= build>=4118
 #       ^ fg=#f8f8f2 fs=
 #        ^^^ fg=#f92672 fs=
-#            ^ fg=#66d9ef fs=italic
-#             ^^^ fg=#f8f8f2 fs=
+#            ^ fg=#ae81ff fs= build>=4118
+#             ^^ fg=#f8f8f2 fs=
+#               ^ fg=#ae81ff fs= build>=4118
   end
 # ^ fg=#f92672 fs=
 
@@ -331,10 +335,11 @@ class X
 
   include X::Y::Z
   # ^ fg=#f92672 fs=
-  #       ^ fg=#66d9ef fs=italic
+  #       ^ fg=#ae81ff fs= build>=4118
   #        ^^ fg=#f8f8f2 fs=
-  #          ^ fg=#66d9ef fs=italic
-  #           ^^^ fg=#f8f8f2 fs=
+  #          ^ fg=#ae81ff fs= build>=4118
+  #           ^^ fg=#f8f8f2 fs=
+  #             ^ fg=#ae81ff fs= build>=4118
 
   autoload :X, "y"
   # ^ fg=#66d9ef fs=
@@ -358,13 +363,13 @@ class X
     #     ^^ fg=#f8f8f2 fs=
 
     ABC.y = z
-    # ^ fg=#66d9ef fs=italic
+    # ^ fg=#ae81ff fs= build>=4118
     #  ^^ fg=#f8f8f2 fs=
     #     ^ fg=#f92672 fs=
     #       ^ fg=#f8f8f2 fs=
 
     ABC.y(:z, x)
-    # ^ fg=#66d9ef fs=italic
+    # ^ fg=#ae81ff fs= build>=4118
     #  ^^^ fg=#f8f8f2 fs=
     #     ^^ fg=#ae81ff fs=
     #        ^^^ fg=#f8f8f2 fs=
@@ -389,8 +394,9 @@ class X
   #           ^ fg=#f8f8f2 fs=
   #            ^^^ fg=#f92672 fs=
   #               ^ fg=#f8f8f2 fs=
-  #                ^ fg=#66d9ef fs=italic
-  #                 ^^^^^^ fg=#f8f8f2 fs=
+  #                ^ fg=#ae81ff fs= build>=4118
+  #                 ^^ fg=#f8f8f2 fs=
+  #                   ^^^ fg=#66d9ef fs=italic build>=4118
     @x = @y
   # ^^ fg=#f8f8f2 fs=
   #    ^ fg=#f92672 fs=
@@ -416,7 +422,7 @@ class X
       "b" => X.y
     # ^^^ fg=#e6db74 fs=
     #     ^^ fg=#f92672 fs=
-    #        ^ fg=#66d9ef fs=italic
+    #        ^ fg=#ae81ff fs= build>=4118
     #         ^^ fg=#f8f8f2 fs=
     )
   # ^ fg=#f8f8f2 fs=
@@ -479,8 +485,9 @@ class X
       end
     rescue X::SyntaxError => e
     # ^ fg=#f92672 fs=
-    #      ^ fg=#66d9ef fs=italic
-    #       ^^^^^^^^^^^^^ fg=#f8f8f2 fs=
+    #      ^ fg=#ae81ff fs= build>=4118
+    #       ^^ fg=#f8f8f2 fs=
+    #         ^^^^^^^^^^^ fg=#66d9ef fs=italic build>=4118
     #                     ^^ fg=#f92672 fs=
     #                        ^ fg=#f8f8f2 fs=
       raise "A #{x}" \

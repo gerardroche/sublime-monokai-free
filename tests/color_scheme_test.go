@@ -85,7 +85,7 @@ const (
     //                   ^^^^ fg=#e6db74 fs=
     //                        ^^^^^^^^^^^ fg=#e6db74 fs= build>=3177
     //                                   ^ fg=#e6db74 fs=
-    //                                    ^^^^^ fg=#e6db74 fs= build>=3177
+    //                                    ^^^^^ fg=#ae81ff fs= build>=4118
     //                                         ^ fg=#e6db74 fs=
 )
 

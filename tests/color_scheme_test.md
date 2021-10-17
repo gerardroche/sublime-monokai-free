@@ -54,9 +54,9 @@ If you like *you **can** combine them*
 <!-- ^^^^^^^ fg=#f8f8f2 fs= -->
 <!--        ^ fg=#75715e fs=italic -->
 <!--         ^^^^ fg=#f8f8f2 fs=italic -->
-<!--             ^^ fg=#75715e fs=italic bold -->
-<!--               ^^^ fg=#f8f8f2 fs=italic bold -->
-<!--                  ^^ fg=#75715e fs=italic bold -->
+<!--             ^^ fg=#f8f8f2 fs=italic build>=4118 -->
+<!--               ^^^ fg=#f8f8f2 fs=italic build>=4118 -->
+<!--                  ^^ fg=#f8f8f2 fs=italic build>=4118 -->
 <!--                    ^^^^^^^^^^^^^ fg=#f8f8f2 fs=italic -->
 <!--                                 ^ fg=#75715e fs=italic -->
 

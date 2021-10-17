@@ -147,12 +147,12 @@
             "font_style": "italic"
         },
         {
-            "scope": "keyword.declaration.function",
+            "scope": "keyword.declaration.const.go",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
         {
-            "scope": "keyword.declaration.var.go",
+            "scope": "keyword.declaration.function",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
@@ -162,7 +162,7 @@
             "font_style": "italic"
         },
         {
-            "scope": "keyword.declaration.const.go",
+            "scope": "keyword.declaration.interface",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
@@ -177,7 +177,17 @@
             "font_style": "italic"
         },
         {
+            "scope": "keyword.declaration.trait",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
             "scope": "keyword.declaration.type",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
+            "scope": "keyword.declaration.var.go",
             "foreground": "#66d9ef",
             "font_style": "italic"
         },
@@ -520,6 +530,10 @@
         },
         {
             "scope": "string.unquoted.heredoc punctuation.definition.string",
+            "foreground": "#f92672"
+        },
+        {
+            "scope": "string.unquoted.heredoc punctuation.definition.tag",
             "foreground": "#f92672"
         },
         {
