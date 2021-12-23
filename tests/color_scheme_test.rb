@@ -152,7 +152,7 @@ x = merge("a" => x.y, "b" => X.y)
 #                ^^^^ fg=#f8f8f2 fs=
 #                     ^^^ fg=#e6db74 fs=
 #                         ^^ fg=#f92672 fs=
-#                            ^ fg=#ae81ff fs=
+#                            ^ fg=#ae81ff fs= build>=4125
 #                             ^^^ fg=#f8f8f2 fs= build>=4118
 
 x = merge(

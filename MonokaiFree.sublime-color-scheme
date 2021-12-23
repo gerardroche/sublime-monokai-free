@@ -496,6 +496,10 @@
             "foreground": "#f92672"
         },
         {
+            "scope": "storage.modifier.array.java",
+            "foreground": "#f8f8f2"
+        },
+        {
             "scope": "storage.modifier",
             "foreground": "#f92672"
         },
@@ -618,6 +622,10 @@
             "scope": "variable.language",
             "foreground": "#fd971f",
             "font_style": "italic"
+        },
+        {
+            "scope": "variable.namespace.java",
+            "foreground": "#66d9ef"
         },
         {
             "scope": "variable.other.constant",
