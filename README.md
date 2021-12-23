@@ -13,9 +13,13 @@ A beautiful, modern, high quality, Monokai theme for Sublime Text. Enhanced synt
 The preferred method of installation is [Package Control](https://packagecontrol.io/packages/MonokaiFree).
 
 `Ctrl/Command + Shift + P` to open the Command Palette
+
 Select `Package Control: Install Package`
+
 Search for `MonokaiFree`
+
 Press `Enter`
+
 Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
 
 ### Manual installation
@@ -65,13 +69,11 @@ To custom any colors create a color scheme override named "MonokaiFree.sublime-c
 }
 ```
 
-## CONTRIBUTING
-
-### Tests
+## Contributing
 
 To run the tests install [ColorSchemeUnit][] (a framework for testing Sublime Text color schemes), and run the `ColorSchemeUnit: Test Suite` command via the Command Palette (`Ctrl+Shift+P`).
 
-## LICENSE
+## License
 
 Released under the [BSD 3-Clause License](LICENSE).
 
