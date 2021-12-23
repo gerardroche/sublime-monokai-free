@@ -14,7 +14,7 @@ The preferred method of installation is [Package Control](https://packagecontrol
 
 `Ctrl/Command + Shift + P` to open the Command Palette
 Select `Package Control: Install Package`
-Search for `monokai++`
+Search for `MonokaiFree`
 Press `Enter`
 Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
 
