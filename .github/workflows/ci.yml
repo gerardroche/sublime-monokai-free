@@ -1,0 +1,32 @@
+name: Continuous Integration
+
+on: [push, pull_request]
+
+env:
+  PACKAGE: MonokaiFree
+
+jobs:
+  linux:
+    name: Linux ST${{ matrix.version }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        version: [3, 4]
+    container:
+      image: sublimetext/unittesting
+      options: --cap-add=NET_ADMIN
+    env:
+      SUBLIME_TEXT_VERSION: ${{ matrix.version }}
+      NO_AT_BRIDGE: 1
+    steps:
+      - uses: actions/checkout@v1
+      - run: export DISPLAY=":99.0"
+      - run: sh -e /etc/init.d/xvfb start
+      - run: curl -OL https://raw.githubusercontent.com/SublimeText/UnitTesting/master/sbin/github.sh
+      - name: Test
+        run: |
+          PATH="$HOME/.local/bin:$PATH"
+          sh github.sh bootstrap
+          sh github.sh install_color_scheme_unit
+          sh github.sh run_color_scheme_tests --coverage
