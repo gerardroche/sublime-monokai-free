@@ -35,10 +35,6 @@
     @counter-style none {}
 /*                 ^^^^ bg=#f9267260 fg=#f92672 build>=3154 */
 
-    .x { var-deprecated- }
-/*       ^^^^^^^^^^^^^^^ fg=#f8f8f2 */
-/*       ^^^^ bg=#fd5ff060 fg=#f8f8f2 */
-
     div p {}
 /*  ^^^ fg=#f92672 fs= */
 /*      ^ fg=#f92672 fs= */
@@ -99,7 +95,7 @@
 /*    ^^^^^^^^^^ fg=#a6e22e fs=italic */
 /*              ^ fg=#f8f8f2 fs= */
 /*               ^ fg=#ae81ff fs= */
-/*                ^ fg=#f92672 fs= */
+/*                ^ fg=#66d9ef fs= build>=4129 */
 /*                 ^ fg=#f8f8f2 fs= */
 
     p:first-of-type + p {}
@@ -207,7 +203,7 @@
 /*                        ^^^^^^ fg=#ae81ff fs= */
 /*                              ^ fg=#f92672 fs= */
 /*                               ^^ fg=#ae81ff fs= */
-/*                                 ^ fg=#f92672 fs= */
+/*                                 ^ fg=#66d9ef fs= build>=4129 */
 /*                                   ^^^ fg=#66d9ef fs= build>=4000 */
 /*                                      ^ fg=#f8f8f2 fs= */
 /*                                       ^^^ fg=#e6db74 fs= */
@@ -223,25 +219,25 @@
 
     border-radius: 10px 5% / 20px 25em 30px 35em;
 /*                 ^^ fg=#ae81ff fs= */
-/*                   ^^ fg=#f92672 fs= */
+/*                   ^^ fg=#66d9ef fs= build>=4129 */
 /*                      ^ fg=#ae81ff fs= */
-/*                       ^ fg=#f92672 fs= */
+/*                       ^ fg=#66d9ef fs= build>=4129 */
 /*                         ^ fg=#f92672 fs= */
 /*                           ^^ fg=#ae81ff fs= */
-/*                             ^^ fg=#f92672 fs= */
+/*                             ^^ fg=#66d9ef fs= build>=4129 */
 /*                                ^^ fg=#ae81ff fs= */
-/*                                  ^^ fg=#f92672 fs= */
+/*                                  ^^ fg=#66d9ef fs= build>=4129 */
 /*                                     ^^ fg=#ae81ff fs= */
-/*                                       ^^ fg=#f92672 fs= */
+/*                                       ^^ fg=#66d9ef fs= build>=4129 */
 /*                                          ^^ fg=#ae81ff fs= */
-/*                                            ^^ fg=#f92672 fs= */
+/*                                            ^^ fg=#66d9ef fs= build>=4129 */
 /*                                              ^ fg=#f8f8f2 fs= */
 
     border: 1px #aaaaaa solid;
 /*  ^ fg=#66d9ef fs=italic */
 /*        ^ fg=#f8f8f2 fs= */
 /*          ^ fg=#ae81ff fs= */
-/*           ^^ fg=#f92672 fs= */
+/*           ^^ fg=#66d9ef fs= build>=4129 */
 /*              ^^^^^^^ fg=#ae81ff fs= */
 /*                      ^^^^^ fg=#ae81ff fs= */
 /*                           ^ fg=#f8f8f2 fs= */
@@ -289,10 +285,10 @@
     /*         ^^ fg=#ae81ff fs= */
     /*           ^ fg=#f8f8f2 fs= */
     /*             ^^^ fg=#ae81ff fs= */
-    /*                ^ fg=#f92672 fs= */
+    /*                ^ fg=#66d9ef fs= build>=4129 */
     /*                 ^ fg=#f8f8f2 fs= */
     /*                   ^^ fg=#ae81ff fs= */
-    /*                     ^ fg=#f92672 fs= */
+    /*                     ^ fg=#66d9ef fs= build>=4129 */
     /*                      ^ fg=#f8f8f2 fs= */
     /*                        ^^^ fg=#ae81ff fs= */
     /*                           ^^ fg=#f8f8f2 fs= */
@@ -323,36 +319,36 @@
     font-family: X, sans-serif;
 /*               ^ fg=#e6db74 fs= build>=4000 */
 /*                ^ fg=#f8f8f2 fs= */
-/*                  ^^^^^^^^^^ fg=#66d9ef fs= build>=4000 */
+/*                  ^^^^^^^^^^ fg=#ae81ff fs= build>=4129 */
 /*                            ^ fg=#f8f8f2 fs= */
 
     font-family: "x", sans-serif;
 /*               ^^^ fg=#e6db74 fs= */
 /*                  ^ fg=#f8f8f2 fs= */
-/*                    ^^^^^^^^^^ fg=#66d9ef fs= build>=4000 */
+/*                    ^^^^^^^^^^ fg=#ae81ff fs= build>=4129 */
 /*                              ^ fg=#f8f8f2 fs= */
 
     font-family: cursive;
-/*               ^ fg=#66d9ef fs= build>=4000 */
+/*               ^ fg=#ae81ff fs= build>=4129 */
 
     font-family: fantasy;
-/*               ^ fg=#66d9ef fs= build>=4000 */
+/*               ^ fg=#ae81ff fs= build>=4129 */
     font-family: monospace;
-/*               ^ fg=#66d9ef fs= build>=4000 */
-    font-family: sans-se build>=4000rif;
-/*               ^ fg=#e6db74 fs= */
+/*               ^ fg=#ae81ff fs= build>=4129 */
+    font-family: sans-serif;
+/*               ^ fg=#ae81ff fs= build>=4129 */
     font-family: serif;
-/*               ^ f build>=4000g=#66d9ef fs= */
+/*               ^ f build>=4000g=#ae81ff fs= build>=4129 */
 
     font-size: 14px;
 /*             ^^ fg=#ae81ff fs= */
-/*               ^^ fg=#f92672 fs= */
+/*               ^^ fg=#66d9ef fs= build>=4129 */
 
     margin: 2px 1em 0 auto;
 /*          ^ fg=#ae81ff fs= */
-/*           ^^ fg=#f92672 fs= */
+/*           ^^ fg=#66d9ef fs= build>=4129 */
 /*              ^ fg=#ae81ff fs= */
-/*               ^^ fg=#f92672 fs= */
+/*               ^^ fg=#66d9ef fs= build>=4129 */
 /*                  ^ fg=#ae81ff fs= */
 /*                    ^^^^ fg=#ae81ff fs= */
 
@@ -362,5 +358,5 @@
 
     padding: 10px 3% 20px;
 /*                ^ fg=#ae81ff fs= */
-/*                 ^ fg=#f92672 fs= */
+/*                 ^ fg=#66d9ef fs= build>=4129 */
 }
