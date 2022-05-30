@@ -85,12 +85,26 @@
             "foreground": "#ae81ff"
         },
         {
+            "scope": "entity.name.constant.php",
+            "foreground": "#ae81ff"
+        },
+        {
+            "scope": "entity.name.section.markdown meta.link.reference.metadata.markdown markup.underline.link",
+            "foreground": "#ae81ff",
+            "font_style": "bold"
+        },
+        {
             "scope": "entity.name.section.markdown",
             "font_style": "bold"
         },
         {
             "scope": "entity.name.section",
             "foreground": "#a6e22e"
+        },
+        {
+            "scope": "entity.name.tag.documentation.phpdoc.php",
+            "foreground": "#75715e",
+            "font_style": "bold"
         },
         {
             "scope": "entity.name.tag",
@@ -213,6 +227,10 @@
             "font_style": "bold italic"
         },
         {
+            "scope": "markup.bold markup.underline.link",
+            "font_style": "bold"
+        },
+        {
             "scope": "markup.bold meta.link.inline markup.underline.link",
             "font_style": "bold"
         },
@@ -293,6 +311,10 @@
             "font_style": "italic bold"
         },
         {
+            "scope": "markup.italic markup.underline.link.markdown",
+            "font_style": "italic"
+        },
+        {
             "scope": "markup.italic meta.link.inline markup.underline.link",
             "font_style": "italic"
         },
@@ -353,6 +375,16 @@
             "foreground": "#fd971f"
         },
         {
+            "scope": "meta.class.php meta.path.php punctuation.accessor.namespace.php",
+            "foreground": "#a6e22e",
+            "font_style": "italic"
+        },
+        {
+            "scope": "meta.class.php meta.path.php variable.namespace.php",
+            "foreground": "#a6e22e",
+            "font_style": "italic"
+        },
+        {
             "scope": "meta.diff.header",
             "foreground": "#75715e"
         },
@@ -369,6 +401,11 @@
             "foreground": "#f92672"
         },
         {
+            "scope": "meta.function.use.php meta.group.php variable.other.php",
+            "foreground": "#fd971f",
+            "font_style": "italic"
+        },
+        {
             "scope": "meta.hard-line-break",
             "foreground": "#272822",
             "background": "#75715e"
@@ -382,6 +419,14 @@
             "foreground": "#e6db74"
         },
         {
+            "scope": "meta.link.email markup.underline.link punctuation.separator.path",
+            "foreground": "#66d9ef"
+        },
+        {
+            "scope": "meta.link.inet markup.underline.link punctuation.separator.path",
+            "foreground": "#66d9ef"
+        },
+        {
             "scope": "meta.link.inline.description",
             "foreground": "#e6db74"
         },
@@ -392,6 +437,14 @@
         {
             "scope": "meta.link.reference.literal.description",
             "foreground": "#e6db74"
+        },
+        {
+            "scope": "meta.namespace.php meta.path.php punctuation.accessor.namespace.php",
+            "foreground": "#a6e22e"
+        },
+        {
+            "scope": "meta.namespace.php meta.path.php variable.namespace.php",
+            "foreground": "#a6e22e"
         },
         {
             "scope": "meta.parens storage.modifier.array.java",
@@ -410,12 +463,30 @@
             "foreground": "#cfcfc280"
         },
         {
+            "scope": "meta.string.heredoc.php meta.tag.heredoc.php punctuation.definition.tag",
+            "foreground": "#f92672"
+        },
+        {
             "scope": "meta.structure.dictionary.key.json string -punctuation",
             "foreground": "#cfcfc2"
         },
         {
             "scope": "meta.structure.dictionary.key.json string punctuation",
             "foreground": "#cfcfc280"
+        },
+        {
+            "scope": "meta.use.php entity.name.constant.php",
+            "foreground": "#ae81ff"
+        },
+        {
+            "scope": "meta.use.php keyword.declaration.constant.php",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
+        },
+        {
+            "scope": "meta.use.php keyword.declaration.function.php",
+            "foreground": "#66d9ef",
+            "font_style": "italic"
         },
         {
             "scope": "punctuation.accessor.arrow.php",
@@ -484,6 +555,10 @@
             "foreground": "#f92672"
         },
         {
+            "scope": "punctuation.separator.key-value.php",
+            "foreground": "#f92672"
+        },
+        {
             "scope": "punctuation.separator.key-value.ruby",
             "foreground": "#f92672"
         },
@@ -493,6 +568,10 @@
         },
         {
             "scope": "punctuation.separator.operator.scss",
+            "foreground": "#f92672"
+        },
+        {
+            "scope": "source.yaml meta.mapping.key.yaml meta.string.yaml string.unquoted.plain.out.yaml",
             "foreground": "#f92672"
         },
         {
@@ -613,6 +692,11 @@
         {
             "scope": "variable.function",
             "foreground": "#66d9ef"
+        },
+        {
+            "scope": "variable.language.class.java",
+            "foreground": "#ae81ff",
+            "font_style": "italic"
         },
         {
             "scope": "variable.language.wildcard",

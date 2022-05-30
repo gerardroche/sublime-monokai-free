@@ -7,7 +7,7 @@ pub enum State {
 //       ^ fg=#a6e22e fs=
 //             ^ fg=#f8f8f2 fs=
     Start,
-    // ^ fg=#f8f8f2 fs=
+    // ^ fg=#66d9ef fs=italic build>=4134
     //   ^ fg=#f8f8f2 fs=
     Transient,
     Closed,

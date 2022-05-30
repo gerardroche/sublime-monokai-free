@@ -95,7 +95,7 @@ If you like **you *can* combine them**
 <!-- ^^ fg=#75715e fs= -->
 <!--   ^^^ fg=#e6db74 fs= -->
 <!--      ^^ fg=#75715e fs= -->
-<!--        ^ fg=#ae81ff fs= -->
+<!--        ^ fg=#66d9ef fs= build>=4134 -->
 <!--         ^ fg=#75715e fs= -->
 
 [12345]: url
@@ -120,7 +120,7 @@ https://github.com - automatic
 <!-- ^ fg=#75715e fs= -->
 <!--  ^^^ fg=#e6db74 fs= -->
 <!--     ^^ fg=#75715e fs= -->
-<!--       ^ fg=#ae81ff fs= -->
+<!--       ^ fg=#66d9ef fs= build>=4134 -->
 <!--        ^ fg=#75715e fs= -->
 
 .... [Alt][]

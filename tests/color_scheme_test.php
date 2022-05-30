@@ -624,7 +624,7 @@ if (isset($x) && is_callable($x)) {
     //           ^ fg=#66d9ef fs=italic
 
     clone $obj;
-    // ^ fg=#66d9ef fs=italic
+    // ^ fg=#f92672 fs= build>=4134
     //    ^^^^^ fg=#f8f8f2 fs=
 
     var_dump($x instanceof X);
@@ -712,10 +712,11 @@ if (isset($x) && is_callable($x)) {
     //   ^^^ fg=#e6db74 fs=
     //      ^ fg=#f8f8f2 fs=
     //       ^ fg=#f8f8f2 fs= build>=4092
-    //        ^ fg=#e6db74 fs=
+    //        ^ fg=#f8f8f2 fs= build>=4134
     //         ^^^^^^ fg=#f8f8f2 fs=
-    //               ^^ fg=#e6db74 fs=
-    //                 ^ fg=#f8f8f2 fs=
+    //               ^ fg=#f8f8f2 fs= build>=4134
+    //                ^ fg=#e6db74 fs= build>=4134
+    //                 ^ fg=#f8f8f2 fs= build>=4134
 
     echo "x {$x->$y}";
     //   ^^^ fg=#e6db74 fs=
@@ -739,10 +740,10 @@ if (isset($x) && is_callable($x)) {
     //   ^^^^^^^^ fg=#e6db74 fs=
     //           ^ fg=#f8f8f2 fs=
 
-    $x = <<<EOT
+    $test = <<<EOT
 //  ^^ fg=#f8f8f2 fs=
-//     ^ fg=#f92672 fs=
-//       ^^^^^^ fg=#f92672 fs= -->
+//        ^ fg=#f92672 fs= build>=4134
+//          ^^^^^^ fg=#f92672 fs= build>=4134 -->
 <div>
     <p>$x</p>
 //  ^^^ fg=#e6db74 fs=
@@ -750,7 +751,9 @@ if (isset($x) && is_callable($x)) {
 //       ^^^^ fg=#e6db74 fs=
     <p>${x}</p>
 //  ^^^ fg=#e6db74 fs=
-//     ^^^^ fg=#f8f8f2 fs=
+//     ^^ fg=#f8f8f2 fs= build>=4134
+//       ^ fg=#ae81ff fs= build>=4134
+//        ^ fg=#f8f8f2 fs= build>=4134
 //         ^^^^ fg=#e6db74 fs=
     <p>{$x}</p>
 //  ^^^ fg=#e6db74 fs=
