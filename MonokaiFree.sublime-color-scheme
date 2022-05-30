@@ -206,6 +206,10 @@
             "font_style": "italic"
         },
         {
+            "scope": "keyword.declaration",
+            "foreground": "#f92672"
+        },
+        {
             "scope": "keyword.operator.word",
             "foreground": "#f92672"
         },
