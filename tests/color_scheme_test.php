@@ -623,6 +623,13 @@ if (isset($x) && is_callable($x)) {
     //       ^^^^ fg=#f8f8f2 fs=
     //           ^ fg=#66d9ef fs=italic
 
+    $x = new A\B\C(
+    //       ^^^^ fg=#f8f8f2 fs= build>=4134
+    //           ^ fg=#66d9ef fs=italic build>=4134
+        $a,
+        $b
+    );
+
     clone $obj;
     // ^ fg=#f92672 fs= build>=4134
     //    ^^^^^ fg=#f8f8f2 fs=
@@ -1240,6 +1247,12 @@ class x
         //   ^ fg=#f92672 fs=
         //       ^ fg=#fd971f fs=italic
         //             ^^^ fg=#f8f8f2 fs=
+
+        $x = new A\B\C();
+        //   ^ fg=#f92672 fs= build>=4134
+        //       ^^^^ fg=#f8f8f2 fs= build>=4134
+        //           ^ fg=#66d9ef fs=italic build>=4134
+        //            ^^^ fg=#f8f8f2 fs= build>=4134
 
         $abc->a();
         // ^ fg=#f8f8f2 fs=

@@ -423,6 +423,14 @@
             "foreground": "#e6db74"
         },
         {
+            "scope": "meta.instantiation.php meta.path.php punctuation.accessor.namespace.php",
+            "foreground": "#f8f8f2"
+        },
+        {
+            "scope": "meta.instantiation.php meta.path.php variable.namespace.php",
+            "foreground": "#f8f8f2"
+        },
+        {
             "scope": "meta.link.email markup.underline.link punctuation.separator.path",
             "foreground": "#66d9ef"
         },
