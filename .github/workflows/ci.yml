@@ -20,7 +20,7 @@ jobs:
       SUBLIME_TEXT_VERSION: ${{ matrix.version }}
       NO_AT_BRIDGE: 1
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - run: export DISPLAY=":99.0"
       - run: sh -e /etc/init.d/xvfb start
       - run: curl -OL https://raw.githubusercontent.com/SublimeText/UnitTesting/master/sbin/github.sh
