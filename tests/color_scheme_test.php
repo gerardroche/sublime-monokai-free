@@ -1119,6 +1119,11 @@ class x
     // ^ fg=#f92672 fs=
     //     ^ fg=#f92672 fs=
 
+    protected Fizz&Buzz $test;
+    //        ^ fg=#66d9ef fs=italic
+    //            ^ fg=#f92672 fs= build>=4134
+    //             ^ fg=#66d9ef fs=italic
+
     public function a() {}
     // ^ fg=#f92672 fs=
     //     ^ fg=#66d9ef fs=italic
