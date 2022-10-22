@@ -333,7 +333,30 @@
 <dict><key>scope</key><string>variable.parameter</string>                                                                           <key>settings</key><dict><key>foreground</key><string>#fd971f</string><key>fontStyle</key><string>italic</string></dict></dict>
 <dict><key>scope</key><string>variable</string>                                                                                     <key>settings</key><dict><key>fontStyle</key><string></string></dict></dict>
 
-<!-- Quick and dirty blade fixes -->
+<!-- Vue Syntax Highlight: https://github.com/vuejs/vue-syntax-highlight -->
+<dict><key>scope</key> <!-- Vue: template -->
+    <string>text.html.vue entity.name.tag.template</string><key>settings</key><dict>
+    <key>foreground</key><string>#f92672aa</string>
+    </dict></dict>
+<dict><key>scope</key>
+    <string>text.html.vue meta.tag.template.end.html punctuation.definition.tag</string><key>settings</key><dict>
+    <key>foreground</key><string>#f92672aa</string>
+    </dict></dict>
+<dict><key>scope</key>
+    <string>text.html.vue meta.tag.template.begin.html punctuation.definition.tag</string><key>settings</key><dict>
+    <key>foreground</key><string>#f92672aa</string>
+    </dict></dict>
+<dict> <!-- Vue: template #id -->
+    <key>scope</key>
+    <string>text.html.vue meta.tag.template.begin.html meta.attribute-with-value.html entity.other.attribute-name.html</string><key>settings</key><dict>
+    <key>foreground</key><string>#fd971f</string>
+    </dict></dict>
+<dict><key>scope</key> <!-- Vue: directive -->
+  <string>text.html.vue meta.attribute-with-value.directive.html entity.other.attribute-name.html</string><key>settings</key><dict>
+      <key>foreground</key><string>#66d9ef</string>
+    </dict></dict>
+
+<!-- Laravel blade -->
 <dict><key>scope</key><string>text.blade support.class.php</string><key>settings</key><dict><key>fontStyle</key><string></string></dict></dict><dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html</string><key>settings</key><dict><key>foreground</key><string>#f8f8f2</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade custom.compiler.blade.php support.function constant.other.inline-data.html</string><key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
@@ -349,10 +372,10 @@
 <dict><key>scope</key><string>text.blade text.html.blade string.quoted entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php meta.string-contents.quoted.single.php</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 <dict><key>scope</key><string>text.blade text.html.blade string.quoted entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php punctuation.definition.string</string><key>settings</key><dict><key>foreground</key><string>#e6db74</string></dict></dict>
 
-<!-- Patches for Sass (https://packagecontrol.io/packages/Sass): -->
+<!-- Sass: https://packagecontrol.io/packages/Sass -->
 <dict><key>scope</key><string>keyword.other.reserved.sass</string>                      <key>settings</key><dict><key>foreground</key><string>#66d9ef</string></dict></dict>
 
-<!-- Patches for LESS (https://packagecontrol.io/packages/LESS): -->
+<!-- LESS: https://packagecontrol.io/packages/LESS -->
 <dict><key>scope</key><string>meta.property-value.css variable.other.less</string>      <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>meta.property-value.css variable.other.less</string>      <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
 <dict><key>scope</key><string>parameter.less variable.other.less</string>               <key>settings</key><dict><key>foreground</key><string>#fd971f</string></dict></dict>
