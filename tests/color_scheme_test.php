@@ -260,6 +260,23 @@ function l(int $a, string $b, bool $c, float $d) {}
 //                                             ^ fg=#f8f8f2 fs=
 //                                               ^^ fg=#f8f8f2 fs=
 
+function l2(int|float|array $p) {}
+//          ^ fg=#66d9ef fs=italic build>=4140
+//             ^ fg=#f8f8f2 fs= build>=4140
+//                   ^ fg=#f8f8f2 fs= build>=4140
+//              ^ fg=#66d9ef fs=italic build>=4140
+//                    ^ fg=#66d9ef fs=italic build>=4140
+
+function l3(): float {}
+//             ^ fg=#66d9ef fs=italic build>=4140
+
+function l4(): int|float|array {}
+//             ^ fg=#66d9ef fs=italic build>=4140
+//                ^ fg=#f8f8f2 fs= build>=4140
+//                      ^ fg=#f8f8f2 fs= build>=4140
+//                 ^ fg=#66d9ef fs=italic build>=4140
+//                       ^ fg=#66d9ef fs=italic build>=4140
+
 function m(...$x) {}
 //       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
@@ -389,6 +406,11 @@ if (isset($x) && is_callable($x)) {
     //                                           ^ fg=#f92672 fs=
     //                                             ^^^^^ fg=#ae81ff fs=
     //                                                  ^ fg=#f8f8f2 fs=
+
+    $x = 014;  // Non-prefix octal literal
+    //   ^^^ fg=#ae81ff fs= build>=4140
+    $x = 0o14; // Prefixed octal literal
+    //   ^^^^ fg=#ae81ff fs= build>=4140
 
     print("a\t\nb" . 'ab');
     // ^^ fg=#66d9ef fs=
@@ -544,6 +566,10 @@ if (isset($x) && is_callable($x)) {
     //             ^ fg=#ae81ff fs=
     //              ^^ fg=#f8f8f2 fs=
 
+
+    $unpacking = [...$arr1, 'c' => 'd'];
+    //            ^^^ fg=#f92672 fs= build>=4140
+
     $x = (int) (integer) $x;
     //   ^ fg=#f8f8f2 fs=
     //    ^ fg=#66d9ef fs=italic
@@ -655,6 +681,10 @@ if (isset($x) && is_callable($x)) {
     $x = &$obj;
     //   ^ fg=#f92672 fs=
     //    ^^^^^ fg=#f8f8f2 fs=
+
+    $nullSafe?->getUser(5)?->name;
+    //       ^^^ fg=#f92672 fs= build>=4140
+    //                    ^^^ fg=#f92672 fs= build>=4140
 
     add(...[1, 2]);
     // ^ fg=#f8f8f2 fs=
@@ -1105,6 +1135,15 @@ class x
     //        ^ fg=#ae81ff fs=
     //         ^ fg=#f8f8f2 fs=
 
+    public const X2 = 1;
+    // ^ fg=#f92672 fs= build>=4140
+    //     ^ fg=#f92672 fs= build>=4140
+
+    final public const X3 = "foo";
+    // ^ fg=#f92672 fs= build>=4140
+    //    ^ fg=#f92672 fs= build>=4140
+    //           ^ fg=#f92672 fs= build>=4140
+
     public $a;
     // ^ fg=#f92672 fs=
     //     ^^^ fg=#f8f8f2 fs=
@@ -1123,6 +1162,9 @@ class x
     //        ^ fg=#66d9ef fs=italic
     //            ^ fg=#f92672 fs= build>=4134
     //             ^ fg=#66d9ef fs=italic
+
+    public readonly string $readonly;
+    //     ^ fg=#f92672 fs= build>=4140
 
     public function a() {}
     // ^ fg=#f92672 fs=
@@ -1377,4 +1419,22 @@ class x
     //                                             ^^^ fg=#fd971f fs=italic
     //                                                ^ fg=#f8f8f2 fs=
     //                                                  ^^ fg=#f8f8f2 fs=
+}
+
+class ConstructorPromotion
+{
+    public function __construct(public int $x, protected int $y = 0)
+    //                          ^ fg=#f92672 fs= build>=4140
+    //                                            ^ fg=#f92672 fs= build>=4140
+    {
+    }
+}
+
+enum Suit
+// ^ fg=#f92672 fs= build>=4140
+//   ^ fg=#a6e22e fs= build>=4140
+{
+    case Hearts;
+//  ^ fg=#f92672 fs=
+//       ^ fg=#ae81ff fs= build>=4140
 }

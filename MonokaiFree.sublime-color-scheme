@@ -513,6 +513,10 @@
             "foreground": "#f92672"
         },
         {
+            "scope": "punctuation.accessor.nullsafe.php",
+            "foreground": "#f92672"
+        },
+        {
             "scope": "punctuation.accessor.php",
             "foreground": "#f92672"
         },

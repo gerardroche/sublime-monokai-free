@@ -272,6 +272,7 @@
 <dict><key>scope</key><string>punctuation.accessor.arrow.php</string>                                                               <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.accessor.c</string>                                                                       <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.accessor.double-colon.php</string>                                                        <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
+<dict><key>scope</key><string>punctuation.accessor.nullsafe.php</string>                                                            <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.accessor.php</string>                                                                     <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.accessor.rust</string>                                                                    <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
 <dict><key>scope</key><string>punctuation.definition.heredoc.ruby</string>                                                          <key>settings</key><dict><key>foreground</key><string>#f92672</string></dict></dict>
