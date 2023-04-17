@@ -777,7 +777,7 @@
             "foreground": "#f92672aa"
         },
         {
-            "scope": "text.html.vue meta.tag.template.begin.html meta.attribute-with-value.html entity.other.attribute-name.html",
+            "scope": "text.html.vue meta.tag.template.begin.html meta.attribute-with-value.directive.html entity.other.attribute-name.html, text.html.vue meta.tag.template.begin.html meta.attribute-with-value.html entity.other.attribute-name.html",
             "foreground": "#fd971f"
         },
         {
