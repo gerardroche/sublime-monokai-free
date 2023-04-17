@@ -1,0 +1,244 @@
+/* COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" SKIP IF NOT "PHPUnitKit/text-ui-result"
+
+PHPUnit 10.1.0 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.2.5
+Configuration: /path/to/working/directory/phpunit.xml.dist
+
+................................................................. 65 / 76 ( 85%)
+# ^ fg=#f8f8f2
+...........                                                       76 / 76 (100%)
+
+Time: 00:00.099, Memory: 8.00 MB
+
+OK (76 tests, 76 assertions)
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#a6e22e
+
+PHPUnit 10.1.0 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.2.5
+Configuration: /path/to/phpunit.xml.dist
+
+................................................................. 65 / 81 ( 80%)
+# ^ fg=#f8f8f2
+...........E.EEE                                                  81 / 81 (100%)
+# ^ fg=#f8f8f2
+#          ^ fg=#f8f8f2 bg=#f92672
+#            ^^^ fg=#f8f8f2 bg=#f92672
+
+Time: 00:00.120, Memory: 8.00 MB
+
+There were 4 errors:
+
+1) Namespace\Of\ErrorTest::testError
+Error: Call to undefined function Namespace\Of\foobar()
+
+/path/to/test/error/ErrorTest.php:1
+# ^ fg=#a6e22e
+#                                 ^ fg=#ae81ff
+
+2) Namespace\Of\ErrorTest::testError1
+Error: Call to undefined function Namespace\Of\foobar()
+
+/path/to/test/error/ErrorTest.php:21
+# ^ fg=#a6e22e
+#                                 ^^ fg=#ae81ff
+
+3) Namespace\Of\ErrorTest::testError2
+Error: Call to undefined function Namespace\Of\foobar()
+
+/path/to/test/error/ErrorTest.php:267
+# ^ fg=#a6e22e
+#                                 ^^^ fg=#ae81ff
+
+4) Namespace\Of\ErrorTest::testError3
+Error: Call to undefined function Namespace\Of\foobar()
+
+/path/to/test/error/ErrorTest.php:3145
+# ^ fg=#a6e22e
+#                                 ^^^^ fg=#ae81ff
+
+ERRORS!
+#^^^^^^ fg=#f8f8f2 bg=#f92672
+Tests: 81, Assertions: 77, Errors: 4.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 bg=#f92672
+
+................................................................. 65 / 81 ( 80%)
+...........F.FFF                                                  81 / 81 (100%)
+#          ^ fg=#f8f8f2 bg=#f92672
+#            ^^^ fg=#f8f8f2 bg=#f92672
+
+FAILURES!
+#^^^^^^^^ fg=#f8f8f2 bg=#f92672
+Tests: 81, Assertions: 81, Failures: 4.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 bg=#f92672
+
+................................................................. 65 / 83 ( 78%)
+...........W.WWW..                                                83 / 83 (100%)
+#          ^ fg=#272822 bg=#fd971f
+#            ^^^ fg=#272822 bg=#fd971f
+
+OK, but there are issues!
+#^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#fd971f
+Tests: 83, Assertions: 79, Warnings: 4, Risky: 4.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#fd971f
+
+................................................................. 65 / 81 ( 80%)
+# ^ fg=#f8f8f2
+...........D.DDD                                                  81 / 81 (100%)
+#          ^ fg=#272822 bg=#fd971f
+#            ^^^ fg=#272822 bg=#fd971f
+
+Time: 00:00.084, Memory: 8.00 MB
+
+OK, but there are issues!
+#^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#fd971f
+Tests: 81, Assertions: 81, Deprecations: 4.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#fd971f
+
+................................................................. 65 / 96 ( 67%)
+................R.RRRI.IIIS.SSS                                   96 / 96 (100%)
+#               ^ fg=#272822 bg=#fd971f
+#                 ^^^^ fg=#272822 bg=#fd971f
+#                      ^^^^ fg=#272822 bg=#fd971f
+#                           ^^^ fg=#272822 bg=#fd971f
+
+Time: 00:00.125, Memory: 8.00 MB
+
+There were 4 risky tests:
+
+1) Namespace\Of\BeStrictAboutTestsThatDoNotTestAnythingTest::testBeStrictAboutTestsThatDoNotTestAnything
+This test did not perform any assertions
+
+/path/to/NameTest.php:9
+# ^ fg=#a6e22e
+#                     ^ fg=#ae81ff
+
+OK, but there are issues!
+#^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#fd971f
+Tests: 96, Assertions: 84, Skipped: 4, Incomplete: 4, Risky: 4.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#fd971f
+
+Runtime:       PHP 8.2.5
+Configuration: /path/to/phpunit.xml.dist
+
+...............................................................  63 / 115 ( 54%)
+..................R.RRRI.IIIS.SSSW.WWW..F.FFFE.EEE..            115 / 115 (100%)
+#                 ^ fg=#272822 bg=#fd971f
+#                   ^^^^ fg=#272822 bg=#fd971f
+#                        ^^^^ fg=#272822 bg=#fd971f
+#                             ^^^^ fg=#272822 bg=#fd971f
+#                                  ^^^ fg=#272822 bg=#fd971f
+#                                       ^ fg=#f8f8f2 bg=#f92672
+#                                         ^^^^ fg=#f8f8f2 bg=#f92672
+#                                              ^^^ fg=#f8f8f2 bg=#f92672
+
+Time: 00:00.170, Memory: 8.00 MB
+
+There were 4 errors:
+
+1) Namespace\Of\ErrorTest::testError
+Error: Call to undefined function Namespace\Of\foobar()
+
+/path/to/test/error/ErrorTest.php:11
+# ^ fg=#a6e22e
+#                                 ^^ fg=#ae81ff
+
+--
+#^ fg=#75715e
+
+There were 4 failures:
+
+1) Namespace\Of\FailureTest::testFailure
+Failed asserting that false is true.
+
+/path/to/test/failure/FailureTest.php:11
+# ^ fg=#a6e22e
+#                                     ^^ fg=#ae81ff
+
+--
+#^ fg=#75715e
+
+There were 8 risky tests:
+
+1) Namespace\Of\BeStrictAboutTestsThatDoNotTestAnythingTest::testBeStrictAboutTestsThatDoNotTestAnything
+This test did not perform any assertions
+
+/path/to/test/risky/NameTest.php:9
+# ^ fg=#a6e22e
+#                                ^ fg=#ae81ff
+
+ERRORS!
+#^^^^^^ fg=#f8f8f2 bg=#f92672
+Tests: 115, Assertions: 95, Errors: 4, Failures: 4, Warnings: 4, Skipped: 4, Incomplete: 4, Risky: 8.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 bg=#f92672
+
+...............................................................  63 / 120 ( 52%)
+# ^ fg=#f8f8f2
+..................R.RRRI.IIIS.SSSD.DDDW.WWW..F.FFFE.EEE..       120 / 120 (100%)
+#                ^ fg=#f8f8f2
+#                 ^ fg=#272822 bg=#fd971f
+#                  ^ fg=#f8f8f2
+#                   ^^^^ fg=#272822 bg=#fd971f
+#                       ^ fg=#f8f8f2
+#                        ^^^^ fg=#272822 bg=#fd971f
+#                            ^ fg=#f8f8f2
+#                             ^^^^ fg=#272822 bg=#fd971f
+#                                 ^ fg=#f8f8f2
+#                                  ^^^^ fg=#272822 bg=#fd971f
+#                                      ^ fg=#f8f8f2
+#                                       ^^^ fg=#272822 bg=#fd971f
+#                                          ^^ fg=#f8f8f2
+#                                            ^ fg=#f8f8f2
+#                                             ^ fg=#f8f8f2
+#                                              ^^^^ fg=#f8f8f2
+#                                                  ^ fg=#f8f8f2
+#                                                   ^^^ fg=#f8f8f2
+
+ERRORS!
+#^^^^^^ fg=#f8f8f2 bg=#f92672
+Tests: 120, Assertions: 100, Errors: 4, Failures: 4, Warnings: 4, Deprecations: 4, Skipped: 4, Incomplete: 4, Risky: 8.
+#^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 bg=#f92672
+
+There was 1 failure:
+
+1) Namespace\Of\FailureTest::testFailure3
+Failed asserting that two arrays are equal.
+--- Expected
+#^^^^^^^^^^^ fg=#75715e
++++ Actual
+#^^^^^^^^^ fg=#75715e
+@@ @@
+#^^^^ fg=#66d9ef
+ Array (
+-    0 => 'x'
+#^^^^^^^^^^^^ fg=#f92672
++    0 => 'y'
+#^^^^^^^^^^^^ fg=#a6e22e
+ )
+
+/path/to/FileNameTest.php:42
+# ^ fg=#a6e22e
+#                         ^^ fg=#ae81ff
+/path/to/pest:91
+# ^ fg=#a6e22e
+#             ^^ fg=#ae81ff
+
+PHPUnit 10.1.0 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.2.5
+Configuration: /path/to/phpunit.xml.dist
+
+.DEFIRSW
+#^ fg=#272822 bg=#fd971f
+# ^^ fg=#f8f8f2 bg=#f92672
+#   ^^^^ fg=#272822 bg=#fd971f
+
+F..S...W..E.
+#^^ fg=#f8f8f2
+#  ^ fg=#272822 bg=#fd971f
+#   ^^^ fg=#f8f8f2
+#      ^ fg=#272822 bg=#fd971f
+#       ^^ fg=#f8f8f2
+#         ^ fg=#f8f8f2 bg=#f92672
+#          ^ fg=#f8f8f2
