@@ -1,34 +1,17 @@
 # MonokaiFree
 
-A beautiful, modern, high quality, Monokai theme for Sublime Text. Enhanced syntax highlighting for PHP, HTML, CSS, Markdown, JavaScript, Ruby, Python, etc., and includes support for [GitGutter][], [SublimeLinter][], [NeoVintageous][], [PHPUnitKit][].
+<p>
+    <a href="https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml"><img alt="GitHub CI Status" src="https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml/badge.svg?branch=master"></a>
+    <a href="https://packagecontrol.io/packages/MonokaiFree"><img alt="Downloads" src="https://img.shields.io/packagecontrol/dt/MonokaiFree.svg"></a>
+</p>
 
-[![Continuous Integration](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml/badge.svg)](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml) [![Latest Version](https://img.shields.io/github/tag/gerardroche/sublime-monokai-free.svg?style=flat-square&label=version)](https://github.com/gerardroche/sublime-monokai-free/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-monokai-free.svg?style=flat-square)](https://github.com/gerardroche/sublime-monokai-free/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/MonokaiFree.svg?style=flat-square)](https://packagecontrol.io/packages/MonokaiFree)
+A beautiful, high quality, Monokai theme for Sublime Text. Enhanced syntax highlighting for PHP, HTML, CSS, JS, Ruby, Python, Markdown, and more.
 
 ![Color palette](palette.png)
 
 ## Installation
 
-### Package Control installation
-
-The preferred method of installation is [Package Control](https://packagecontrol.io/packages/MonokaiFree).
-
-`Ctrl/Command + Shift + P` to open the Command Palette
-
-Select `Package Control: Install Package`
-
-Search for `MonokaiFree`
-
-Press `Enter`
-
-Go to `Menu > Preferences > Color Scheme...` and select MonokaiFree.
-
-### Manual installation
-
-Close Sublime Text, then download or clone this repository to a directory named `MonokaiFree` in the Sublime Text Packages directory for your platform:
-
-* Linux: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/.config/sublime-text-3/Packages/MonokaiFree`
-* OSX: `git clone https://github.com/gerardroche/sublime-monokai-free.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/MonokaiFree`
-* Windows: `git clone https://github.com/gerardroche/sublime-monokai-free.git %APPDATA%\Sublime/ Text/ 3/Packages/MonokaiFree`
+Install MonokaiFree via [Package Control](https://packagecontrol.io/packages/MonokaiFree).
 
 ## Screenshots
 
@@ -48,7 +31,7 @@ Close Sublime Text, then download or clone this repository to a directory named 
 
 ![XML screenshot](screenshot-xml.png)
 
-## Customise to taste
+## Setup
 
 To custom any colors create a color scheme override named "MonokaiFree.sublime-color-scheme" in your Sublime Text User directory (**Menu > Preferences > Browse Packages**). An example override:
 
@@ -78,7 +61,3 @@ To run the tests install [ColorSchemeUnit][] (a framework for testing Sublime Te
 Released under the [BSD 3-Clause License](LICENSE).
 
 [ColorSchemeUnit]: https://github.com/gerardroche/sublime-color-scheme-unit
-[GitGutter]: https://github.com/jisaacks/GitGutter
-[NeoVintageous]: https://github.com/NeoVintageous/NeoVintageous
-[PHPUnitKit]: https://github.com/gerardroche/sublime-phpunit
-[SublimeLinter]: https://github.com/SublimeLinter/SublimeLinter3
