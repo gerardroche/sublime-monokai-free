@@ -224,6 +224,11 @@ Failed asserting that two arrays are equal.
 # ^ fg=#a6e22e
 #             ^^ fg=#ae81ff
 
+  at test/failure/FailureTest.php:42
+# ^^ fg=#f8f8f2
+#    ^ fg=#a6e22e
+#                                 ^^ fg=#ae81ff
+
 PHPUnit 10.1.0 by Sebastian Bergmann and contributors.
 
 Runtime:       PHP 8.2.5
@@ -242,3 +247,77 @@ F..S...W..E.
 #       ^^ fg=#f8f8f2
 #         ^ fg=#f8f8f2 bg=#f92672
 #          ^ fg=#f8f8f2
+
+......
+   PASS  BasicTest
+# ^^^^^^ fg=#272822 bg=#a6e22e
+  ✓ one
+# ^fg=#a6e22e
+  ✓ two
+# ^fg=#a6e22e
+  ✓ three
+# ^fg=#a6e22e
+...
+   PASS  AnotherTest
+# ^^^^^^ fg=#272822 bg=#a6e22e
+  ✓ one
+# ^fg=#a6e22e
+  ✓ two
+# ^fg=#a6e22e
+
+   WARN  NS\ClassTest
+# ^^^^^^ fg=#272822 bg=#fd971f
+  ! be strict about tests that do not test anything → This test did not… 0.02s
+# ^ fg=#e6db74
+
+   WARN  NS\ClassTest
+# ^^^^^^ fg=#272822 bg=#fd971f
+  … incomplete                                                           0.02s
+# ^ fg=#e6db74
+
+   WARN  NS\ClassTest
+# ^^^^^^ fg=#272822 bg=#fd971f
+  - skip                                                                 0.02s
+# ^ fg=#e6db74
+
+   DEPR  NS\ClassTest
+# ^^^^^^ fg=#272822 bg=#fd971f
+  ! deprecated → Deprecated // test/deprecated/DeprecatedTest.php:12     0.02s
+# ^ fg=#e6db74
+
+   WARN  NS\ClassTest
+# ^^^^^^ fg=#272822 bg=#fd971f
+  ! warning → This test did not perform any assertions                   0.02s
+# ^ fg=#e6db74
+
+   FAIL  NS\ClassTest
+# ^^^^^^ fg=#f8f8f2 bg=#f92672
+  ⨯ failure                                                              0.02s
+# ^ fg=#f92672
+
+   FAIL  NS\ClassTest
+# ^^^^^^ fg=#f8f8f2 bg=#f92672
+  ⨯ error                                                                0.03s
+# ^ fg=#f92672
+
+  ────────────────────────────────────────────────────────────────────────────
+   FAILED  NS\FailureTest > failure1
+# ^^^^^^^^ fg=#f8f8f2 bg=#f92672
+  Failed asserting that false is true.
+
+  at test/failure/FailureTest.php:42
+# ^^ fg=#f8f8f2
+#    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#a6e22e
+#                                 ^^ fg=#ae81ff
+      7▕ final class FailureTest extends TestCase
+      8▕ {
+      9▕     public function testFailure()
+     10▕     {
+  ➜  11▕         $this->assertTrue(false);
+# ^ fg=#f92672
+     12▕     }
+     13▕
+     14▕     public function testPass(): void
+     15▕     {
+
+  1   test/failure/FailureTest.php:11
