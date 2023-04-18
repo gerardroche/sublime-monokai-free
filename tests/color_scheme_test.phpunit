@@ -321,3 +321,175 @@ F..S...W..E.
      15▕     {
 
   1   test/failure/FailureTest.php:11
+
+
+PHPUnit 10.1.0 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.2.4
+Configuration: /path/to/phpunit.xml.dist
+
+...............................................................  63 / 120 ( 52%)
+..................R.RRRI.IIIS.SSSD.DDDW.WWW..F.FFFE.EEE..       120 / 120 (100%)
+
+Time: 00:00.172, Memory: 10.00 MB
+
+Basic
+ ✔ One
+#^ fg=#a6e22e
+ ✔ Two
+#^ fg=#a6e22e
+
+Deep Thought (NS\DeepThought)
+ ✔ The answer to the ultimate question of life the universe and everything
+#^ fg=#a6e22e
+
+Be Strict About Tests That Do Not Test Anything (NS\BeStrictAboutTestsThatDoNotTestAnything)
+ ☢ Be strict about tests that do not test anything
+#^ fg=#fd971f
+ ✔ Pass
+#^ fg=#a6e22e
+ ☢ Be strict about tests that do not test anything
+#^ fg=#fd971f
+ ☢ Be strict about tests that do not test anything
+#^ fg=#fd971f
+ ☢ Be strict about tests that do not test anything
+#^ fg=#fd971f
+
+Incomplete (NS\Incomplete)
+ ∅ Incomplete
+#^ fg=#fd971f
+   │
+   │
+   │ /path/to/test/risky/IncompleteTest.php:12
+   │
+ ✔ Pass
+#^ fg=#a6e22e
+ ∅ Incomplete
+   │
+   │
+   │ /path/to/test/risky/IncompleteTest.php:24
+   │
+ ∅ Incomplete
+   │
+   │
+   │ /path/to/test/risky/IncompleteTest.php:30
+   │
+ ∅ Incomplete
+   │
+   │
+   │ /path/to/test/risky/IncompleteTest.php:36
+   │
+
+Skip (NS\Skip)
+ ↩ Skip
+#^ fg=#66d9ef
+ ✔ Pass
+#^ fg=#a6e22e
+ ↩ Skip
+#^ fg=#66d9ef
+ ↩ Skip
+#^ fg=#66d9ef
+ ↩ Skip
+#^ fg=#66d9ef
+
+Deprecated (NS\Deprecated)
+ ✔ Deprecated
+#^ fg=#a6e22e
+ ✔ Pass
+#^ fg=#a6e22e
+ ✔ Deprecated
+#^ fg=#a6e22e
+ ✔ Deprecated
+#^ fg=#a6e22e
+ ✔ Deprecated
+#^ fg=#a6e22e
+
+Warning (NS\Warning)
+ ☢ Warning
+#^ fg=#fd971f
+ ✔ Pass
+#^ fg=#a6e22e
+ ☢ Warning
+#^ fg=#fd971f
+ ☢ Warning
+#^ fg=#fd971f
+ ☢ Warning
+#^ fg=#fd971f
+ ✔ Pass
+#^ fg=#a6e22e
+ ✔ Pass
+#^ fg=#a6e22e
+
+Failure (NS\Failure)
+ ✘ Failure
+#^ fg=#f92672
+   │
+   │ Failed asserting that false is true.
+   │
+   │ /path/to/test/failure/FailureTest.php:11
+   │
+ ✔ Pass
+#^ fg=#a6e22e
+ ✘ Failure
+#^ fg=#f92672
+   │
+   │ Failed asserting that false is true.
+   │
+   │ /path/to/test/failure/FailureTest.php:21
+   │
+ ✘ Failure
+#^ fg=#f92672
+   │
+   │ Failed asserting that false is true.
+   │
+   │ /path/to/test/failure/FailureTest.php:26
+   │
+ ✘ Failure
+#^ fg=#f92672
+   │
+   │ Failed asserting that two arrays are equal.
+   │ --- Expected
+   │ +++ Actual
+   │ @@ @@
+   │  Array (
+   │ -    0 => 'x'
+   │ +    0 => 'y'
+   │  )
+   │
+   │ /path/to/test/failure/FailureTest.php:31
+   │
+
+Error (NS\Error)
+ ✘ Error
+#^ fg=#f92672
+   │
+   │ Error: Call to undefined function NS\foobar()
+   │
+   │ /path/to/test/error/ErrorTest.php:11
+   │
+ ✔ Pass
+#^ fg=#a6e22e
+ ✘ Error
+#^ fg=#f92672
+   │
+   │ Error: Call to undefined function NS\foobar()
+   │
+   │ /path/to/test/error/ErrorTest.php:21
+   │
+ ✘ Error
+#^ fg=#f92672
+   │
+   │ Error: Call to undefined function NS\foobar()
+   │
+   │ /path/to/test/error/ErrorTest.php:26
+   │
+ ✘ Error
+#^ fg=#f92672
+   │
+   │ Error: Call to undefined function NS\foobar()
+   │
+   │ /path/to/test/error/ErrorTest.php:31
+   │
+
+ERRORS!
+Tests: 120, Assertions: 100, Errors: 4, Failures: 4, Warnings: 4, Deprecations: 4, Skipped: 4, Incomplete: 4, Risky: 8.
