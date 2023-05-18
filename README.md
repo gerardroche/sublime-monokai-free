@@ -25,31 +25,29 @@ Install MonokaiFree via [Package Control](https://packagecontrol.io/packages/Mon
 
 ![Javascript](monokai-javascript.webp)
 
-## Customisations
+## Color Scheme Customisation
 
-To custom any color, create a color scheme override named "MonokaiFree.sublime-color-scheme" in your Sublime Text User directory (Menu &gt; Preferences &gt; Browse Packages).
+> Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
 
-
-Here is an example that makes the cursor yellow, selection square corner styles, and changes the foreground of some comments.
+For example, to customise the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme`. The following settings will change the cursor color to be a bright yellow, squares the cursor and selections, and makes the line highlight a blue tint:
 
 ```json
 {
+    "variables": {},
     "globals": {
         "block_caret": "yellow",
+        "block_caret_corner_radius": "cut",
+        "block_caret_corner_style": "square",
         "caret": "yellow",
-        "selection_corner_style": "square",
+        "line_highlight": "#66d9ef44",
+        "selection_border_width": "1",
+        "selection_corner_style": "square"
     },
-    "rules":
-    [
-        {
-            "scope": "comment, punctuation.definition.comment",
-            "foreground": "#7e8e91"
-        }
-    ]
+    "rules": []
 }
 ```
 
-See the Sublime Text [Color Schemes documentation](https://www.sublimetext.com/docs/color_schemes.html) for full details of possible customisations.
+See [Sublime Text Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization).
 
 ## Contributing
 
