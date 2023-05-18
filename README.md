@@ -15,15 +15,15 @@ Install MonokaiFree via [Package Control](https://packagecontrol.io/packages/Mon
 
 > PHP
 
-![PHP](monokai-php.png)
-
-> Javascript
-
-![Javascript](monokai-javascript.png)
+![PHP](monokai-php.webp)
 
 > CSS
 
-![CSS](monokai-css.png)
+![CSS](monokai-css.webp)
+
+> Javascript
+
+![Javascript](monokai-javascript.webp)
 
 ## Customisations
 
