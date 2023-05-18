@@ -54,7 +54,3 @@ See the Sublime Text [Color Schemes documentation](https://www.sublimetext.com/d
 ## Contributing
 
 Feel free to open GitHub Issues to report any problem or submit suggestions. To run the tests install [ColorSchemeUnit](https://github.com/gerardroche/sublime-color-scheme-unit) (a framework for testing Sublime Text colour schemes), and run the ColorSchemeUnit: Test Suite command via the Command Palette.
-
-## License
-
-Released under the [BSD 3-Clause License](LICENSE).
