@@ -5,9 +5,7 @@
     <a href="https://packagecontrol.io/packages/MonokaiFree"><img alt="Downloads" src="https://img.shields.io/packagecontrol/dt/MonokaiFree.svg"></a>
 </p>
 
-A beautiful, high quality, Monokai theme for Sublime Text. Enhanced syntax highlighting for PHP, HTML, CSS, JS, Ruby, Python, Markdown, and more.
-
-![Color palette](palette.png)
+A beautiful, high quality, Monokai color scheme for Sublime Text. Enhanced syntax highlighting for serious developers. MonokaiFree is an improvement on the default Monokai color scheme in Sublime Text.
 
 ## Installation
 
@@ -15,25 +13,24 @@ Install MonokaiFree via [Package Control](https://packagecontrol.io/packages/Mon
 
 ## Screenshots
 
-> CSS
-
-![CSS screenshot](screenshot-css.png)
-
-> HTML
-
-![HTML screenshot](screenshot-html.png)
-
 > PHP
 
-![PHP screenshot](screenshot-php.png)
+![PHP](monokai-php.png)
 
-> XML
+> Javascript
 
-![XML screenshot](screenshot-xml.png)
+![Javascript](monokai-javascript.png)
 
-## Setup
+> CSS
 
-To custom any colors create a color scheme override named "MonokaiFree.sublime-color-scheme" in your Sublime Text User directory (**Menu > Preferences > Browse Packages**). An example override:
+![CSS](monokai-css.png)
+
+## Customisations
+
+To custom any color, create a color scheme override named "MonokaiFree.sublime-color-scheme" in your Sublime Text User directory (Menu &gt; Preferences &gt; Browse Packages).
+
+
+Here is an example that makes the cursor yellow, selection square corner styles, and changes the foreground of some comments.
 
 ```json
 {
@@ -52,12 +49,12 @@ To custom any colors create a color scheme override named "MonokaiFree.sublime-c
 }
 ```
 
+See the Sublime Text [Color Schemes documentation](https://www.sublimetext.com/docs/color_schemes.html) for full details of possible customisations.
+
 ## Contributing
 
-To run the tests install [ColorSchemeUnit][] (a framework for testing Sublime Text color schemes), and run the `ColorSchemeUnit: Test Suite` command via the Command Palette (`Ctrl+Shift+P`).
+Feel free to open GitHub Issues to report any problem or submit suggestions. To run the tests install [ColorSchemeUnit](https://github.com/gerardroche/sublime-color-scheme-unit) (a framework for testing Sublime Text colour schemes), and run the ColorSchemeUnit: Test Suite command via the Command Palette.
 
 ## License
 
 Released under the [BSD 3-Clause License](LICENSE).
-
-[ColorSchemeUnit]: https://github.com/gerardroche/sublime-color-scheme-unit
