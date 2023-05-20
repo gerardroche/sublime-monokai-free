@@ -25,7 +25,7 @@ Install MonokaiFree via [Package Control](https://packagecontrol.io/packages/Mon
 
 ![Javascript](monokai-javascript.webp)
 
-## Color Scheme Customisation
+## Color Scheme Customization
 
 > Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
 
