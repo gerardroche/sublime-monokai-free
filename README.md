@@ -29,7 +29,7 @@ Install MonokaiFree via [Package Control](https://packagecontrol.io/packages/Mon
 
 > Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
 
-For example, to customise the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme` or select **Menu &gt; Preferences &gt; Customize Color Scheme**. The following settings will change the cursor color to be a bright yellow, squares the cursor and selections, and makes the line highlight a blue tint:
+For example, to customise the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme` or select **Menu → Preferences → Customize Color Scheme**. The following settings will change the cursor color to be a bright yellow, squares the cursor and selections, and makes the line highlight a blue tint:
 
 ```json
 {
