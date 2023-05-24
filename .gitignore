@@ -5,6 +5,3 @@
 #   git config --global core.excludesfile ~/.gitignore_global
 
 /tmp/
-
-# Sublime Text
-*.sublime-workspace
