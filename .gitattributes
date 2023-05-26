@@ -4,8 +4,9 @@
 
 # Files and directories with the attribute export-ignore won’t be added to
 # archive files. See http://git-scm.com/docs/gitattributes for details.
-/.gitattributes         export-ignore
-/.gitignore             export-ignore
-/appveyor.yml           export-ignore
-/monokai-*.png          export-ignore
-/tests/                 export-ignore
+/*.md           export-ignore
+/*.webp         export-ignore
+/.gitattributes export-ignore
+/.github/       export-ignore
+/appveyor.yml   export-ignore
+/tests/         export-ignore
