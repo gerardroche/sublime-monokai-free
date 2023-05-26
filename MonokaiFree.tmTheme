@@ -3,61 +3,9 @@
 <dict>
     <key>name</key>
     <string>MonokaiFree</string>
-    <!--
-
-    COLOR       HEX     RGB         EXAMPLE USAGE
-    *********** ******* *********** ********************************************
-    bg0         #272822  39  40  34
-    bg1         #3e3d32  62  61  50 Rulers, invisibles.
-    fg0         #f8f8f2 248 248 242 Text
-    fg1         #cfcfc2 207 207 194 Text (soft)
-    fg2         #75715e 117 113  94 Comments, selections, gutter text.
-    yellow      #e6db74 230 219 116 Strings, cursors.
-    orange      #fd971f 253 151  31 Language identifiers, function parameters.
-    red         #f92672 249  38 114 Control structures, modifiers, operators.
-    magenta     #fd5ff0 253  95 240
-    violet      #ae81ff 174 129 255 Constants, numbers, booleans.
-    blue        #66d9ef 102 217 239
-    cyan        #a1efe4 161 239 228
-    green       #a6e22e 166 226  46 Class names, function names.
-
-    Sublime Text color scheme documentation:
-    https://www.sublimetext.com/docs/3/color_schemes.html
-
-    Here is the table of % opacity to hex values e.g. to specify red with 50%
-    opacity use #ff000080: https://stackoverflow.com/a/28481374
-
-      100% — FF
-       95% — F2
-       90% — E6
-       85% — D9
-       80% — CC
-       75% — BF
-       70% — B3
-       65% — A6
-       60% — 99
-       55% — 8C
-       50% — 80
-       45% — 73
-       40% — 66
-       35% — 59
-       30% — 4D
-       25% — 40
-       20% — 33
-       15% — 26
-       10% — 1A
-        5% — 0D
-        0% — 00
-
-    Other Monokai themes:
-
-    * Atom - https://github.com/kevinsawicki/monokai.
-
-    -->
     <key>settings</key>
     <array>
         <dict>
-            <!-- Global settings -->
             <key>settings</key>
             <dict>
 
@@ -67,56 +15,40 @@
                 <key>caret</key>                        <string>#e6db74</string>
                 <key>block_caret</key>                  <string>#e6db74</string>
 
-                <key>lineHighlight</key>                <string>#f8f8f215</string> <!-- Alpha 1a ~= 10%. -->
+                <key>lineHighlight</key>                <string>#f8f8f215</string>
                 <key>invisibles</key>                   <string>#f8f8f226</string>
 
-                <!-- Accents -->
                 <key>misspelling</key>                  <string>#f926729d</string>
                 <key>minimapBorder</key>                <string>#e6db74</string>
                 <key>accent</key>                       <string>#e6db749d</string>
 
-                <!-- Gutter -->
                 <key>gutter</key>                       <string>#272822</string>
                 <key>gutterForeground</key>             <string>#75715e</string>
-                <!-- <key>line_diff_added</key>                <string>#a6e22e9d</string> -->
-                <!-- <key>line_diff_modified</key>             <string>#e6db749d</string> -->
-                <!-- <key>line_diff_deleted</key>              <string>#f926729d</string> -->
 
-                <!-- Selection -->
                 <key>selection</key>                    <string>#75715e</string>
                 <key>selectionForeground</key>          <string>#272822</string>
                 <key>selectionBorder</key>              <string></string>
                 <key>inactiveSelection</key>            <string>#75715e</string>
-                <key>inactiveSelectionForeground</key>  <string>#272822</string> <!-- The inactive selection foreground doesn't work. See https://github.com/SublimeTextIssues/Core/issues/2118. -->
-                <!-- The inactive selection border doesn't work. See https://github.com/SublimeTextIssues/Core/issues/2118. -->
+                <key>inactiveSelectionForeground</key>  <string>#272822</string>
                 <key>inactiveSelectionBorder</key>      <string></string>
 
-                <!-- Find -->
                 <key>highlight</key>                    <string>#e6db74</string>
                 <key>findHighlight</key>                <string>#a1efe4</string>
                 <key>findHighlightForeground</key>      <string>#272822</string>
 
-                <!-- Guides -->
                 <key>guide</key>                        <string>#75715e10</string>
                 <key>stackGuide</key>                   <string>#f8f8f210</string>
                 <key>activeGuide</key>                  <string>#e6db7440</string>
                 <key>rulers</key>                       <string>#75715e9d</string>
 
-                <!-- Brackets --> <!-- It's not possible to set the background for brackets. See https://github.com/SublimeTextIssues/Core/issues/2123. -->
                 <key>bracketsOptions</key>              <string>underline</string>
                 <key>bracketsForeground</key>           <string>#e6db74</string>
                 <key>bracketContentsOptions</key>       <string>underline</string>
                 <key>bracketContentsForeground</key>    <string>#e6db74</string>
 
-                <!-- Tags --> <!-- It's not possible to set the background for tags. See https://github.com/SublimeTextIssues/Core/issues/2123. -->
                 <key>tagsOptions</key>                  <string>stippled_underline</string>
                 <key>tagsForeground</key>               <string>#e6db7480</string>
 
-                <!-- Shadows -->
-                <!-- <key>shadow</key>                       <string></string> -->
-                <!-- <key>shadowWidth</key>                  <string></string> -->
-
-                <!-- CSS -->
                 <key>popupCss</key><string>
                   html {
                       background-color: var(--background);
@@ -375,50 +307,19 @@
 <dict><key>scope</key><string>diff.inserted.char</string> <key>settings</key><dict><key>background</key><string>#a6e22e</string>  <key>foreground</key><string>#272822</string></dict></dict>
 <dict><key>scope</key><string>diff.inserted</string>      <key>settings</key><dict><key>background</key><string>#a6e22eB3</string><key>foreground</key><string>#272822</string></dict></dict>
 
-    <!--
+    <!-- LSP -->
 
-      LSP
+    <!-- This fix is required, because we use use transparent red background color for sublimelinter gutter and region highlighting scopes (not the new diagnostic markup), and in LSP we don't want a red background, but the LSP scopes contain sublimelinter.* scopes. -->
+    <dict><key>scope</key><string>output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning</string><key>settings</key><dict><key>background</key><string>#272822</string></dict></dict>
 
-    -->
+    <!-- SublimeLinter -->
 
-    <!-- This fix is required, because we use use transparent red background
-    color for sublimelinter gutter and region highlighting scopes (not the new
-    diagnostic markup), and in LSP we don't want a red background, but the LSP
-    scopes contain sublimelinter.* scopes. -->
-    <dict><key>scope</key><string>output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning</string>
-        <key>settings</key><dict>
-            <key>background</key><string>#272822</string>
-        </dict></dict>
+    <!-- This is required because we use a transparent red/yellow/etc background for gutter and highlighted regions, but  the diagnostics panel uses the same or similar scopes and we want the background color of text in the diagnostics panel  to be the same as the theme background color. Note that setting the foreground color doesn't work for these scopes. See https://github.com/SublimeTextIssues/Core/issues/2122. -->
+    <dict><key>scope</key><string>output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter</string><key>settings</key><dict><key>background</key><string>#272822</string></dict></dict>
+    <dict><key>scope</key><string>markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter</string><key>settings</key><dict><key>background</key><string>#f926729d</string><key>foreground</key><string>#f92672</string></dict></dict>
+    <dict><key>scope</key><string>markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter</string><key>settings</key><dict><key>background</key><string>#fd971f9d</string><key>foreground</key><string>#fd971f</string></dict></dict>
 
-    <!--
-
-      SublimeLinter
-
-    -->
-
-    <!-- This is required because we use a transparent red/yellow/etc background
-    for gutter and highlighted regions, but  the diagnostics panel uses the same
-    or similar scopes and we want the background color of text in the
-    diagnostics panel  to be the same as the theme background color.
-    Note that setting the foreground color doesn't work for these scopes.
-    See https://github.com/SublimeTextIssues/Core/issues/2122. -->
-    <dict><key>scope</key><string>output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter</string>
-        <key>settings</key><dict>
-            <key>background</key><string>#272822</string>
-        </dict></dict>
-    <dict><key>scope</key><string>markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter</string>
-        <key>settings</key><dict>
-            <key>background</key><string>#f926729d</string>
-            <key>foreground</key><string>#f92672</string>
-        </dict></dict>
-    <dict><key>scope</key><string>markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter</string>
-        <key>settings</key><dict>
-            <key>background</key><string>#fd971f9d</string>
-            <key>foreground</key><string>#fd971f</string>
-        </dict></dict>
-    <!-- DEPRECATED Older versions of SublimeLinter require style definitions to
-    be formatted like this, otherwise it will create a cached versions of the
-    color scheme and use its default colors for the linter. -->
+    <!-- DEPRECATED Older versions of SublimeLinter require style definitions to be formatted like this, otherwise it will create a cached versions of the color scheme and use its default colors for the linter. -->
     <dict>
         <key>scope</key>
         <string>sublimelinter.gutter-mark</string>
@@ -447,11 +348,7 @@
         </dict>
     </dict>
 
-    <!--
-
-      PHPUnitKit
-
-    -->
+    <!-- PHPUnitKit -->
 
     <dict><key>scope</key><string>region.greenish phpunitkit</string>
         <key>settings</key><dict>
@@ -469,14 +366,8 @@
             <key>foreground</key><string>#f8f8f2</string>
         </dict></dict>
 
-    <!--
-
-      RulerColumn
-
-    -->
-
-    <!-- Setting the foreground color doesn't work for these scopes.
-    See https://github.com/SublimeTextIssues/Core/issues/2122. -->
+    <!-- RulerColumn -->
+    <!-- Setting the foreground color doesn't work for these scopes. See https://github.com/SublimeTextIssues/Core/issues/2122. -->
     <dict><key>scope</key><string>region ruler.column</string>
         <key>settings</key><dict>
         <key>foreground</key><string>#f92672</string>
@@ -484,11 +375,7 @@
         </dict>
     </dict>
 
-    <!--
-
-      NeoVintageous
-
-    -->
+    <!-- NeoVintageous -->
 
     <!-- NeoVintageous: Search -->
     <dict>
@@ -540,11 +427,7 @@
     <dict><key>scope</key><string>string.search.occurrence</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#e6db74</string></dict></dict>
     <dict><key>scope</key><string>string.search</string><key>settings</key><dict><key>foreground</key><string>#272822</string><key>background</key><string>#a1efe4</string></dict></dict>
 
-    <!--
-
-      GitGutter
-
-    -->
+    <!-- GitGutter -->
 
     <dict><key>scope</key><string>markup.changed.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#e6db749d</string></dict></dict>
     <dict><key>scope</key><string>markup.deleted.git_gutter</string>                <key>settings</key><dict><key>foreground</key><string>#f926729d</string></dict></dict>
