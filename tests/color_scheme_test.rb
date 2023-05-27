@@ -1,4 +1,4 @@
-# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Ruby"
+# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Ruby"
 
     # This indented comment is to the preceding whitespace.
 # ^ fg=#f8f8f2 bg=#272822 fs=

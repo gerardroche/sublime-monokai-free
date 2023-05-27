@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Textile"
+// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Textile"
 
 h1. Heading
 #^^ fg=#f92672 fs=
@@ -6,7 +6,7 @@ h1. Heading
 
 bq. This is a block quotation
 #^^ fg=#f92672 fs=
-<!-- ^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2cc fs=italic -->
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^^ fg=#afafa9 fs=italic -->
 
 This paragraph contains a reference[1].
 <!-- ^ fg=#f8f8f2 fs= -->

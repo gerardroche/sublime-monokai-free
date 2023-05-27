@@ -1,4 +1,4 @@
-<!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Markdown" -->
+<!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Markdown" -->
 
 # This is an <h1> tag
 <!-- ^ fg=#e6db74 fs=bold build>=3127 -->
@@ -177,7 +177,7 @@ As Kanye West said:
   > We're living the future so
   > the present is our past.
 # ^ fg=#75715e bg=#272822 fs=italic -->
-<!-- ^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2cc fs=italic -->
+<!-- ^^^^^^^^^^^^^^^^^^^^^^^ fg=#afafa9 fs=italic -->
 
 # Lists
 

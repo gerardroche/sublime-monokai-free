@@ -1,4 +1,4 @@
-# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Python" # flake8: noqa
+# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Python" # flake8: noqa
 
     # This indented comment is to the preceding whitespace.
 # ^ fg=#f8f8f2 bg=#272822 fs=
@@ -8,7 +8,7 @@ import os
 #      ^^ fg=#f8f8f2 fs=
 
 import path from os
-#           ^^^^ fg=#f92672 bg=#f9267260 fs= build>=3154
+#           ^^^^ fg=#f92672 bg=#762740 fs= build>=3154
 
 __all__
 # ^^^^^ fg=#66d9ef fs=
@@ -49,7 +49,7 @@ x = "_\x00_\xaa_\'_%s_"
 
 x = '_\m_\\m_'
 #   ^^ fg=#e6db74 fs=
-#     ^^ fg=#fd5ff0 bg=#fd5ff060 build>=3154
+#     ^^ fg=#fd5ff0 bg=#773c6f build>=3154
 #       ^ fg=#e6db74 fs=
 #        ^^ fg=#ae81ff fs=
 #          ^^^ fg=#e6db74 fs=

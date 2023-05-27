@@ -1,6 +1,8 @@
-<!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" SKIP IF NOT "Vue Syntax Highlight/Vue Component"
+<!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" SKIP IF NOT "Vue Syntax Highlight/Vue Component"
 
-    https://packagecontrol.io/packages/Vue%20Syntax%20Highlight
+Vue Syntax Highlight
+========================
+https://packagecontrol.io/packages/Vue%20Syntax%20Highlight
 -->
 <script setup>
 // ^ fg=#f92672 fs=
@@ -14,7 +16,7 @@ defineProps({
 </script>
 
 <template #title>
-<!--  ^ fg=#f92672aa fs= -->
+<!--  ^ fg=#b32657 fs= -->
     <!--  ^^ fg=#fd971f fs= -->
     <slot name="title" />
     <!--  ^ fg=#a6e22e fs= -->
@@ -30,8 +32,8 @@ defineProps({
         buzz</div>
 
         <template>
-<!--    ^^^^^^^^^^ fg=#f92672aa fs= -->
+<!--    ^^^^^^^^^^ fg=#b32657 fs= -->
         </template>
-<!--    ^^^^^^^^^^^ fg=#f92672aa fs= -->
+<!--    ^^^^^^^^^^^ fg=#b32657 fs= -->
 
 </template>

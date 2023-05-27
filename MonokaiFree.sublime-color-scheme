@@ -123,14 +123,25 @@
             "foreground": "#a6e22e"
         },
         {
+            "scope": "entity.other.document.begin",
+            "font_style": "italic"
+        },
+        {
             "scope": "entity.other.inherited-class",
             "foreground": "#a6e22e",
             "font_style": "italic"
         },
         {
-            "scope": "entity.other",
-            "foreground": "#a6e22e",
+            "scope": "entity.other.pseudo-class.css",
             "font_style": "italic"
+        },
+        {
+            "scope": "entity.other.pseudo-element.css",
+            "font_style": "italic"
+        },
+        {
+            "scope": "entity.other",
+            "foreground": "#a6e22e"
         },
         {
             "scope": "entity.tag",
@@ -139,12 +150,12 @@
         {
             "scope": "invalid.deprecated",
             "foreground": "#fd5ff0",
-            "background": "#fd5ff060"
+            "background": "#773c6f"
         },
         {
             "scope": "invalid",
             "foreground": "#f92672",
-            "background": "#f9267260"
+            "background": "#762740"
         },
         {
             "scope": "keyword.control",
@@ -287,6 +298,10 @@
             "foreground": "#e6db74"
         },
         {
+            "scope": "markup.heading entity.name.tag.heading",
+            "font_style": "none"
+        },
+        {
             "scope": "markup.heading punctuation.definition.heading",
             "foreground": "#75715e"
         },
@@ -335,12 +350,16 @@
             "foreground": "#75715e"
         },
         {
+            "scope": "markup.quote entity.name.tag.blockquote",
+            "font_style": "none"
+        },
+        {
             "scope": "markup.quote markup.raw",
             "foreground": "#fd971fcc"
         },
         {
             "scope": "markup.quote",
-            "foreground": "#f8f8f2cc",
+            "foreground": "#afafa9",
             "font_style": "italic"
         },
         {
@@ -424,11 +443,13 @@
         },
         {
             "scope": "meta.instantiation.php meta.path.php punctuation.accessor.namespace.php",
-            "foreground": "#f8f8f2"
+            "foreground": "#f8f8f2",
+            "font_style": "none"
         },
         {
             "scope": "meta.instantiation.php meta.path.php variable.namespace.php",
-            "foreground": "#f8f8f2"
+            "foreground": "#f8f8f2",
+            "font_style": "none"
         },
         {
             "scope": "meta.link.email markup.underline.link punctuation.separator.path",
@@ -472,7 +493,7 @@
         },
         {
             "scope": "meta.sequence meta.mapping.key.json string punctuation",
-            "foreground": "#cfcfc280"
+            "foreground": "#afafa9"
         },
         {
             "scope": "meta.string.heredoc.php meta.tag.heredoc.php punctuation.definition.tag",
@@ -484,7 +505,7 @@
         },
         {
             "scope": "meta.structure.dictionary.key.json string punctuation",
-            "foreground": "#cfcfc280"
+            "foreground": "#afafa9"
         },
         {
             "scope": "meta.use.php entity.name.constant.php",
@@ -699,7 +720,7 @@
         },
         {
             "scope": "text.find-in-files",
-            "foreground": "#f8f8f2a6"
+            "foreground": "#afafa9"
         },
         {
             "scope": "text.html.markdown punctuation - constant",
@@ -719,8 +740,13 @@
             "font_style": "italic"
         },
         {
+            "scope": "variable.language.wildcard.asterisk",
+            "font_style": "none"
+        },
+        {
             "scope": "variable.language.wildcard",
-            "foreground": "#f92672"
+            "foreground": "#f92672",
+            "font_style": "none"
         },
         {
             "scope": "variable.language",
@@ -766,15 +792,15 @@
         },
         {
             "scope": "text.html.vue entity.name.tag.template",
-            "foreground": "#f92672aa"
+            "foreground": "#b32657"
         },
         {
             "scope": "text.html.vue meta.tag.template.end.html punctuation.definition.tag",
-            "foreground": "#f92672aa"
+            "foreground": "#b32657"
         },
         {
             "scope": "text.html.vue meta.tag.template.begin.html punctuation.definition.tag",
-            "foreground": "#f92672aa"
+            "foreground": "#b32657"
         },
         {
             "scope": "text.html.vue meta.tag.template.begin.html meta.attribute-with-value.directive.html entity.other.attribute-name.html, text.html.vue meta.tag.template.begin.html meta.attribute-with-value.html entity.other.attribute-name.html",

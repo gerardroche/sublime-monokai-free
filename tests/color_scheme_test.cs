@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "C#"
+// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "C#"
 
 using System;
 // ^ fg=#f92672 fs=
@@ -74,7 +74,7 @@ class Program
     //                               ^ fg=#f8f8f2 fs=
 
     static void Main(string[] x)
-    // ^ fg=#f92672 bg=#f9267260 fs= build>=3154
+    // ^ fg=#f92672 bg=#762740 fs= build>=3154
     //     ^ fg=#66d9ef fs=italic
     //          ^ fg=#a6e22e fs=
     //              ^ fg=#f8f8f2 fs=

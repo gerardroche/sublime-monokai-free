@@ -1,4 +1,4 @@
-/* COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "CSS" */
+/* COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "CSS" */
 
         /* This indented comment is to the preceding whitespace. */
 /* ^ fg=#f8f8f2 bg=#272822 fs= */
@@ -31,7 +31,7 @@
 /*                 ^^^^ bg=#f9267260 fg=#f92672 build>=3154 */
 
     .x { var-deprecated- }
-/*       ^^^^^^^^^^^^^^^ bg=#fd5ff060 build>=3154 */
+/*       ^^^^^^^^^^^^^^^ bg=#773c6f build>=3154 */
 /*       ^^^^ bg=#fd5ff060 fg=#fd5ff0 build>=3154 */
 
     div p {}

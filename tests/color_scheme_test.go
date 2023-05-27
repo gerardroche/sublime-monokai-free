@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.tmTheme" "Go"
+// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Go"
 
 package examples
 // ^ fg=#f92672 fs= build>=4140
