@@ -24,4 +24,4 @@ jobs:
           package-name: ${{ env.PACKAGE }}
 
       - name: Color Scheme Tests
-        uses: gerardroche/UnitTesting/actions/run-syntax-tests@master
+        uses: gerardroche/UnitTesting/actions/run-color-scheme-tests@master
