@@ -6,27 +6,22 @@ env:
   PACKAGE: MonokaiFree
 
 jobs:
-  linux:
-    name: Linux ST${{ matrix.version }}
-    runs-on: ubuntu-latest
+  tests:
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
-        version: [3, 4]
-    container:
-      image: sublimetext/unittesting
-      options: --cap-add=NET_ADMIN
-    env:
-      SUBLIME_TEXT_VERSION: ${{ matrix.version }}
-      NO_AT_BRIDGE: 1
+        st-version: [4]
+        os: ["ubuntu-latest", "macOS-latest", "windows-latest"]
+    runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v2
-      - run: export DISPLAY=":99.0"
-      - run: sh -e /etc/init.d/xvfb start
-      - run: curl -OL https://raw.githubusercontent.com/SublimeText/UnitTesting/master/sbin/github.sh
-      - name: Test
-        run: |
-          PATH="$HOME/.local/bin:$PATH"
-          sh github.sh bootstrap
-          sh github.sh install_color_scheme_unit
-          sh github.sh run_color_scheme_tests --coverage
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup
+        uses: SublimeText/UnitTesting/actions/setup@v1
+        with:
+          sublime-text-version: ${{ matrix.st-version }}
+          package-name: ${{ env.PACKAGE }}
+
+      - name: Color Scheme Tests
+        uses: gerardroche/UnitTesting/actions/run-syntax-tests@master
