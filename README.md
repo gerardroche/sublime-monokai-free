@@ -1,15 +1,12 @@
 # MonokaiFree
 
-<p>
-    <a href="https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml"><img alt="GitHub CI Status" src="https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml/badge.svg?branch=master"></a>
-    <a href="https://packagecontrol.io/packages/MonokaiFree"><img alt="Downloads" src="https://img.shields.io/packagecontrol/dt/MonokaiFree.svg"></a>
-</p>
+[![Continuous Integration](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml/badge.svg)](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml) [![Build status](https://ci.appveyor.com/api/projects/status/rbfi67f8aoamq322?svg=true)](https://ci.appveyor.com/project/gerardroche/sublime-monokai-free) ![Package Control](https://img.shields.io/packagecontrol/dt/MonokaiFree)
 
 A beautiful, high quality, Monokai color scheme for Sublime Text. Enhanced syntax highlighting for serious developers. MonokaiFree is an improvement on the default Monokai color scheme in Sublime Text.
 
 ## Installation
 
-Install MonokaiFree via [Package Control](https://packagecontrol.io/packages/MonokaiFree).
+Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Package Control.
 
 ## Screenshots
 
