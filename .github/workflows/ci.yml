@@ -10,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        st-version: [4]
+        st-version: [3, 4]
         os: ["ubuntu-latest", "macOS-latest", "windows-latest"]
     runs-on: ${{ matrix.os }}
     steps:
