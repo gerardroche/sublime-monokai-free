@@ -25,8 +25,16 @@ Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Packag
 ## Color Scheme Customization
 
 > Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
+> &mdash; [Sublime Text Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
 
-For example, to customise the MonokaiFree color scheme, create a file named `Packages/User/MonokaiFree.sublime-color-scheme` or select **Menu → Preferences → Customize Color Scheme**. The following settings will change the cursor color to be a bright yellow, squares the cursor and selections, and makes the line highlight a blue tint:
+For example, the following settings make:
+
+- the cursor color a bright yellow
+- the caret style square
+- the selections style square
+- the line highlight a tint of blue
+
+**Menu → Preferences → Customize Color Scheme**
 
 ```json
 {
@@ -43,8 +51,6 @@ For example, to customise the MonokaiFree color scheme, create a file named `Pac
     "rules": []
 }
 ```
-
-See [Sublime Text Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization).
 
 ## Contributing
 
