@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Setup
-        uses: SublimeText/UnitTesting/actions/setup@v1
+        uses: gerardroche/UnitTesting/actions/setup@master
         with:
           sublime-text-version: ${{ matrix.st-version }}
           package-name: ${{ env.PACKAGE }}

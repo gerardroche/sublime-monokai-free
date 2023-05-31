@@ -1,12 +1,13 @@
 environment:
     global:
         PACKAGE: "MonokaiFree"
-        SUBLIME_TEXT_VERSION: "3"
+        UNITTESTING_TAG: "master"
+        SUBLIME_TEXT_VERSION: "4"
 
 clone_depth: 5
 
 install:
-    - ps: appveyor DownloadFile "https://raw.githubusercontent.com/randy3k/UnitTesting/master/sbin/appveyor.ps1"
+    - ps: appveyor DownloadFile "https://raw.githubusercontent.com/gerardroche/UnitTesting/master/sbin/appveyor.ps1"
     - ps: .\appveyor.ps1 "bootstrap" -verbose
     - ps: .\appveyor.ps1 "install_color_scheme_unit" -verbose
 
