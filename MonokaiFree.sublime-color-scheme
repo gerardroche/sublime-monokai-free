@@ -691,6 +691,10 @@
             "foreground": "#ae81ff"
         },
         {
+            "scope": "support.other.namespace",
+            "foreground": "#a6e22e"
+        },
+        {
             "scope": "support.constant",
             "foreground": "#66d9ef"
         },
@@ -716,6 +720,10 @@
         },
         {
             "scope": "support.variable",
+            "foreground": "#66d9ef"
+        },
+        {
+            "scope": "support",
             "foreground": "#66d9ef"
         },
         {
