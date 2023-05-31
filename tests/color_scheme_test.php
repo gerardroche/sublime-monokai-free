@@ -35,7 +35,7 @@ use UserDefined;
 
 use A\B\C;
 //^ fg=#f92672 fs=
-//  ^^^^ fg=#f8f8f2 fs=
+//  ^^^^ fg=#f8f8f2 fs= build>=4148
 //      ^ fg=#66d9ef fs=italic
 //       ^ fg=#f8f8f2 fs=
 
@@ -47,7 +47,7 @@ use A\B\UserDefined2;
 
 use A\B\C as B;
 //^ fg=#f92672 fs=
-//  ^^^^ fg=#f8f8f2 fs=
+//  ^^^^ fg=#f8f8f2 fs= build>=4148
 //      ^ fg=#66d9ef fs=italic
 //        ^^ fg=#f92672 fs=
 //           ^ fg=#a6e22e fs=
@@ -62,14 +62,14 @@ use function a;
 use function a\b\c;
 //^ fg=#f92672 fs=
 //  ^^^^^^^^ fg=#66d9ef fs=italic
-//           ^^^^ fg=#f8f8f2 fs=
+//           ^^^^ fg=#f8f8f2 fs= build>=4148
 //               ^ fg=#66d9ef fs=
 //                ^ fg=#f8f8f2 fs=
 
 use function a\b\c as b;
 //^ fg=#f92672 fs=
 //  ^^^^^^^^ fg=#66d9ef fs=italic
-//           ^^^^ fg=#f8f8f2 fs=
+//           ^^^^ fg=#f8f8f2 fs= build>=4148
 //                ^ fg=#f8f8f2 fs=
 //                 ^^ fg=#f92672 fs=
 //                    ^ fg=#a6e22e fs=
@@ -84,14 +84,14 @@ use const A;
 use const A\B\C;
 //^ fg=#f92672 fs=
 //  ^^^^^ fg=#66d9ef fs=italic
-//        ^^^^ fg=#f8f8f2 fs=
+//        ^^^^ fg=#f8f8f2 fs= build>=4148
 //            ^ fg=#ae81ff fs=
 //             ^ fg=#f8f8f2 fs=
 
 use const A\B\C as X;
 //^ fg=#f92672 fs=
 //  ^^^^^ fg=#66d9ef fs=italic
-//        ^^^^ fg=#f8f8f2 fs=
+//        ^^^^ fg=#f8f8f2 fs= build>=4148
 //            ^ fg=#ae81ff fs=
 //              ^^ fg=#f92672 fs=
 //                 ^ fg=#ae81ff fs=
@@ -633,20 +633,20 @@ if (isset($x) && is_callable($x)) {
 
     $x = new A\B\C();
     //   ^ fg=#f92672 fs=
-    //       ^^^^ fg=#f8f8f2 fs=
+    //       ^^^^ fg=#f8f8f2 fs= build>=4148
     //           ^ fg=#66d9ef fs=italic
     //            ^^^ fg=#f8f8f2 fs=
 
     $x = new A\B\Exception();
-    //       ^^^^ fg=#f8f8f2 fs=
+    //       ^^^^ fg=#f8f8f2 fs= build>=4148
     //           ^ fg=#66d9ef fs=italic
 
     $x = new A\B\Countable();
-    //       ^^^^ fg=#f8f8f2 fs=
+    //       ^^^^ fg=#f8f8f2 fs= build>=4148
     //           ^ fg=#66d9ef fs=italic
 
     $x = new A\B\UserDefined();
-    //       ^^^^ fg=#f8f8f2 fs=
+    //       ^^^^ fg=#f8f8f2 fs= build>=4148
     //           ^ fg=#66d9ef fs=italic
 
     $x = new A\B\C(
@@ -667,7 +667,7 @@ if (isset($x) && is_callable($x)) {
     //                      ^ fg=#f8f8f2 fs=
 
     var_dump($x instanceof X\Y\Z);
-    //                     ^^^^ fg=#f8f8f2 fs=
+    //                     ^^^^ fg=#f8f8f2 fs= build>=4148
     //                         ^ fg=#66d9ef fs=italic
     //                          ^ fg=#f8f8f2 fs=
 
