@@ -1,20 +1,23 @@
 # SPEC
 
-COLOR     | HEX       | R   | G   | B   | Example usage
-:---------|:----------|:----|:----|:----|:-------------
-bg0       | `#272822` |  39 |  40 |  34 |
-bg1       | `#3e3d32` |  62 |  61 |  50 | Rulers, invisibles.
-fg0       | `#f8f8f2` | 248 | 248 | 242 | Text
-fg1       | `#cfcfc2` | 207 | 207 | 194 | Text (soft)
-fg2       | `#75715e` | 117 | 113 |  94 | Comments, selections, gutter text.
-yellow    | `#e6db74` | 230 | 219 | 116 | Strings, cursors.
-orange    | `#fd971f` | 253 | 151 |  31 | Language identifiers, function parameters.
-red       | `#f92672` | 249 |  38 | 114 | Control structures, modifiers, operators.
-magenta   | `#fd5ff0` | 253 |  95 | 240 |
-violet    | `#ae81ff` | 174 | 129 | 255 | Constants, numbers, booleans.
-blue      | `#66d9ef` | 102 | 217 | 239 |
-cyan      | `#a1efe4` | 161 | 239 | 228 |
-green     | `#a6e22e` | 166 | 226 |  46 | Class names, function names.
+&nbsp;| COLOR     | HEX       | R   | G   | B   | Example usage
+-----:|:----------|:----------|:----|:----|:----|:-------------
+1     | bg0       | `#272822` |  39 |  40 |  34 | Background.
+2     | bg1       | `#3e3d32` |  62 |  61 |  50 | Rulers, invisibles.
+3     | bg2       |           |     |     |     |
+4     | bg3       |           |     |     |     |
+5     | fg0       | `#f8f8f2` | 248 | 248 | 242 | Text
+6     | fg1       | `#cfcfc2` | 207 | 207 | 194 | Text (soft)
+7     | fg2       | `#75715e` | 117 | 113 |  94 | Comments, selections, gutter text.
+8     | fg3       |           |     |     |     |
+9     | yellow    | `#e6db74` | 230 | 219 | 116 | Strings, cursors.
+10    | orange    | `#fd971f` | 253 | 151 |  31 | Language identifiers, function parameters.
+11    | red       | `#f92672` | 249 |  38 | 114 | Control structures, modifiers, operators.
+12    | magenta   | `#fd5ff0` | 253 |  95 | 240 |
+13    | violet    | `#ae81ff` | 174 | 129 | 255 | Constants, numbers, booleans.
+14    | blue      | `#66d9ef` | 102 | 217 | 239 |
+15    | cyan      | `#a1efe4` | 161 | 239 | 228 |
+16    | green     | `#a6e22e` | 166 | 226 |  46 | Class names, function names.
 
 Sublime Text color scheme documentation: https://www.sublimetext.com/docs/3/color_schemes.html
 
