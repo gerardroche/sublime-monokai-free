@@ -16,13 +16,7 @@
         "blue": "#66d9ef",
         "cyan": "#a1efe4",
         "green": "#a6e22e",
-        "magenta": "#fd5ff0",
-
-        "grey1": "#afafa9",
-        "pink2": "#773c6f",
-        "red1": "#762740",
-        "red2": "#b32657"
-
+        "magenta": "#fd5ff0"
     },
     "globals":
     {
@@ -173,12 +167,12 @@
         {
             "scope": "invalid.deprecated",
             "foreground": "var(magenta)",
-            "background": "var(pink2)"
+            "background": "color(var(magenta) alpha(0.375))"
         },
         {
             "scope": "invalid",
             "foreground": "var(red)",
-            "background": "var(red1)"
+            "background": "color(var(red) alpha(0.38))"
         },
         {
             "scope": "keyword.control",
@@ -382,7 +376,7 @@
         },
         {
             "scope": "markup.quote",
-            "foreground": "var(grey1)",
+            "foreground": "color(var(fg0) alpha(0.65))",
             "font_style": "italic"
         },
         {
@@ -516,7 +510,7 @@
         },
         {
             "scope": "meta.sequence meta.mapping.key.json string punctuation",
-            "foreground": "var(grey1)"
+            "foreground": "color(var(fg0) alpha(0.65))"
         },
         {
             "scope": "meta.string.heredoc.php meta.tag.heredoc.php punctuation.definition.tag",
@@ -528,7 +522,7 @@
         },
         {
             "scope": "meta.structure.dictionary.key.json string punctuation",
-            "foreground": "var(grey1)"
+            "foreground": "color(var(fg0) alpha(0.65))"
         },
         {
             "scope": "meta.use.php entity.name.constant.php",
@@ -751,7 +745,7 @@
         },
         {
             "scope": "text.find-in-files",
-            "foreground": "var(grey1)"
+            "foreground": "color(var(fg0) alpha(0.65))"
         },
         {
             "scope": "text.html.markdown punctuation - constant",
@@ -823,15 +817,15 @@
         },
         {
             "scope": "text.html.vue entity.name.tag.template",
-            "foreground": "var(red2)"
+            "foreground": "color(var(red) alpha(0.67))"
         },
         {
             "scope": "text.html.vue meta.tag.template.end.html punctuation.definition.tag",
-            "foreground": "var(red2)"
+            "foreground": "color(var(red) alpha(0.67))"
         },
         {
             "scope": "text.html.vue meta.tag.template.begin.html punctuation.definition.tag",
-            "foreground": "var(red2)"
+            "foreground": "color(var(red) alpha(0.67))"
         },
         {
             "scope": "text.html.vue meta.tag.template.begin.html meta.attribute-with-value.directive.html entity.other.attribute-name.html, text.html.vue meta.tag.template.begin.html meta.attribute-with-value.html entity.other.attribute-name.html",
