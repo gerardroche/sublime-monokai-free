@@ -3,46 +3,50 @@
     "author": "Gerard Roche",
     "variables":
     {
-        "black": "#272822",
-        "cyan": "#a1efe4",
-        "cyan2": "#66d9ef",
-        "grey": "#afafa9",
-        "orange": "#fd971f",
-        "pink": "#fd5ff0",
-        "pink2": "#773c6f",
-        "purple": "#ae81ff",
-        "red": "#762740",
-        "red2": "#b32657",
-        "red3": "#f92672",
-        "white": "#f8f8f2",
+        "bg0": "#272822",
+
+        "fg0": "#f8f8f2",
+        "fg1": "#cfcfc2",
+        "fg2": "#75715e",
+
         "yellow": "#e6db74",
-        "yellow2": "#a6e22e",
-        "yellow3": "#cfcfc2",
-        "yellow4": "#75715e"
+        "orange": "#fd971f",
+        "red": "#f92672",
+        "violet": "#ae81ff",
+        "blue": "#66d9ef",
+        "cyan": "#a1efe4",
+        "green": "#a6e22e",
+        "magenta": "#fd5ff0",
+
+        "grey1": "#afafa9",
+        "pink2": "#773c6f",
+        "red1": "#762740",
+        "red2": "#b32657"
+
     },
     "globals":
     {
-        "foreground": "var(white)",
-        "background": "var(black)",
+        "foreground": "var(fg0)",
+        "background": "var(bg0)",
         "accent": "color(var(yellow) alpha(0.62))",
         "caret": "var(yellow)",
-        "invisibles": "color(var(white) alpha(0.15))",
-        "line_highlight": "color(var(white) alpha(0.082))",
-        "rulers": "color(var(yellow4) alpha(0.62))",
-        "selection": "var(yellow4)",
-        "selection_foreground": "var(black)",
+        "invisibles": "color(var(fg0) alpha(0.15))",
+        "line_highlight": "color(var(fg0) alpha(0.082))",
+        "rulers": "color(var(fg2) alpha(0.62))",
+        "selection": "var(fg2)",
+        "selection_foreground": "var(bg0)",
         "selection_border": "",
-        "inactive_selection": "var(yellow4)",
-        "inactive_selection_foreground": "var(black)",
-        "misspelling": "color(var(red3) alpha(0.62))",
+        "inactive_selection": "var(fg2)",
+        "inactive_selection_foreground": "var(bg0)",
+        "misspelling": "color(var(red) alpha(0.62))",
         "minimap_border": "var(yellow)",
-        "gutter": "var(black)",
-        "gutter_foreground": "var(yellow4)",
-        "guide": "color(var(yellow4) alpha(0.063))",
+        "gutter": "var(bg0)",
+        "gutter_foreground": "var(fg2)",
+        "guide": "color(var(fg2) alpha(0.063))",
         "active_guide": "color(var(yellow) alpha(0.25))",
-        "stack_guide": "color(var(white) alpha(0.063))",
+        "stack_guide": "color(var(fg0) alpha(0.063))",
         "highlight": "var(yellow)",
-        "find_highlight_foreground": "var(black)",
+        "find_highlight_foreground": "var(bg0)",
         "find_highlight": "var(cyan)",
         "brackets_options": "underline",
         "brackets_foreground": "var(yellow)",
@@ -50,38 +54,38 @@
         "bracket_contents_foreground": "var(yellow)",
         "tags_options": "stippled_underline",
         "tags_foreground": "color(var(yellow) alpha(0.5))",
-        "popup_css": "\n                  html {\n                      background-color: var(--background);\n                  }\n\n                  body {\n                      color: #cfcfc2;\n                  }\n\n                  a {\n                    color: #66d9ef;\n                  }\n\n                  #show-definitions, #show-scope, #sublimelinter-tooltip {\n                      border: 1px solid #75715e;\n                      background-color: color(var(--background) blend(white 98%));\n                      padding: 10px;\n                      margin: 0;\n                  }\n\n                  #inline-error {\n                      font-family: \"Roboto Mono\", \"Segoe UI Symbol\", monospace;\n                      background-color: var(--background);\n                  }\n\n                  #inline-error .error {\n                      background-color: color(var(--redish) blend(var(--background) 30%));\n                  }\n\n                  .mdpopups {\n                      border: 1px solid #75715e;\n                  }\n\n                  .easymotion-target {\n                    background-color: #fd971f;\n                    color: var(--background));\n                  }\n                "
+        "popup_css": "\n                  html {\n                      background-color: var(--background);\n                  }\n\n                  body {\n                      color: #cfcfc2;\n                  }\n\n                  a {\n                    color: #66d9ef;\n                  }\n\n                  #show-definitions, #show-scope, #sublimelinter-tooltip {\n                      border: 1px solid #75715e;\n                      background-color: color(var(--background) blend(fg0 98%));\n                      padding: 10px;\n                      margin: 0;\n                  }\n\n                  #inline-error {\n                      font-family: \"Roboto Mono\", \"Segoe UI Symbol\", monospace;\n                      background-color: var(--background);\n                  }\n\n                  #inline-error .error {\n                      background-color: color(var(--redish) blend(var(--background) 30%));\n                  }\n\n                  .mdpopups {\n                      border: 1px solid #75715e;\n                  }\n\n                  .easymotion-target {\n                    background-color: #fd971f;\n                    color: var(--background));\n                  }\n                "
     },
     "rules":
     [
         {
             "scope": "comment",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "conceal",
-            "foreground": "var(black)"
+            "foreground": "var(bg0)"
         },
         {
             "scope": "constant.character.escape",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "constant.character",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "constant.class.php",
-            "foreground": "var(purple)",
+            "foreground": "var(violet)",
             "font_style": "italic"
         },
         {
             "scope": "constant.class",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "constant.language",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "constant.numeric.line-number.match",
@@ -89,27 +93,27 @@
         },
         {
             "scope": "constant.numeric.suffix",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "constant.numeric",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "constant.other",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "constant",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "entity.name.constant.php",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "entity.name.section.markdown meta.link.reference.metadata.markdown markup.underline.link",
-            "foreground": "var(purple)",
+            "foreground": "var(violet)",
             "font_style": "bold"
         },
         {
@@ -118,20 +122,20 @@
         },
         {
             "scope": "entity.name.section",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "entity.name.tag.documentation.phpdoc.php",
-            "foreground": "var(yellow4)",
+            "foreground": "var(fg2)",
             "font_style": "bold"
         },
         {
             "scope": "entity.name.tag",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "entity.name",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "entity.other.attribute-name.id",
@@ -139,7 +143,7 @@
         },
         {
             "scope": "entity.other.attribute-name",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "entity.other.document.begin",
@@ -147,7 +151,7 @@
         },
         {
             "scope": "entity.other.inherited-class",
-            "foreground": "var(yellow2)",
+            "foreground": "var(green)",
             "font_style": "italic"
         },
         {
@@ -160,101 +164,101 @@
         },
         {
             "scope": "entity.other",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "entity.tag",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "invalid.deprecated",
-            "foreground": "var(pink)",
+            "foreground": "var(magenta)",
             "background": "var(pink2)"
         },
         {
             "scope": "invalid",
-            "foreground": "var(red3)",
-            "background": "var(red)"
+            "foreground": "var(red)",
+            "background": "var(red1)"
         },
         {
             "scope": "keyword.control",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "keyword.declaration.c",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.class",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.const.go",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.function",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.interface.go",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.interface",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.js",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.struct",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.trait",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.type",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration.var.go",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "keyword.declaration",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "keyword.operator.word",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "keyword.operator",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "keyword.other.phpdoc",
-            "foreground": "var(yellow4)",
+            "foreground": "var(fg2)",
             "font_style": "bold"
         },
         {
             "scope": "keyword",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "markup.bold markup.italic",
@@ -270,7 +274,7 @@
         },
         {
             "scope": "markup.bold punctuation.definition.bold",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.bold",
@@ -282,11 +286,11 @@
         },
         {
             "scope": "markup.deleted",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "markup.error",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "markup.heading entity.name.section meta.link.inline markup.underline.link",
@@ -294,23 +298,23 @@
         },
         {
             "scope": "markup.heading entity.name.section meta.link.inline punctuation.definition.link",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.heading entity.name.section meta.link.inline punctuation.definition.metadata",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.heading entity.name.section meta.link.reference punctuation.definition.constant",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.heading entity.name.section meta.link.reference punctuation.definition.link",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.heading entity.name.section meta.link.reference punctuation.definition.metadata",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.heading entity.name.section",
@@ -322,7 +326,7 @@
         },
         {
             "scope": "markup.heading punctuation.definition.heading",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.heading",
@@ -330,19 +334,19 @@
         },
         {
             "scope": "markup.hint",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "markup.ignored",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.info",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "markup.inserted",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "markup.italic markup.bold",
@@ -358,7 +362,7 @@
         },
         {
             "scope": "markup.italic punctuation.definition.italic",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.italic",
@@ -366,7 +370,7 @@
         },
         {
             "scope": "markup.list.unnumbered.bullet punctuation.definition.list_item",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.quote entity.name.tag.blockquote",
@@ -378,12 +382,12 @@
         },
         {
             "scope": "markup.quote",
-            "foreground": "var(grey)",
+            "foreground": "var(grey1)",
             "font_style": "italic"
         },
         {
             "scope": "markup.raw punctuation",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.raw",
@@ -391,14 +395,14 @@
         },
         {
             "scope": "markup.underline.link",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "markup.underline"
         },
         {
             "scope": "markup.untracked",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "markup.warning",
@@ -406,11 +410,11 @@
         },
         {
             "scope": "message.error",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "message.info",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "message.warning",
@@ -418,29 +422,29 @@
         },
         {
             "scope": "meta.class.php meta.path.php punctuation.accessor.namespace.php",
-            "foreground": "var(yellow2)",
+            "foreground": "var(green)",
             "font_style": "italic"
         },
         {
             "scope": "meta.class.php meta.path.php variable.namespace.php",
-            "foreground": "var(yellow2)",
+            "foreground": "var(green)",
             "font_style": "italic"
         },
         {
             "scope": "meta.diff.header",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "meta.diff.index",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "meta.diff.range",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "meta.function.return-type.rust punctuation.separator.rust",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "meta.function.use.php meta.group.php variable.other.php",
@@ -449,8 +453,8 @@
         },
         {
             "scope": "meta.hard-line-break",
-            "foreground": "var(black)",
-            "background": "var(yellow4)"
+            "foreground": "var(bg0)",
+            "background": "var(fg2)"
         },
         {
             "scope": "meta.image.inline.description",
@@ -462,21 +466,21 @@
         },
         {
             "scope": "meta.instantiation.php meta.path.php punctuation.accessor.namespace.php",
-            "foreground": "var(white)",
+            "foreground": "var(fg0)",
             "font_style": "none"
         },
         {
             "scope": "meta.instantiation.php meta.path.php variable.namespace.php",
-            "foreground": "var(white)",
+            "foreground": "var(fg0)",
             "font_style": "none"
         },
         {
             "scope": "meta.link.email markup.underline.link punctuation.separator.path",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "meta.link.inet markup.underline.link punctuation.separator.path",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "meta.link.inline.description",
@@ -492,192 +496,192 @@
         },
         {
             "scope": "meta.namespace.php meta.path.php punctuation.accessor.namespace.php",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "meta.namespace.php meta.path.php variable.namespace.php",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "meta.parens storage.modifier.array.java",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "meta.separator.diff",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "meta.sequence meta.mapping.key.json string -punctuation",
-            "foreground": "var(yellow3)"
+            "foreground": "var(fg1)"
         },
         {
             "scope": "meta.sequence meta.mapping.key.json string punctuation",
-            "foreground": "var(grey)"
+            "foreground": "var(grey1)"
         },
         {
             "scope": "meta.string.heredoc.php meta.tag.heredoc.php punctuation.definition.tag",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "meta.structure.dictionary.key.json string -punctuation",
-            "foreground": "var(yellow3)"
+            "foreground": "var(fg1)"
         },
         {
             "scope": "meta.structure.dictionary.key.json string punctuation",
-            "foreground": "var(grey)"
+            "foreground": "var(grey1)"
         },
         {
             "scope": "meta.use.php entity.name.constant.php",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "meta.use.php keyword.declaration.constant.php",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "meta.use.php keyword.declaration.function.php",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "punctuation.accessor.arrow.php",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.accessor.c",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.accessor.double-colon.php",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.accessor.nullsafe.php",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.accessor.php",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.accessor.rust",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.definition.heredoc.ruby",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.definition.link",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "punctuation.definition.pseudo-class",
-            "foreground": "var(yellow2)",
+            "foreground": "var(green)",
             "font_style": "italic"
         },
         {
             "scope": "punctuation.definition.pseudo-element",
-            "foreground": "var(yellow2)",
+            "foreground": "var(green)",
             "font_style": "italic"
         },
         {
             "scope": "punctuation.section.brackets.begin",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "punctuation.section.brackets.end",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "punctuation.section.embedded.begin.php punctuation.definition.string",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.section.group.begin",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "punctuation.section.group.end",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "punctuation.separator.combinator.css",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.separator.inheritance.ruby",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.separator.key-value.php",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.separator.key-value.ruby",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.separator.operator.css",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.separator.operator.scss",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "punctuation.separator.type.intersection.php",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "source.yaml meta.mapping.key.yaml meta.string.yaml string.unquoted.plain.out.yaml",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "storage.modifier.array.java",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "storage.modifier",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "storage.type",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "storage",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "string punctuation.definition.expression",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "string punctuation.definition.variable - variable.language",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "string punctuation.section.array",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "string punctuation.section.expansion",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "string punctuation.section.parens",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "string.unquoted.heredoc punctuation.definition.string",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "string.unquoted.heredoc punctuation.definition.tag",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "string.unquoted.heredoc.php punctuation.definition.string.begin",
@@ -689,7 +693,7 @@
         },
         {
             "scope": "string.unquoted.nowdoc punctuation.definition.string",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "string",
@@ -697,73 +701,73 @@
         },
         {
             "scope": "support.class.builtin",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "support.class",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "support.constant.property-value",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "support.constant",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "support.function.magic",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "support.function",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "support.other.namespace",
-            "foreground": "var(yellow2)"
+            "foreground": "var(green)"
         },
         {
             "scope": "support.other.variable"
         },
         {
             "scope": "support.type",
-            "foreground": "var(cyan2)",
+            "foreground": "var(blue)",
             "font_style": "italic"
         },
         {
             "scope": "support.variable.magic",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "support.variable",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "support",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "text.find-in-files",
-            "foreground": "var(grey)"
+            "foreground": "var(grey1)"
         },
         {
             "scope": "text.html.markdown punctuation - constant",
-            "foreground": "var(yellow4)"
+            "foreground": "var(fg2)"
         },
         {
             "scope": "variable.function.php",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "variable.function",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "variable.language.class.java",
-            "foreground": "var(purple)",
+            "foreground": "var(violet)",
             "font_style": "italic"
         },
         {
@@ -772,7 +776,7 @@
         },
         {
             "scope": "variable.language.wildcard",
-            "foreground": "var(red3)",
+            "foreground": "var(red)",
             "font_style": "none"
         },
         {
@@ -782,15 +786,15 @@
         },
         {
             "scope": "variable.namespace.java",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "variable.other.constant",
-            "foreground": "var(purple)"
+            "foreground": "var(violet)"
         },
         {
             "scope": "variable.other.dollar.only.js",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "variable.other.global",
@@ -799,15 +803,15 @@
         },
         {
             "scope": "variable.other.member",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "variable.other",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "variable.parameter.type.java",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "variable.parameter",
@@ -835,58 +839,58 @@
         },
         {
             "scope": "text.html.vue meta.attribute-with-value.directive.html entity.other.attribute-name.html",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "text.blade support.class.php"
         },
         {
             "scope": "text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "text.blade text.html.blade custom.compiler.blade.php support.function constant.other.inline-data.html",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "text.blade text.html.blade entity.name.tag.blade punctuation.section.embedded.begin.blade",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "text.blade text.html.blade entity.name.tag.blade punctuation.section.embedded.end.blade",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "text.blade text.html.blade meta.embedded.block.blade.php punctuation.section.embedded.begin.php punctuation.section.embedded.begin.php constant.other.inline-data.html",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "text.blade text.html.blade meta.embedded.block.blade.php punctuation.section.embedded.end.php constant.other.inline-data.html",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "text.blade text.html.blade meta.tag.inline.form.html meta.attribute-with-value.html entity.name.tag.blade punctuation.section.embedded.begin.blade",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "text.blade text.html.blade meta.tag.inline.form.html meta.attribute-with-value.html entity.name.tag.blade punctuation.section.embedded.end.blade",
-            "foreground": "var(white)"
+            "foreground": "var(fg0)"
         },
         {
             "scope": "text.blade text.html.blade meta.tag.inline.form.html punctuation.definition.tag.end.html",
-            "foreground": "var(red3)"
+            "foreground": "var(red)"
         },
         {
             "scope": "text.blade text.html.blade scope:text.html.basic punctuation.section.embedded.ignore.begin.blade",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "text.blade text.html.blade scope:text.html.basic punctuation.section.embedded.ignore.end.blade",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "text.blade text.html.blade string.quoted entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php meta.string-contents.quoted.single.php",
@@ -898,7 +902,7 @@
         },
         {
             "scope": "keyword.other.reserved.sass",
-            "foreground": "var(cyan2)"
+            "foreground": "var(blue)"
         },
         {
             "scope": "meta.property-value.css variable.other.less",
@@ -918,36 +922,36 @@
         },
         {
             "scope": "diff.deleted.char",
-            "foreground": "var(black)",
-            "background": "var(red3)"
+            "foreground": "var(bg0)",
+            "background": "var(red)"
         },
         {
             "scope": "diff.deleted",
-            "foreground": "var(black)",
-            "background": "color(var(red3) alpha(0.7))"
+            "foreground": "var(bg0)",
+            "background": "color(var(red) alpha(0.7))"
         },
         {
             "scope": "diff.inserted.char",
-            "foreground": "var(black)",
-            "background": "var(yellow2)"
+            "foreground": "var(bg0)",
+            "background": "var(green)"
         },
         {
             "scope": "diff.inserted",
-            "foreground": "var(black)",
-            "background": "color(var(yellow2) alpha(0.7))"
+            "foreground": "var(bg0)",
+            "background": "color(var(green) alpha(0.7))"
         },
         {
             "scope": "output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning",
-            "background": "var(black)"
+            "background": "var(bg0)"
         },
         {
             "scope": "output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter",
-            "background": "var(black)"
+            "background": "var(bg0)"
         },
         {
             "scope": "markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter",
-            "foreground": "var(red3)",
-            "background": "color(var(red3) alpha(0.62))"
+            "foreground": "var(red)",
+            "background": "color(var(red) alpha(0.62))"
         },
         {
             "scope": "markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter",
@@ -956,13 +960,13 @@
         },
         {
             "scope": "sublimelinter.gutter-mark",
-            "foreground": "var(red3)",
-            "background": "color(var(red3) alpha(0.62))"
+            "foreground": "var(red)",
+            "background": "color(var(red) alpha(0.62))"
         },
         {
             "scope": "sublimelinter.mark.error",
-            "foreground": "var(red3)",
-            "background": "color(var(red3) alpha(0.62))"
+            "foreground": "var(red)",
+            "background": "color(var(red) alpha(0.62))"
         },
         {
             "scope": "sublimelinter.mark.warning",
@@ -971,82 +975,82 @@
         },
         {
             "scope": "region.greenish phpunitkit",
-            "foreground": "var(black)",
-            "background": "var(yellow2)"
+            "foreground": "var(bg0)",
+            "background": "var(green)"
         },
         {
             "scope": "region.orangish phpunitkit",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(orange)"
         },
         {
             "scope": "region.redish phpunitkit",
-            "foreground": "var(white)",
-            "background": "var(red3)"
+            "foreground": "var(fg0)",
+            "background": "var(red)"
         },
         {
             "scope": "region ruler.column",
-            "foreground": "var(red3)",
-            "background": "color(var(red3) alpha(0.62))"
+            "foreground": "var(red)",
+            "background": "color(var(red) alpha(0.62))"
         },
         {
             "scope": "neovintageous_search_inc",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(cyan)"
         },
         {
             "scope": "neovintageous_search_cur",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(cyan)"
         },
         {
             "scope": "neovintageous_search_occ",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(yellow)"
         },
         {
             "scope": "easymotion_cursor",
-            "foreground": "var(black)",
-            "background": "var(cyan2)"
+            "foreground": "var(bg0)",
+            "background": "var(blue)"
         },
         {
             "scope": "easymotion_target",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(orange)"
         },
         {
             "scope": "highlightedyank",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(yellow)"
         },
         {
             "scope": "nv_search_inc",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(cyan)"
         },
         {
             "scope": "nv_search_current",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(cyan)"
         },
         {
             "scope": "nv_search_occurrence",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(yellow)"
         },
         {
             "scope": "highlighted.yank",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(yellow)"
         },
         {
             "scope": "string.search.occurrence",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(yellow)"
         },
         {
             "scope": "string.search",
-            "foreground": "var(black)",
+            "foreground": "var(bg0)",
             "background": "var(cyan)"
         },
         {
@@ -1055,19 +1059,19 @@
         },
         {
             "scope": "markup.deleted.git_gutter",
-            "foreground": "color(var(red3) alpha(0.62))"
+            "foreground": "color(var(red) alpha(0.62))"
         },
         {
             "scope": "markup.ignored.git_gutter",
-            "foreground": "color(var(yellow4) alpha(0.62))"
+            "foreground": "color(var(fg2) alpha(0.62))"
         },
         {
             "scope": "markup.inserted.git_gutter",
-            "foreground": "color(var(yellow2) alpha(0.62))"
+            "foreground": "color(var(green) alpha(0.62))"
         },
         {
             "scope": "markup.untracked.git_gutter",
-            "foreground": "color(var(yellow4) alpha(0.62))"
+            "foreground": "color(var(fg2) alpha(0.62))"
         }
     ]
 }
