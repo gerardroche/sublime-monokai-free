@@ -41,6 +41,7 @@
         "guide": "color(var(fg2) alpha(0.063))",
         "gutter": "var(bg0)",
         "gutter_foreground": "var(fg2)",
+        "gutter_foreground_highlight": "var(fg1)",
         "highlight": "var(yellow)",
         "inactive_selection": "var(fg2)",
         "inactive_selection_foreground": "var(bg0)",
