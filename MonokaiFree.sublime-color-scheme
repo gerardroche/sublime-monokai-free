@@ -35,9 +35,19 @@
         "foreground": "var(fg0)",
 
         "caret": "var(yellow)",
+
         "block_caret": "color(var(yellow) min-contrast(var(yellow) 2.5))",
         "block_caret_border": "color(var(yellow) min-contrast(var(yellow) 2.5))",
         "block_caret_underline": "var(yellow)",
+
+        "invisibles": "color(var(fg0) alpha(0.15))",
+
+        "accent": "color(var(yellow) alpha(0.62))",
+        "fold_marker": "var(yellow)",
+        "minimap_border": "var(yellow)",
+        "misspelling": "color(var(red))",
+
+        "popup_css": "html {background-color: var(--background);}body {color: #cfcfc2;}a {color: #66d9ef;}#show-definitions, #show-scope, #sublimelinter-tooltip {border: 1px solid #75715e;    background-color: color(var(--background) blend(fg0 98%));    padding: 10px; margin: 0;}#inline-error {font-family: \"Roboto Mono\", \"Segoe UI Symbol\", monospace; background-color: var(--background);}#inline-error .error {background-color: color(var(--redish) blend(var(--background) 30%));}.mdpopups {border: 1px solid #75715e;}.easymotion-target {background-color: #fd971f;color: var(--background));}",
 
         "gutter": "var(bg0)",
         "gutter_foreground": "var(fg2)",
@@ -48,36 +58,30 @@
         "line_diff_modified": "var(orange)",
         "line_highlight": "color(var(fg0) alpha(0.082))",
 
-        "selection": "var(fg2)",
-        "selection_foreground": "var(bg0)",
-        "selection_border": "var(fg2)",
         "inactive_selection": "color(var(fg2) alpha(0.8))",
-        "inactive_selection_foreground": "color(var(bg0) alpha(0.8))",
         "inactive_selection_border": "color(var(yellow) alpha(0.8)",
+        "inactive_selection_foreground": "color(var(bg0) alpha(0.8))",
+        "selection": "var(fg2)",
+        "selection_border": "var(fg2)",
+        "selection_foreground": "var(bg0)",
 
-        "highlight": "var(yellow)",
         "find_highlight": "var(cyan)",
         "find_highlight_foreground": "var(bg0)",
+        "highlight": "var(yellow)",
 
         "rulers": "var(fg2))",
 
-        "guide": "color(var(fg2) alpha(0.06))",
         "active_guide": "color(var(yellow) alpha(0.25))",
+        "guide": "color(var(fg2) alpha(0.06))",
         "stack_guide": "color(var(fg0) alpha(0.06))",
 
-        "accent": "color(var(yellow) alpha(0.62))",
         "bracket_contents_foreground": "var(yellow)",
         "bracket_contents_options": "underline",
         "brackets_foreground": "var(yellow)",
         "brackets_options": "underline",
-        "fold_marker": "var(yellow)",
-        "invisibles": "color(var(fg0) alpha(0.15))",
-        "minimap_border": "var(yellow)",
-        "misspelling": "color(var(red))",
-        "popup_css": "html {background-color: var(--background);}body {color: #cfcfc2;}a {color: #66d9ef;}#show-definitions, #show-scope, #sublimelinter-tooltip {border: 1px solid #75715e;    background-color: color(var(--background) blend(fg0 98%));    padding: 10px; margin: 0;}#inline-error {font-family: \"Roboto Mono\", \"Segoe UI Symbol\", monospace; background-color: var(--background);}#inline-error .error {background-color: color(var(--redish) blend(var(--background) 30%));}.mdpopups {border: 1px solid #75715e;}.easymotion-target {background-color: #fd971f;color: var(--background));}",
 
         "tags_foreground": "color(var(yellow) alpha(0.5))",
-        "tags_options": "stippled_underline"
+        "tags_options": "stippled_underline",
 
     },
     "rules":
