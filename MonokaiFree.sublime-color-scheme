@@ -24,13 +24,17 @@
         "background": "var(bg0)",
         "foreground": "var(fg0)",
 
+        "caret": "var(yellow)",
+        "block_caret": "color(var(yellow) min-contrast(var(yellow) 2.5))",
+        "block_caret_border": "color(var(yellow) min-contrast(var(yellow) 2.5))",
+        "block_caret_underline": "var(yellow)",
+
         "accent": "color(var(yellow) alpha(0.62))",
         "active_guide": "color(var(yellow) alpha(0.25))",
         "bracket_contents_foreground": "var(yellow)",
         "bracket_contents_options": "underline",
         "brackets_foreground": "var(yellow)",
         "brackets_options": "underline",
-        "caret": "var(yellow)",
         "find_highlight": "var(cyan)",
         "find_highlight_foreground": "var(bg0)",
         "guide": "color(var(fg2) alpha(0.063))",
