@@ -48,7 +48,7 @@
         "invisibles": "color(var(fg0) alpha(0.15))",
         "line_diff_added": "var(green)",
         "line_diff_deleted": "var(red)",
-        "line_diff_modified": "var(yellow)",
+        "line_diff_modified": "var(orange)",
         "line_highlight": "color(var(fg0) alpha(0.082))",
         "minimap_border": "var(yellow)",
         "misspelling": "color(var(red))",
