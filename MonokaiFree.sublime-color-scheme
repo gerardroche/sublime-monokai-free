@@ -16,7 +16,17 @@
         "blue": "#66d9ef",
         "cyan": "#a1efe4",
         "green": "#a6e22e",
-        "magenta": "#fd5ff0"
+        "magenta": "#fd5ff0",
+
+        "--yellowish": "var(yellow)",
+        "--orangish": "var(orange)",
+        "--redish": "var(red)",
+        "--purplish": "var(violet)",
+        "--bluish": "var(blue)",
+        "--cyanish": "var(cyan)",
+        "--greenish": "var(green)",
+        "--pinkish": "var(magenta)",
+
     },
     "globals":
     {
