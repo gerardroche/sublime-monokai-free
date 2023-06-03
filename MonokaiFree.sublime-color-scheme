@@ -78,10 +78,10 @@
         "bracket_contents_foreground": "var(yellow)",
         "bracket_contents_options": "underline",
         "brackets_foreground": "var(yellow)",
-        "brackets_options": "underline",
+        "brackets_options": "foreground",
 
-        "tags_foreground": "color(var(yellow) alpha(0.5))",
-        "tags_options": "stippled_underline",
+        "tags_foreground": "var(yellow)",
+        "tags_options": "underline"
 
     },
     "rules":
