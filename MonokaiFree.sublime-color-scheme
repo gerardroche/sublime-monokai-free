@@ -69,7 +69,7 @@
         "find_highlight_foreground": "var(bg0)",
         "highlight": "var(yellow)",
 
-        "rulers": "var(fg2))",
+        "rulers": "var(fg2)",
 
         "active_guide": "color(var(yellow) alpha(0.25))",
         "guide": "color(var(fg2) alpha(0.06))",
