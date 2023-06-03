@@ -40,7 +40,10 @@ For example, the following settings make:
 {
     "variables": {},
     "globals": {
+        "caret": "yellow",
+        "block_caret": "yellow",
         "block_caret_corner_style": "square",
+        "line_highlight": "#66d9ef44",
         "selection_border_width": "1",
         "selection_corner_style": "square"
     },
