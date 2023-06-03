@@ -37,6 +37,7 @@
         "brackets_options": "underline",
         "find_highlight": "var(cyan)",
         "find_highlight_foreground": "var(bg0)",
+        "fold_marker": "var(yellow)",
         "guide": "color(var(fg2) alpha(0.063))",
         "gutter": "var(bg0)",
         "gutter_foreground": "var(fg2)",
