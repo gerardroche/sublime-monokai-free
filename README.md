@@ -22,7 +22,7 @@ Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Packag
 
 ![Javascript](monokai-javascript.webp)
 
-## Color Scheme Customization
+## Customization
 
 > Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
 > &mdash; [Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
@@ -53,7 +53,9 @@ Menu → Preferences → Customize Color Scheme
 
 ## Contributing
 
-Feel free to open GitHub Issues to report any problem or submit suggestions. To run the tests install [ColorSchemeUnit](https://github.com/gerardroche/sublime-color-scheme-unit).
+Feel free to open GitHub Issues to report any problem or submit suggestions.
+
+To run the tests install [ColorSchemeUnit](https://github.com/gerardroche/sublime-color-scheme-unit).
 
 ## License
 
