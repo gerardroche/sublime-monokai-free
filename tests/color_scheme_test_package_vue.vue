@@ -1,4 +1,4 @@
-<!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" SKIP IF NOT "Vue Syntax Highlight/Vue Component"
+<!-- COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" SKIP IF NOT "Vue Syntax Highlight/Vue Component"
 
 Vue Syntax Highlight
 ========================

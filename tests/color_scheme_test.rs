@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Rust"
+// COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "Rust"
 
 #[derive(Debug)]
 pub enum State {

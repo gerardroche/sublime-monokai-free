@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "C#"
+// COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "C#"
 
 using System;
 // ^ fg=#f92672 fs=

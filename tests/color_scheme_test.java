@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Java"
+// COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "Java"
 
 package hi;
 // ^ fg=#f92672 fs=
