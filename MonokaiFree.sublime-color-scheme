@@ -539,12 +539,8 @@
             "foreground": "var(fg2)"
         },
         {
-            "scope": "meta.sequence meta.mapping.key.json string -punctuation",
-            "foreground": "var(fg1)"
-        },
-        {
-            "scope": "meta.sequence meta.mapping.key.json string punctuation",
-            "foreground": "color(var(fg0) alpha(0.65))"
+            "scope": "string.quoted.double.json punctuation.definition.string",
+            "foreground": "var(fg0)",
         },
         {
             "scope": "meta.string.heredoc.php meta.tag.heredoc.php punctuation.definition.tag",
