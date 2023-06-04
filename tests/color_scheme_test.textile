@@ -1,4 +1,4 @@
-// COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Textile"
+// COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "Textile"
 
 h1. Heading
 #^^ fg=#f92672 fs=

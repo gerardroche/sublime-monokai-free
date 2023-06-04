@@ -1,4 +1,4 @@
-# COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" SKIP IF NOT "Bash"
+# COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" SKIP IF NOT "Bash"
 
 set -e
 # ^ fg=#66d9ef fs=

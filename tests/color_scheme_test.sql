@@ -1,4 +1,4 @@
--- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "SQL"
+-- COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "SQL"
 
 SELECT * FROM x;
 -- ^ fg=#f92672 fs=

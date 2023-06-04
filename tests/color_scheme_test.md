@@ -1,4 +1,4 @@
-<!-- COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "Markdown" -->
+<!-- COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "Markdown" -->
 
 # This is an <h1> tag
 <!-- ^ fg=#e6db74 fs=bold build>=3127 -->

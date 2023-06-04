@@ -1,4 +1,4 @@
-<?php // COLOR SCHEME TEST "MonokaiFree/MonokaiFree.sublime-color-scheme" "PHP"
+<?php // COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "PHP"
 
         // This indented comment is to the preceding whitespace.
 // ^ fg=#f8f8f2 bg=#272822 fs=
