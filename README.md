@@ -28,14 +28,11 @@ Try it with the Adaptive theme for a more immersive experience.
 
 Menu → Preferences → Select Theme → Adaptive
 
-> Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
-> &mdash; [Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
+Override some global settings, for example, the following settings make:
 
-For example, the following settings make:
-
-- make the carets yellow
+- the caret yellow
 - the block caret and selections style square
-- make line highlight blue
+- the line highlight blue
 
 Menu → Preferences → Customize Color Scheme
 
@@ -52,6 +49,10 @@ Menu → Preferences → Customize Color Scheme
     "rules": []
 }
 ```
+
+> Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
+>
+> &mdash; [Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
 
 ## Contributing
 
