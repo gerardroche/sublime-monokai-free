@@ -1,21 +1,33 @@
 // COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "JSON"
+{
+    "name": "value"
+//  ^ fg=#f8f8f2 fs=
+//   ^^^^ fg=#e6db74 fs=
+//       ^^ fg=#f8f8f2 fs=
+//          ^ fg=#f8f8f2 fs=
+//           ^^^^^ fg=#e6db74 fs=
+//                ^ fg=#f8f8f2 fs=
+}
+
 [
     {
 //  ^ fg=#f8f8f2 fs=
 
         // TODO should the keys be a alternate colour?
         "title": "apples",
-    //  ^ fg=#afafa9 fs=
-    //   ^^^^^ fg=#cfcfc2 fs=
-    //        ^ fg=#afafa9 fs=
+    //  ^ fg=#f8f8f2 fs=
+    //   ^^^^^ fg=#e6db74 fs=
+    //        ^ fg=#f8f8f2 fs=
     //         ^ fg=#f8f8f2 fs=
-    //           ^^^^^^^^ fg=#e6db74 fs=
+    //           ^ fg=#f8f8f2 fs=
+    //            ^^^^^^ fg=#e6db74 fs=
+    //                  ^ fg=#f8f8f2 fs=
     //                   ^ fg=#f8f8f2 fs=
 
         "count": [12, 1.2, null, true, false, "abc"],
-    //  ^ fg=#afafa9 fs=
-    //   ^^^^^ fg=#cfcfc2 fs=
-    //        ^ fg=#afafa9 fs=
+    //  ^ fg=#f8f8f2 fs=
+    //   ^^^^^ fg=#e6db74 fs=
+    //        ^ fg=#f8f8f2 fs=
     //         ^ fg=#f8f8f2 fs=
     //           ^ fg=#f8f8f2 fs=
     //            ^ fg=#ae81ff fs=
@@ -28,45 +40,51 @@
     //                               ^ fg=#f8f8f2 fs=
     //                                 ^ fg=#ae81ff fs=
     //                                      ^ fg=#f8f8f2 fs=
-    //                                        ^^^^^ fg=#e6db74 fs=
+    //                                        ^ fg=#f8f8f2 fs=
+    //                                         ^^^ fg=#e6db74 fs=
+    //                                            ^ fg=#f8f8f2 fs=
     //                                             ^ fg=#f8f8f2 fs=
     //                                              ^ fg=#f8f8f2 fs=
 
         "x": {"a": "...", "b": true, "c": 42},
-    //  ^ fg=#afafa9 fs=
-    //   ^ fg=#cfcfc2 fs=
-    //    ^ fg=#afafa9 fs=
+    //  ^ fg=#f8f8f2 fs=
+    //   ^ fg=#e6db74 fs=
+    //    ^ fg=#f8f8f2 fs=
     //     ^ fg=#f8f8f2 fs=
     //       ^ fg=#f8f8f2 fs=
-    //        ^ fg=#afafa9 fs=
-    //         ^ fg=#cfcfc2 fs=
-    //          ^ fg=#afafa9 fs=
+    //        ^ fg=#f8f8f2 fs=
+    //         ^ fg=#e6db74 fs=
+    //          ^ fg=#f8f8f2 fs=
     //           ^ fg=#f8f8f2 fs=
-    //             ^^^^^ fg=#e6db74 fs=
+    //             ^ fg=#f8f8f2 fs=
+    //              ^^^ fg=#e6db74 fs=
+    //                 ^ fg=#f8f8f2 fs=
     //                  ^ fg=#f8f8f2 fs=
-    //                    ^ fg=#afafa9 fs=
-    //                     ^ fg=#cfcfc2 fs=
-    //                      ^ fg=#afafa9 fs=
+    //                    ^ fg=#f8f8f2 fs=
+    //                     ^ fg=#e6db74 fs=
+    //                      ^ fg=#f8f8f2 fs=
     //                       ^ fg=#f8f8f2 fs=
     //                         ^^^^ fg=#ae81ff fs=
     //                             ^ fg=#f8f8f2 fs=
-    //                               ^ fg=#afafa9 fs=
-    //                                ^ fg=#cfcfc2 fs=
-    //                                 ^ fg=#afafa9 fs=
+    //                               ^ fg=#f8f8f2 fs=
+    //                                ^ fg=#e6db74 fs=
+    //                                 ^ fg=#f8f8f2 fs=
     //                                  ^ fg=#f8f8f2 fs=
     //                                    ^^ fg=#ae81ff fs=
     //                                      ^ fg=#f8f8f2 fs=
 
         "esc": "_\uD83D_\uDE02_"
-    //  ^ fg=#afafa9 fs=
-    //   ^^^ fg=#cfcfc2 fs=
-    //      ^ fg=#afafa9 fs=
+    //  ^ fg=#f8f8f2 fs=
+    //   ^^^ fg=#e6db74 fs=
+    //      ^ fg=#f8f8f2 fs=
     //       ^ fg=#f8f8f2 fs=
-    //         ^^ fg=#e6db74 fs=
+    //         ^ fg=#f8f8f2 fs=
+    //          ^ fg=#e6db74 fs=
     //           ^^^^^^ fg=#ae81ff fs=
     //                 ^ fg=#e6db74 fs=
     //                  ^^^^^^ fg=#ae81ff fs=
-    //                        ^^ fg=#e6db74 fs=
+    //                        ^ fg=#e6db74 fs=
+    //                         ^ fg=#f8f8f2 fs=
     }
 //  ^ fg=#f8f8f2 fs=
 ]
