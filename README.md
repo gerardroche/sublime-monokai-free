@@ -24,15 +24,18 @@ Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Packag
 
 ## Customization
 
+Try it with the Adaptive theme for a more immersive experience.
+
+Menu → Preferences → Select Theme → Adaptive
+
 > Color schemes based on the .sublime-color-scheme format are specified by filename only, not a package-based file path. This allows users to customize a color scheme by overriding variables or globals, and adding rules.
 > &mdash; [Color Schemes Customizations](https://www.sublimetext.com/docs/color_schemes.html#customization)
 
 For example, the following settings make:
 
-- the cursor color a bright yellow
-- the caret style square
-- the selections style square
-- the line highlight a tint of blue
+- make the carets yellow
+- the block caret and selections style square
+- make line highlight blue
 
 Menu → Preferences → Customize Color Scheme
 
@@ -42,9 +45,8 @@ Menu → Preferences → Customize Color Scheme
     "globals": {
         "caret": "yellow",
         "block_caret": "yellow",
-        "block_caret_corner_style": "square",
         "line_highlight": "#66d9ef44",
-        "selection_border_width": "1",
+        "block_caret_corner_style": "square",
         "selection_corner_style": "square"
     },
     "rules": []
