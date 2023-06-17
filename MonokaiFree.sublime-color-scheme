@@ -77,7 +77,7 @@
 
         "bracket_contents_foreground": "var(yellow)",
         "bracket_contents_options": "underline",
-        "brackets_foreground": "var(orange)",
+        "brackets_foreground": "var(yellow)",
         "brackets_options": "underline",
 
         "tags_foreground": "var(yellow)",
