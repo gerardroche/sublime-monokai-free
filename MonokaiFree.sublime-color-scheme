@@ -59,7 +59,7 @@
         "line_highlight": "color(var(fg0) alpha(0.082))",
 
         "inactive_selection": "color(var(fg2) alpha(0.8))",
-        "inactive_selection_border": "color(var(yellow) alpha(0.8)",
+        "inactive_selection_border": "color(var(fg2) alpha(0.8))",
         "inactive_selection_foreground": "color(var(bg0) alpha(0.8))",
         "selection": "var(fg2)",
         "selection_border": "var(fg2)",
