@@ -459,6 +459,10 @@
             "font_style": "italic"
         },
         {
+            "scope": "meta.block.php meta.path.php punctuation.accessor.namespace.php",
+            "foreground": "var(fg0)",
+        },
+        {
             "scope": "meta.diff.header",
             "foreground": "var(fg2)"
         },

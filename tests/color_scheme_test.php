@@ -360,6 +360,9 @@ $abc->y(function (A $a, B $b) {
     });
 //  ^^^ fg=#f8f8f2 fs=
 
+    \defined('SIGINT');
+//  ^ fg=#f8f8f2 fs=
+
 if (isset($x) && is_callable($x)) {
 //  ^^^^^ fg=#66d9ef fs=
 //       ^^^^ fg=#f8f8f2 fs=
@@ -1397,6 +1400,14 @@ class x
         //                     ^ fg=#f8f8f2 fs=
         //                      ^^ fg=#f8f8f2 fs=
         //                         ^^ fg=#f8f8f2 fs=
+
+        \defined('SIGINT');
+    //  ^ fg=#f8f8f2 fs=italic build>=4000
+
+        \A\B::class;
+    //  ^ fg=#f8f8f2 fs=italic build>=4000
+    //    ^ fg=#f8f8f2 fs=italic build>=4000
+    //     ^ fg=#66d9ef fs=italic
 
         return new self();
         // ^ fg=#f92672 fs=

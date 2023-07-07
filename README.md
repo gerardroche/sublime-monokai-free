@@ -42,7 +42,7 @@ Menu → Preferences → Customize Color Scheme
     "globals": {
         "caret": "yellow",
         "block_caret": "yellow",
-        "line_highlight": "#66d9ef44",
+        "line_highlight": "#66d9ef22",
         "block_caret_corner_style": "square",
         "selection_corner_style": "square"
     },
