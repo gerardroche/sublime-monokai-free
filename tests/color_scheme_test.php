@@ -1402,11 +1402,12 @@ class x
         //                         ^^ fg=#f8f8f2 fs=
 
         \defined('SIGINT');
-    //  ^ fg=#f8f8f2 fs=italic build>=4000
+    //  ^ fg=#f8f8f2 fs= build>=4000
 
         \A\B::class;
-    //  ^ fg=#f8f8f2 fs=italic build>=4000
-    //    ^ fg=#f8f8f2 fs=italic build>=4000
+    //  ^ fg=#f8f8f2 fs= build>=4000
+    //   ^ fg=#f8f8f2 fs= build>=4000
+    //    ^ fg=#f8f8f2 fs= build>=4000
     //     ^ fg=#66d9ef fs=italic
 
         return new self();
@@ -1431,6 +1432,16 @@ class x
     //                                             ^^^ fg=#fd971f fs=italic
     //                                                ^ fg=#f8f8f2 fs=
     //                                                  ^^ fg=#f8f8f2 fs=
+}
+
+class ClassNamespaces
+{
+    protected $x = [
+        \A\B::class,
+    //  ^^^ fg=#f8f8f2 fs= build>=4000
+        \A\B\C::class,
+    //  ^^^^^ fg=#f8f8f2 fs= build>=4000
+    ];
 }
 
 class ConstructorPromotion

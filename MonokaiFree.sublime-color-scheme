@@ -461,6 +461,12 @@
         {
             "scope": "meta.block.php meta.path.php punctuation.accessor.namespace.php",
             "foreground": "var(fg0)",
+            "font_style": ""
+        },
+        {
+            "scope": "meta.block.php meta.path.php variable.namespace.php",
+            "foreground": "var(fg0)",
+            "font_style": ""
         },
         {
             "scope": "meta.diff.header",
