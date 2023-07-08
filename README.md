@@ -22,6 +22,12 @@ Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Packag
 
 ![Javascript](monokai-javascript.webp)
 
+## Enhanced support
+
+- [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous): Vim for Sublime Text.
+- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit): PHPUnit test runner for Sublime Text.
+- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): The code linting framework for Sublime Text.
+
 ## Customization
 
 Try it with the Adaptive theme for a more immersive experience.

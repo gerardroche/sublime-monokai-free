@@ -50,10 +50,7 @@ Here is the table of % [opacity to hex](https://stackoverflow.com/a/28481374) va
 - [LESS](https://packagecontrol.io/packages/LESS)
 - [LSP](https://packagecontrol.io/packages/LSP)
 - [Laravel Blade Highlighter](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
-- [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous)
-- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit)
 - [Sass](https://packagecontrol.io/packages/Sass)
-- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter)
 - [Vue Syntax Highlight](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight)
 
 ## Notes
