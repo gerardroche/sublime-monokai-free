@@ -64,7 +64,7 @@ Menu → Preferences → Customize Color Scheme
         "block_caret": "yellow",
         "block_caret_corner_style": "square",
         "selection_corner_style": "square",
-        "brackets_options": "glow",
+        "brackets_options": "foreground bold glow",
     },
     "rules": [
 
