@@ -10,13 +10,15 @@
 
 ## 2.0.2 - 2023-06-19
 
-* Changed: Inactive Selection Border yellow(80%) → fg2(80%) (`yellow80` → `fg280`)
+* Fixed: Inactive Selection Border yellow(80%) → fg2(80%) (`yellow80` → `fg280`)
 
 ## 2.0.1 - 2023-06-17
 
-* Changed: Revert Brackets Foreground yellow → orange
+* Fixed: Revert Brackets Foreground yellow → orange
 
 ## 2.0.0 - 2023-06-16
+
+### Changed
 
 * Changed: Block Caret yellow underline with contrast (`#ffff00` → `#e6db74`)
 * Changed: Brackets Foreground yellow → orange (`#e6db74` → `#fd971f`)
@@ -44,4 +46,7 @@
 * Changed: `--yellowish` yellow (`#e6db74` → `#e6db74`)
 * Changed: block Caret yellow border with contrast (`#ffff007f` → `#e6db74`)
 * Changed: block Caret yellow with contrast (`#ffff00` → `#e6db74`)
+
+### Removed
+
 * Removed: Support for tmTheme color scheme. Only Sublime Text versions >= 3.2 will be updated to MonokaiFree ^2.0, others will stay on MonokaiFree ^1.0.
