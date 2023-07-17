@@ -77,6 +77,7 @@ Menu → Preferences → Customize Color Scheme
     "globals": {
         "caret": "yellow",
         "block_caret": "yellow",
+        "block_caret_border": "yellow",
         "block_caret_corner_style": "square",
         "selection_corner_style": "square",
         "brackets_options": "foreground bold",
