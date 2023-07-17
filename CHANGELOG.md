@@ -2,6 +2,10 @@
 
 ## 2.1.0 - Unreleased
 
+### Added
+
+* Adaptive enhanced theme
+
 ### Changed
 
 * Revert "Change modified lines to orange instead of yellow"

@@ -14,11 +14,26 @@ Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Packag
 - [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit): PHPUnit test runner for Sublime Text.
 - [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): The code linting framework for Sublime Text.
 
-## Adaptive Theme
-
-Try the Adaptive theme.
+## Theme
 
 Menu → Preferences → Select Theme → Adaptive
+
+**Enable enhancements**
+
+Menu → Preferences → Settings
+
+```js
+"monokaifree.theme": true,
+```
+
+**Configurations**
+
+Menu → Preferences → Settings
+
+```js
+"monokaifree.vcs_status_labels": true,
+"monokaifree.vcs_status_badges": true,
+```
 
 ## Font options
 
@@ -33,7 +48,7 @@ Menu → Preferences → Settings
 ],
 ```
 
-## Alternative font
+## Font
 
 Try an alternative font like [Fira Code](https://github.com/tonsky/FiraCode).
 
