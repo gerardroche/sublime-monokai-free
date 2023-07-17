@@ -4,7 +4,8 @@
 
 ### Changed
 
-* Bracket options bold glow `"brackets_options": "underline"` → `"brackets_options": "foreground bold glow"`
+* Revert "Change modified lines to orange instead of yellow"
+* Bracket options bold glow
 
 ## 2.0.4 - 2023-07-07
 
