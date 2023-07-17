@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.0 - Unreleased
+
+### Changed
+
+* Bracket options bold glow `"brackets_options": "underline"` → `"brackets_options": "foreground bold glow"`
+
 ## 2.0.4 - 2023-07-07
 
 * Fixed: Class namespaces should be white and not italic (php)
