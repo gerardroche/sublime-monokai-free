@@ -1,0 +1,73 @@
+{
+    "variables":
+    {
+        "bg0": "#272822",
+
+        "fg0": "#f8f8f2",
+        "fg1": "#cfcfc2",
+        "fg2": "#75715e",
+
+        "yellow": "#e6db74",
+        "orange": "#fd971f",
+        "red": "#f92672",
+        "violet": "#ae81ff",
+        "blue": "#66d9ef",
+        "cyan": "#a1efe4",
+        "green": "#2da44e",
+        "magenta": "#fd5ff0",
+
+        "vcs_added": "color(var(green) min-contrast(var(--background) 7))",
+        "vcs_deleted": "color(var(red) min-contrast(var(--background) 7))",
+        "vcs_ignored": "color(var(fg2) min-contrast(var(--background) 7))",
+        "vcs_missing": "color(var(red) min-contrast(var(--background) 7))",
+        "vcs_modified": "color(var(yellow) min-contrast(var(--background) 7))",
+        "vcs_staged": "color(var(green) min-contrast(var(--background) 7))",
+        "vcs_unmerged": "color(var(orange) min-contrast(var(--background) 7))",
+        "vcs_untracked": "color(var(red) min-contrast(var(--background) 7))",
+
+    },
+
+    "rules": [
+
+        // monokaifree.vcs_status_badges
+        {
+            "class": "vcs_status_badge",
+            "settings": {"monokaifree.theme": true, "monokaifree.vcs_status_badges": false},
+            "parents": [{"class": "file_system_entry"}],
+            "layer0.opacity": 0,
+        },
+
+        // vcs modified
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["modified"]}], "color": "var(vcs_modified)" },
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["modified"]}], "layer0.tint": "var(vcs_modified)" },
+
+        // vcs missing
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["missing"]}], "color": "var(vcs_missing)" },
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["missing"]}], "layer0.tint": "var(vcs_missing)" },
+
+        // vcs staged
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["staged"]}], "layer0.tint": "var(vcs_staged)" },
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["staged"]}], "color": "var(vcs_staged)" },
+
+        // vcs added
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["added"]}], "color": "var(vcs_added)" },
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["added"]}], "layer0.tint": "var(vcs_added)" },
+
+        // vcs deleted
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}], "color": "var(vcs_deleted)" },
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["deleted"]}], "layer0.tint": "var(vcs_deleted)" },
+
+        // vcs unmerged
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}], "color": "var(vcs_unmerged)" },
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["unmerged"]}], "layer0.tint": "var(vcs_unmerged)" },
+
+        // vcs ignored
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}], "color": "var(vcs_ignored)" },
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["ignored"]}], "layer0.tint": "var(vcs_ignored)" },
+
+        // vcs untracked
+        { "class": "sidebar_label", "settings": ["monokaifree.theme", "monokaifree.vcs_status_labels"], "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}], "color": "var(vcs_untracked)" },
+        { "class": "vcs_status_badge", "settings": ["monokaifree.theme"], "parents": [{"class": "file_system_entry", "attributes": ["untracked"]}], "layer0.tint": "var(vcs_untracked)" },
+
+    ]
+}

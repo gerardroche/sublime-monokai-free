@@ -2,6 +2,10 @@
 
 ## 2.2.0 - Unreleased
 
+### Added
+
+* Default Dark enhanced theme
+
 ### Changed
 
 * Themes are now enabled by default
