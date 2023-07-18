@@ -93,6 +93,12 @@ Menu → Preferences → Settings
 "font_face": "Fira Code",
 ```
 
+## File Icons
+
+Try [FileIcons](https://packagecontrol.io/packages/FileIcons) to add specific, color icons for most file types for the sidebar.
+
+Supports both the Default and Adaptive themes. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono).
+
 ## Customization
 
 Menu → Preferences → Customize Color Scheme
