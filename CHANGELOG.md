@@ -6,6 +6,10 @@
 
 * Themes are now enabled by default
 
+### Fixed
+
+* Leave theme tree row highlight as default
+
 ## 2.1.0 - 2023-07-17
 
 ### Added

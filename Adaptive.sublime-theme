@@ -29,15 +29,6 @@
 
     "rules": [
 
-        // Make highlighted row same color as background.
-        {
-            "class": "tree_row",
-            "settings": ["monokaifree.theme"],
-            "attributes": ["highlighted"],
-            "layer0.tint": "var(bg0)",
-            "layer0.opacity": 1.0,
-        },
-
         // monokaifree.vcs_status_badges
         {
             "class": "vcs_status_badge",
