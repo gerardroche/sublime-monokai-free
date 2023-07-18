@@ -18,19 +18,12 @@ Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Packag
 
 Menu → Preferences → Select Theme → Adaptive
 
-**Enable enhancements**
+**Settings**
 
 Menu → Preferences → Settings
 
 ```js
 "monokaifree.theme": true,
-```
-
-**Configurations**
-
-Menu → Preferences → Settings
-
-```js
 "monokaifree.vcs_status_labels": true,
 "monokaifree.vcs_status_badges": true,
 ```

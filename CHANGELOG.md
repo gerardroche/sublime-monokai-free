@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.0 - Unreleased
+
+### Changed
+
+* Themes are now enabled by default
+
 ## 2.1.0 - 2023-07-17
 
 ### Added
