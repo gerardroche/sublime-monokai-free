@@ -8,12 +8,6 @@ An enhanced version of the Monokai color scheme for Sublime Text.
 
 Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Package Control.
 
-## Enhanced support
-
-- [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous): Vim for Sublime Text.
-- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit): PHPUnit test runner for Sublime Text.
-- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): The code linting framework for Sublime Text.
-
 ## Theme
 
 Menu → Preferences → Select Theme → Adaptive
@@ -41,21 +35,53 @@ Menu → Preferences → Settings
 ],
 ```
 
+```
+// Valid options on all platforms are:
+//  - "no_bold": Disables bold text
+//  - "no_italic": Disables italic text
+// Antialiasing options:
+//  - "no_antialias": Disables antialiasing
+//  - "gray_antialias": Uses grayscale antialiasing instead of subpixel
+// Ligature options:
+//  - "no_liga": Disables standard ligatures (OpenType liga feature)
+//  - "no_clig": Disables contextual ligatures (OpenType clig feature)
+//  - "no_calt": Disables contextual alternatives (OpenType calt feature)
+//  - "dlig": Enables discretionary ligatures (OpenType dlig feature)
+//  - "ss01": Enables OpenType stylistic set 1. Can enable sets 1 to 10
+//        by changing the last two digits.
+// Windows-only options:
+//  - "directwrite": (default) Use DirectWrite for font rendering
+//  - "gdi": Use GDI for font rendering
+//  - "dwrite_cleartype_classic": Only applicable to "directwrite" mode,
+//        should render fonts similar to traditional GDI
+//  - "dwrite_cleartype_natural": Only applicable to "directwrite" mode,
+//        should render fonts similar to ClearType "natural quality" GDI
+//  - "subpixel_antialias": Force ClearType antialiasing when disabled
+//        at system level
+// Mac-only options:
+//  - "no_round": Don't round glyph widths for monospace fonts when
+//        "font_size" is small.
+```
+
 ## Font
 
-Try an alternative font like [Fira Code](https://github.com/tonsky/FiraCode).
+Try an alternative font.
 
-```sh
-sudo apt-get install fonts-firacode
-```
+| Font             | Repository                                                          | Description                                             |
+|:---------------- |:------------------------------------------------------------------- |:------------------------------------------------------- |
+| Fira Code        | [GitHub](https://github.com/tonsky/FiraCode)                        | Monospaced font with programming ligatures              |
+| Cascadia Code    | [GitHub](https://github.com/microsoft/cascadia-code)                | Monospaced font designed for coding in Windows Terminal |
+| Source Code Pro  | [GitHub](https://github.com/adobe-fonts/source-code-pro)            | Monospaced font aimed at coders and text editors        |
+| Inconsolata      | [GitHub](https://github.com/google/fonts/tree/main/ofl/inconsolata) | Monospaced font for code listings and terminal use |
+| Hack             | [GitHub](https://github.com/source-foundry/Hack)                    | Open-source monospaced font for developers              |
+| JetBrains Mono   | [GitHub](https://github.com/JetBrains/JetBrainsMono)                | Typeface designed for coding, legible, and elegant      |
+| Monoid           | [GitHub](https://github.com/larsenwork/monoid)                      | Unique coding font known for consistent shapes          |
+| Hasklig          | [GitHub](https://github.com/i-tu/Hasklig)                           | Unique coding font known for consistent shapes
 
 Menu → Preferences → Settings
 
 ```js
 "font_face": "Fira Code",
-"font_options": [
-    "subpixel_antialias"
-],
 ```
 
 ## Customization
@@ -119,6 +145,12 @@ Menu → Preferences → Customize Color Scheme
 > Javascript
 
 ![Javascript](monokai-javascript.webp)
+
+Enhances support for
+
+- [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous): Vim for Sublime Text.
+- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit): PHPUnit test runner for Sublime Text.
+- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): The code linting framework for Sublime Text.
 
 ## Contributing
 
