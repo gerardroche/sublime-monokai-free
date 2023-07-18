@@ -4,6 +4,7 @@
 
 ### Added
 
+* Blue variant monokai color scheme
 * Default Dark enhanced theme
 * Default enhanced theme
 
