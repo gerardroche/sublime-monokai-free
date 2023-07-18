@@ -5,6 +5,7 @@
 ### Added
 
 * Default Dark enhanced theme
+* Default enhanced theme
 
 ### Changed
 

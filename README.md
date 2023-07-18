@@ -12,6 +12,7 @@ Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Packag
 
 Menu → Preferences → Select Theme → Adaptive
 Menu → Preferences → Select Theme → Default Dark
+Menu → Preferences → Select Theme → Default
 
 **Settings**
 
