@@ -8,11 +8,20 @@ An enhanced version of the Monokai color scheme for Sublime Text.
 
 Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Package Control.
 
-## Theme
+## Activate Scheme
 
+```
+Menu → Preferences → Select Color Scheme → MonokaiFree
+Menu → Preferences → Select Color Scheme → MonokaiFreeBlue
+```
+
+## Activate Theme
+
+```
 Menu → Preferences → Select Theme → Adaptive
 Menu → Preferences → Select Theme → Default Dark
 Menu → Preferences → Select Theme → Default
+```
 
 **Settings**
 
@@ -24,9 +33,7 @@ Menu → Preferences → Settings
 "monokaifree.vcs_status_badges": true,
 ```
 
-## Font options
-
-Don't like bold or italics?
+## Font Options
 
 Menu → Preferences → Settings
 
