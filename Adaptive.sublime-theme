@@ -16,14 +16,14 @@
         "green": "#2da44e",
         "magenta": "#fd5ff0",
 
-        "vcs_added": "color(var(green) min-contrast(var(--background) 7))",
-        "vcs_deleted": "color(var(red) min-contrast(var(--background) 7))",
-        "vcs_ignored": "color(var(fg2) min-contrast(var(--background) 7))",
-        "vcs_missing": "color(var(red) min-contrast(var(--background) 7))",
-        "vcs_modified": "color(var(yellow) min-contrast(var(--background) 7))",
-        "vcs_staged": "color(var(green) min-contrast(var(--background) 7))",
-        "vcs_unmerged": "color(var(orange) min-contrast(var(--background) 7))",
-        "vcs_untracked": "color(var(red) min-contrast(var(--background) 7))",
+        "vcs_added": "color(var(green) min-contrast(var(medium_dark_bg) 7))",
+        "vcs_deleted": "color(var(red) min-contrast(var(medium_dark_bg) 7))",
+        "vcs_ignored": "color(var(fg2) min-contrast(var(medium_dark_bg) 7))",
+        "vcs_missing": "color(var(red) min-contrast(var(medium_dark_bg) 7))",
+        "vcs_modified": "color(var(yellow) min-contrast(var(medium_dark_bg) 7))",
+        "vcs_staged": "color(var(green) min-contrast(var(medium_dark_bg) 7))",
+        "vcs_unmerged": "color(var(orange) min-contrast(var(medium_dark_bg) 7))",
+        "vcs_untracked": "color(var(red) min-contrast(var(medium_dark_bg) 7))",
 
     },
 

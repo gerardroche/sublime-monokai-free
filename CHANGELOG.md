@@ -12,6 +12,7 @@
 
 ### Fixed
 
+* Use theme sidebar background for vcs as contrast background
 * Leave theme tree row highlight as default
 
 ## 2.1.0 - 2023-07-17
