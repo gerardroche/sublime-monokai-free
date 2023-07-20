@@ -19,8 +19,8 @@ Menu → Preferences → Select Color Scheme → MonokaiFreeBlue
 
 ```
 Menu → Preferences → Select Theme → Adaptive
-Menu → Preferences → Select Theme → Default Dark
 Menu → Preferences → Select Theme → Default
+Menu → Preferences → Select Theme → Default Dark
 ```
 
 **Settings**
@@ -90,7 +90,22 @@ Try an alternative font.
 Menu → Preferences → Settings
 
 ```js
-"font_face": "Fira Code",
+"font_face": "Cascadia Code",
+"font_options": [
+    "gray_antialias",
+    "ss01",
+    "ss02",
+    "ss03",
+    "ss04",
+    "ss05",
+    "ss06",
+    "ss07",
+    "ss08",
+    "ss09",
+    "ss10",
+    "ss19",
+    "ss20"
+],
 ```
 
 ## File Icons
@@ -98,6 +113,43 @@ Menu → Preferences → Settings
 Try [FileIcons](https://packagecontrol.io/packages/FileIcons) to add specific, color icons for most file types for the sidebar.
 
 Supports both the Default and Adaptive themes. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono).
+
+## Compact status bar
+
+Menu → Preferences → Settings
+
+```
+"show_indentation": false,
+"show_line_column": "compact",
+"show_sidebar_button": false,
+"show_syntax": false,
+```
+
+## File tabs
+
+Menu → Preferences → Settings
+
+```
+"file_tab_style": "square",
+"mouse_wheel_switches_tabs": false,
+"show_tab_close_buttons": false,
+```
+
+## Inactive sheets
+
+Menu → Preferences → Settings
+
+```
+"inactive_sheet_dimming": false,
+```
+
+## Animations
+
+Menu → Preferences → Settings
+
+```
+"animation_enabled": false,
+```
 
 ## Customization
 
