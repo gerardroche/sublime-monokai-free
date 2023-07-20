@@ -57,14 +57,15 @@
         "line_diff_added": "var(green)",
         "line_diff_deleted": "var(red)",
         "line_diff_modified": "var(yellow)",
+
         "line_highlight": "color(var(fg0) alpha(0.082))",
 
-        "inactive_selection": "color(var(fg2) alpha(0.8))",
-        "inactive_selection_border": "color(var(fg2) alpha(0.8))",
-        "inactive_selection_foreground": "color(var(bg0) alpha(0.8))",
         "selection": "var(fg2)",
         "selection_border": "var(fg2)",
         "selection_foreground": "var(bg0)",
+        "inactive_selection": "color(var(fg2) alpha(0.8))",
+        "inactive_selection_border": "color(var(fg2) alpha(0.8))",
+        "inactive_selection_foreground": "color(var(bg0) alpha(0.8))",
 
         "find_highlight": "var(cyan)",
         "find_highlight_foreground": "var(bg0)",
