@@ -1,13 +1,8 @@
 # Changelog
 
-## 2.3.0 - Unreleased
+## 2.2.1 - 2023-07-21
 
-### Changed
-
-- Improved support for PHPUnitKit
-
-### Fixed
-
+- Fix PHPUnitKit support
 - Fix popup style has too much padding error
 - Fix missing bg1 variable
 
