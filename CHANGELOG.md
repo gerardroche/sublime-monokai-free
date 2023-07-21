@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.3.0 - Unreleased
+
+### Changed
+
+- Improved PHP
+
 ## 2.2.1 - 2023-07-21
 
 - Fix PHPUnitKit support

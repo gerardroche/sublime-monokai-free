@@ -55,20 +55,20 @@ use A\B\C as B;
 
 use function a;
 //^ fg=#f92672 fs=
-//  ^^^^^^^^ fg=#66d9ef fs=italic
+//  ^^^^^^^^ fg=#f92672 fs=italic
 //           ^ fg=#66d9ef fs=
 //            ^ fg=#f8f8f2 fs=
 
 use function a\b\c;
 //^ fg=#f92672 fs=
-//  ^^^^^^^^ fg=#66d9ef fs=italic
+//  ^^^^^^^^ fg=#f92672 fs=italic
 //           ^^^^ fg=#f8f8f2 fs= build>=4148
 //               ^ fg=#66d9ef fs=
 //                ^ fg=#f8f8f2 fs=
 
 use function a\b\c as b;
 //^ fg=#f92672 fs=
-//  ^^^^^^^^ fg=#66d9ef fs=italic
+//  ^^^^^^^^ fg=#f92672 fs=italic
 //           ^^^^ fg=#f8f8f2 fs= build>=4148
 //                ^ fg=#f8f8f2 fs=
 //                 ^^ fg=#f92672 fs=
@@ -77,20 +77,20 @@ use function a\b\c as b;
 
 use const A;
 //^ fg=#f92672 fs=
-//  ^^^^^ fg=#66d9ef fs=italic
+//  ^^^^^ fg=#f92672 fs=italic
 //        ^ fg=#ae81ff fs=
 //         ^ fg=#f8f8f2 fs=
 
 use const A\B\C;
 //^ fg=#f92672 fs=
-//  ^^^^^ fg=#66d9ef fs=italic
+//  ^^^^^ fg=#f92672 fs=italic
 //        ^^^^ fg=#f8f8f2 fs= build>=4148
 //            ^ fg=#ae81ff fs=
 //             ^ fg=#f8f8f2 fs=
 
 use const A\B\C as X;
 //^ fg=#f92672 fs=
-//  ^^^^^ fg=#66d9ef fs=italic
+//  ^^^^^ fg=#f92672 fs=italic
 //        ^^^^ fg=#f8f8f2 fs= build>=4148
 //            ^ fg=#ae81ff fs=
 //              ^^ fg=#f92672 fs=
@@ -111,64 +111,64 @@ require_once 'x.y';
 //                ^ fg=#f8f8f2 fs=
 
 function x() {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //       ^ fg=#a6e22e fs=
 //        ^^ fg=#f8f8f2 fs=
 //           ^^ fg=#f8f8f2 fs=
 
 interface x {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //       ^ fg=#f8f8f2 fs=
 //        ^ fg=#a6e22e fs=
 //          ^^ fg=#f8f8f2 fs=
 
 trait x {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //    ^ fg=#a6e22e fs=
 //      ^^ fg=#f8f8f2 fs=
 
 class x {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //    ^ fg=#a6e22e fs=
 //      ^^ fg=#f8f8f2 fs=
 
 final class x {}
 // ^ fg=#f92672 fs=
-//    ^ fg=#66d9ef fs=italic
+//    ^ fg=#f92672 fs=italic
 //         ^ fg=#f8f8f2 fs=
 //            ^^ fg=#f8f8f2 fs=
 
 abstract class x {}
 // ^ fg=#f92672 fs=
-//       ^ fg=#66d9ef fs=italic
+//       ^ fg=#f92672 fs=italic
 //             ^ fg=#a6e22e fs=
 //               ^^ fg=#f8f8f2 fs=
 
 class x extends y {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
-//              ^ fg=#a6e22e fs=italic
+//              ^ fg=#a6e22e fs=italic underline
 //                ^^ fg=#f8f8f2 fs=
 
 class x implements y {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
-//                 ^ fg=#a6e22e fs=italic
+//                 ^ fg=#a6e22e fs=italic underline
 //                   ^^ fg=#f8f8f2 fs=
 
 class x extends y implements z {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
-//              ^ fg=#a6e22e fs=italic
+//              ^ fg=#a6e22e fs=italic underline
 //                ^ fg=#f92672 fs=
-//                           ^ fg=#a6e22e fs=italic
+//                           ^ fg=#a6e22e fs=italic underline
 //                             ^^ fg=#f8f8f2 fs=
 
 class x extends stdClass implements Countable {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
 //              ^ fg=#66d9ef fs=italic
@@ -177,17 +177,17 @@ class x extends stdClass implements Countable {}
 //                                            ^^ fg=#f8f8f2 fs=
 
 class x extends /* */ \a\b implements \c\d {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
 //              ^^^^^ fg=#75715e fs=
-//                    ^^^^ fg=#a6e22e fs=italic
+//                    ^^^^ fg=#a6e22e fs=italic underline
 //                         ^ fg=#f92672 fs=
-//                                    ^^^^ fg=#a6e22e fs=italic
+//                                    ^^^^ fg=#a6e22e fs=italic underline
 //                                         ^^ fg=#f8f8f2 fs=
 
 function d($a = array(), $b = "x") {}
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs=italic
 //       ^ fg=#a6e22e fs=
 //        ^ fg=#f8f8f2 fs=
 //         ^^ fg=#fd971f fs=italic
@@ -296,7 +296,7 @@ function n(
 
 
 function o(): X {}
-// ^^^^^ fg=#66d9ef fs=italic
+// ^^^^^ fg=#f92672 fs=italic
 //       ^ fg=#a6e22e fs=
 //        ^^^ fg=#f8f8f2 fs=
 //            ^ fg=#66d9ef fs=italic
@@ -310,12 +310,12 @@ function p(): Countable {}
 $abc = function() {};
 // ^ fg=#f8f8f2 fs=
 //   ^ fg=#f92672 fs=
-//     ^^^^^^^^ fg=#66d9ef fs=italic
+//     ^^^^^^^^ fg=#f92672 fs=italic
 //             ^^ fg=#f8f8f2 fs=
 //                ^^^ fg=#f8f8f2 fs=
 
 $x = function(N $c) use ($a, $b) {};
-//   ^ fg=#66d9ef fs=italic
+//   ^ fg=#f92672 fs=italic
 //           ^ fg=#f8f8f2 fs=
 //            ^ fg=#66d9ef fs=italic
 //              ^^ fg=#fd971f fs=italic
@@ -332,7 +332,7 @@ $abc->y(function (A $a, B $b) {
 // ^ fg=#f8f8f2 fs=
 //  ^^ fg=#f92672 fs=
 //    ^^ fg=#f8f8f2 fs=
-//      ^^^^^^^^ fg=#66d9ef fs=italic
+//      ^^^^^^^^ fg=#f92672 fs=italic
 //               ^ fg=#f8f8f2 fs=
 //                ^ fg=#66d9ef fs=italic
 //                  ^^ fg=#fd971f fs=italic
@@ -1172,7 +1172,7 @@ class x
 
     public function a() {}
     // ^ fg=#f92672 fs=
-    //     ^ fg=#66d9ef fs=italic
+    //     ^ fg=#f92672 fs=italic
     //              ^ fg=#a6e22e fs=
     //               ^^ fg=#f8f8f2 fs=
     //                  ^^ fg=#f8f8f2 fs=
@@ -1419,7 +1419,7 @@ class x
 
     public function x(callable $v, int $v2, string $v3) {}
     // ^ fg=#f92672 fs=
-    //     ^ fg=#66d9ef fs=italic
+    //     ^ fg=#f92672 fs=italic
     //              ^ fg=#a6e22e fs=
     //               ^ fg=#f8f8f2 fs=
     //                ^^^^^^^^ fg=#66d9ef fs=italic
@@ -1434,8 +1434,13 @@ class x
     //                                                  ^^ fg=#f8f8f2 fs=
 }
 
-class ClassNamespaces
+class ClassNamespaces extends Extended
+//    ^ fg=#a6e22e fs= build>=4000
+//                            ^ fg=#a6e22e fs=italic underline build>=4000
 {
+    use Used;
+    //  ^ fg=#a6e22e fs=italic build>=4000
+
     protected $x = [
         \A\B::class,
     //  ^^^ fg=#f8f8f2 fs= build>=4000
