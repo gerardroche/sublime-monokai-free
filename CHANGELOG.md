@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.1 - Unreleased
+
+- Fix missing bg1 variable
+
 ## 2.2.0 - 2023-07-18
 
 ### Added

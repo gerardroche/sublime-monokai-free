@@ -3,8 +3,8 @@
     "author": "Gerard Roche",
     "variables":
     {
-        // This is the only change from the base color scheme.
         "bg0": "#292C3F",
+        "bg1": "#3e3d32",
 
         "fg0": "#f8f8f2",
         "fg1": "#cfcfc2",
