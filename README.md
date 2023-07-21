@@ -2,7 +2,7 @@
 
 [![Continuous Integration](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml/badge.svg)](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml) [![Build status](https://ci.appveyor.com/api/projects/status/rbfi67f8aoamq322?svg=true)](https://ci.appveyor.com/project/gerardroche/sublime-monokai-free) [![Package Control](https://img.shields.io/packagecontrol/dt/MonokaiFree)](https://packagecontrol.io/packages/MonokaiFree)
 
-An enhanced version of the Monokai color scheme for Sublime Text.
+An enhanced version of the Monokai colour scheme for Sublime Text.
 
 ![CSS](monokai-css.webp)
 
@@ -118,6 +118,8 @@ Try [FileIcons](https://packagecontrol.io/packages/FileIcons) to add sidebar col
 
 ## Compact status bar
 
+Try a minimalist status bar.
+
 Menu → Preferences → Settings
 
 ```
@@ -129,6 +131,8 @@ Menu → Preferences → Settings
 
 ## File tabs
 
+Try a minimalist square-style file tabs.
+
 Menu → Preferences → Settings
 
 ```
@@ -139,6 +143,8 @@ Menu → Preferences → Settings
 
 ## Inactive sheets
 
+Try disabling sheet dimming.
+
 Menu → Preferences → Settings
 
 ```
@@ -147,6 +153,8 @@ Menu → Preferences → Settings
 
 ## Animations
 
+Try disabling animations.
+
 Menu → Preferences → Settings
 
 ```
@@ -154,6 +162,8 @@ Menu → Preferences → Settings
 ```
 
 ## Customizations
+
+Make the colour scheme your own with your own customizations.
 
 Menu → Preferences → Customize Color Scheme
 
@@ -168,7 +178,7 @@ Menu → Preferences → Customize Color Scheme
         "block_caret_border": "yellow",
         "block_caret_corner_style": "square",
         "selection_corner_style": "square",
-        "brackets_options": "foreground bold",
+        "brackets_options": "foreground bold glow",
     },
     "rules": [
 
@@ -180,30 +190,30 @@ Menu → Preferences → Customize Color Scheme
 
 &nbsp;| COLOR     | HEX       | R   | G   | B   | Example usage
 -----:|:----------|:----------|:----|:----|:----|:-------------
-1     | bg0       | `#272822` |  39 |  40 |  34 | Background.
-2     | bg1       | `#3e3d32` |  62 |  61 |  50 | Rulers, invisibles.
+1     | bg0       | `#272822` |  39 |  40 |  34 | Background
+2     | bg1       | `#3e3d32` |  62 |  61 |  50 | Rulers, invisibles
 3     |           |           |     |     |     |
 4     |           |           |     |     |     |
 5     | fg0       | `#f8f8f2` | 248 | 248 | 242 | Text
 6     | fg1       | `#cfcfc2` | 207 | 207 | 194 | Text (soft)
-7     | fg2       | `#75715e` | 117 | 113 |  94 | Comments, selections, gutter text.
+7     | fg2       | `#75715e` | 117 | 113 |  94 | Comments, selections, gutter text
 8     |           |           |     |     |     |
-9     | yellow    | `#e6db74` | 230 | 219 | 116 | Strings, cursors.
-10    | orange    | `#fd971f` | 253 | 151 |  31 | Language identifiers, function parameters.
-11    | red       | `#f92672` | 249 |  38 | 114 | Control structures, modifiers, operators.
-12    | magenta   | `#fd5ff0` | 253 |  95 | 240 | Errors, deprecations, notices.
-13    | violet    | `#ae81ff` | 174 | 129 | 255 | Constants, numbers, booleans.
-14    | blue      | `#66d9ef` | 102 | 217 | 239 | Built-in identifiers, declarations, functions.
+9     | yellow    | `#e6db74` | 230 | 219 | 116 | Strings, cursors
+10    | orange    | `#fd971f` | 253 | 151 |  31 | Language identifiers, function parameters
+11    | red       | `#f92672` | 249 |  38 | 114 | Control structures, modifiers, operators
+12    | magenta   | `#fd5ff0` | 253 |  95 | 240 | Errors, deprecations, notices
+13    | violet    | `#ae81ff` | 174 | 129 | 255 | Constants, numbers, booleans
+14    | blue      | `#66d9ef` | 102 | 217 | 239 | Built-in identifiers, declarations, functions
 15    | cyan      | `#a1efe4` | 161 | 239 | 228 |
-16    | green     | `#a6e22e` | 166 | 226 |  46 | Class names, function names.
+16    | green     | `#a6e22e` | 166 | 226 |  46 | Class names, function names
 
 **Blue**
 
-Inherits from the default.
+Inherits from the base variables.
 
 &nbsp;| COLOR     | HEX       | R   | G   | B   | Example usage
 -----:|:----------|:----------|:----|:----|:----|:-------------
-1     | bg0       | `#292C3F` |  41 |  44 |  63 | Background.
+1     | bg0       | `#292C3F` |  41 |  44 |  63 | Background
 
 **Resources**
 
