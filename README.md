@@ -4,6 +4,8 @@
 
 An enhanced version of the Monokai color scheme for Sublime Text.
 
+![CSS](monokai-css.webp)
+
 ## Installation
 
 Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Package Control.
@@ -110,9 +112,9 @@ Menu → Preferences → Settings
 
 ## File Icons
 
-Try [FileIcons](https://packagecontrol.io/packages/FileIcons) to add specific, color icons for most file types for the sidebar.
+Try [FileIcons](https://packagecontrol.io/packages/FileIcons) to add sidebar color icons. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono). Supports both the Default and Adaptive themes.
 
-Supports both the Default and Adaptive themes. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono).
+![FileIcons](monokai-fileicons.webp)
 
 ## Compact status bar
 
@@ -151,7 +153,7 @@ Menu → Preferences → Settings
 "animation_enabled": false,
 ```
 
-## Customization
+## Customizations
 
 Menu → Preferences → Customize Color Scheme
 
@@ -195,6 +197,14 @@ Menu → Preferences → Customize Color Scheme
 15    | cyan      | `#a1efe4` | 161 | 239 | 228 |
 16    | green     | `#a6e22e` | 166 | 226 |  46 | Class names, function names.
 
+**Blue**
+
+Inherits from the default.
+
+&nbsp;| COLOR     | HEX       | R   | G   | B   | Example usage
+-----:|:----------|:----------|:----|:----|:----|:-------------
+1     | bg0       | `#292C3F` |  41 |  44 |  63 | Background.
+
 **Resources**
 
 - [Sublime Text Color Schemes Documentation](https://www.sublimetext.com/docs/color_schemes.html#customization).
@@ -213,7 +223,7 @@ Menu → Preferences → Customize Color Scheme
 
 ![Javascript](monokai-javascript.webp)
 
-Enhances support for
+Supported plugins
 
 - [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous): Vim for Sublime Text.
 - [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit): PHPUnit test runner for Sublime Text.

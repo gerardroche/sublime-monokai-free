@@ -1,6 +1,6 @@
 # SPEC
 
-## List of Packages with Enhanced Supported
+## Supported plugins
 
 - [LESS](https://packagecontrol.io/packages/LESS)
 - [LSP](https://packagecontrol.io/packages/LSP)
