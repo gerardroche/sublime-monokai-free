@@ -552,7 +552,7 @@
         },
         {
             "scope": "string.quoted.double.json punctuation.definition.string",
-            "foreground": "var(fg0)",
+            "foreground": "var(fg0)"
         },
         {
             "scope": "meta.string.heredoc.php meta.tag.heredoc.php punctuation.definition.tag",
@@ -1023,6 +1023,16 @@
             "scope": "region.redish phpunitkit",
             "foreground": "var(fg0)",
             "background": "var(red)"
+        },
+        {
+            "scope": "test.progress.deprecated,test.progress.incomplete,test.progress.risky,test.progress.skipped,test.progress.warning",
+            "foreground": "var(orange)",
+            "background": "var(bg0)"
+        },
+        {
+            "scope": "region.redish phpunitkit test.progress.error",
+            "foreground": "var(red)",
+            "background": "var(bg0)"
         },
         {
             "scope": "region ruler.column",

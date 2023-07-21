@@ -1,6 +1,12 @@
 # Changelog
 
-## 2.2.1 - Unreleased
+## 2.3.0 - Unreleased
+
+### Changed
+
+- Improved support for PHPUnitKit
+
+### Fixed
 
 - Fix missing bg1 variable
 

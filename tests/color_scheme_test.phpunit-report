@@ -23,8 +23,8 @@ Configuration: /path/to/phpunit.xml.dist
 # ^ fg=#f8f8f2
 ...........E.EEE                                                  81 / 81 (100%)
 # ^ fg=#f8f8f2
-#          ^ fg=#f8f8f2 bg=#f92672
-#            ^^^ fg=#f8f8f2 bg=#f92672
+#          ^ fg=#f92672 bg=#272822
+#            ^^^ fg=#f92672 bg=#272822
 
 Time: 00:00.120, Memory: 8.00 MB
 
@@ -75,8 +75,8 @@ Tests: 81, Assertions: 81, Failures: 4.
 
 ................................................................. 65 / 83 ( 78%)
 ...........W.WWW..                                                83 / 83 (100%)
-#          ^ fg=#272822 bg=#fd971f
-#            ^^^ fg=#272822 bg=#fd971f
+#          ^ fg=#fd971f bg=#272822
+#            ^^^ fg=#fd971f bg=#272822
 
 OK, but there are issues!
 #^^^^^^^^^^^^^^^^^^^^^^^^ fg=#272822 bg=#fd971f
@@ -86,8 +86,8 @@ Tests: 83, Assertions: 79, Warnings: 4, Risky: 4.
 ................................................................. 65 / 81 ( 80%)
 # ^ fg=#f8f8f2
 ...........D.DDD                                                  81 / 81 (100%)
-#          ^ fg=#272822 bg=#fd971f
-#            ^^^ fg=#272822 bg=#fd971f
+#          ^ fg=#fd971f bg=#272822
+#            ^^^ fg=#fd971f bg=#272822
 
 Time: 00:00.084, Memory: 8.00 MB
 
@@ -98,10 +98,10 @@ Tests: 81, Assertions: 81, Deprecations: 4.
 
 ................................................................. 65 / 96 ( 67%)
 ................R.RRRI.IIIS.SSS                                   96 / 96 (100%)
-#               ^ fg=#272822 bg=#fd971f
-#                 ^^^^ fg=#272822 bg=#fd971f
-#                      ^^^^ fg=#272822 bg=#fd971f
-#                           ^^^ fg=#272822 bg=#fd971f
+#               ^ fg=#fd971f bg=#272822
+#                 ^^^^ fg=#fd971f bg=#272822
+#                      ^^^^ fg=#fd971f bg=#272822
+#                           ^^^ fg=#fd971f bg=#272822
 
 Time: 00:00.125, Memory: 8.00 MB
 
@@ -124,14 +124,15 @@ Configuration: /path/to/phpunit.xml.dist
 
 ...............................................................  63 / 115 ( 54%)
 ..................R.RRRI.IIIS.SSSW.WWW..F.FFFE.EEE..            115 / 115 (100%)
-#                 ^ fg=#272822 bg=#fd971f
-#                   ^^^^ fg=#272822 bg=#fd971f
-#                        ^^^^ fg=#272822 bg=#fd971f
-#                             ^^^^ fg=#272822 bg=#fd971f
-#                                  ^^^ fg=#272822 bg=#fd971f
+#                 ^ fg=#fd971f bg=#272822
+#                   ^^^^ fg=#fd971f bg=#272822
+#                        ^^^^ fg=#fd971f bg=#272822
+#                             ^^^^ fg=#fd971f bg=#272822
+#                                  ^^^ fg=#fd971f bg=#272822
 #                                       ^ fg=#f8f8f2 bg=#f92672
-#                                         ^^^^ fg=#f8f8f2 bg=#f92672
-#                                              ^^^ fg=#f8f8f2 bg=#f92672
+#                                         ^^^ fg=#f8f8f2 bg=#f92672
+#                                            ^ fg=#f92672 bg=#272822
+#                                              ^^^ fg=#f92672 bg=#272822
 
 Time: 00:00.170, Memory: 8.00 MB
 
@@ -177,23 +178,24 @@ Tests: 115, Assertions: 95, Errors: 4, Failures: 4, Warnings: 4, Skipped: 4, Inc
 # ^ fg=#f8f8f2
 ..................R.RRRI.IIIS.SSSD.DDDW.WWW..F.FFFE.EEE..       120 / 120 (100%)
 #                ^ fg=#f8f8f2
-#                 ^ fg=#272822 bg=#fd971f
+#                 ^ fg=#fd971f bg=#272822
 #                  ^ fg=#f8f8f2
-#                   ^^^^ fg=#272822 bg=#fd971f
+#                   ^^^^ fg=#fd971f bg=#272822
 #                       ^ fg=#f8f8f2
-#                        ^^^^ fg=#272822 bg=#fd971f
+#                        ^^^^ fg=#fd971f bg=#272822
 #                            ^ fg=#f8f8f2
-#                             ^^^^ fg=#272822 bg=#fd971f
+#                             ^^^^ fg=#fd971f bg=#272822
 #                                 ^ fg=#f8f8f2
-#                                  ^^^^ fg=#272822 bg=#fd971f
+#                                  ^^^^ fg=#fd971f bg=#272822
 #                                      ^ fg=#f8f8f2
-#                                       ^^^ fg=#272822 bg=#fd971f
+#                                       ^^^ fg=#fd971f bg=#272822
 #                                          ^^ fg=#f8f8f2
 #                                            ^ fg=#f8f8f2
 #                                             ^ fg=#f8f8f2
-#                                              ^^^^ fg=#f8f8f2
+#                                              ^^^ fg=#f8f8f2
+#                                                 ^ fg=#f92672
 #                                                  ^ fg=#f8f8f2
-#                                                   ^^^ fg=#f8f8f2
+#                                                   ^^^ fg=#f92672
 
 ERRORS!
 #^^^^^^ fg=#f8f8f2 bg=#f92672
@@ -235,17 +237,18 @@ Runtime:       PHP 8.2.5
 Configuration: /path/to/phpunit.xml.dist
 
 .DEFIRSW
-#^ fg=#272822 bg=#fd971f
-# ^^ fg=#f8f8f2 bg=#f92672
-#   ^^^^ fg=#272822 bg=#fd971f
+#^ fg=#fd971f bg=#272822
+# ^ fg=#f92672 bg=#272822
+#  ^ fg=#f8f8f2 bg=#f92672
+#   ^^^^ fg=#fd971f bg=#272822
 
 F..S...W..E.
 #^^ fg=#f8f8f2
-#  ^ fg=#272822 bg=#fd971f
+#  ^ fg=#fd971f bg=#272822
 #   ^^^ fg=#f8f8f2
-#      ^ fg=#272822 bg=#fd971f
+#      ^ fg=#fd971f bg=#272822
 #       ^^ fg=#f8f8f2
-#         ^ fg=#f8f8f2 bg=#f92672
+#         ^ fg=#f92672 bg=#272822
 #          ^ fg=#f8f8f2
 
 ......
