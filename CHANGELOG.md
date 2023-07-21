@@ -8,6 +8,7 @@
 
 ### Fixed
 
+- Fix popup style has too much padding error
 - Fix missing bg1 variable
 
 ## 2.2.0 - 2023-07-18

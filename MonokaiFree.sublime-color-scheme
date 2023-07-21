@@ -48,7 +48,7 @@
         "minimap_border": "var(yellow)",
         "misspelling": "var(red)",
 
-        "popup_css": "html {background-color: var(--background);}body {color: #cfcfc2;}a {color: #66d9ef;}#show-definitions, #show-scope, #sublimelinter-tooltip {border: 1px solid #75715e;    background-color: color(var(--background) blend(fg0 98%));    padding: 10px; margin: 0;}#inline-error {font-family: \"Roboto Mono\", \"Segoe UI Symbol\", monospace; background-color: var(--background);}#inline-error .error {background-color: color(var(--redish) blend(var(--background) 30%));}.mdpopups {border: 1px solid #75715e;}.easymotion-target {background-color: #fd971f;color: var(--background));}",
+        "popup_css": "html {background-color: var(--background);}body {color: #cfcfc2;}a {color: #66d9ef;}#show-definitions, #show-scope, #sublimelinter-tooltip {border: 1px solid #75715e;    background-color: color(var(--background) blend(fg0 98%));    padding: 10px; margin: 0;}#inline-error {font-family: \"Roboto Mono\", \"Segoe UI Symbol\", monospace; background-color: var(--background);}#inline-error .error {background-color: color(var(--redish) blend(var(--background) 30%));}.mdpopups {border: 1px solid #75715e;}.easymotion-target {background-color: #fd971f;color: var(--background);}",
 
         "gutter": "var(bg0)",
         "gutter_foreground": "var(fg2)",
