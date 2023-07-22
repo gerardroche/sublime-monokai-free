@@ -296,7 +296,7 @@
         {"scope": "support.type", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "support.variable", "foreground": "var(blue)"},
         {"scope": "support.variable.magic", "foreground": "var(blue)"},
-        {"scope": "test.progress.deprecated,test.progress.incomplete,test.progress.risky,test.progress.skipped,test.progress.warning", "foreground": "var(orange)", "background": "var(bg0)"},
+        {"scope": "test.progress.deprecated,test.progress.incomplete,test.progress.notice,test.progress.risky,test.progress.skipped,test.progress.warning", "foreground": "var(orange)", "background": "var(bg0)"},
         {"scope": "test.progress.error", "foreground": "var(red)", "background": "var(bg0)"},
         {"scope": "test.progress.failure", "foreground": "var(fg0)", "background": "var(red)"},
         {"scope": "text.blade support.class.php"},
