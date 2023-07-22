@@ -1,16 +1,18 @@
 # Changelog
 
-## 2.3.0 - Unreleased
+## 2.3.0 - 2023-07-22
 
-### Changed
+### Added
 
-- Improved PHP
+- Keywords like class, trait, functions, are now red (PHP)
+- Extended classes and interfaces are now underlined (PHP)
+- Enhanced support for PHPUnitKit (plugin)
 
 ## 2.2.1 - 2023-07-21
 
-- Fix PHPUnitKit support
-- Fix popup style has too much padding error
-- Fix missing bg1 variable
+- Fix PHPUnitKit support issues (plugin)
+- Fix `popup` style SublimeLinter has too much padding (plugin)
+- Fix add missing `bg1` variable
 
 ## 2.2.0 - 2023-07-18
 
