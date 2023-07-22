@@ -271,27 +271,30 @@ F..S...W..E.
    WARN  NS\ClassTest
 # ^^^^^^ fg=#272822 bg=#fd971f
   ! be strict about tests that do not test anything → This test did not… 0.02s
-# ^ fg=#e6db74
+# ^ fg=#fd971f
+#                                                   ^^^ fg=#fd971f
 
    WARN  NS\ClassTest
 # ^^^^^^ fg=#272822 bg=#fd971f
   … incomplete                                                           0.02s
-# ^ fg=#e6db74
+# ^ fg=#fd971f
 
    WARN  NS\ClassTest
 # ^^^^^^ fg=#272822 bg=#fd971f
   - skip                                                                 0.02s
-# ^ fg=#e6db74
+# ^ fg=#fd971f
 
    DEPR  NS\ClassTest
 # ^^^^^^ fg=#272822 bg=#fd971f
   ! deprecated → Deprecated // test/deprecated/DeprecatedTest.php:12     0.02s
-# ^ fg=#e6db74
+# ^ fg=#fd971f
+#              ^^^ fg=#fd971f
 
    WARN  NS\ClassTest
 # ^^^^^^ fg=#272822 bg=#fd971f
   ! warning → This test did not perform any assertions                   0.02s
-# ^ fg=#e6db74
+# ^ fg=#fd971f
+#           ^^^ fg=#fd971f
 
    FAIL  NS\ClassTest
 # ^^^^^^ fg=#f8f8f2 bg=#f92672
