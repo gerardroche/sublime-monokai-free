@@ -77,7 +77,7 @@
         "stack_guide": "color(var(fg1) alpha(0.5))",
         "guide": "color(var(fg1) alpha(0.2))",
 
-        "bracket_contents_foreground": "var(yellow)",
+        "bracket_contents_foreground": "var(fg1)",
         "bracket_contents_options": "underline",
         "brackets_foreground": "var(yellow)",
         "brackets_options": "foreground bold glow",
