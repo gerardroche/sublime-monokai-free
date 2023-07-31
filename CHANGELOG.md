@@ -4,6 +4,9 @@
 
 ### Changed
 
+* "active_guide": `color(var(yellow) alpha(0.25))` → `var(fg1)`
+* "stack_guide": `color(var(fg0) alpha(0.06))` → `color(var(fg1) alpha(0.5))`
+* "guide": `color(var(fg2) alpha(0.06))` → `color(var(fg1) alpha(0.2))`
 * "line_highlight": `color(var(fg0) alpha(0.082))` → `color(var(fg0) alpha(0.06))`
 
 ## 2.3.0 - 2023-07-22
