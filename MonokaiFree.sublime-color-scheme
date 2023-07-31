@@ -58,7 +58,7 @@
         "line_diff_deleted": "var(red)",
         "line_diff_modified": "var(yellow)",
 
-        "line_highlight": "color(var(fg0) alpha(0.082))",
+        "line_highlight": "color(var(fg0) alpha(0.06))",
 
         "selection": "var(fg2)",
         "selection_border": "var(fg2)",

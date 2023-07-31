@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.4.0 - Unreleased
+
+### Changed
+
+* "line_highlight": `color(var(fg0) alpha(0.082))` → `color(var(fg0) alpha(0.06))`
+
 ## 2.3.0 - 2023-07-22
 
 ### Added
