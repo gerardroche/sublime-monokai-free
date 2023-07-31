@@ -43,7 +43,7 @@ Menu → Preferences → Settings
 "font_options": [
     "no_bold",
     "no_italic"
-],
+]
 ```
 
 ```
@@ -107,7 +107,7 @@ Menu → Preferences → Settings
     "ss10",
     "ss19",
     "ss20"
-],
+]
 ```
 
 ## File Icons
@@ -148,7 +148,7 @@ Try disabling sheet dimming.
 Menu → Preferences → Settings
 
 ```
-"inactive_sheet_dimming": false,
+"inactive_sheet_dimming": false
 ```
 
 ## Animations
@@ -158,7 +158,7 @@ Try disabling animations.
 Menu → Preferences → Settings
 
 ```
-"animation_enabled": false,
+"animation_enabled": false
 ```
 
 ## Customizations
@@ -180,40 +180,84 @@ Menu → Preferences → Customize Color Scheme
         "selection_corner_style": "square",
         "brackets_options": "foreground bold glow",
     },
-    "rules": [
-
-    ]
+    "rules": []
 }
 ```
 
-**Variables**
+**Base variables**
 
-&nbsp;| COLOR     | HEX       | R   | G   | B   | Example usage
------:|:----------|:----------|:----|:----|:----|:-------------
-1     | bg0       | `#272822` |  39 |  40 |  34 | Background
-2     | bg1       | `#3e3d32` |  62 |  61 |  50 | Rulers, invisibles
-3     |           |           |     |     |     |
-4     |           |           |     |     |     |
-5     | fg0       | `#f8f8f2` | 248 | 248 | 242 | Text
-6     | fg1       | `#cfcfc2` | 207 | 207 | 194 | Text (soft)
-7     | fg2       | `#75715e` | 117 | 113 |  94 | Comments, selections, gutter text
-8     |           |           |     |     |     |
-9     | yellow    | `#e6db74` | 230 | 219 | 116 | Strings, cursors
-10    | orange    | `#fd971f` | 253 | 151 |  31 | Language identifiers, function parameters
-11    | red       | `#f92672` | 249 |  38 | 114 | Control structures, modifiers, operators
-12    | magenta   | `#fd5ff0` | 253 |  95 | 240 | Errors, deprecations, notices
-13    | violet    | `#ae81ff` | 174 | 129 | 255 | Constants, numbers, booleans
-14    | blue      | `#66d9ef` | 102 | 217 | 239 | Built-in identifiers, declarations, functions
-15    | cyan      | `#a1efe4` | 161 | 239 | 228 |
-16    | green     | `#a6e22e` | 166 | 226 |  46 | Class names, function names
+|       | COLOR     | HEX       | R   | G   | B   | Example usage
+| -----:|:----------|:----------|:----|:----|:----|:-------------
+| 1     | bg0       | `#272822` |  39 |  40 |  34 | Background
+| 2     | bg1       | `#3e3d32` |  62 |  61 |  50 | Rulers, invisibles
+| 3     |           |           |     |     |     |
+| 4     |           |           |     |     |     |
+| 5     | fg0       | `#f8f8f2` | 248 | 248 | 242 | Text
+| 6     | fg1       | `#cfcfc2` | 207 | 207 | 194 | Text (soft)
+| 7     | fg2       | `#75715e` | 117 | 113 |  94 | Comments, selections, gutter text
+| 8     |           |           |     |     |     |
+| 9     | yellow    | `#e6db74` | 230 | 219 | 116 | Strings, cursors
+| 10    | orange    | `#fd971f` | 253 | 151 |  31 | Language identifiers, function parameters
+| 11    | red       | `#f92672` | 249 |  38 | 114 | Control structures, modifiers, operators
+| 12    | magenta   | `#fd5ff0` | 253 |  95 | 240 | Errors, deprecations, notices
+| 13    | violet    | `#ae81ff` | 174 | 129 | 255 | Constants, numbers, booleans
+| 14    | blue      | `#66d9ef` | 102 | 217 | 239 | Built-in identifiers, declarations, functions
+| 15    | cyan      | `#a1efe4` | 161 | 239 | 228 |
+| 16    | green     | `#a6e22e` | 166 | 226 |  46 | Class names, function names
 
-**Blue**
+**Blue variant variables**
 
-Inherits from the base variables.
+*Inherits from the base variables.*
 
-&nbsp;| COLOR     | HEX       | R   | G   | B   | Example usage
------:|:----------|:----------|:----|:----|:----|:-------------
-1     | bg0       | `#292C3F` |  41 |  44 |  63 | Background
+|       | COLOR     | HEX       | R   | G   | B   | Example usage
+| -----:|:----------|:----------|:----|:----|:----|:-------------
+| 1     | bg0       | `#292C3F` |  41 |  44 |  63 | Background
+
+**Example:** Customise Indent Guides
+
+Menu → Preferences → Customize Color Scheme
+
+```json
+{
+    "variables": {},
+    "globals": {
+        "active_guide": "var(green)",
+        "guide": "var(blue)",
+        "stack_guide": "var(fg2)",
+    },
+    "rules": []
+}
+```
+
+**Example:** Customise Caret
+
+Menu → Preferences → Customize Color Scheme
+
+```json
+{
+    "variables": {},
+    "globals": {
+        "caret": "yellow",
+        "block_caret": "yellow",
+        "block_caret_border": "yellow",
+    },
+    "rules": []
+}
+```
+
+**Example:** Customise Background
+
+Menu → Preferences → Customize Color Scheme
+
+```json
+{
+    "variables": {
+        "bg0": "#292C3F",
+    },
+    "globals": {},
+    "rules": []
+}
+```
 
 **Resources**
 
