@@ -4,6 +4,8 @@
 
 An enhanced version of the Monokai colour scheme for Sublime Text.
 
+**If you updated from v1 to v2, you may need to reset MonokaiFree as you color scheme e.g. Menu → Preferences → Select Color Scheme → MonokaiFree. See [issue #7](https://github.com/gerardroche/sublime-monokai-free/issues/7).**
+
 ![CSS](monokai-css.webp)
 
 ## Installation
