@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.4.1 - Unreleased
+
+### Fixed
+
+* Update missing recent fixes for Blue variant
+
 ## 2.4.0 - 2023-07-31
 
 ### Changed
