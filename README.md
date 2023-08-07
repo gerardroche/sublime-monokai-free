@@ -1,37 +1,94 @@
-# Monokai Free
+# Enhanced Monokai Color Scheme for Sublime Text
 
 [![Continuous Integration](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml/badge.svg)](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml) [![Build status](https://ci.appveyor.com/api/projects/status/rbfi67f8aoamq322?svg=true)](https://ci.appveyor.com/project/gerardroche/sublime-monokai-free) [![Package Control](https://img.shields.io/packagecontrol/dt/MonokaiFree)](https://packagecontrol.io/packages/MonokaiFree)
 
-An enhanced version of the Monokai colour scheme for Sublime Text.
+The Enhanced Monokai color scheme for Sublime Text is a modification and improvement of the popular Monokai color scheme, designed to provide a more vibrant and visually appealing coding experience. It retains the essence of the original Monokai color palette while enhancing certain elements for better readability and highlighting.
 
 **If you updated from v1 to v2, you may need to reset MonokaiFree as you color scheme e.g. Menu → Preferences → Select Color Scheme → MonokaiFree. See [issue #7](https://github.com/gerardroche/sublime-monokai-free/issues/7).**
 
 ![CSS](monokai-css.webp)
 
+## Features
+
+- Enhanced syntax highlighting: The Enhanced Monokai color scheme uses carefully selected colors for syntax elements, making code stand out and easily distinguishable.
+
+- Improved contrast: The color contrast has been optimized to ensure better visibility and reduce eye strain during long coding sessions.
+
+- Fine-tuned color choices: The color selections have been adjusted to strike a balance between aesthetic appeal and functional usage, resulting in a more harmonious and pleasant coding environment.
+
+- Support for multiple languages: The Enhanced Monokai color scheme is suitable for various programming languages and markup languages, providing consistent and cohesive syntax highlighting.
+
 ## Installation
 
-**Using Package Control**
+**Method 1: Using Package Control**
 
 1. Open Sublime Text.
 2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the Command Palette.
 3. Type "Package Control: Install Package" and press `Enter`.
 4. In the input field, type "MonokaiFree" and select it from the list of available packages.
+5. Now, to activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and select "MonokaiFree" from the list of available color schemes.
 
-## Activate Scheme
+**Method 2: Manual Installation**
 
-`Command Palette → UI: Select Color Scheme → MonokaiFree`
+1. Visit the [MonokaiFree GitHub repository](https://github.com/gerardroche/sublime-monokai-free).
+2. Click on the "Code" button and select "Download ZIP."
+3. Extract the downloaded ZIP file.
+4. Open Sublime Text and go to `Preferences -> Browse Packages...` to open the Packages folder.
+5. Copy the "MonokaiFree" folder from the extracted ZIP and paste it into the Packages folder.
+6. Now, to activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and select "MonokaiFree" from the list of available color schemes.
 
-`Command Palette → UI: Select Color Scheme → MonokaiFreeBlue`
+**Method 3: Manual Git Repository Installation**
 
-`Command Palette → UI: Select Color Scheme → MonokaiFreeDark`
+1. Open a terminal or command prompt.
+2. Navigate to the Sublime Text Packages directory:
+    - On Windows: `%APPDATA%\Sublime Text\Packages`
+    - On macOS: `~/Library/Application Support/Sublime Text/Packages`
+    - On Linux: `~/.config/sublime-text/Packages`
+3. Clone the plugin repository directly into the Packages directory using Git:
+   ```
+   git clone https://github.com/gerardroche/sublime-monokai-free.git
+   ```
+4. Now, to activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and select "MonokaiFree" from the list of available color schemes.
 
-## Activate Theme
+## Activating the MonokaiFree Color Scheme
 
-`Command Palette → UI: Select Theme → Adaptive`
+To enjoy the MonokaiFree color scheme in Sublime Text, follow these simple steps:
 
-`Command Palette → UI: Select Theme → Default`
+1. Open Sublime Text.
 
-`Command Palette → UI: Select Theme → Default Dark`
+2. Go to `Command Palette` by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac).
+
+3. In the Command Palette, type `UI: Select Color Scheme` and select the option from the list that appears.
+
+4. A new list of available color schemes will appear. Scroll through the list and select one of the following variants of MonokaiFree:
+
+   - MonokaiFree
+   - MonokaiFreeBlue
+   - MonokaiFreeDark
+
+5. The selected MonokaiFree color scheme will be applied instantly, giving your coding environment a fresh and stylish look.
+
+Now you can immerse yourself in the coding experience with the MonokaiFree color scheme that best suits your preferences. Enjoy the enhanced visual appeal and readability while writing code in Sublime Text. Happy coding!
+
+## Activating Themes in Sublime Text
+
+To change the theme in Sublime Text, you can use the Command Palette. Follow these steps to activate the desired theme:
+
+1. Open Sublime Text.
+
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette.
+
+3. In the Command Palette, type `UI: Select Theme` and select the option from the list that appears.
+
+4. A new list of available themes will appear. Scroll through the list and select one of the following themes:
+
+   - `Adaptive`: Use the command `UI: Select Theme → Adaptive` to activate the Adaptive theme.
+   - `Default`: Use the command `UI: Select Theme → Default` to activate the Default theme.
+   - `Default Dark`: Use the command `UI: Select Theme → Default Dark` to activate the Default Dark theme.
+
+5. The selected theme will be applied instantly, giving your Sublime Text interface a fresh look and feel.
+
+Now you can work in Sublime Text with your preferred theme, enjoying a visually appealing and customizable coding environment. Happy coding!
 
 ## Settings
 
@@ -301,7 +358,11 @@ Menu → Preferences → Customize Color Scheme
 
 ## Contributing
 
-Feel free to open GitHub Issues to report any problem or submit suggestions.  To run the tests install [ColorSchemeUnit](https://github.com/gerardroche/sublime-color-scheme-unit).
+The MonokaiFree color scheme is an open-source project, and contributions are welcome. If you have suggestions for improvements or encounter any issues, please feel free to submit a pull request or open an issue on the official repository.
+
+## Enjoy Coding with MonokaiFree
+
+With the MonokaiFree color scheme, you can elevate your coding experience in Sublime Text, making it more enjoyable and visually appealing. Embrace the vibrant and enhanced color palette to boost productivity and immerse yourself in the world of coding. Happy coding!
 
 ## License
 
