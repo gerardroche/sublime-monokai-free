@@ -1,0 +1,34 @@
+#!/bin/sh
+
+set -e
+unset CDPATH
+unset IFS
+
+replace_variable() {
+    name="$1"
+    value="$2"
+    file="$3"
+
+    sed -i 's/\("'"$name"'": \)".*"/\1"'"$value"'"/' "$file"
+}
+
+update_blue_variant() {
+    replace_variable "$1" "$2" "$BLUE_VARIANT"
+}
+
+update_dark_variant() {
+    replace_variable "$1" "$2" "$DARK_VARIANT"
+}
+
+
+MAIN="MonokaiFree.sublime-color-scheme"
+BLUE_VARIANT="MonokaiFreeBlue.sublime-color-scheme"
+DARK_VARIANT="MonokaiFreeDark.sublime-color-scheme"
+
+cp "$MAIN" "$BLUE_VARIANT"
+update_blue_variant "name" "MonokaiFreeBlue"
+update_blue_variant "bg0" "#292C3F"
+
+cp "$MAIN" "$DARK_VARIANT"
+update_dark_variant "name" "MonokaiFreeDark"
+update_dark_variant "bg0" "#212121"

@@ -10,42 +10,52 @@ An enhanced version of the Monokai colour scheme for Sublime Text.
 
 ## Installation
 
-Install [MonokaiFree](https://packagecontrol.io/packages/MonokaiFree) via Package Control.
+**Using Package Control**
+
+1. Open Sublime Text.
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the Command Palette.
+3. Type "Package Control: Install Package" and press `Enter`.
+4. In the input field, type "MonokaiFree" and select it from the list of available packages.
 
 ## Activate Scheme
 
-```
-Menu → Preferences → Select Color Scheme → MonokaiFree
-Menu → Preferences → Select Color Scheme → MonokaiFreeBlue
-```
+`Command Palette → UI: Select Color Scheme → MonokaiFree`
+
+`Command Palette → UI: Select Color Scheme → MonokaiFreeBlue`
+
+`Command Palette → UI: Select Color Scheme → MonokaiFreeDark`
 
 ## Activate Theme
 
-```
-Menu → Preferences → Select Theme → Adaptive
-Menu → Preferences → Select Theme → Default
-Menu → Preferences → Select Theme → Default Dark
-```
+`Command Palette → UI: Select Theme → Adaptive`
 
-**Settings**
+`Command Palette → UI: Select Theme → Default`
 
-Menu → Preferences → Settings
+`Command Palette → UI: Select Theme → Default Dark`
 
-```js
-"monokaifree.theme": true,
-"monokaifree.vcs_status_labels": true,
-"monokaifree.vcs_status_badges": true,
-```
-
-## Font Options
+## Settings
 
 Menu → Preferences → Settings
 
-```js
-"font_options": [
-    "no_bold",
-    "no_italic"
-]
+```json
+{
+    "monokaifree.theme": true,
+    "monokaifree.vcs_status_labels": true,
+    "monokaifree.vcs_status_badges": true
+}
+```
+
+### Font Options
+
+Menu → Preferences → Settings
+
+```json
+{
+    "font_options": [
+        "no_bold",
+        "no_italic"
+    ]
+}
 ```
 
 ```
@@ -76,7 +86,7 @@ Menu → Preferences → Settings
 //        "font_size" is small.
 ```
 
-## Font
+### Font
 
 Try an alternative font.
 
@@ -93,74 +103,84 @@ Try an alternative font.
 
 Menu → Preferences → Settings
 
-```js
-"font_face": "Cascadia Code",
-"font_options": [
-    "gray_antialias",
-    "ss01",
-    "ss02",
-    "ss03",
-    "ss04",
-    "ss05",
-    "ss06",
-    "ss07",
-    "ss08",
-    "ss09",
-    "ss10",
-    "ss19",
-    "ss20"
-]
+```json
+{
+    "font_face": "Cascadia Code",
+    "font_options": [
+        "gray_antialias",
+        "ss01",
+        "ss02",
+        "ss03",
+        "ss04",
+        "ss05",
+        "ss06",
+        "ss07",
+        "ss08",
+        "ss09",
+        "ss10",
+        "ss19",
+        "ss20"
+    ]
+}
 ```
 
-## File Icons
+### File Icons
 
 Try [FileIcons](https://packagecontrol.io/packages/FileIcons) to add sidebar color icons. [Also available in greyscale](https://packagecontrol.io/packages/FileIcons%20Mono). Supports both the Default and Adaptive themes.
 
 ![FileIcons](monokai-fileicons.webp)
 
-## Compact status bar
+### Compact status bar
 
 Try a minimalist status bar.
 
 Menu → Preferences → Settings
 
-```
-"show_indentation": false,
-"show_line_column": "compact",
-"show_sidebar_button": false,
-"show_syntax": false,
+```json
+{
+    "show_indentation": false,
+    "show_line_column": "compact",
+    "show_sidebar_button": false,
+    "show_syntax": false
+}
 ```
 
-## File tabs
+### File tabs
 
 Try a minimalist square-style file tabs.
 
 Menu → Preferences → Settings
 
-```
-"file_tab_style": "square",
-"mouse_wheel_switches_tabs": false,
-"show_tab_close_buttons": false,
+```json
+{
+    "file_tab_style": "square",
+    "mouse_wheel_switches_tabs": false,
+    "show_tab_close_buttons": false
+}
 ```
 
-## Inactive sheets
+### Inactive sheets
 
 Try disabling sheet dimming.
 
 Menu → Preferences → Settings
 
-```
-"inactive_sheet_dimming": false
+```json
+{
+    "inactive_sheet_dimming": false
+}
 ```
 
-## Animations
+### Animations
 
 Try disabling animations.
 
 Menu → Preferences → Settings
 
-```
-"animation_enabled": false
+```json
+{
+    "animation_enabled": false
+}
 ```
 
 ## Customizations
@@ -278,12 +298,6 @@ Menu → Preferences → Customize Color Scheme
 > Javascript
 
 ![Javascript](monokai-javascript.webp)
-
-Supported plugins
-
-- [NeoVintageous](https://packagecontrol.io/packages/NeoVintageous): Vim for Sublime Text.
-- [PHPUnitKit](https://packagecontrol.io/packages/PHPUnitKit): PHPUnit test runner for Sublime Text.
-- [SublimeLinter](https://packagecontrol.io/packages/SublimeLinter): The code linting framework for Sublime Text.
 
 ## Contributing
 

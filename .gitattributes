@@ -8,5 +8,6 @@
 /*.webp         export-ignore
 /.gitattributes export-ignore
 /.github/       export-ignore
+/Makefile       export-ignore
 /appveyor.yml   export-ignore
 /tests/         export-ignore

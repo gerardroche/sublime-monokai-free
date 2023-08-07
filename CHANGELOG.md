@@ -1,6 +1,10 @@
 # Changelog
 
-## 2.4.1 - Unreleased
+## 2.5.0 - 2023-08-07
+
+### Added
+
+* Dark variant color scheme
 
 ### Changed
 
