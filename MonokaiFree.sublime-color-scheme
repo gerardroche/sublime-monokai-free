@@ -181,6 +181,7 @@
         {"scope": "markup.italic meta.link.inline markup.underline.link", "font_style": "italic"},
         {"scope": "markup.italic punctuation.definition.italic", "foreground": "var(fg2)"},
         {"scope": "markup.italic", "font_style": "italic"},
+        {"scope": "markup.list.numbered.bullet", "foreground": "var(violet)"},
         {"scope": "markup.list.unnumbered.bullet punctuation.definition.list_item", "foreground": "var(fg2)"},
         {"scope": "markup.quote entity.name.tag.blockquote", "font_style": "none"},
         {"scope": "markup.quote markup.raw", "foreground": "color(var(orange) alpha(0.8))"},

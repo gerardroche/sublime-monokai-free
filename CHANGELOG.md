@@ -2,6 +2,10 @@
 
 ## 2.4.1 - Unreleased
 
+### Changed
+
+* Markdown bullets are now violet
+
 ### Fixed
 
 * Update missing recent fixes for Blue variant

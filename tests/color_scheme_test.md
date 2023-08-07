@@ -204,6 +204,10 @@ Ordered
 #  ^ fg=#75715e fs= -->
 #    ^ fg=#f8f8f2 fs= -->
 
+  1. item 1
+# ^ fg=#ae81ff fs= -->
+  2. item 2
+
 # Escapes
 
 .... \*x\\y\.z
