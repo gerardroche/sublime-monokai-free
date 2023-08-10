@@ -1,9 +1,9 @@
 {
-    "name": "MonokaiFree - Blue",
+    "name": "MonokaiFree - Dracula",
     "author": "Gerard Roche",
     "variables":
     {
-        "bg0": "#292C3F",
+        "bg0": "#282a36",
         "bg1": "#3e3d32",
 
         "fg0": "#f8f8f2",

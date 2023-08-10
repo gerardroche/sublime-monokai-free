@@ -1,18 +1,21 @@
 # Changelog
 
+## 2.6.0 - 2023-08-10
+
+### Added
+
+* New variant: Monokai - Dracula
+* New variant: Monokai - Yaru Dark
+
 ## 2.5.0 - 2023-08-07
 
 ### Added
 
-* Dark variant color scheme
+* New variant: Monokai - Dark
 
 ### Changed
 
-* Markdown bullets are now violet
-
-### Fixed
-
-* Update missing recent fixes for Blue variant
+* Markdown: Bullets are now violet
 
 ## 2.4.0 - 2023-07-31
 
@@ -42,7 +45,7 @@
 
 ### Added
 
-* Blue variant monokai color scheme
+* New variant: Monokai - Blue
 * Default Dark enhanced theme
 * Default enhanced theme
 

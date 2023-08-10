@@ -4,31 +4,34 @@ set -e
 unset CDPATH
 unset IFS
 
-replace_variable() {
-    name="$1"
-    value="$2"
-    file="$3"
-
-    sed -i 's/\("'"$name"'": \)".*"/\1"'"$value"'"/' "$file"
+set_var() {
+    color_scheme="MonokaiFree$(echo "$1" | sed -r 's/(^|_)([a-z])/\U\2/g' ).sublime-color-scheme"
+    sed -i 's/\("'"$2"'": \)".*"/\1"'"$3"'"/' "$color_scheme"
 }
 
-update_blue_variant() {
-    replace_variable "$1" "$2" "$BLUE_VARIANT"
-}
+BASE_VARIANT="MonokaiFree.sublime-color-scheme"
+VARIANT_BLUE="MonokaiFreeBlue.sublime-color-scheme"
+VARIANT_DARK="MonokaiFreeDark.sublime-color-scheme"
+VARIANT_DRACULA="MonokaiFreeDracula.sublime-color-scheme"
+VARIANT_YARU_DARK="MonokaiFreeYaruDark.sublime-color-scheme"
 
-update_dark_variant() {
-    replace_variable "$1" "$2" "$DARK_VARIANT"
-}
+cp "$BASE_VARIANT" "$VARIANT_BLUE"
+cp "$BASE_VARIANT" "$VARIANT_DARK"
+cp "$BASE_VARIANT" "$VARIANT_DRACULA"
+cp "$BASE_VARIANT" "$VARIANT_YARU_DARK"
 
+# Blue
+set_var blue "name" "MonokaiFree - Blue"
+set_var blue "bg0" "#292C3F"
 
-MAIN="MonokaiFree.sublime-color-scheme"
-BLUE_VARIANT="MonokaiFreeBlue.sublime-color-scheme"
-DARK_VARIANT="MonokaiFreeDark.sublime-color-scheme"
+# Dark
+set_var dark "name" "MonokaiFree - Dark"
+set_var dark "bg0" "#212121"
 
-cp "$MAIN" "$BLUE_VARIANT"
-update_blue_variant "name" "MonokaiFreeBlue"
-update_blue_variant "bg0" "#292C3F"
+# Dracula
+set_var dracula "name" "MonokaiFree - Dracula"
+set_var dracula "bg0" "#282a36"
 
-cp "$MAIN" "$DARK_VARIANT"
-update_dark_variant "name" "MonokaiFreeDark"
-update_dark_variant "bg0" "#212121"
+# Yaru Dark
+set_var yaru_dark "name" "MonokaiFree - Yaru Dark"
+set_var yaru_dark "bg0" "#1d1d1d"
