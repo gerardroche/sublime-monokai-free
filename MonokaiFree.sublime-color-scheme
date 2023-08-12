@@ -5,6 +5,7 @@
     {
         "bg0": "#272822",
         "bg1": "#3e3d32",
+        "bg2": "#43443b",
 
         "fg0": "#f8f8f2",
         "fg1": "#cfcfc2",
@@ -29,6 +30,7 @@
         "--pinkish": "var(magenta)",
 
         "caret": "var(fg0)",
+        "selection": "var(bg2)",
 
     },
     "globals":
@@ -44,7 +46,7 @@
         "block_caret_underline": "var(caret)",
         "block_caret_corner_style": "square",
 
-        "invisibles": "color(var(fg0) alpha(0.15))",
+        "invisibles": "var(fg2)",
 
         "accent": "color(var(yellow) alpha(0.62))",
         "fold_marker": "var(yellow)",
@@ -55,20 +57,16 @@
 
         "gutter": "var(bg0)",
         "gutter_foreground": "var(fg2)",
-        "gutter_foreground_highlight": "var(fg1)",
+        "gutter_foreground_highlight": "var(caret)",
 
         "line_diff_added": "var(green)",
         "line_diff_deleted": "var(red)",
         "line_diff_modified": "var(yellow)",
 
-        "line_highlight": "color(var(fg0) alpha(0.06))",
+        "line_highlight": "var(selection)",
 
-        "selection": "var(fg2)",
-        "selection_border": "var(fg2)",
-        "selection_foreground": "var(bg0)",
-        "inactive_selection": "color(var(fg2) alpha(0.8))",
-        "inactive_selection_border": "color(var(fg2) alpha(0.8))",
-        "inactive_selection_foreground": "color(var(bg0) alpha(0.8))",
+        "selection": "var(selection)",
+        "selection_border": "color(var(selection) lightness(35%))",
 
         "find_highlight": "var(cyan)",
         "find_highlight_foreground": "var(bg0)",

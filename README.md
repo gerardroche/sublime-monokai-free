@@ -252,6 +252,18 @@ Command Palette → UI: Customize Color Scheme
 }
 ```
 
+### Selection
+
+Command Palette → UI: Customize Color Scheme
+
+```json
+{
+    "globals": {
+        "selection_corner_style": "square",
+    }
+}
+```
+
 ## Customizations
 
 Make the colour scheme your own with your own customizations.
@@ -281,7 +293,7 @@ Menu → Preferences → Customize Color Scheme
 | -----:|:----------|:----------|:----|:----|:----|:-------------
 | 1     | bg0       | `#272822` |  39 |  40 |  34 | Background
 | 2     | bg1       | `#3e3d32` |  62 |  61 |  50 | Rulers, invisibles
-| 3     |           |           |     |     |     |
+| 3     | bg2       | `#43443b` |     |     |     | Line highlight, selections
 | 4     |           |           |     |     |     |
 | 5     | fg0       | `#f8f8f2` | 248 | 248 | 242 | Text
 | 6     | fg1       | `#cfcfc2` | 207 | 207 | 194 | Text (soft)

@@ -4,11 +4,15 @@
 
 ### Added
 
+* New `bg2` variable (`#43443b`)
+* New `selection` variable
+* Improved selection styles
 * New `caret` variable
 * Improved caret styles
 
 ## Changed
 
+* Selections are now bg2 (previously fg2)
 * Block caret corner style is now square (previously round)
 * Carets are now fg0 (previously yellow)
 
