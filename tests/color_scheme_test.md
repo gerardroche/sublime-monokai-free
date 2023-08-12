@@ -88,7 +88,7 @@ If you like **you *can* combine them**
 <!-- ^^ fg=#75715e fs= -->
 <!--   ^^^ fg=#e6db74 fs= -->
 <!--      ^^ fg=#75715e fs= -->
-<!--        ^^^ fg=#66d9ef fs=underline -->
+<!--        ^^^ fg=#66d9ef fs=underline build>=4000 -->
 <!--           ^ fg=#75715e fs= -->
 
 .... ![Alt][1]
@@ -101,19 +101,19 @@ If you like **you *can* combine them**
 [12345]: url
 <!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
-<!--     ^^^ fg=#66d9ef fs=underline -->
+<!--     ^^^ fg=#66d9ef fs=underline build>=4000 -->
 
 # Links
 
 https://github.com - automatic
-<!-- ^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127 -->
+<!-- ^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=4000 -->
 <!--              ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
 
 ..... [Alt](url)
 <!--  ^ fg=#75715e fs= -->
 <!--   ^^^ fg=#f8f8f2 fs= -->
 <!--      ^^ fg=#75715e fs= -->
-<!--        ^^^ fg=#66d9ef fs=underline -->
+<!--        ^^^ fg=#66d9ef fs=underline build>=4000 -->
 <!--           ^ fg=#75715e fs= -->
 
 .... [Alt][1]
@@ -131,7 +131,7 @@ https://github.com - automatic
 [12345]: url
 <!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
-<!--     ^^^ fg=#66d9ef fs=underline -->
+<!--     ^^^ fg=#66d9ef fs=underline build>=4000 -->
 
 # [X](y)
 # ^ fg=#75715e fs=bold
@@ -167,7 +167,7 @@ Firstname Lname <name@example.com>
 <!-- ^^^^ fg=#f8f8f2 fs= -->
 <!--      ^^^^^ fg=#f8f8f2 fs= -->
 <!--            ^ fg=#75715e fs= -->
-<!--             ^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
+<!--             ^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=4000 -->
 <!--                             ^ fg=#75715e fs= -->
 
 # Blockquotes
@@ -340,7 +340,7 @@ Typing an @ symbol, followed by a username, will notify that person to come and 
 
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 <!-- ^^^^^^^^^ fg=#f8f8f2 fs= -->
-<!--          ^^^^^^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127-->
+<!--          ^^^^^^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=4000 -->
 <!--                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= build>=3142 -->
 
 # Strikethrough
