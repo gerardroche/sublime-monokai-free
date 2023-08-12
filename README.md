@@ -240,6 +240,18 @@ Menu → Preferences → Settings
 }
 ```
 
+### Caret
+
+Command Palette → UI: Customize Color Scheme
+
+```json
+{
+    "globals": {
+        "block_caret_corner_style": "round",
+    }
+}
+```
+
 ## Customizations
 
 Make the colour scheme your own with your own customizations.

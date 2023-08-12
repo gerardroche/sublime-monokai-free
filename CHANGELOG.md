@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.7.0
+
+### Added
+
+* New `caret` variable
+* Improved caret styles
+
+## Changed
+
+* Carets are now fg0 (previously yellow)
+
 ## 2.6.0 - 2023-08-10
 
 ### Added

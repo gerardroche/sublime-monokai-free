@@ -26,7 +26,9 @@
         "--bluish": "var(blue)",
         "--cyanish": "var(cyan)",
         "--greenish": "var(green)",
-        "--pinkish": "var(magenta)"
+        "--pinkish": "var(magenta)",
+
+        "caret": "var(fg0)",
 
     },
     "globals":
@@ -35,11 +37,11 @@
         "background": "var(bg0)",
         "foreground": "var(fg0)",
 
-        "caret": "var(yellow)",
+        "caret": "color(var(caret) alpha(0.9))",
 
-        "block_caret": "color(var(yellow) min-contrast(var(yellow) 2.5))",
-        "block_caret_border": "color(var(yellow) min-contrast(var(yellow) 2.5))",
-        "block_caret_underline": "var(yellow)",
+        "block_caret": "color(var(caret) alpha(0.2))",
+        "block_caret_border": "color(var(caret) alpha(0.8))",
+        "block_caret_underline": "var(caret)",
 
         "invisibles": "color(var(fg0) alpha(0.15))",
 
