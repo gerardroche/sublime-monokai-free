@@ -9,6 +9,7 @@
 
 ## Changed
 
+* Block caret corner style is now square (previously round)
 * Carets are now fg0 (previously yellow)
 
 ## 2.6.0 - 2023-08-10

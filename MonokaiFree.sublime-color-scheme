@@ -42,6 +42,7 @@
         "block_caret": "color(var(caret) alpha(0.2))",
         "block_caret_border": "color(var(caret) alpha(0.8))",
         "block_caret_underline": "var(caret)",
+        "block_caret_corner_style": "square",
 
         "invisibles": "color(var(fg0) alpha(0.15))",
 
