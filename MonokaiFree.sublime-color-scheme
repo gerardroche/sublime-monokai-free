@@ -122,8 +122,6 @@
         {"scope": "entity.other.pseudo-class.css", "font_style": "italic"},
         {"scope": "entity.other.pseudo-element.css", "font_style": "italic"},
         {"scope": "entity.tag", "foreground": "var(red)"},
-        {"scope": "highlighted.yank", "foreground": "var(bg0)", "background": "var(yellow)"},
-        {"scope": "highlightedyank", "foreground": "var(bg0)", "background": "var(yellow)"},
         {"scope": "invalid", "foreground": "var(red)", "background": "color(var(red) alpha(0.38))"},
         {"scope": "invalid.deprecated", "foreground": "var(magenta)", "background": "color(var(magenta) alpha(0.375))"},
         {"scope": "keyword", "foreground": "var(red)"},
@@ -154,11 +152,7 @@
         {"scope": "markup.bold punctuation.definition.bold", "foreground": "var(fg2)"},
         {"scope": "markup.bold", "font_style": "bold"},
         {"scope": "markup.changed", "foreground": "var(yellow)"},
-        {"scope": "markup.changed.git_gutter", "foreground": "color(var(yellow) alpha(0.62))"},
-        {"scope": "markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter", "foreground": "var(orange)", "background": "color(var(orange) alpha(0.62))"},
         {"scope": "markup.deleted", "foreground": "var(red)"},
-        {"scope": "markup.deleted.git_gutter", "foreground": "color(var(red) alpha(0.62))"},
-        {"scope": "markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
         {"scope": "markup.error", "foreground": "var(red)"},
         {"scope": "markup.heading entity.name.section meta.link.inline markup.underline.link", "font_style": "bold"},
         {"scope": "markup.heading entity.name.section meta.link.inline punctuation.definition.link", "foreground": "var(fg2)"},
@@ -172,10 +166,8 @@
         {"scope": "markup.heading", "font_style": "bold"},
         {"scope": "markup.hint", "foreground": "var(green)"},
         {"scope": "markup.ignored", "foreground": "var(fg2)"},
-        {"scope": "markup.ignored.git_gutter", "foreground": "color(var(fg2) alpha(0.62))"},
         {"scope": "markup.info", "foreground": "var(green)"},
         {"scope": "markup.inserted", "foreground": "var(green)"},
-        {"scope": "markup.inserted.git_gutter", "foreground": "color(var(green) alpha(0.62))"},
         {"scope": "markup.italic markup.bold", "font_style": "italic bold"},
         {"scope": "markup.italic markup.underline.link.markdown", "font_style": "italic"},
         {"scope": "markup.italic meta.link.inline markup.underline.link", "font_style": "italic"},
@@ -191,7 +183,6 @@
         {"scope": "markup.underline"},
         {"scope": "markup.underline.link", "foreground": "var(blue)"},
         {"scope": "markup.untracked", "foreground": "var(fg2)"},
-        {"scope": "markup.untracked.git_gutter", "foreground": "color(var(fg2) alpha(0.62))"},
         {"scope": "markup.warning", "foreground": "var(orange)"},
         {"scope": "message.error", "foreground": "var(red)"},
         {"scope": "message.info", "foreground": "var(green)"},
@@ -228,14 +219,6 @@
         {"scope": "meta.use.php entity.other.inherited-class.php", "font_style": "italic"},
         {"scope": "meta.use.php keyword.declaration.constant.php", "foreground": "var(red)", "font_style": "italic"},
         {"scope": "meta.use.php keyword.declaration.function.php", "foreground": "var(red)", "font_style": "italic"},
-        {"scope": "neovintageous_search_cur", "foreground": "var(bg0)", "background": "var(cyan)"},
-        {"scope": "neovintageous_search_inc", "foreground": "var(bg0)", "background": "var(cyan)"},
-        {"scope": "neovintageous_search_occ", "foreground": "var(bg0)", "background": "var(yellow)"},
-        {"scope": "nv_search_current", "foreground": "var(bg0)", "background": "var(cyan)"},
-        {"scope": "nv_search_inc", "foreground": "var(bg0)", "background": "var(cyan)"},
-        {"scope": "nv_search_occurrence", "foreground": "var(bg0)", "background": "var(yellow)"},
-        {"scope": "output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning", "background": "var(bg0)"},
-        {"scope": "output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter", "background": "var(bg0)"},
         {"scope": "parameter.less variable.other.less", "foreground": "var(orange)"},
         {"scope": "punctuation.accessor.arrow.php", "foreground": "var(red)"},
         {"scope": "punctuation.accessor.c", "foreground": "var(red)"},
@@ -259,10 +242,6 @@
         {"scope": "punctuation.separator.operator.css", "foreground": "var(red)"},
         {"scope": "punctuation.separator.operator.scss", "foreground": "var(red)"},
         {"scope": "punctuation.separator.type.intersection.php", "foreground": "var(red)"},
-        {"scope": "region ruler.column", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
-        {"scope": "region.greenish phpunitkit", "foreground": "var(bg0)", "background": "var(green)"},
-        {"scope": "region.orangish phpunitkit", "foreground": "var(bg0)", "background": "var(orange)"},
-        {"scope": "region.redish phpunitkit", "foreground": "var(fg0)", "background": "var(red)"},
         {"scope": "source.yaml meta.mapping.key.yaml meta.string.yaml string.unquoted.plain.out.yaml", "foreground": "var(red)"},
         {"scope": "storage", "foreground": "var(red)"},
         {"scope": "storage.modifier", "foreground": "var(red)"},
@@ -282,9 +261,6 @@
         {"scope": "string.unquoted.heredoc.php punctuation.definition.string.begin", "foreground": "var(yellow)"},
         {"scope": "string.unquoted.heredoc.php punctuation.definition.string.end", "foreground": "var(yellow)"},
         {"scope": "string.unquoted.nowdoc punctuation.definition.string", "foreground": "var(red)"},
-        {"scope": "sublimelinter.gutter-mark", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
-        {"scope": "sublimelinter.mark.error", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
-        {"scope": "sublimelinter.mark.warning", "foreground": "var(orange)", "background": "color(var(orange) alpha(0.62))"},
         {"scope": "support", "foreground": "var(blue)"},
         {"scope": "support.class", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "support.class.builtin", "foreground": "var(blue)", "font_style": "italic"},
@@ -297,9 +273,6 @@
         {"scope": "support.type", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "support.variable", "foreground": "var(blue)"},
         {"scope": "support.variable.magic", "foreground": "var(blue)"},
-        {"scope": "test.progress.deprecated,test.progress.incomplete,test.progress.notice,test.progress.risky,test.progress.skipped,test.progress.warning", "foreground": "var(orange)", "background": "var(bg0)"},
-        {"scope": "test.progress.error", "foreground": "var(red)", "background": "var(bg0)"},
-        {"scope": "test.progress.failure", "foreground": "var(fg0)", "background": "var(red)"},
         {"scope": "text.blade support.class.php"},
         {"scope": "text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php constant.other.inline-data.html", "foreground": "var(fg0)"},
         {"scope": "text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html", "foreground": "var(fg0)"},
@@ -338,6 +311,51 @@
         {"scope": "variable.other.member", "foreground": "var(fg0)"},
         {"scope": "variable.parameter", "foreground": "var(orange)", "font_style": "italic"},
         {"scope": "variable.parameter.type.java", "foreground": "var(blue)"},
+
+        // GitGutter
+
+        {"scope": "markup.changed.git_gutter", "foreground": "color(var(yellow) alpha(0.62))"},
+        {"scope": "markup.deleted.git_gutter", "foreground": "color(var(red) alpha(0.62))"},
+        {"scope": "markup.ignored.git_gutter", "foreground": "color(var(fg2) alpha(0.62))"},
+        {"scope": "markup.inserted.git_gutter", "foreground": "color(var(green) alpha(0.62))"},
+        {"scope": "markup.untracked.git_gutter", "foreground": "color(var(fg2) alpha(0.62))"},
+        {"scope": "sublimelinter.gutter-mark", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
+
+        // LSP
+
+        {"scope": "output.lsp sublimelinter.gutter-mark, output.lsp sublimelinter.mark.error, output.lsp sublimelinter.mark.warning", "background": "var(bg0)"},
+
+        // NeoVintageous
+
+        {"scope": "highlighted.yank", "foreground": "var(bg0)", "background": "var(yellow)"},
+        {"scope": "highlightedyank", "foreground": "var(bg0)", "background": "var(yellow)"},
+        {"scope": "neovintageous_search_cur", "foreground": "var(bg0)", "background": "var(cyan)"},
+        {"scope": "neovintageous_search_inc", "foreground": "var(bg0)", "background": "var(cyan)"},
+        {"scope": "neovintageous_search_occ", "foreground": "var(bg0)", "background": "var(yellow)"},
+        {"scope": "nv_search_current", "foreground": "var(bg0)", "background": "var(cyan)"},
+        {"scope": "nv_search_inc", "foreground": "var(bg0)", "background": "var(cyan)"},
+        {"scope": "nv_search_occurrence", "foreground": "var(bg0)", "background": "var(yellow)"},
+
+        // PHPUnitKit
+
+        {"scope": "region.greenish phpunitkit", "foreground": "var(bg0)", "background": "var(green)"},
+        {"scope": "region.orangish phpunitkit", "foreground": "var(bg0)", "background": "var(orange)"},
+        {"scope": "region.redish phpunitkit", "foreground": "var(fg0)", "background": "var(red)"},
+        {"scope": "test.progress.deprecated,test.progress.incomplete,test.progress.notice,test.progress.risky,test.progress.skipped,test.progress.warning", "foreground": "var(orange)", "background": "var(bg0)"},
+        {"scope": "test.progress.error", "foreground": "var(red)", "background": "var(bg0)"},
+        {"scope": "test.progress.failure", "foreground": "var(fg0)", "background": "var(red)"},
+
+        // RulerColumn
+
+        {"scope": "region ruler.column", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
+
+        // SublimeLinter
+
+        {"scope": "markup.changed.sublime_linter markup.warning.sublime_linter, markup.warning.sublime_linter, markup.warning.sublimelinter", "foreground": "var(orange)", "background": "color(var(orange) alpha(0.62))"},
+        {"scope": "markup.deleted.sublime_linter markup.error.sublime_linter, markup.error.sublime_linter, markup.error.sublimelinter", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
+        {"scope": "output.sublime_linter markup.changed.sublime_linter markup.warning.sublime_linter, output.sublime_linter markup.deleted.sublime_linter markup.error.sublime_linter", "background": "var(bg0)"},
+        {"scope": "sublimelinter.mark.error", "foreground": "var(red)", "background": "color(var(red) alpha(0.62))"},
+        {"scope": "sublimelinter.mark.warning", "foreground": "var(orange)", "background": "color(var(orange) alpha(0.62))"},
 
     ]
 }
