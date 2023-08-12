@@ -13,11 +13,11 @@
         "yellow": "#e6db74",
         "orange": "#fd971f",
         "red": "#f92672",
-        "violet": "#ae81ff",
+        "violet": "#ae81ff", // purple
         "blue": "#66d9ef",
         "cyan": "#a1efe4",
         "green": "#a6e22e",
-        "magenta": "#fd5ff0",
+        "magenta": "#fd5ff0", // pink
 
         "--yellowish": "var(yellow)",
         "--orangish": "var(orange)",
