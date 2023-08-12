@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.7.0
+## 2.7.0 - Unreleased
 
 ### Added
 
@@ -11,7 +11,7 @@
 * New `bg2` variable
 * New `selection` variable
 
-## Changed
+### Changed
 
 * Selections are now bg2 (previously fg2)
 * Block caret corner style is now square (previously round)
