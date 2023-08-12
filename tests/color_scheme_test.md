@@ -1,30 +1,30 @@
 <!-- COLOR SCHEME TEST "MonokaiFree.sublime-color-scheme" "Markdown" -->
 
 # This is an <h1> tag
-<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
+<!-- ^ fg=#f8f8f2 fs=bold build>=3127 -->
 
 ## This is an <h2> tag
-#^ fg=#75715e fs=bold build>=3127
-<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
+#^ fg=#ae81ff fs=bold build>=3127
+<!-- ^ fg=#f8f8f2 fs=bold build>=3127 -->
 
 ### This is an <h3> tag
-# ^ fg=#75715e fs=bold build>=3127
-<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
+# ^ fg=#ae81ff fs=bold build>=3127
+<!-- ^ fg=#f8f8f2 fs=bold build>=3127 -->
 
 #### This is an <h4> tag
-# ^ fg=#75715e fs=bold build>=3127
-<!-- ^ fg=#e6db74 fs=bold build>=3127 -->
+# ^ fg=#ae81ff fs=bold build>=3127
+<!-- ^ fg=#f8f8f2 fs=bold build>=3127 -->
 
 ##### This is an <h5> tag
-# ^ fg=#75715e fs=bold build>=3127
-<!--  ^ fg=#e6db74 fs=bold build>=3127 -->
+# ^ fg=#ae81ff fs=bold build>=3127
+<!--  ^ fg=#f8f8f2 fs=bold build>=3127 -->
 
 ###### This is an <h6> tag
-# ^ fg=#75715e fs=bold build>=3127 -->
-<!--   ^ fg=#e6db74 fs=bold build>=3127 -->
+# ^ fg=#ae81ff fs=bold build>=3127 -->
+<!--   ^ fg=#f8f8f2 fs=bold build>=3127 -->
 
 ### X ###
-<!--  ^ fg=#75715e fs=bold -->
+<!--  ^ fg=#ae81ff fs=bold -->
 
 # EMPHASIS
 
@@ -88,39 +88,39 @@ If you like **you *can* combine them**
 <!-- ^^ fg=#75715e fs= -->
 <!--   ^^^ fg=#e6db74 fs= -->
 <!--      ^^ fg=#75715e fs= -->
-<!--        ^^^ fg=#66d9ef fs= -->
+<!--        ^^^ fg=#66d9ef fs=underline -->
 <!--           ^ fg=#75715e fs= -->
 
 .... ![Alt][1]
 <!-- ^^ fg=#75715e fs= -->
 <!--   ^^^ fg=#e6db74 fs= -->
 <!--      ^^ fg=#75715e fs= -->
-<!--        ^ fg=#66d9ef fs= build>=4134 -->
+<!--        ^ fg=#66d9ef fs=underline build>=4134 -->
 <!--         ^ fg=#75715e fs= -->
 
 [12345]: url
 <!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
-<!--     ^^^ fg=#66d9ef fs= -->
+<!--     ^^^ fg=#66d9ef fs=underline -->
 
 # Links
 
 https://github.com - automatic
-<!-- ^^^^^^^^^^^^^ fg=#66d9ef fs= build>=3127 -->
+<!-- ^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127 -->
 <!--              ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
 
 ..... [Alt](url)
 <!--  ^ fg=#75715e fs= -->
-<!--   ^^^ fg=#e6db74 fs= -->
+<!--   ^^^ fg=#f8f8f2 fs= -->
 <!--      ^^ fg=#75715e fs= -->
-<!--        ^^^ fg=#66d9ef fs= -->
+<!--        ^^^ fg=#66d9ef fs=underline -->
 <!--           ^ fg=#75715e fs= -->
 
 .... [Alt][1]
 <!-- ^ fg=#75715e fs= -->
 <!--  ^^^ fg=#e6db74 fs= -->
 <!--     ^^ fg=#75715e fs= -->
-<!--       ^ fg=#66d9ef fs= build>=4134 -->
+<!--       ^ fg=#66d9ef fs=underline build>=4134 -->
 <!--        ^ fg=#75715e fs= -->
 
 .... [Alt][]
@@ -131,11 +131,11 @@ https://github.com - automatic
 [12345]: url
 <!-- ^ fg=#a6e22e fs= build>=3150 -->
 <!--  ^^ fg=#75715e fs= -->
-<!--     ^^^ fg=#66d9ef fs= -->
+<!--     ^^^ fg=#66d9ef fs=underline -->
 
 # [X](y)
 # ^ fg=#75715e fs=bold
-#  ^ fg=#e6db74 fs=bold
+#  ^ fg=#f8f8f2 fs=bold
 #   ^^ fg=#75715e fs=bold
 #     ^ fg=#66d9ef fs=bold
 #      ^ fg=#75715e fs=bold
@@ -148,17 +148,17 @@ https://github.com - automatic
 #      ^ fg=#75715e fs=bold
 
 ## [X](y)
-#^ fg=#75715e fs=bold
+#^ fg=#ae81ff fs=bold
 #  ^ fg=#75715e fs=bold
-#   ^ fg=#e6db74 fs=bold
+#   ^ fg=#f8f8f2 fs=bold
 #    ^^ fg=#75715e fs=bold
 #      ^ fg=#66d9ef fs=bold
 #       ^ fg=#75715e fs=bold
 
 ### [X](y)
-#^^ fg=#75715e fs=bold
+#^^ fg=#ae81ff fs=bold
 #   ^ fg=#75715e fs=bold
-#    ^ fg=#e6db74 fs=bold
+#    ^ fg=#f8f8f2 fs=bold
 #     ^^ fg=#75715e fs=bold
 #       ^ fg=#66d9ef fs=bold
 #        ^ fg=#75715e fs=bold
@@ -167,7 +167,7 @@ Firstname Lname <name@example.com>
 <!-- ^^^^ fg=#f8f8f2 fs= -->
 <!--      ^^^^^ fg=#f8f8f2 fs= -->
 <!--            ^ fg=#75715e fs= -->
-<!--             ^^^^^^^^^^^^^^^^ fg=#66d9ef fs= -->
+<!--             ^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline -->
 <!--                             ^ fg=#75715e fs= -->
 
 # Blockquotes
@@ -186,10 +186,10 @@ Unordered
 * Item 1
 * Item 2
   * Item 2a
-# ^ fg=#75715e fs= -->
+# ^ fg=#ae81ff fs= -->
 #   ^ fg=#f8f8f2 fs= -->
   * Item 2b
-# ^ fg=#75715e fs= -->
+# ^ fg=#ae81ff fs= -->
 #   ^ fg=#f8f8f2 fs= -->
 
 Ordered
@@ -198,10 +198,10 @@ Ordered
 2. Item 2
 3. Item 3
    * Item 3a
-#  ^ fg=#75715e fs= -->
+#  ^ fg=#ae81ff fs= -->
 #    ^ fg=#f8f8f2 fs= -->
    * Item 3b
-#  ^ fg=#75715e fs= -->
+#  ^ fg=#ae81ff fs= -->
 #    ^ fg=#f8f8f2 fs= -->
 
   1. item 1
@@ -234,9 +234,9 @@ Ordered
 
 I think you should use an `<addr>` element here instead.
 <!--                  ^^^^ fg=#f8f8f2 bg=#272822 fs= -->
-<!--                      ^ fg=#75715e bg=#272822 fs= -->
+<!--                      ^ fg=#ae81ff bg=#272822 fs= -->
 <!--                       ^^^^^^ fg=#fd971f bg=#272822 fs= -->
-<!--                             ^ fg=#75715e bg=#272822 fs= -->
+<!--                             ^ fg=#ae81ff bg=#272822 fs= -->
 <!--                              ^^^ fg=#f8f8f2 bg=#272822 fs= -->
 
 # Syntax highlighting
@@ -244,12 +244,12 @@ I think you should use an `<addr>` element here instead.
 Here's an example of how you can use syntax highlighting with GitHub Flavored Markdown:
 
 ```javascript
-#^^ fg=#75715e bg=#272822 fs= build>=3127 -->
+#^^ fg=#ae81ff bg=#272822 fs= build>=3127 -->
 #  ^^^^^^^^^^ fg=#ae81ff bg=#272822 fs= build>=3127
 function x() {}
 <!-- ^^^ fg=#66d9ef bg=#272822 fs=italic build>=3184 -->
 ```
-#^^ fg=#75715e bg=#272822 fs= build>=3127 -->
+#^^ fg=#ae81ff bg=#272822 fs= build>=3127 -->
 
 You can also simply indent your code by four spaces:
 
@@ -290,7 +290,7 @@ Here's an example of Python code without syntax highlighting:
 - [x] @mentions, #refs, [links]()
   <!-- ^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
   <!--                  ^ fg=#75715e fs= build>=3158 -->
-  <!--                   ^^^^^ fg=#e6db74 fs= build>=3158 -->
+  <!--                   ^^^^^ fg=#f8f8f2 fs= build>=3158 -->
   <!--                        ^^^ fg=#75715e fs= build>=3158 -->
 
 If you include a task list in the first comment of an Issue, you will get a handy progress indicator in your issue list. It also works in Pull Requests!
@@ -340,7 +340,7 @@ Typing an @ symbol, followed by a username, will notify that person to come and 
 
 Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 <!-- ^^^^^^^^^ fg=#f8f8f2 fs= -->
-<!--          ^^^^^^^^^^^^^^^^^^^^^^ fg=#66d9ef fs= build>=3127-->
+<!--          ^^^^^^^^^^^^^^^^^^^^^^ fg=#66d9ef fs=underline build>=3127-->
 <!--                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ fg=#f8f8f2 fs= build>=3142 -->
 
 # Strikethrough
@@ -351,3 +351,7 @@ Any word wrapped with two tildes (like ~~this~~) will appear crossed out.
 <!--                                           ^^^^^^^^^^^^ fg=#f8f8f2 fs= -->
 <!--                                   ^^ fg=#75715e fs= build>=3157 -->
 <!--                                         ^^ fg=#75715e fs= build>=3157 -->
+
+* [#945](https://github.com/gerardroche/sublime-monokai-free/issues/945): Text
+<!--         ^^^^^ fg=#66d9ef fs=underline build>=4000 -->
+<!--^^ fg=#f8f8f2 fs= build>=4000 -->

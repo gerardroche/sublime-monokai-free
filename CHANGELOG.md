@@ -4,11 +4,12 @@
 
 ### Added
 
-* New `bg2` variable (`#43443b`)
-* New `selection` variable
-* Improved selection styles
+* Improved markdown
+* Improved selections
+* Improved carets
 * New `caret` variable
-* Improved caret styles
+* New `bg2` variable
+* New `selection` variable
 
 ## Changed
 
