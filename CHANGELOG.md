@@ -1,21 +1,21 @@
 # Changelog
 
-## 2.7.0 - Unreleased
+## 2.7.0 - 2023-08-13
 
 ### Added
 
-* Improved markdown
-* Improved selections
-* Improved carets
-* New `caret` variable
-* New `bg2` variable
-* New `selection` variable
+- Enhanced markdown rendering
+- Improved selection behaviour
+- Enhanced caret appearance
+- Introducing new `caret` variable
+- Introducing new `bg2` variable
+- Introducing new `selection` variable
 
 ### Changed
 
-* Selections are now bg2 (previously fg2)
-* Block caret corner style is now square (previously round)
-* Carets are now fg0 (previously yellow)
+- Selections now use `bg2` (previously `fg2`)
+- Block caret corner style changed to square (previously round)
+- Carets are now displayed in `fg0` (previously yellow)
 
 ## 2.6.0 - 2023-08-10
 
