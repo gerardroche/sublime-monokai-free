@@ -199,13 +199,13 @@ For minimalist file tabs, consider the following steps:
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
 2. Choose "Preferences: Settings".
 3. Add the following JSON configuration:
-```json
-{
-    "file_tab_style": "square",
-    "mouse_wheel_switches_tabs": false,
-    "show_tab_close_buttons": false
-}
-```
+   ```json
+   {
+       "file_tab_style": "square",
+       "mouse_wheel_switches_tabs": false,
+       "show_tab_close_buttons": false
+   }
+   ```
 
 ### Inactive Sheets
 
