@@ -35,6 +35,7 @@
             "settings": {"monokaifree.theme": true, "monokaifree.vcs_status_badges": false},
             "parents": [{"class": "file_system_entry"}],
             "layer0.opacity": 0,
+            "content_margin": 0
         },
 
         // vcs modified
