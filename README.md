@@ -320,6 +320,7 @@ Menu → Preferences → Customize Color Scheme
 |           | Reference | Description
 | :-------- | :-------- | :----------
 | caret     | fg0       | Carets, gutter foreground highlight
+| guide     | fg1       | Indent guides
 | selection | bg2       | Selections, highlights
 
 **Variants**
