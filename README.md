@@ -2,63 +2,77 @@
 
 [![Continuous Integration](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml/badge.svg)](https://github.com/gerardroche/sublime-monokai-free/actions/workflows/ci.yml) [![Build status](https://ci.appveyor.com/api/projects/status/rbfi67f8aoamq322?svg=true)](https://ci.appveyor.com/project/gerardroche/sublime-monokai-free) [![Package Control](https://img.shields.io/packagecontrol/dt/MonokaiFree)](https://packagecontrol.io/packages/MonokaiFree)
 
-The Enhanced Monokai color scheme for Sublime Text is a modification and improvement of the popular Monokai color scheme, designed to provide a more vibrant and visually appealing coding experience. It retains the essence of the original Monokai color palette while enhancing certain elements for better readability and highlighting.
+The Enhanced Monokai color scheme for Sublime Text is a brilliant modification and upgrade of the beloved Monokai color scheme. It's designed to provide a more vibrant and visually pleasing coding experience while preserving the essence of the original Monokai palette and enhancing specific elements for improved readability and code highlighting.
 
-**If you updated from v1 to v2, you may need to reset MonokaiFree as you color scheme e.g. Menu → Preferences → Select Color Scheme → MonokaiFree. See [issue #7](https://github.com/gerardroche/sublime-monokai-free/issues/7).**
+**Note: If you've updated from v1 to v2, you may need to reset MonokaiFree as your color scheme. You can do this by navigating to Menu → Preferences → Select Color Scheme → MonokaiFree. For more details, refer to [issue #7](https://github.com/gerardroche/sublime-monokai-free/issues/7).**
 
 ![CSS](monokai-css.webp)
 
 ## Features
 
-- Enhanced syntax highlighting: The Enhanced Monokai color scheme uses carefully selected colors for syntax elements, making code stand out and easily distinguishable.
+- **Enhanced syntax highlighting:** The Enhanced Monokai color scheme meticulously selects colors for syntax elements, making your code pop and easily distinguishable.
 
-- Improved contrast: The color contrast has been optimized to ensure better visibility and reduce eye strain during long coding sessions.
+- **Improved contrast:** Optimized color contrast ensures better visibility and reduces eye strain during lengthy coding sessions.
 
-- Fine-tuned color choices: The color selections have been adjusted to strike a balance between aesthetic appeal and functional usage, resulting in a more harmonious and pleasant coding environment.
+- **Fine-tuned color choices:** Colors are chosen to strike a balance between aesthetics and functionality, creating a harmonious and pleasant coding environment.
 
-- Support for multiple languages: The Enhanced Monokai color scheme is suitable for various programming languages and markup languages, providing consistent and cohesive syntax highlighting.
+- **Support for multiple languages:** The Enhanced Monokai color scheme is suitable for various programming and markup languages, delivering consistent and cohesive syntax highlighting.
 
 ## Installation
 
 **Method 1: Using Package Control**
 
 1. Open Sublime Text.
-2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the Command Palette.
-3. Type "Package Control: Install Package" and press `Enter`.
+
+2. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to summon the Command Palette.
+
+3. Type "Package Control: Install Package" and hit `Enter`.
+
 4. In the input field, type "MonokaiFree" and select it from the list of available packages.
-5. Now, to activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and select "MonokaiFree" from the list of available color schemes.
+
+5. To activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and choose "MonokaiFree" from the list of available color schemes.
 
 **Method 2: Manual Installation**
 
 1. Visit the [MonokaiFree GitHub repository](https://github.com/gerardroche/sublime-monokai-free).
-2. Click on the "Code" button and select "Download ZIP."
+
+2. Click on the "Code" button and choose "Download ZIP."
+
 3. Extract the downloaded ZIP file.
-4. Open Sublime Text and go to `Preferences -> Browse Packages...` to open the Packages folder.
+
+4. Open Sublime Text and navigate to `Preferences -> Browse Packages...` to open the Packages folder.
+
 5. Copy the "MonokaiFree" folder from the extracted ZIP and paste it into the Packages folder.
-6. Now, to activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and select "MonokaiFree" from the list of available color schemes.
+
+6. To activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and choose "MonokaiFree" from the list of available color schemes.
 
 **Method 3: Manual Git Repository Installation**
 
 1. Open a terminal or command prompt.
+
 2. Navigate to the Sublime Text Packages directory:
+
     - On Windows: `%APPDATA%\Sublime Text\Packages`
     - On macOS: `~/Library/Application Support/Sublime Text/Packages`
     - On Linux: `~/.config/sublime-text/Packages`
+
 3. Clone the plugin repository directly into the Packages directory using Git:
+
    ```
    git clone https://github.com/gerardroche/sublime-monokai-free.git MonokaiFree
    ```
-4. Now, to activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and select "MonokaiFree" from the list of available color schemes.
+
+4. To activate the MonokaiFree color scheme, go to `Command Palette → UI: Select Color Scheme` and choose "MonokaiFree" from the list of available color schemes.
 
 ## Activating the MonokaiFree Color Scheme
 
-To enjoy the MonokaiFree color scheme in Sublime Text, follow these simple steps:
+To immerse yourself in the MonokaiFree color scheme in Sublime Text, follow these straightforward steps:
 
-1. Go to `Command Palette` by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac).
+1. Access the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
 
 2. In the Command Palette, type `UI: Select Color Scheme`.
 
-3. A new list of available color schemes will appear. Scroll through the list and select one of the following variants:
+3. A list of available color schemes will appear. Scroll through the list and select one of the following variants:
 
    - MonokaiFree - The classic Monokai color scheme.
    - MonokaiFreeBlue - A variant with a blue color palette.
@@ -66,13 +80,13 @@ To enjoy the MonokaiFree color scheme in Sublime Text, follow these simple steps
    - MonokaiYaruDark - A variant inspired by Ubuntu Gnome Yaru Dark.
    - MonokaiDracula - A variant with a Dracula-inspired color scheme.
 
-Now you can immerse yourself in the coding experience with the MonokaiFree color scheme that best suits your preferences. Enjoy the enhanced visual appeal and readability while writing code in Sublime Text. Happy coding!
+Now you can enjoy coding with the MonokaiFree color scheme that best suits your preferences. Revel in the enhanced visual appeal and readability while crafting code in Sublime Text. Happy coding!
 
 ## Activating Themes in Sublime Text
 
-To change the theme in Sublime Text, you can use the Command Palette. Follow these steps to activate the desired theme:
+To change the theme in Sublime Text, use the Command Palette. Follow these steps to activate your desired theme:
 
-1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (Mac) to open the Command Palette.
+1. Press `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS) to open the Command Palette.
 
 2. In the Command Palette, type `UI: Select Theme`.
 
@@ -96,9 +110,9 @@ Command Palette → Preferences: Settings
 }
 ```
 
-### Font
+### Fonts
 
-Try an alternative font.
+Experiment with alternative fonts to enhance your coding experience. Here are some font options to consider:
 
 | Font             | Repository                                                          | Description                                             |
 |:---------------- |:------------------------------------------------------------------- |:------------------------------------------------------- |
@@ -138,49 +152,52 @@ Command Palette → Preferences: Settings
 }
 ```
 
-Valid options on all platforms are:
+Available options on all platforms are:
 
-- "no_bold": Disables bold text
-- "no_italic": Disables italic text
+- `"no_bold"`: Disables bold text.
+- `"no_italic"`: Disables italic text.
 
 Antialiasing options:
 
-- "no_antialias": Disables antialiasing
-- "gray_antialias": Uses grayscale antialiasing instead of subpixel
+- `"no_antialias"`: Disables antialiasing.
+- `"gray_antialias"`: Uses grayscale antialiasing instead of subpixel.
 
 Ligature options:
 
-- "no_liga": Disables standard ligatures (OpenType liga feature)
-- "no_clig": Disables contextual ligatures (OpenType clig feature)
-- "no_calt": Disables contextual alternatives (OpenType calt feature)
-- "dlig": Enables discretionary ligatures (OpenType dlig feature)
-- "ss01": Enables OpenType stylistic set 1. Can enable sets 1 to 10 by changing the last two digits.
+- `"no_liga"`: Disables standard ligatures (OpenType liga feature).
+- `"no_clig"`: Disables contextual ligatures (OpenType clig feature).
+- `"no_calt"`: Disables contextual alternatives (OpenType calt feature).
+- `"dlig"`: Enables discretionary ligatures (OpenType dlig feature).
+- `"ss01"`: Enables OpenType stylistic set 1. You can enable sets 1 to 10 by changing the last two digits.
 
 Windows-only options:
 
-- "directwrite": (default) Use DirectWrite for font rendering
-- "gdi": Use GDI for font rendering
-- "dwrite_cleartype_classic": Only applicable to "directwrite" mode, should render fonts similar to traditional GDI
-- "dwrite_cleartype_natural": Only applicable to "directwrite" mode, should render fonts similar to ClearType "natural quality" GDI
-- "subpixel_antialias": Force ClearType antialiasing when disabled at system level
+- `"directwrite"` (default): Use DirectWrite for font rendering.
+- `"gdi"`: Use GDI for font rendering.
+- `"dwrite_cleartype_classic"`: Only applicable to "directwrite" mode, should render fonts similar to traditional GDI.
+- `"dwrite_cleartype_natural"`: Only applicable to "directwrite" mode, should render fonts similar to ClearType "natural quality" GDI.
+- `"subpixel_antialias"`: Force ClearType antialiasing when disabled at the system level.
 
 Mac-only options:
 
-- "no_round": Don't round glyph widths for monospace fonts when "font_size" is small.
+- `"no_round"`: Don't round glyph widths for monospace fonts when "font_size" is small.
 
 ### File Icons
 
-Consider using [FileIcons](https://packagecontrol.io/packages/FileIcons) to incorporate color icons into your sidebar. If you prefer greyscale icons, they are also available [here](https://packagecontrol.io/packages/FileIcons%20Mono). These icons are compatible with both the Default and Adaptive themes.
+Consider using [FileIcons](https://packagecontrol.io/packages/FileIcons) to incorporate colorful icons into your sidebar. If you prefer grayscale icons, you can find them [here](https://packagecontrol.io/packages/FileIcons%20Mono). These icons are compatible with both the Default and Adaptive themes.
 
 ![FileIcons](monokai-fileicons.webp)
 
 ### Streamlined Status Bar
 
-For a minimalist status bar, consider the following steps:
+For a minimalist status bar, follow these steps:
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+
 2. Choose "Preferences: Settings".
+
 3. Add the following JSON configuration:
+
    ```json
    {
        "show_indentation": false,
@@ -192,13 +209,16 @@ For a minimalist status bar, consider the following steps:
 
 This setup simplifies your status bar by removing indentation information, displaying line and column numbers in a compact format, hiding the sidebar button, and omitting syntax information.
 
-### File tabs
+### File Tabs
 
-For minimalist file tabs, consider the following steps:
+For minimalist file tabs, follow these steps:
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+
 2. Choose "Preferences: Settings".
+
 3. Add the following JSON configuration:
+
    ```json
    {
        "file_tab_style": "square",
@@ -209,41 +229,50 @@ For minimalist file tabs, consider the following steps:
 
 ### Inactive Sheets
 
-If you'd like to disable sheet dimming for inactive sheets and make changing input focus less distracting, you can follow these steps:
+To disable sheet dimming for inactive sheets and make changing input focus less distracting, follow these steps:
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+
 2. Choose "Preferences: Settings".
+
 3. Add the following JSON configuration:
+
    ```json
    {
        "inactive_sheet_dimming": false
    }
    ```
 
-This configuration will prevent inactive sheets from being dimmed and enhance the visibility of the input focus.
+This configuration prevents inactive sheets from being dimmed, improving the visibility of the input focus.
 
 ### Disabling Animations
 
-If you prefer a more streamlined interface without animations, you can disable them by following these steps:
+For a more streamlined interface without animations, you can disable them:
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+
 2. Select "Preferences: Settings".
+
 3. Add the following JSON configuration:
+
    ```json
    {
        "animation_enabled": false
    }
    ```
 
-This configuration will turn off animations, providing you with a more static and efficient visual experience.
+This configuration turns off animations for a more static and efficient visual experience.
 
 ### Customizing Caret Appearance
 
-You can personalize the appearance of the caret by customizing its corner style. Follow these steps to achieve it:
+Personalize the appearance of the caret by customizing its corner style:
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
+
 2. Type and select "UI: Customize Color Scheme".
-3. Integrate the following JSON configuration to customize the caret's corner style:
+
+3. Add the following JSON configuration to customize the caret's corner style:
+
    ```json
    {
        "globals": {
@@ -252,15 +281,20 @@ You can personalize the appearance of the caret by customizing its corner style.
    }
    ```
 
-By implementing this configuration, you'll modify the corner style of the caret, adding a round touch to its appearance. This small adjustment can contribute to enhancing your overall editing experience.
+By implementing this configuration, you'll modify the corner style of the caret, giving it a round touch. This subtle adjustment enhances your overall editing experience.
 
 ### Customizing Selection Appearance
 
-To personalize the appearance of the selection, specifically its corner style, follow these steps:
+Personalize the appearance of the selection, particularly its corner style:
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
-2. Type and select "UI: Customize Color Scheme".
-3. Integrate the following JSON configuration to customize the corner style of the selection:
+
+2. Type and select "UI: Customize Color
+
+ Scheme".
+
+3. Add the following JSON configuration to customize the corner style of the selection:
+
    ```json
    {
        "globals": {
@@ -269,13 +303,11 @@ To personalize the appearance of the selection, specifically its corner style, f
    }
    ```
 
-By applying this configuration, you'll alter the corner style of the selection, giving it a square shape. This customization can contribute to a distinctive and visually appealing selection appearance during your editing tasks.
+By applying this configuration, you'll change the corner style of the selection to a square shape. This customization adds a distinctive and visually appealing touch to your selections during editing tasks.
 
 ## Customizations
 
-Make the colour scheme your own with your own customizations.
-
-Menu → Preferences → Customize Color Scheme
+Make the color scheme your own with customizations. To do this, navigate to Menu → Preferences → Customize Color Scheme:
 
 ```json
 {
@@ -327,7 +359,7 @@ Menu → Preferences → Customize Color Scheme
 
 Variants inherit from the base and functional variables.
 
-**Example:** Customise Indent Guides
+**Example:** Customizing Indent Guides
 
 Menu → Preferences → Customize Color Scheme
 
@@ -343,11 +375,14 @@ Menu → Preferences → Customize Color Scheme
 }
 ```
 
-**Example:** Customise Caret
+**Example:** Customizing Caret
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
-2. Type and select "UI: Customize Color Scheme".
-3. Integrate the following JSON configuration:
+
+2. Select "UI: Customize Color Scheme".
+
+3. Add the following JSON configuration:
+
    ```json
    {
        "variables": {},
@@ -360,11 +395,14 @@ Menu → Preferences → Customize Color Scheme
    }
    ```
 
-**Example:** Customise Background
+**Example:** Customizing Background
 
 1. Open the Command Palette by pressing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
-2. Type and select "UI: Customize Color Scheme".
-3. Integrate the following JSON configuration:
+
+2. Select "UI: Customize Color Scheme".
+
+3. Add the following JSON configuration:
+
    ```json
    {
        "variables": {
@@ -389,9 +427,9 @@ Menu → Preferences → Customize Color Scheme
 
 ![CSS](monokai-css.webp)
 
-> Javascript
+> JavaScript
 
-![Javascript](monokai-javascript.webp)
+![JavaScript](monokai-javascript.webp)
 
 ## Contributing
 
