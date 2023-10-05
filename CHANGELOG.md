@@ -6,6 +6,10 @@
 
 - Add `guide` variable
 
+### Changed
+
+- Remove border from LSP popups
+
 ## 2.7.1 - 2023-08-15
 
 - Fix `"monokaifree.vcs_status_badges": false` crowds file name spacing
