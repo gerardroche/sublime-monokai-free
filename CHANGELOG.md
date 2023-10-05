@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.8.0 - Unreleased
+
+### Added
+
+- Add `guide` variable
+
 ## 2.7.1 - 2023-08-15
 
 - Fix `"monokaifree.vcs_status_badges": false` crowds file name spacing
