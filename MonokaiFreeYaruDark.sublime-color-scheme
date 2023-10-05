@@ -30,6 +30,7 @@
         "--pinkish": "var(magenta)",
 
         "caret": "var(fg0)",
+        "guide": "var(fg1)",
         "selection": "var(bg2)",
 
     },
@@ -74,9 +75,9 @@
 
         "rulers": "var(fg2)",
 
-        "active_guide": "var(fg1)",
-        "stack_guide": "color(var(fg1) alpha(0.5))",
-        "guide": "color(var(fg1) alpha(0.2))",
+        "active_guide": "var(guide)",
+        "stack_guide": "color(var(guide) alpha(0.5))",
+        "guide": "color(var(guide) alpha(0.2))",
 
         "bracket_contents_foreground": "var(fg1)",
         "bracket_contents_options": "underline",
