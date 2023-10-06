@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.8.0 - Unreleased
+## 2.8.0 - 2023-10-06
 
 ### Added
 
