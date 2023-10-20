@@ -103,6 +103,7 @@
         {"scope": "constant.numeric.line-number.match", "foreground": "var(yellow)"},
         {"scope": "constant.numeric.suffix", "foreground": "var(blue)"},
         {"scope": "constant.other", "foreground": "var(violet)"},
+        {"scope": "constant.other.wildcard", "foreground": "var(red)"},
         {"scope": "diff.deleted", "foreground": "var(bg0)", "background": "color(var(red) alpha(0.7))"},
         {"scope": "diff.deleted.char", "foreground": "var(bg0)", "background": "var(red)"},
         {"scope": "diff.inserted", "foreground": "var(bg0)", "background": "color(var(green) alpha(0.7))"},

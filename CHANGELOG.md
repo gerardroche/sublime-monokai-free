@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.8.1 - 2023-10-20
+
+### Fixed
+
+- Fix wildcard constants should be red (build 4157)
+
 ## 2.8.0 - 2023-10-06
 
 ### Added
