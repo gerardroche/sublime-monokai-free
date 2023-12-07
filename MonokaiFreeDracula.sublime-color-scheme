@@ -240,6 +240,7 @@
         {"scope": "punctuation.section.group.begin", "foreground": "var(fg0)"},
         {"scope": "punctuation.section.group.end", "foreground": "var(fg0)"},
         {"scope": "punctuation.separator.combinator.css", "foreground": "var(red)"},
+        {"scope": "punctuation.separator.decimal.css", "foreground": "var(fg0)"},
         {"scope": "punctuation.separator.inheritance.ruby", "foreground": "var(red)"},
         {"scope": "punctuation.separator.key-value.php", "foreground": "var(red)"},
         {"scope": "punctuation.separator.key-value.ruby", "foreground": "var(red)"},

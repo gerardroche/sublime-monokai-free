@@ -6,6 +6,10 @@
 
 - CSS: Suffixes like the number "px" suffix are now violet, the same color as the number, previously blue
 
+### Fixed
+
+- CSS: function argument punctuation should be fg0 - previously violet
+
 ## 2.8.1 - 2023-10-20
 
 ### Fixed
