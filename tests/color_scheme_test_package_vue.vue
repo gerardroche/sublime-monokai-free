@@ -23,13 +23,13 @@ defineProps({
     <!--  ^ fg=#a6e22e fs= build>=4148 -->
 
     <div v-if="x" :href="x" :fizz="x">
-    <!-- ^^^^ fg=#66d9ef fs= build>=4148 -->
-    <!--          ^^ fg=#66d9ef fs= build>=4148 -->
-    <!--                    ^^ fg=#66d9ef fs= build>=4148 -->
+    <!-- ^^^^ fg=#a6e22e fs= build>=4168 -->
+    <!--          ^^^^^ fg=#a6e22e fs= build>=4168 -->
+    <!--                    ^^^^^ fg=#a6e22e fs= build>=4168 -->
         fizz</div>
     <div v-else :class="x">
-    <!-- ^^ fg=#66d9ef fs= build>=4148 -->
-    <!--        ^^ fg=#66d9ef fs= build>=4148 -->
+    <!-- ^^^^^^ fg=#a6e22e fs= build>=4168 -->
+    <!--        ^^^^^^ fg=#a6e22e fs= build>=4168 -->
         buzz</div>
 
         <template>

@@ -4,6 +4,7 @@
 
 ### Changed
 
+- Vue: Attribute directives are now green, previously they were blue
 - Vue: Template tag directive names are now green, previously they were orange
 - Vue: Template tags are now fg0 and red, the same as other tags, previously they were dull red
 - CSS: Suffixes like the number "px" suffix are now violet, the same color as the number, previously blue
