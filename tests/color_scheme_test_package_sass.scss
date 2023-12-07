@@ -276,7 +276,9 @@ https://packagecontrol.io/packages/Sass
     /*               ^ fg=#f8f8f2 fs= */
     /*                 ^^ fg=#ae81ff fs= */
     /*                   ^ fg=#f8f8f2 fs= */
-    /*                     ^^^ fg=#ae81ff fs= */
+    /*                     ^ fg=#ae81ff fs= */
+    /*                      ^ fg=#f8f8f2 fs= build>=4168 */
+    /*                       ^ fg=#ae81ff fs= */
     /*                        ^^ fg=#f8f8f2 fs= */
 
     color: hsl(30, 100%, 50%, 0.3);
@@ -290,7 +292,9 @@ https://packagecontrol.io/packages/Sass
     /*                   ^^ fg=#ae81ff fs= */
     /*                     ^ fg=#ae81ff fs= build>=4168 */
     /*                      ^ fg=#f8f8f2 fs= */
-    /*                        ^^^ fg=#ae81ff fs= */
+    /*                        ^ fg=#ae81ff fs= */
+    /*                         ^ fg=#f8f8f2 fs= build>=4168 */
+    /*                          ^ fg=#ae81ff fs= */
     /*                           ^^ fg=#f8f8f2 fs= */
 
     content: "_\00A0_";
