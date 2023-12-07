@@ -130,6 +130,8 @@
         {"scope": "invalid.deprecated", "foreground": "var(magenta)", "background": "color(var(magenta) alpha(0.375))"},
         {"scope": "keyword", "foreground": "var(red)"},
         {"scope": "keyword.control", "foreground": "var(red)"},
+        {"scope": "keyword.control.directive.apply.css.tailwind punctuation.definition.keyword.css.tailwind", "foreground": "var(red)"},
+        {"scope": "keyword.control.directive.apply.css.tailwind", "foreground": "var(blue)"},
         {"scope": "keyword.declaration", "foreground": "var(red)"},
         {"scope": "keyword.declaration.c", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "keyword.declaration.class", "foreground": "var(blue)", "font_style": "italic"},
