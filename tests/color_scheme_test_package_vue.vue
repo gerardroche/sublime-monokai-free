@@ -18,7 +18,7 @@ defineProps({
 <template #title>
 <!--  ^ fg=#f92672 fs= build>=4168 -->
 <!--            ^ fg=#f8f8f2 fs= build>=4168 -->
-    <!--  ^^ fg=#fd971f fs= build>=4148 -->
+    <!--  ^^^^^^ fg=#a6e22e fs= build>=4168 -->
     <slot name="title" />
     <!--  ^ fg=#a6e22e fs= build>=4148 -->
 
