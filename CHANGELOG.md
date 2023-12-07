@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.9.0 - Unreleased
+
+### Changed
+
+- CSS: Suffixes like the number "px" suffix are now violet, the same color as the number, previously blue
+
 ## 2.8.1 - 2023-10-20
 
 ### Fixed

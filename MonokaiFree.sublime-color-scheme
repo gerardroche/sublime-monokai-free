@@ -102,6 +102,7 @@
         {"scope": "constant.numeric", "foreground": "var(violet)"},
         {"scope": "constant.numeric.line-number.match", "foreground": "var(yellow)"},
         {"scope": "constant.numeric.suffix", "foreground": "var(blue)"},
+        {"scope": "constant.numeric.suffix.css", "foreground": "var(violet)"},
         {"scope": "constant.other", "foreground": "var(violet)"},
         {"scope": "constant.other.wildcard", "foreground": "var(red)"},
         {"scope": "diff.deleted", "foreground": "var(bg0)", "background": "color(var(red) alpha(0.7))"},
