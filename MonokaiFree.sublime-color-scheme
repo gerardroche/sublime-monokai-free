@@ -192,6 +192,7 @@
         {"scope": "message.error", "foreground": "var(red)"},
         {"scope": "message.info", "foreground": "var(green)"},
         {"scope": "message.warning", "foreground": "var(orange)"},
+        {"scope": "meta.at-rule.apply.css.tailwind entity.other.attribute-name.class.css.tailwind", "foreground": "var(fg0)"},
         {"scope": "meta.block.php meta.path.php punctuation.accessor.namespace.php", "foreground": "var(fg0)", "font_style": ""},
         {"scope": "meta.block.php meta.path.php variable.namespace.php", "foreground": "var(fg0)", "font_style": ""},
         {"scope": "meta.class.php entity.other.inherited-class.php", "font_style": "italic underline"},

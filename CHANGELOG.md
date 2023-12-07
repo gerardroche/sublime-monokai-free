@@ -4,6 +4,7 @@
 
 ### Changed
 
+- Tailwind CSS: `@apply` directive values are now fg0, previously green
 - Tailwind CSS: `@apply` directive is now red and blue, previously all red
 - Vue: Attribute directives are now green, previously they were blue
 - Vue: Template tag directive names are now green, previously they were orange
