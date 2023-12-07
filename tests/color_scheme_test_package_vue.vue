@@ -16,7 +16,8 @@ defineProps({
 </script>
 
 <template #title>
-<!--  ^ fg=#b32657 fs= build>=4148 -->
+<!--  ^ fg=#f92672 fs= build>=4168 -->
+<!--            ^ fg=#f8f8f2 fs= build>=4168 -->
     <!--  ^^ fg=#fd971f fs= build>=4148 -->
     <slot name="title" />
     <!--  ^ fg=#a6e22e fs= build>=4148 -->
@@ -32,8 +33,14 @@ defineProps({
         buzz</div>
 
         <template>
-<!--    ^^^^^^^^^^ fg=#b32657 fs= build>=4148 -->
+<!--    ^ fg=#f8f8f2 fs= build>=4168 -->
+<!--     ^^^^^^^^  fg=#f92672 fs= build>=4168 -->
+<!--             ^ fg=#f8f8f2 fs= build>=4168 -->
         </template>
-<!--    ^^^^^^^^^^^ fg=#b32657 fs= build>=4148 -->
+<!--    ^^ fg=#f8f8f2 fs= build>=4168 -->
+<!--      ^^^^^^^^  fg=#f92672 fs= build>=4168 -->
+<!--              ^ fg=#f8f8f2 fs= build>=4168 -->
 
 </template>
+<!-- ^^^^^  fg=#f92672 fs= build>=4168 -->
+<!--      ^ fg=#f8f8f2 fs= build>=4168 -->
