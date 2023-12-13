@@ -23,5 +23,5 @@ jobs:
           sublime-text-version: ${{ matrix.st-version }}
           package-name: ${{ env.PACKAGE }}
 
-      - name: Color Scheme Tests
+      - name: Tests
         uses: gerardroche/UnitTesting/actions/run-color-scheme-tests@master
