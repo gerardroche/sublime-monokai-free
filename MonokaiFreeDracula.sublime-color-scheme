@@ -138,6 +138,7 @@
         {"scope": "keyword.declaration.class.php", "foreground": "var(red)"},
         {"scope": "keyword.declaration.const.go", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "keyword.declaration.function", "foreground": "var(blue)", "font_style": "italic"},
+        {"scope": "keyword.declaration.function.arrow", "foreground": "var(red)"},
         {"scope": "keyword.declaration.function.php", "foreground": "var(red)"},
         {"scope": "keyword.declaration.interface", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "keyword.declaration.interface.go", "foreground": "var(blue)", "font_style": "italic"},

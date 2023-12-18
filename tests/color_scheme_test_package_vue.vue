@@ -37,6 +37,7 @@ const count = ref(0)
 const publishedBooksMessage = computed(() => {
 // ^ fg=#f92672 fs=italic build>=4168
 //                            ^ fg=#66d9ef fs= build>=4168
+//                                        ^^ fg=#f92672 fs= build>=4168
   return author.books.length > 0 ? 'Yes' : 'No'
 })
 </script>

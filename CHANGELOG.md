@@ -1,9 +1,10 @@
 # Changelog
 
-## 2.9.1 - Unreleased
+## 2.10.0 - Unreleased
 
 ### Changed
 
+- Vue: function arrows, e.g. `=>`, are now red, previously blue
 - Vue: const keyword is now red, previously blue
 - JS: var keyword is now red, previously blue
 - CS: Make attribute punctuation red, previously fg0
