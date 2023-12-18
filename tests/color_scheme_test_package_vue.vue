@@ -7,11 +7,37 @@ https://packagecontrol.io/packages/Vue%20Syntax%20Highlight
 <script setup>
 // ^ fg=#f92672 fs= build>=4148
 //      ^ fg=#a6e22e fs= build>=4148
+//
+import { ref } from 'vue'
+// ^ fg=#f92672 fs= build>=4168
+//     ^ fg=#f8f8f2 fs= build>=4168
+//       ^^^ fg=#f8f8f2 fs= build>=4168
+//           ^ fg=#f8f8f2 fs= build>=4168
+//             ^ fg=#f92672 fs= build>=4168
+//                  ^^^^ fg=#e6db74 fs= build>=4168
+
 defineProps({
 // ^ fg=#66d9ef fs= build>=4148
   on: Boolean,
 // ^^ fg=#f8f8f2 fs= build>=4148
 //    ^ fg=#66d9ef fs=italic build>=4148
+})
+
+const props = defineProps(['title'])
+// ^ fg=#f92672 fs=italic build>=4168
+//    ^ fg=#f8f8f2 fs= build>=4168
+//            ^ fg=#66d9ef fs= build>=4168
+
+const count = ref(0)
+// ^ fg=#f92672 fs=italic build>=4168
+//    ^ fg=#f8f8f2 fs= build>=4168
+//            ^ fg=#66d9ef fs= build>=4168
+//                ^ fg=#ae81ff fs= build>=4168
+
+const publishedBooksMessage = computed(() => {
+// ^ fg=#f92672 fs=italic build>=4168
+//                            ^ fg=#66d9ef fs= build>=4168
+  return author.books.length > 0 ? 'Yes' : 'No'
 })
 </script>
 

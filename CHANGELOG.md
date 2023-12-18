@@ -4,6 +4,8 @@
 
 ### Changed
 
+- Vue: const keyword is now red, previously blue
+- JS: var keyword is now red, previously blue
 - CS: Make attribute punctuation red, previously fg0
 - Python: Make attribute punctuation red, previously fg0
 - PHP: Inherited class names and use class names are now fg0, previously green

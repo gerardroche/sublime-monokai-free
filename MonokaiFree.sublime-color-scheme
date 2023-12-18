@@ -142,7 +142,7 @@
         {"scope": "keyword.declaration.interface", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "keyword.declaration.interface.go", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "keyword.declaration.interface.php", "foreground": "var(red)"},
-        {"scope": "keyword.declaration.js", "foreground": "var(blue)", "font_style": "italic"},
+        {"scope": "keyword.declaration.js", "foreground": "var(red)", "font_style": "italic"},
         {"scope": "keyword.declaration.struct", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "keyword.declaration.trait", "foreground": "var(blue)", "font_style": "italic"},
         {"scope": "keyword.declaration.trait.php", "foreground": "var(red)"},
