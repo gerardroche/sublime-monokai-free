@@ -148,23 +148,23 @@ class x extends y {}
 // ^ fg=#f92672 fs=italic build>=4143
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
-//              ^ fg=#a6e22e fs=italic underline build>=4143
+//              ^ fg=#f8f8f2 fs=italic underline build>=4168
 //                ^^ fg=#f8f8f2 fs=
 
 class x implements y {}
 // ^ fg=#f92672 fs=italic build>=4143
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
-//                 ^ fg=#a6e22e fs=italic underline build>=4143
+//                 ^ fg=#f8f8f2 fs=italic underline build>=4168
 //                   ^^ fg=#f8f8f2 fs=
 
 class x extends y implements z {}
 // ^ fg=#f92672 fs=italic build>=4143
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
-//              ^ fg=#a6e22e fs=italic underline build>=4143
+//              ^ fg=#f8f8f2 fs=italic underline build>=4168
 //                ^ fg=#f92672 fs=
-//                           ^ fg=#a6e22e fs=italic underline build>=4143
+//                           ^ fg=#f8f8f2 fs=italic underline build>=4168
 //                             ^^ fg=#f8f8f2 fs=
 
 class x extends stdClass implements Countable {}
@@ -181,9 +181,11 @@ class x extends /* */ \a\b implements \c\d {}
 //    ^ fg=#a6e22e fs=
 //      ^ fg=#f92672 fs=
 //              ^^^^^ fg=#75715e fs=
-//                    ^^^^ fg=#a6e22e fs=italic underline build>=4143
+//                    ^^^ fg=#a6e22e fs=italic underline build>=4143
+//                       ^ fg=#f8f8f2 fs=italic underline build>=4168
 //                         ^ fg=#f92672 fs=
-//                                    ^^^^ fg=#a6e22e fs=italic underline build>=4143
+//                                    ^^^ fg=#a6e22e fs=italic underline build>=4143
+//                                       ^ fg=#f8f8f2 fs=italic underline build>=4168
 //                                         ^^ fg=#f8f8f2 fs=
 
 function d($a = array(), $b = "x") {}
@@ -1436,10 +1438,14 @@ class x
 
 class ClassNamespaces extends Extended
 //    ^ fg=#a6e22e fs= build>=4000
-//                            ^ fg=#a6e22e fs=italic underline build>=4000
+//                            ^^ fg=#f8f8f2 fs=italic underline build>=4168
 {
     use Used;
-    //  ^ fg=#a6e22e fs=italic build>=4000
+    //  ^ fg=#f8f8f2 fs=italic >=4168
+    use \Fi\zz\Buzz;
+    //   ^^ fg=#f8f8f2 fs= >=4168
+    //      ^^ fg=#f8f8f2 fs= >=4168
+    //         ^^ fg=#f8f8f2 fs=italic >=4168
 
     protected $x = [
         \A\B::class,

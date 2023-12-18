@@ -6,6 +6,8 @@
 
 - CS: Make attribute punctuation red, previously fg0
 - Python: Make attribute punctuation red, previously fg0
+- PHP: Inherited class names and use class names are now fg0, previously green
+- PHP: Use statement class names are now fg0, previously green
 - PHP: Make attribute punctuation red, previously fg0
 
 ## 2.9.0 - 2023-12-07
