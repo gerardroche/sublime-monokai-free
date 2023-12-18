@@ -101,6 +101,13 @@ function increment() {
           <!--        ^ fg=#fd971f fs= build>=4168 -->
           <!--            ^ fg=#f8f8f2 fs= build>=4168 -->
           <!--             ^ fg=#f8f8f2 fs= build>=4168 -->
+          <span>{{ $page.props.x.y }}</span>
+          <!--  ^^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--                     ^^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--     ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--      ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--          ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--           ^ fg=#f8f8f2 fs= build>=4168 -->
         </template>
 <!--    ^^ fg=#f8f8f2 fs= build>=4168 -->
 <!--      ^^^^^^^^  fg=#f92672 fs= build>=4168 -->
