@@ -4,6 +4,8 @@
 
 ### Changed
 
+- CS: Make attribute punctuation red, previously fg0
+- Python: Make attribute punctuation red, previously fg0
 - PHP: Make attribute punctuation red, previously fg0
 
 ## 2.9.0 - 2023-12-07

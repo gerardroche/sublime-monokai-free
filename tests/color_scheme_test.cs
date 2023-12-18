@@ -63,9 +63,12 @@ class Program
     void x([Usage("ab")] int x, int y)
     // ^ fg=#66d9ef fs=italic
     //   ^ fg=#a6e22e fs=
-    //    ^^^^^^^^ fg=#f8f8f2 fs=
+    //    ^        fg=#f8f8f2 fs=
+    //     ^ fg=#f92672 fs= build>=4168
+    //      ^^^^^^ fg=#f8f8f2 fs=
     //            ^^^^ fg=#e6db74 fs=
-    //                ^^ fg=#f8f8f2 fs=
+    //                ^ fg=#f8f8f2 fs=
+    //                 ^ fg=#f92672 fs= build>=4168
     //                   ^^^ fg=#66d9ef fs=italic
     //                       ^ fg=#fd971f fs=italic
     //                        ^ fg=#f8f8f2 fs=

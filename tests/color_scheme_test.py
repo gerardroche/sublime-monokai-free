@@ -320,7 +320,8 @@ class X(Y):
         #      ^^^^ fg=#ae81ff fs=
 
     @zyx
-#   ^^^^ fg=#f8f8f2 fs= build>=3127
+#   ^ fg=#f92672 fs= build>=4168
+#    ^^^ fg=#f8f8f2 fs= build>=3127
     def x(self):
         pass
 
