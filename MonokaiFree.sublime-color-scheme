@@ -231,6 +231,7 @@
         {"scope": "punctuation.accessor.nullsafe.php", "foreground": "var(red)"},
         {"scope": "punctuation.accessor.php", "foreground": "var(red)"},
         {"scope": "punctuation.accessor.rust", "foreground": "var(red)"},
+        {"scope": "punctuation.definition.annotation", "foreground":"var(red)"},
         {"scope": "punctuation.definition.heredoc.ruby", "foreground": "var(red)"},
         {"scope": "punctuation.definition.link", "foreground": "var(fg2)"},
         {"scope": "punctuation.definition.pseudo-class", "foreground": "var(green)", "font_style": "italic"},

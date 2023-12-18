@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.9.1 - Unreleased
+
+### Changed
+
+- PHP: Make attribute punctuation red, previously fg0
+
 ## 2.9.0 - 2023-12-07
 
 ### Changed

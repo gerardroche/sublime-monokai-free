@@ -1466,3 +1466,18 @@ enum Suit
 //  ^ fg=#f92672 fs=
 //       ^ fg=#ae81ff fs= build>=4140
 }
+
+    #[Attribute]
+//  ^^ fg=#f92672 fs= build>=4168
+//             ^ fg=#f92672 fs= build>=4168
+    class Title { }
+
+    #[\Attribute]
+//  ^^ fg=#f92672 fs= build>=4168
+//              ^ fg=#f92672 fs= build>=4168
+    class Title { }
+
+    #[\Fizz\Buzz\Attribute]
+//  ^^ fg=#f92672 fs= build>=4168
+//                        ^ fg=#f92672 fs= build>=4168
+    class Title { }
