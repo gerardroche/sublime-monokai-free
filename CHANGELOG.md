@@ -4,6 +4,7 @@
 
 ### Changed
 
+- Vue: Object variables like `$attrs.item`, `$page.post.id` are not orange, previously fg0
 - Vue: function arrows, e.g. `=>`, are now red, previously blue
 - Vue: const keyword is now red, previously blue
 - JS: var keyword is now red, previously blue

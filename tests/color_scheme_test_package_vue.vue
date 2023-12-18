@@ -80,6 +80,22 @@ function increment() {
           <!--                     ^ fg=#e6db74 fs= build>=4168 -->
             {{ count }}
           </button>
+          <span :key="text">{{ text }}</span>
+          <button class="btn" v-bind="$attrs">click me</button>
+          <!--                        ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--                         ^ fg=#f8f8f2 fs= build>=4168 -->
+          <p :class="$attrs.class">Hi!</p>
+          <!--       ^ fg=#fd971f fs= build>=4168 -->
+          <!--        ^ fg=#fd971f fs= build>=4168 -->
+          <!--             ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--              ^ fg=#f8f8f2 fs= build>=4168 -->
+          <p :class="$page.post.id">Hi!</p>
+          <!--       ^ fg=#fd971f fs= build>=4168 -->
+          <!--        ^ fg=#fd971f fs= build>=4168 -->
+          <!--            ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--             ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--                 ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--                  ^ fg=#f8f8f2 fs= build>=4168 -->
         </template>
 <!--    ^^ fg=#f8f8f2 fs= build>=4168 -->
 <!--      ^^^^^^^^  fg=#f92672 fs= build>=4168 -->

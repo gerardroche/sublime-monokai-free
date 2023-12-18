@@ -300,6 +300,7 @@
         {"scope": "text.blade text.html.blade string.quoted entity.name.tag.blade source.php.blade meta.function-call.php meta.group.php string.quoted.single.php punctuation.definition.string", "foreground": "var(yellow)"},
         {"scope": "text.find-in-files", "foreground": "color(var(fg0) alpha(0.65))"},
         {"scope": "text.html.markdown punctuation - constant", "foreground": "var(fg2)"},
+        {"scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue variable.other.dollar.js", "foreground": "var(orange)"},
         {"scope": "text.html.vue meta.tag.template.begin.html meta.attribute-with-value.directive.html entity.other.attribute-name.html punctuation.definition.attribute.html", "foreground": "var(green)"},
         {"scope": "text.html.vue meta.tag.template.begin.html meta.attribute-with-value.directive.html entity.other.attribute-name.html", "foreground": "var(green)"},
         {"scope": "text.html.vue meta.tag.template.begin.html meta.attribute-with-value.html entity.other.attribute-name.html", "foreground": "var(green)"},
