@@ -1,6 +1,10 @@
 # Changelog
 
-## 2.10.1 - Unreleased
+## 2.11.0 - Unreleased
+
+### Changed
+
+- Vue: Function variable names are now green, previously fg0
 
 ### Fixed
 

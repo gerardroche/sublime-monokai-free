@@ -51,7 +51,7 @@ function increment() {
 }
 
 const open = () => {
-//    ^ fg=#f8f8f2 fs= build>=4168
+//    ^ fg=#a6e22e fs= build>=4168
 //           ^^ fg=#f8f8f2 fs= build>=4168
 //              ^^ fg=#f92672 fs= build>=4168
 }

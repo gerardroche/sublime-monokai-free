@@ -113,6 +113,7 @@
         {"scope": "easymotion_target", "foreground": "var(bg0)", "background": "var(orange)"},
         {"scope": "entity.name", "foreground": "var(green)"},
         {"scope": "entity.name.constant.php", "foreground": "var(violet)"},
+        {"scope": "entity.name.function variable.other", "foreground": "var(green)"},
         {"scope": "entity.name.section", "foreground": "var(green)"},
         {"scope": "entity.name.section.markdown meta.link.reference.metadata.markdown markup.underline.link", "foreground": "var(violet)", "font_style": "bold"},
         {"scope": "entity.name.section.markdown", "font_style": "bold"},
