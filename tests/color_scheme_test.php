@@ -1441,11 +1441,11 @@ class ClassNamespaces extends Extended
 //                            ^^ fg=#f8f8f2 fs=italic underline build>=4168
 {
     use Used;
-    //  ^ fg=#f8f8f2 fs=italic >=4168
+    //  ^ fg=#f8f8f2 fs=italic build>=4168
     use \Fi\zz\Buzz;
-    //   ^^ fg=#f8f8f2 fs= >=4168
-    //      ^^ fg=#f8f8f2 fs= >=4168
-    //         ^^ fg=#f8f8f2 fs=italic >=4168
+    //   ^^ fg=#f8f8f2 fs= build>=4168
+    //      ^^ fg=#f8f8f2 fs= build>=4168
+    //         ^^ fg=#f8f8f2 fs=italic build>=4168
 
     protected $x = [
         \A\B::class,

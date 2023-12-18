@@ -31,7 +31,7 @@ function $x(block, cls) {
 //                      ^ fg=#f8f8f2 fs=
 
     var x = 'ab';
-    //^ fg=#f92672 fs=italic
+    //^ fg=#f92672 fs=italic build>=4168
     //  ^ fg=#f8f8f2 fs=
     //    ^ fg=#f92672 fs=
     //      ^^^^ fg=#e6db74 fs=
@@ -75,7 +75,7 @@ function $x(block, cls) {
 
     for (var i = 0 / 2; i < classes.length; i++) {
     //^ fg=#f92672 fs=
-    //    ^ fg=#f92672 fs=italic
+    //    ^ fg=#f92672 fs=italic build>=4168
     //         ^ fg=#f92672 fs=
     //           ^ fg=#ae81ff fs=
     //             ^ fg=#f92672 fs=
