@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.10.1 - Unreleased
+
+### Fixed
+
+- Vue: Object variables like `$attrs.item`, `$page.post.id` are not orange, previously fg0
+
 ## 2.10.0 - 2023-12-18
 
 ### Changed

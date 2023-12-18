@@ -96,6 +96,11 @@ function increment() {
           <!--             ^ fg=#f8f8f2 fs= build>=4168 -->
           <!--                 ^ fg=#f8f8f2 fs= build>=4168 -->
           <!--                  ^ fg=#f8f8f2 fs= build>=4168 -->
+          <img v-if="$page.x">
+          <!--       ^ fg=#fd971f fs= build>=4168 -->
+          <!--        ^ fg=#fd971f fs= build>=4168 -->
+          <!--            ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--             ^ fg=#f8f8f2 fs= build>=4168 -->
         </template>
 <!--    ^^ fg=#f8f8f2 fs= build>=4168 -->
 <!--      ^^^^^^^^  fg=#f92672 fs= build>=4168 -->
