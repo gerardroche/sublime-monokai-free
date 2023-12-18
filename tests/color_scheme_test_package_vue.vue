@@ -40,6 +40,16 @@ const publishedBooksMessage = computed(() => {
 //                                        ^^ fg=#f92672 fs= build>=4168
   return author.books.length > 0 ? 'Yes' : 'No'
 })
+
+function increment() {
+// ^ fg=#66d9ef fs=italic build>=4168
+//       ^ fg=#a6e22e fs= build>=4168
+  count.value++
+//    ^ fg=#f8f8f2 fs= build>=4168
+//     ^ fg=#f8f8f2 fs= build>=4168
+//      ^ fg=#f8f8f2 fs= build>=4168
+}
+
 </script>
 
 <template #title>
@@ -63,6 +73,13 @@ const publishedBooksMessage = computed(() => {
 <!--    ^ fg=#f8f8f2 fs= build>=4168 -->
 <!--     ^^^^^^^^  fg=#f92672 fs= build>=4168 -->
 <!--             ^ fg=#f8f8f2 fs= build>=4168 -->
+          <button @click="increment">
+          <!--    ^^ fg=#a6e22e fs= build>=4168 -->
+          <!--           ^ fg=#e6db74 fs= build>=4168 -->
+          <!--            ^ fg=#f8f8f2 fs= build>=4168 -->
+          <!--                     ^ fg=#e6db74 fs= build>=4168 -->
+            {{ count }}
+          </button>
         </template>
 <!--    ^^ fg=#f8f8f2 fs= build>=4168 -->
 <!--      ^^^^^^^^  fg=#f92672 fs= build>=4168 -->
