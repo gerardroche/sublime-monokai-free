@@ -1208,35 +1208,35 @@ class x
 
         parent::a();
         // ^ fg=#fd971f fs=italic
-        //    ^^ fg=#f92672 fs=
+        //    ^^ fg=#f8f8f2 fs=
         //      ^ fg=#f8f8f2 fs=
         //       ^^^ fg=#f8f8f2 fs=
 
         self::class;
         // ^ fg=#fd971f fs=italic
-        //  ^^ fg=#f92672 fs=
+        //  ^^ fg=#f8f8f2 fs=
         //    ^^^^^ fg=#ae81ff fs=italic
         //         ^ fg=#f8f8f2 fs=
 
         self::$x;
         // ^ fg=#fd971f fs=italic
-        //  ^^ fg=#f92672 fs=
+        //  ^^ fg=#f8f8f2 fs=
         //    ^^^ fg=#f8f8f2 fs=
 
         self::a();
         // ^ fg=#fd971f fs=italic
-        //  ^^ fg=#f92672 fs=
+        //  ^^ fg=#f8f8f2 fs=
         //    ^ fg=#f8f8f2 fs=
         //     ^^^ fg=#f8f8f2 fs=
 
         static::$x;
         // ^ fg=#fd971f fs=italic
-        //    ^^ fg=#f92672 fs=
+        //    ^^ fg=#f8f8f2 fs=
         //      ^^^ fg=#f8f8f2 fs=
 
         static::a();
         // ^ fg=#fd971f fs=italic
-        //    ^^ fg=#f92672 fs=
+        //    ^^ fg=#f8f8f2 fs=
         //      ^ fg=#f8f8f2 fs=
         //       ^^^ fg=#f8f8f2 fs=
 
@@ -1270,19 +1270,19 @@ class x
 
         Abcd::$x;
         // ^ fg=#66d9ef fs=italic
-        //  ^^ fg=#f92672 fs=
+        //  ^^ fg=#f8f8f2 fs=
         //    ^^^ fg=#f8f8f2 fs=
 
         Abcd::X;
         // ^ fg=#66d9ef fs=italic
-        //  ^^ fg=#f92672 fs=
+        //  ^^ fg=#f8f8f2 fs=
         //    ^ fg=#ae81ff fs=
         //     ^ fg=#f8f8f2 fs=
 
         echo X::class;
         // ^ fg=#66d9ef fs=
         //   ^ fg=#66d9ef fs=italic
-        //    ^^ fg=#f92672 fs=
+        //    ^^ fg=#f8f8f2 fs=
         //      ^^^^^ fg=#ae81ff fs=italic
         //           ^ fg=#f8f8f2 fs=
 
@@ -1315,13 +1315,13 @@ class x
 
         $abc::a();
         // ^ fg=#f8f8f2 fs=
-        //  ^^ fg=#f92672 fs=
+        //  ^^ fg=#f8f8f2 fs=
         //    ^ fg=#f8f8f2 fs=
         //     ^^^ fg=#f8f8f2 fs=
 
         $abc::$x;
         // ^ fg=#f8f8f2 fs=
-        //  ^^ fg=#f92672 fs=
+        //  ^^ fg=#f8f8f2 fs=
         //    ^^^ fg=#f8f8f2 fs=
 
         $abc->$x();
@@ -1395,7 +1395,7 @@ class x
         //  ^^^^^ fg=#66d9ef fs=
         //       ^ fg=#f8f8f2 fs=
         //        ^^^^^^ fg=#fd971f fs=italic
-        //              ^^ fg=#f92672 fs=
+        //              ^^ fg=#f8f8f2 fs=
         //                ^^ fg=#f8f8f2 fs=
         //                  ^ fg=#f8f8f2 fs=
         //                   ^^ fg=#f8f8f2 fs=

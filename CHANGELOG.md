@@ -4,6 +4,7 @@
 
 ### Changed
 
+- PHP: Double colon punctuation is now fg0, previously red
 - PHP: PHPDoc tags are now red, previously fg0
 - Vue: Function variable names are now green, previously fg0
 

@@ -229,7 +229,7 @@
         {"scope": "parameter.less variable.other.less", "foreground": "var(orange)"},
         {"scope": "punctuation.accessor.arrow.php", "foreground": "var(red)"},
         {"scope": "punctuation.accessor.c", "foreground": "var(red)"},
-        {"scope": "punctuation.accessor.double-colon.php", "foreground": "var(red)"},
+        {"scope": "punctuation.accessor.double-colon.php", "foreground": "var(fg0)"},
         {"scope": "punctuation.accessor.nullsafe.php", "foreground": "var(red)"},
         {"scope": "punctuation.accessor.php", "foreground": "var(red)"},
         {"scope": "punctuation.accessor.rust", "foreground": "var(red)"},
