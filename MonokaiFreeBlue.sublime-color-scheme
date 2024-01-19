@@ -60,9 +60,9 @@
         "gutter_foreground": "var(fg2)",
         "gutter_foreground_highlight": "var(caret)",
 
-        "line_diff_added": "var(green)",
-        "line_diff_deleted": "var(red)",
-        "line_diff_modified": "var(yellow)",
+        "line_diff_added": "color(var(green) alpha(0.8))",
+        "line_diff_deleted": "color(var(red) alpha(0.8))",
+        "line_diff_modified": "color(var(yellow) alpha(0.8))",
 
         "line_highlight": "var(selection)",
 
