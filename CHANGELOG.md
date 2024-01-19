@@ -4,6 +4,7 @@
 
 ### Changed
 
+- PHP: PHPDoc tags are now red, previously fg0
 - Vue: Function variable names are now green, previously fg0
 
 ### Fixed

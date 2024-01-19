@@ -118,7 +118,7 @@
         {"scope": "entity.name.section.markdown meta.link.reference.metadata.markdown markup.underline.link", "foreground": "var(violet)", "font_style": "bold"},
         {"scope": "entity.name.section.markdown", "font_style": "bold"},
         {"scope": "entity.name.tag", "foreground": "var(red)"},
-        {"scope": "entity.name.tag.documentation.phpdoc.php", "foreground": "var(fg2)", "font_style": "bold"},
+        {"scope": "entity.name.tag.documentation.phpdoc.php", "foreground": "var(red)", "font_style": ""},
         {"scope": "entity.other", "foreground": "var(green)"},
         {"scope": "entity.other.attribute-name", "foreground": "var(green)"},
         {"scope": "entity.other.attribute-name.id", "foreground": "var(orange)"},

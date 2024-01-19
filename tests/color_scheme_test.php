@@ -1083,7 +1083,7 @@ CSS;
 
 /**
  * @param int $x desc
-// ^^^^^^ fg=#75715e fs=bold
+// ^^^^^^ fg=#f92672 fs=
 //        ^^^ fg=#75715e fs=
 //            ^^ fg=#75715e fs=
 //               ^^^^ fg=#75715e fs=
@@ -1091,7 +1091,7 @@ CSS;
 
 /**
  * @param X $x desc
-// ^^^^^^ fg=#75715e fs=bold
+// ^^^^^^ fg=#f92672 fs=
 //        ^ fg=#75715e fs=
 //          ^^ fg=#75715e fs=
 //             ^^^^ fg=#75715e fs=
@@ -1099,7 +1099,7 @@ CSS;
 
 /**
  * @return int
-// ^^^^^^^ fg=#75715e fs=bold
+// ^^^^^^^ fg=#f92672 fs=
 //         ^^^ fg=#75715e fs=
  */
 
