@@ -431,6 +431,15 @@ Menu → Preferences → Customize Color Scheme
 
 ![JavaScript](monokai-javascript.webp)
 
+## Supported syntaxes
+
+- [LESS](https://packagecontrol.io/packages/LESS)
+- [LSP](https://packagecontrol.io/packages/LSP)
+- [Laravel Blade Highlighter](https://packagecontrol.io/packages/Laravel%20Blade%20Highlighter)
+- [Sass](https://packagecontrol.io/packages/Sass)
+- [TailwindCSS](https://packagecontrol.io/packages/Tailwind%20CSS)
+- [Vue Syntax Highlight](https://packagecontrol.io/packages/Vue%20Syntax%20Highlight)
+
 ## Contributing
 
 The MonokaiFree color scheme is an open-source project, and contributions are welcome. If you have suggestions for improvements or encounter any issues, please feel free to submit a pull request or open an issue on the official repository.
