@@ -4,6 +4,7 @@
 
 ### Changed
 
+- Line diff: Make line diff colors less bright, added `alpha(0.8)`
 - PHP: Inherited classes are now fg0 and not italic or underlined, previously green
 - PHP: Double colon punctuation is now fg0, previously red
 - PHP: PHPDoc tags are now red, previously fg0
