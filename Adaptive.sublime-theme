@@ -15,7 +15,7 @@
         "violet": "#ae81ff", // purple
         "blue": "#66d9ef",
         "cyan": "#a1efe4",
-        "green": "#2da44e",
+        "green": "#a6e22e",
         "magenta": "#fd5ff0", // pink
 
         "vcs_added": "color(var(green) min-contrast(var(medium_dark_bg) 7))",

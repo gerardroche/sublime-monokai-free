@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.12.0 - Unreleased
+
+## Changed
+
+- Sidebar vcs added and staged is now green, previously it was incorrectly different shade of green (`#2da44e`)
+
 ## 2.11.0 - 2024-01-19
 
 ### Changed
