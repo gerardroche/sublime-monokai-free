@@ -253,6 +253,7 @@
         {"scope": "punctuation.separator.operator.css", "foreground": "var(red)"},
         {"scope": "punctuation.separator.operator.scss", "foreground": "var(red)"},
         {"scope": "punctuation.separator.type.intersection.php", "foreground": "var(red)"},
+        {"scope": "punctuation.separator.type.union", "foreground": "var(red)"},
         {"scope": "source.yaml meta.mapping.key.yaml meta.string.yaml string.unquoted.plain.out.yaml", "foreground": "var(red)"},
         {"scope": "storage", "foreground": "var(red)"},
         {"scope": "storage.modifier", "foreground": "var(red)"},

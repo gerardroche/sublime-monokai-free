@@ -262,8 +262,8 @@ function l(int $a, string $b, bool $c, float $d) {}
 
 function l2(int|float|array $p) {}
 //          ^ fg=#66d9ef fs=italic build>=4140
-//             ^ fg=#f8f8f2 fs= build>=4140
-//                   ^ fg=#f8f8f2 fs= build>=4140
+//             ^ fg=#f92672 fs= build>=4140
+//                   ^ fg=#f92672 fs= build>=4140
 //              ^ fg=#66d9ef fs=italic build>=4140
 //                    ^ fg=#66d9ef fs=italic build>=4140
 
@@ -272,8 +272,8 @@ function l3(): float {}
 
 function l4(): int|float|array {}
 //             ^ fg=#66d9ef fs=italic build>=4140
-//                ^ fg=#f8f8f2 fs= build>=4140
-//                      ^ fg=#f8f8f2 fs= build>=4140
+//                ^ fg=#f92672 fs= build>=4140
+//                      ^ fg=#f92672 fs= build>=4140
 //                 ^ fg=#66d9ef fs=italic build>=4140
 //                       ^ fg=#66d9ef fs=italic build>=4140
 
@@ -1485,3 +1485,11 @@ enum Suit
 //  ^^ fg=#f92672 fs= build>=4168
 //                        ^ fg=#f92672 fs= build>=4168
     class Title { }
+
+class Types
+{
+    public function union(Fizz|Buzz $x) {
+        //                    ^ fg=#f92672 fs= build>=4168
+
+    }
+}
