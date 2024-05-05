@@ -3,7 +3,7 @@
 #[derive(Debug)]
 pub enum State {
 //^ fg=#f92672 fs=
-//  ^ fg=#66d9ef fs=italic
+//  ^ fg=#f92672 fs= build>=4174
 //       ^ fg=#a6e22e fs=
 //             ^ fg=#f8f8f2 fs=
     Start,
@@ -14,7 +14,7 @@ pub enum State {
 }
 
 impl From<&'a str> for State {
-// ^ fg=#66d9ef fs=italic
+// ^ fg=#f92672 fs= build>=4174
 //            ^ fg=#66d9ef fs=italic
 //               ^ fg=#f8f8f2 fs=
 //                 ^ fg=#f92672 fs=
