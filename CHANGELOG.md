@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.12.0 - 2024-05-08
+
+### Added
+
+- New variant: Deckard
+
 ## 2.11.1 - 2024-05-05
 
 ### Fixed

@@ -5,33 +5,39 @@ unset CDPATH
 unset IFS
 
 set_var() {
-    color_scheme="MonokaiFree$(echo "$1" | sed -r 's/(^|_)([a-z])/\U\2/g' ).sublime-color-scheme"
-    sed -i 's/\("'"$2"'": \)".*"/\1"'"$3"'"/' "$color_scheme"
+    name="$1"
+    key="$2"
+    value="$3"
+
+    sed -i 's/\("'"$key"'": \)".*"/\1"'"$value"'"/' "MonokaiFree$name.sublime-color-scheme"
 }
 
-BASE_VARIANT="MonokaiFree.sublime-color-scheme"
-VARIANT_BLUE="MonokaiFreeBlue.sublime-color-scheme"
-VARIANT_DARK="MonokaiFreeDark.sublime-color-scheme"
-VARIANT_DRACULA="MonokaiFreeDracula.sublime-color-scheme"
-VARIANT_YARU_DARK="MonokaiFreeYaruDark.sublime-color-scheme"
-
-cp "$BASE_VARIANT" "$VARIANT_BLUE"
-cp "$BASE_VARIANT" "$VARIANT_DARK"
-cp "$BASE_VARIANT" "$VARIANT_DRACULA"
-cp "$BASE_VARIANT" "$VARIANT_YARU_DARK"
+# Make variant copies of base scheme.
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeBlue.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDark.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDracula.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeYaruDark.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDeckard.sublime-color-scheme
 
 # Blue
-set_var blue "name" "MonokaiFree - Blue"
-set_var blue "bg0" "#292C3F"
+set_var Blue "name" "MonokaiFree - Blue"
+set_var Blue "bg0" "#292C3F"
 
 # Dark
-set_var dark "name" "MonokaiFree - Dark"
-set_var dark "bg0" "#212121"
+set_var Dark "name" "MonokaiFree - Dark"
+set_var Dark "bg0" "#212121"
 
 # Dracula
-set_var dracula "name" "MonokaiFree - Dracula"
-set_var dracula "bg0" "#282a36"
+set_var Dracula "name" "MonokaiFree - Dracula"
+set_var Dracula "bg0" "#282a36"
 
 # Yaru Dark
-set_var yaru_dark "name" "MonokaiFree - Yaru Dark"
-set_var yaru_dark "bg0" "#1d1d1d"
+set_var YaruDark "name" "MonokaiFree - Yaru Dark"
+set_var YaruDark "bg0" "#1d1d1d"
+
+# Deckard
+set_var Deckard "name" "MonokaiFree - Deckard"
+set_var Deckard "fg2" "#aeab9a"
+set_var Deckard "magenta" "#fd6ff1"
+set_var Deckard "red" "#fb7fac"
+set_var Deckard "violet" "#bb95ff"
