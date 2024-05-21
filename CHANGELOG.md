@@ -2,6 +2,10 @@
 
 ## 2.12.1 - Unreleased
 
+### Added
+
+- Improved theme sidebar vcs colors
+
 ### Changed
 
 - Make gutter_foreground_highlight a little lighter `var(caret)` to `color(var(fg2) alpha(0.3))`
