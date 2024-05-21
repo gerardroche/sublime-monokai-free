@@ -21,6 +21,7 @@ cp -v MonokaiFree.sublime-color-scheme MonokaiFreeBlue.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDark.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDeckard.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDracula.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeGruvboxDark.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeYaruDark.sublime-color-scheme
 
 # Blue
@@ -45,3 +46,20 @@ set_var Deckard "fg2" "#aeab9a"
 set_var Deckard "magenta" "#fd6ff1"
 set_var Deckard "red" "#fb7fac"
 set_var Deckard "violet" "#bb95ff"
+
+# GruvboxDark
+# https://github.com/gruvbox-community/gruvbox
+set_name GruvboxDark
+set_var GruvboxDark "bg0" "#1d2021"
+set_var GruvboxDark "bg1" "#3c3836"
+set_var GruvboxDark "bg2" "#504945"
+set_var GruvboxDark "blue" "#83a598"
+set_var GruvboxDark "cyan" "#8ec07c"
+set_var GruvboxDark "fg0" "#fbf1c7"
+set_var GruvboxDark "fg1" "#a89984"
+set_var GruvboxDark "fg2" "#928374"
+set_var GruvboxDark "green" "#b8bb26"
+set_var GruvboxDark "orange" "#fe8019"
+set_var GruvboxDark "red" "#FC6554"
+set_var GruvboxDark "violet" "#d3869b"
+set_var GruvboxDark "yellow" "#fabd2f"

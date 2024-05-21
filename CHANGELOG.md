@@ -4,6 +4,7 @@
 
 ### Added
 
+- New variant: GruvboxDark
 - Improved theme sidebar vcs colors
 
 ### Changed
