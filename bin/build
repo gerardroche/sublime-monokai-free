@@ -12,31 +12,35 @@ set_var() {
     sed -i 's/\("'"$key"'": \)".*"/\1"'"$value"'"/' "MonokaiFree$name.sublime-color-scheme"
 }
 
+set_name() {
+    set_var "$1" "name" "MonokaiFree - $1"
+}
+
 # Make variant copies of base scheme.
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeBlue.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDark.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDeckard.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDracula.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeYaruDark.sublime-color-scheme
-cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDeckard.sublime-color-scheme
 
 # Blue
-set_var Blue "name" "MonokaiFree - Blue"
+set_name Blue
 set_var Blue "bg0" "#292C3F"
 
 # Dark
-set_var Dark "name" "MonokaiFree - Dark"
+set_name Dark
 set_var Dark "bg0" "#212121"
 
 # Dracula
-set_var Dracula "name" "MonokaiFree - Dracula"
+set_name Dracula
 set_var Dracula "bg0" "#282a36"
 
 # Yaru Dark
-set_var YaruDark "name" "MonokaiFree - Yaru Dark"
+set_name YaruDark
 set_var YaruDark "bg0" "#1d1d1d"
 
 # Deckard
-set_var Deckard "name" "MonokaiFree - Deckard"
+set_name Deckard
 set_var Deckard "fg2" "#aeab9a"
 set_var Deckard "magenta" "#fd6ff1"
 set_var Deckard "red" "#fb7fac"
