@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.12.1 - Unreleased
+## 2.13.0 - 2024-05-21
 
 ### Added
 
