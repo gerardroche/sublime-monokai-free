@@ -19,6 +19,7 @@ set_name() {
 # Make variant copies of base scheme.
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeBlue.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDark.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDarker.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDeckard.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDracula.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeGruvboxDark.sublime-color-scheme
@@ -31,6 +32,10 @@ set_var Blue "bg0" "#292C3F"
 # Dark
 set_name Dark
 set_var Dark "bg0" "#212121"
+
+# Darker
+set_name Darker
+set_var Darker "bg0" "#1a1a1a"
 
 # Deckard
 set_name Deckard
