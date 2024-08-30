@@ -32,20 +32,16 @@ set_var Blue "bg0" "#292C3F"
 set_name Dark
 set_var Dark "bg0" "#212121"
 
-# Dracula
-set_name Dracula
-set_var Dracula "bg0" "#282a36"
-
-# Yaru Dark
-set_name YaruDark
-set_var YaruDark "bg0" "#1d1d1d"
-
 # Deckard
 set_name Deckard
 set_var Deckard "fg2" "#aeab9a"
 set_var Deckard "magenta" "#fd6ff1"
 set_var Deckard "red" "#fb7fac"
 set_var Deckard "violet" "#bb95ff"
+
+# Dracula
+set_name Dracula
+set_var Dracula "bg0" "#282a36"
 
 # GruvboxDark
 # https://github.com/gruvbox-community/gruvbox
@@ -63,3 +59,7 @@ set_var GruvboxDark "orange" "#fe8019"
 set_var GruvboxDark "red" "#FC6554"
 set_var GruvboxDark "violet" "#d3869b"
 set_var GruvboxDark "yellow" "#fabd2f"
+
+# Yaru Dark
+set_name YaruDark
+set_var YaruDark "bg0" "#1d1d1d"
