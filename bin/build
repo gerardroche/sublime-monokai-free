@@ -22,6 +22,7 @@ cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDark.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDarker.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDeckard.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeDracula.sublime-color-scheme
+cp -v MonokaiFree.sublime-color-scheme MonokaiFreeGruvbox.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeGruvboxDark.sublime-color-scheme
 cp -v MonokaiFree.sublime-color-scheme MonokaiFreeYaruDark.sublime-color-scheme
 
@@ -47,6 +48,10 @@ set_var Deckard "violet" "#bb95ff"
 # Dracula
 set_name Dracula
 set_var Dracula "bg0" "#282a36"
+
+# Gruvbox
+set_name Gruvbox
+set_var Gruvbox "bg0" "#282828"
 
 # GruvboxDark
 # https://github.com/gruvbox-community/gruvbox
