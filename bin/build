@@ -46,7 +46,7 @@ set_var Dracula "bg0" "#282a36"
 # GruvboxDark
 # https://github.com/gruvbox-community/gruvbox
 set_name GruvboxDark
-set_var GruvboxDark "bg0" "#1d2021"
+set_var GruvboxDark "bg0" "#282828"
 set_var GruvboxDark "bg1" "#3c3836"
 set_var GruvboxDark "bg2" "#504945"
 set_var GruvboxDark "blue" "#83a598"
@@ -56,7 +56,7 @@ set_var GruvboxDark "fg1" "#a89984"
 set_var GruvboxDark "fg2" "#928374"
 set_var GruvboxDark "green" "#b8bb26"
 set_var GruvboxDark "orange" "#fe8019"
-set_var GruvboxDark "red" "#FC6554"
+set_var GruvboxDark "red" "#fb4934"
 set_var GruvboxDark "violet" "#d3869b"
 set_var GruvboxDark "yellow" "#fabd2f"
 
